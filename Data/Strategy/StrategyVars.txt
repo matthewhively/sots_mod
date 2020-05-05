@@ -57,9 +57,9 @@ TRADE_RAID_ODDS_REFUGEE             0.05
 TRADE_MIN_NPCRAIDERS                4
 TRADE_MAX_NPCRAIDERS                8
 
-POPULATION_GROWTH_MOD           1.2
-POPULATION_GROWTH_EXP           1.85
-CIVILIAN_RESOURCES_CONSUMED     20
+POPULATION_GROWTH_MOD               1.2
+POPULATION_GROWTH_EXP               1.85
+CIVILIAN_RESOURCES_CONSUMED         20
 
 FLOCKDRIVE_CLASSBONUS_DE            0.05
 FLOCKDRIVE_CLASSBONUS_CR            0.10
@@ -112,7 +112,7 @@ ADDICTION_OUTPUT_MOD                0.90
 ADDICTION_PHASE2_START              10
 ADDICTION_PHASE3_START              15
 
-DEFENCEFLEET_PLANET_RADIUS      1800	// Distance from planet surface (same as defender orbit)
-DEFENCEFLEET_STATION_RADIUS     1000	// Distance from station bounds
+DEFENCEFLEET_PLANET_RADIUS      1800    // Distance from planet surface (same as defender orbit)
+DEFENCEFLEET_STATION_RADIUS     1000    // Distance from station bounds
 
 CIVILIAN_BURDEN_RATIO           0.5
