@@ -16,13 +16,16 @@ STARMAP_MINICLUSTERS_MAXCLUSTERPATHDIST 16.0
 STARMAP_MINICLUSTERS_MINCLUSTERS        8
 STARMAP_MINICLUSTERS_MAXPERCLUSTER      5
 
-STARMAP_COLLISION_ANGLE		-60.0
-STARMAP_COLLISION_OFFSET_X	 0.00	// Percentage of radius of spiral.
-STARMAP_COLLISION_OFFSET_Y	 0.00	// Percentage of radius of spiral.
-STARMAP_COLLISION_OFFSET_Z	 0.00	// Percentage of radius of spiral.
-STARMAP_COLLISION_MINSEP	 2.50
-STARMAP_COLLISION_ARMRATIO	 0.80	// % of systems appearing in arms instead of the center.
-STARMAP_COLLISION_ARMLENGTH	 45
+//Reducing the armlength tends to make more arms and lessen the definition of the spiral galaxy in general
+//minsep adjusts not only the core, but also the arms... bad for human in arms
+//NOTE: in game, set the distance to 5 LY, but here its hardcoded to be 6 LY, so core gets spread out, and the arms get condensed.
+STARMAP_COLLISION_ANGLE             -60.0
+STARMAP_COLLISION_OFFSET_X          0.00	// Percentage of radius of spiral.
+STARMAP_COLLISION_OFFSET_Y          0.00	// Percentage of radius of spiral.
+STARMAP_COLLISION_OFFSET_Z          0.00	// Percentage of radius of spiral.
+STARMAP_COLLISION_MINSEP            6       //2.50
+STARMAP_COLLISION_ARMRATIO          0.90    //0.80	// % of systems appearing in arms instead of the center.
+STARMAP_COLLISION_ARMLENGTH         55      //45
 
 STARMAP_PLANET_NOISE_TEXTURENAME    "Models/Planets/Noise.dds"
 STARMAP_PLANET_RING_TEXTURENAME     "Models/Planets/Glow.dds"
