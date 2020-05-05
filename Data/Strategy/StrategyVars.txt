@@ -34,26 +34,30 @@ SYSTEMBONUS_INFRABONUS_HOME 1.00
 SYSTEMBONUS_POPBONUS_INC    0.005
 SYSTEMBONUS_INFRABONUS_INC  0.005
 
+// Simplified Trade a lot
+// 1 freighter per trade route
+// 5x all income from freighters
+// Price of freighters not modified
 TRADE_SECTOR_SIZE                   10.0
 TRADE_ROUTE_REQ_CIVPOPULATION       200000000
 TRADE_ROUTE_REQ_IMPPOPULATION       500000000
-TRADE_ROUTE_REQ_TRADERATE           0.1
+TRADE_ROUTE_REQ_TRADERATE           0.1     // what is this?
 TRADE_ROUTE_OWNERS_SHARE            0.8
-TRADE_ROUTE_MIN_INCOME              2000
-TRADE_ROUTE_INCOME_PERFREIGHTER_DE  5000
-TRADE_ROUTE_INCOME_PERFREIGHTER_CR  15000
-TRADE_ROUTE_INCOME_PERFREIGHTER_CRQ 10000
-TRADE_ROUTE_MAX_FREIGHTERS          5
-TRADE_ROUTE_STARTUP_INCOME          1000
-TRADE_ROUTE_STARTUP_TURNS           3
-TRADE_ROUTE_FREIGHTER_WARNING_TURNS 5
-TRADE_FREIGHTER_CAPTURED_BONUS_DE   50000
-TRADE_FREIGHTER_CAPTURED_BONUS_CR   75000
-TRADE_FREIGHTER_KILLED_BONUS_DE     25000
-TRADE_FREIGHTER_KILLED_BONUS_CR     50000
+TRADE_ROUTE_MIN_INCOME              2000    // this is added ontop of the freighter bonus, might want to just nuke this entirely cause its weird
+TRADE_ROUTE_INCOME_PERFREIGHTER_DE  23000   // 5x default subtract DE maint cost (5000x5)-(4x500) 
+TRADE_ROUTE_INCOME_PERFREIGHTER_CR  63000   // 5x default subtract CR maint cost (15000x5)-(4x3000)
+TRADE_ROUTE_INCOME_PERFREIGHTER_CRQ 48000   // 5x default but don't subtract maintenence (because Q freighters kinda bleh) (subtracted 2k, so its a round number with the TRADE_ROUTE_MIN_INCOME added on)
+TRADE_ROUTE_MAX_FREIGHTERS          1
+TRADE_ROUTE_STARTUP_INCOME          2000    // this is the income generated while the traderoute is establishing
+TRADE_ROUTE_STARTUP_TURNS           10      // Increased to compensate for how much faster it is to build freighters
+TRADE_ROUTE_FREIGHTER_WARNING_TURNS 0       // this is annoying message spam, so disabled
+TRADE_FREIGHTER_CAPTURED_BONUS_DE   125000
+TRADE_FREIGHTER_CAPTURED_BONUS_CR   375000
+TRADE_FREIGHTER_KILLED_BONUS_DE     25000   // I want to encourage capture not destruction
+TRADE_FREIGHTER_KILLED_BONUS_CR     75000
 TRADE_RAID_ODDS_PLAYER              0.07
 TRADE_RAID_ODDS_NPC                 0.05
-TRADE_RAID_ODDS_REFUGEE             0.05
+TRADE_RAID_ODDS_REFUGEE             0.05  // what is this?
 TRADE_MIN_NPCRAIDERS                4
 TRADE_MAX_NPCRAIDERS                8
 
