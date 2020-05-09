@@ -1,225 +1,225 @@
 shipsection
 {
-	
-	model Species/Morrigi/art/sections/CrfreighterQ.X
-	section_type mission
-	section_class cruiser
-	preview_ofs "0 0 1"
+    
+    model         Species/Morrigi/art/sections/CrfreighterQ.X
+    section_type  mission
+    section_class cruiser
+    preview_ofs   "0 0 1"
 
-	requires DRV_Fissn
-	requires DRV_VdCtr
-	requires IND_ModCon
-	requires CCC_FTLEcon
+    requires DRV_Fissn
+    requires DRV_VdCtr
+    requires IND_ModCon
+    requires CCC_FTLEcon
 
-	health 8500
-	mass 16000
-	cost 188000
-	cpoints 15300
-	
-	freighterQ 1
-	autonomous 1	// actually means this is a ship with only a mission section
-	ftlspeed 3
-	range	15
-	crew 0
-	preview_ofs "-70 -250 0"
+    health  8500
+    mass    16000
+    cost    188000
+    cpoints 15300
+    
+    freighterQ  1
+    autonomous  1    // actually means this is a ship with only a mission section
+    ftlspeed    3
+    range       15
+    crew        0
+    preview_ofs "-70 -250 0"
 
-	anim
-	{
-		name "combatready"
-		event "CombatReady"
-		start_frame "0"
-		speed_scale "2"
-		loop "1"
-	}
+    anim
+    {
+        name        "combatready"
+        event       "CombatReady"
+        start_frame "0"
+        speed_scale "2"
+        loop        "1"
+    }
 
-	anim
-	{
-		name "combatready"
-		event "CombatRest"
-		start_frame "end"
-		speed_scale "-2"
-		loop "1"
-	}
+    anim
+    {
+        name        "combatready"
+        event       "CombatRest"
+        start_frame "end"
+        speed_scale "-2"
+        loop        "1"
+    }
 
-	netforcelimits
-	{
-		force_forward			250000
-		force_right			250000
-		force_up			250000
-		
-		torque_yaw			4e+8
-		torque_pitch			4e+8
-		torque_roll			4e+8
-		
-		speed				65
-		rotspeed			60
-	}
+    netforcelimits
+    {
+        force_forward       250000
+        force_right         250000
+        force_up            250000
+        
+        torque_yaw          4e+8
+        torque_pitch        4e+8
+        torque_roll         4e+8
+        
+        speed               65
+        rotspeed            60
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize small	
+    bank
+    {
+        turretclass standard
+        turretsize  small    
 
-		mount
-		{
-			node LightGunNode01
-			min_azimuth -160
-			max_azimuth 1
-			min_inclination -10
-			max_inclination 90
-			home_inclination 0
-		}
+        mount
+        {
+            node             LightGunNode01
+            min_azimuth      -160
+            max_azimuth      1
+            min_inclination  -10
+            max_inclination  90
+            home_inclination 0
+        }
 
-	}
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize small
+    bank
+    {
+        turretclass standard
+        turretsize  small
 
-		mount
-		{
-			node LightGunNode02
-			min_azimuth 160
-			max_azimuth -1
-			min_inclination -10
-			max_inclination 90
-			home_inclination 0
-		}
+        mount
+        {
+            node             LightGunNode02
+            min_azimuth      160
+            max_azimuth      -1
+            min_inclination  -10
+            max_inclination  90
+            home_inclination 0
+        }
 
-	}
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize medium
+    bank
+    {
+        turretclass standard
+        turretsize  medium
 
-		mount
-		{
-			node MediumGunNode01
-			min_azimuth 1
-			max_azimuth -160
-			min_inclination -10
-			max_inclination 90
-			home_inclination 0
-		}
-	}
+        mount
+        {
+            node             MediumGunNode01
+            min_azimuth      1
+            max_azimuth      -160
+            min_inclination  -10
+            max_inclination  90
+            home_inclination 0
+        }
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize medium
+    bank
+    {
+        turretclass standard
+        turretsize  medium
 
-		mount
-		{
-			node MediumGunNode02
-			min_azimuth -1
-			max_azimuth 160
-			min_inclination -10
-			max_inclination 90
-			home_inclination 0
-		}
-	}
-	bank
-	{
-		turretclass standard
-		turretsize medium
+        mount
+        {
+            node             MediumGunNode02
+            min_azimuth      -1
+            max_azimuth      160
+            min_inclination  -10
+            max_inclination  90
+            home_inclination 0
+        }
+    }
+    bank
+    {
+        turretclass standard
+        turretsize  medium
 
-		mount
-		{
-			node MediumGunNode05
-			min_azimuth 80
-			max_azimuth -80
-			min_inclination -10
-			max_inclination 90
-			home_inclination 0
-		}
-	
-		mount
-		{
-			node MediumGunNode06
-			min_azimuth 80
-			max_azimuth -80
-			min_inclination -10
-			max_inclination 90
-			home_inclination 0
-		}
-	}
-	bank
-	{
-		turretclass standard
-		turretsize medium
+        mount
+        {
+            node             MediumGunNode05
+            min_azimuth      80
+            max_azimuth      -80
+            min_inclination  -10
+            max_inclination  90
+            home_inclination 0
+        }
+    
+        mount
+        {
+            node             MediumGunNode06
+            min_azimuth      80
+            max_azimuth      -80
+            min_inclination  -10
+            max_inclination  90
+            home_inclination 0
+        }
+    }
+    bank
+    {
+        turretclass standard
+        turretsize  medium
 
-		mount
-		{
-			node MediumGunNode07
-			min_azimuth 80
-			max_azimuth -80
-			min_inclination -10
-			max_inclination 90
-			home_inclination 0
-		}
-	
-		mount
-		{
-			node MediumGunNode08
-			min_azimuth 80
-			max_azimuth -80
-			min_inclination -10
-			max_inclination 90
-			home_inclination 0
-		}
-	}
-	bank
-	{
-		turretclass standard
-		turretsize medium
+        mount
+        {
+            node             MediumGunNode07
+            min_azimuth      80
+            max_azimuth      -80
+            min_inclination  -10
+            max_inclination  90
+            home_inclination 0
+        }
+    
+        mount
+        {
+            node             MediumGunNode08
+            min_azimuth      80
+            max_azimuth      -80
+            min_inclination  -10
+            max_inclination  90
+            home_inclination 0
+        }
+    }
+    bank
+    {
+        turretclass standard
+        turretsize  medium
 
-		mount
-		{
-			node MediumGunNode09
-			min_azimuth -60
-			max_azimuth 80
-			min_inclination -10
-			max_inclination 90
-			home_inclination 0
-		}
-	
-		mount
-		{
-			node MediumGunNode10
-			min_azimuth -60
-			max_azimuth 80
-			min_inclination -10
-			max_inclination 90
-			home_inclination 0
-		}
-	}
-	bank
-	{
-		turretclass standard
-		turretsize medium
+        mount
+        {
+            node             MediumGunNode09
+            min_azimuth      -60
+            max_azimuth      80
+            min_inclination  -10
+            max_inclination  90
+            home_inclination 0
+        }
+    
+        mount
+        {
+            node             MediumGunNode10
+            min_azimuth      -60
+            max_azimuth      80
+            min_inclination  -10
+            max_inclination  90
+            home_inclination 0
+        }
+    }
+    bank
+    {
+        turretclass standard
+        turretsize  medium
 
-		mount
-		{
-			node MediumGunNode03
-			min_azimuth -80
-			max_azimuth 60
-			min_inclination -10
-			max_inclination 90
-			home_inclination 0
-		}
-	
-		mount
-		{
-			node MediumGunNode04
-			min_azimuth -80
-			max_azimuth 60
-			min_inclination -10
-			max_inclination 90
-			home_inclination 0
-		}
-	}
+        mount
+        {
+            node             MediumGunNode03
+            min_azimuth      -80
+            max_azimuth      60
+            min_inclination  -10
+            max_inclination  90
+            home_inclination 0
+        }
+    
+        mount
+        {
+            node             MediumGunNode04
+            min_azimuth      -80
+            max_azimuth      60
+            min_inclination  -10
+            max_inclination  90
+            home_inclination 0
+        }
+    }
 
 
 }

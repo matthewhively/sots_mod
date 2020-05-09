@@ -1,105 +1,102 @@
 shipsection
 {
-	
-	model Species/Liir/art/sections/Crfreighter.X
-	section_type mission
-	section_class cruiser
-	preview_ofs "0 0 1"
+    
+    model         Species/Liir/art/sections/Crfreighter.X
+    section_type  mission
+    section_class cruiser
+    preview_ofs   "0 0 1"
 
-	requires DRV_Fissn
-	requires DRV_StrWrp
-	requires IND_MegFrght
-	requires CCC_FTLEcon
+    requires DRV_Fissn
+    requires DRV_StrWrp
+    requires IND_MegFrght
+    requires CCC_FTLEcon
 
-	health 3000
-	mass 13000
-	cost 210000
-	cpoints 12750
-	
-	freighter 1
-	autonomous 1	// actually means this is a ship with only a mission section
-	ftlspeed 3
-	range	9
-	crew 0
-	preview_ofs "-40 -270 0"
+    health  3000
+    mass    13000
+    cost    210000
+    cpoints 12750
+    
+    freighter   1
+    autonomous  1    // actually means this is a ship with only a mission section
+    ftlspeed    3
+    range       9
+    crew        0
+    preview_ofs "-40 -270 0"
 
-	netforcelimits
-	{
-		force_forward			450000
-		force_right			450000
-		force_up			450000
-		
-		torque_yaw			4e+8
-		torque_pitch			4e+8
-		torque_roll			4e+8
-		
-		speed				30
-		rotspeed			35
-	}
-
-
-
-	bank
-	{
-		turretclass standard
-		turretsize small	
-
-		mount
-		{
-			node LightGunNode01
-			min_azimuth -20
-			max_azimuth 90
-			min_inclination -10
-			max_inclination 90
-		}
-
-	}
+    netforcelimits
+    {
+        force_forward       450000
+        force_right         450000
+        force_up            450000
+        
+        torque_yaw          4e+8
+        torque_pitch        4e+8
+        torque_roll         4e+8
+        
+        speed               30
+        rotspeed            35
+    }
 
 
-	bank
-	{
-		turretclass standard
-		turretsize small
 
-		mount
-		{
-			node LightGunNode02
-			min_azimuth -90
-			max_azimuth 20
-			min_inclination -10
-			max_inclination 90
-		}
-	}
+    bank
+    {
+        turretclass standard
+        turretsize  small    
 
+        mount
+        {
+            node            LightGunNode01
+            min_azimuth     -20
+            max_azimuth     90
+            min_inclination -10
+            max_inclination 90
+        }
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize medium	
+    bank
+    {
+        turretclass standard
+        turretsize  small
 
-		mount
-		{
-			node MediumGunNode01
-			min_azimuth -180
-			max_azimuth 180
-			min_inclination -10
-			max_inclination 90
-		}
-	}
+        mount
+        {
+            node            LightGunNode02
+            min_azimuth     -90
+            max_azimuth     20
+            min_inclination -10
+            max_inclination 90
+        }
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize medium	
+    bank
+    {
+        turretclass standard
+        turretsize  medium    
 
-		mount
-		{
-			node MediumGunNode02
-			min_azimuth -180
-			max_azimuth 180
-			min_inclination -10
-			max_inclination 90
-		}
-	}
+        mount
+        {
+            node            MediumGunNode01
+            min_azimuth     -180
+            max_azimuth     180
+            min_inclination -10
+            max_inclination 90
+        }
+    }
+
+    bank
+    {
+        turretclass standard
+        turretsize  medium    
+
+        mount
+        {
+            node            MediumGunNode02
+            min_azimuth     -180
+            max_azimuth     180
+            min_inclination -10
+            max_inclination 90
+        }
+    }
 
 }
