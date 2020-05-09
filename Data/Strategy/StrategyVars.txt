@@ -1,9 +1,9 @@
 // Number of turns a player has to avoid bankruptcy before being eliminated.
-BANKRUPTCY_ELIMINATION_TURNS        10	
+BANKRUPTCY_ELIMINATION_TURNS        10
 
 // Multiplied by players maximum possible income to determine how far 
 // into debt a player can go before cost cutting actions are taken.
-BANKRUPTCY_PROTECTION_LIMIT_FACTOR  3.3	
+BANKRUPTCY_PROTECTION_LIMIT_FACTOR  3.3
 
 PERGATETRAFFIC_DRV_TpGate   3
 PERGATETRAFFIC_DRV_GatAmp   6
