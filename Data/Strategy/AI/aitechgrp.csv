@@ -1,0 +1,15 @@
+# <group>,<tech>
+#
+# group: One of the following values:
+#   AITG_NRGWEAP
+#   AITG_BALWEAP
+#   AITG_BIOWEAP
+#   AITG_ARMOR
+#   AITG_SHIELDS
+#   AITG_TORPS
+#   AITG_BEAM
+#   AITG_WARHEAD
+# tech: Tech label
+#
+# ex: AITG_NRGWEAP,WEP_GrnLas
+#

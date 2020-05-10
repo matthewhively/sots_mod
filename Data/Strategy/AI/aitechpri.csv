@@ -1,0 +1,9 @@
+# <tech>,<human-pri>,<hiver-pri>,<tarkas-pri>,<liir-pri>,<zuul-pri>,<morrigi-pri>
+#
+# tech: tech label
+# XXX-pri: tech cost scale 1-255 (higher is less likely to be researched), or 0 if n/a
+#
+# ex: 
+# CCC_ComRaid,30,0,5,20,2,30
+# ^ CCC_ComRaid is ignored by hiver but prioritized by others
+#

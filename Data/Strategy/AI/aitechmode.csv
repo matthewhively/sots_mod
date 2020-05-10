@@ -1,0 +1,12 @@
+# <tech>,<mode>
+# tech: tech label
+# mode: research mode character, one of:
+#    w - weapon
+#    n - engine
+#    e - empire
+#
+# ex:
+# IND_CruisCon,e
+# IND_CruisCon,w
+# ^ IND_CruisCon is in weapon and empire research modes
+#

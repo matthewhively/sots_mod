@@ -1,0 +1,23 @@
+# weapon-family,purpose
+# choices are not included if we don't care about which weapon is selected,
+
+gauss,reflect_cm
+conventionalmine,reflect_cm
+conventionalbeam,reflect_cm
+heavybeam,reflect_cm
+missile,reflect_cm
+emitter,reflect_cm
+energycannon,reflect_cm
+torpedo,reflect_cm
+
+energycannon,deflector_cm
+conventionalmine,deflector_cm
+conventionalbeam,deflector_cm
+heavybeam,deflector_cm
+emitter,deflector_cm
+laser,deflector_cm
+
+conventionalbeam,shield_cm
+heavybeam,shield_cm
+laser,shield_cm
+energycannon,shield_cm
