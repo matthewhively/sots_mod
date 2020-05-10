@@ -10,7 +10,7 @@ shipsection
     requires DRV_Node
     requires IND_ModCon
 
-    health  5800
+    health  8200
     mass    20200
     cost    200000
     cpoints 12750

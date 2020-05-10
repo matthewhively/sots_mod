@@ -11,7 +11,7 @@ shipsection
     requires IND_MegFrght
     requires CCC_FTLEcon
 
-    health  3000
+    health  5000
     mass    13000
     cost    210000
     cpoints 12750

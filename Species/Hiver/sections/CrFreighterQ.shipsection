@@ -5,9 +5,10 @@ shipsection
     section_type  mission
     section_class cruiser
     preview_ofs   "0 0 1"
-    requires      IND_ModCon
-    requires      DRV_Fissn
-    requires      CCC_FTLEcon
+    
+    requires IND_ModCon
+    requires DRV_Fissn
+    requires CCC_FTLEcon
 
     health  9500
     mass    25000

@@ -10,10 +10,10 @@ shipsection
     requires DRV_Hyper
     requires CCC_FTLEcon
 
-    health    6000
-    mass      9500
-    cost      50000
-    cpoints   9200
+    health  3000
+    mass    9500
+    cost    50000
+    cpoints 9200
     
     freighter   1
     autonomous  1    // actually means this is a ship with only a mission section

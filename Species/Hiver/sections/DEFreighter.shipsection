@@ -9,10 +9,10 @@ shipsection
     requires DRV_Fissn
     requires CCC_FTLEcon
 
-    health   5500
-    mass     10000
-    cost     40000
-    cpoints  8620
+    health  2500
+    mass    10000
+    cost    40000
+    cpoints 8620
     
     freighter   1
     autonomous  1    // actually means this is a ship with only a mission section
