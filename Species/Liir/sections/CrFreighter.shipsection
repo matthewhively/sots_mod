@@ -13,8 +13,8 @@ shipsection
 
     health  5000
     mass    13000
-    cost    210000
-    cpoints 12750
+    cost    1050000  // 5x
+    cpoints 25500    // x2
     
     freighter   1
     autonomous  1    // actually means this is a ship with only a mission section
