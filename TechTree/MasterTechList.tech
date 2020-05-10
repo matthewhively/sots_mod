@@ -2433,7 +2433,7 @@ group       BIOMISSILE
 threat      1
 allows      "BIO_RtPlgVac       RP:20000    Human:70 Zuul:0 Hiver:70 Tarkas:70 Liir:90 Morrigi:75"
 allows      "BIO_Bst            RP:40000    Human:50 Zuul:0 Hiver:60 Tarkas:50 Liir:70 Morrigi:60"
-allows      "BIO_AsPlg          RP:90000    Human:30 Zuul:0 Hiver:30 Tarkas:45 Liir:80 Morrigi:40"
+//allows      "BIO_AsPlg          RP:90000    Human:30 Zuul:0 Hiver:30 Tarkas:45 Liir:80 Morrigi:40"
 }
 
 
@@ -2451,7 +2451,7 @@ name        "BIO_Bst"
 group       BIOMISSILE
 threat      1
 allows      "BIO_BstVac         RP:30000    Human:70 Zuul:0 Hiver:70 Tarkas:70 Liir:90 Morrigi:70"
-allows      "BIO_AsPlg          RP:80000    Human:30 Zuul:0 Hiver:30 Tarkas:25 Liir:60 Morrigi:30"
+//allows      "BIO_AsPlg          RP:80000    Human:30 Zuul:0 Hiver:30 Tarkas:25 Liir:60 Morrigi:30"
 }
 
 
@@ -2462,7 +2462,7 @@ threat      1
 allows      "BIO_UniAnti        RP:90000    Human:15 Zuul:0 Hiver:15 Tarkas:15 Liir:40 Morrigi:30"
 }
 
-
+/*
 tech
 {
 name        "BIO_AsPlg"
@@ -2478,7 +2478,7 @@ name        "BIO_AsPlgVac"
 threat      1
 allows      "BIO_UniAnti        RP:70000    Human:25 Zuul:0 Hiver:25 Tarkas:35 Liir:70 Morrigi:40"
 }
-
+*/
 
 tech
 {
