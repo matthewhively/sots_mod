@@ -22,7 +22,6 @@ shipsection
     {
         option    IND_ImpRfCt
     }
-    
 
     netforcelimits
     {
@@ -34,8 +33,8 @@ shipsection
         torque_pitch  5.9e+8
         torque_roll   5.9e+8
         
-        speed         90
-        rotspeed      120
+        speed         65
+        rotspeed      40
     }
 
     bank
@@ -89,7 +88,7 @@ shipsection
 
     bank
     {
-        weapon      "Species/_NPC/weapons/Ripper_guass_pd.weapon"
+        weapon      "Species/_NPC/weapons/Herald_bal_APgauss.weapon"
         turretclass standard
         turretsize  small
 
@@ -105,7 +104,7 @@ shipsection
 
     bank
     {
-        weapon      "Species/_NPC/weapons/Ripper_guass_pd.weapon"
+        weapon      "Species/_NPC/weapons/Herald_bal_APgauss.weapon"
         turretclass standard
         turretsize  small
 
@@ -121,7 +120,7 @@ shipsection
 
     bank
     {
-        weapon      "Species/_NPC/weapons/Ripper_guass_pd.weapon"
+        weapon      "Species/_NPC/weapons/Herald_bal_APgauss.weapon"
         turretclass standard
         turretsize  small
 
@@ -137,7 +136,7 @@ shipsection
 
     bank
     {
-        weapon      "Species/_NPC/weapons/Ripper_guass_pd.weapon"
+        weapon      "Species/_NPC/weapons/Herald_bal_APgauss.weapon"
         turretclass standard
         turretsize  small
 
@@ -185,7 +184,7 @@ shipsection
 
     bank
     {
-        weapon      "Species/_NPC/weapons/Ripper_guass_pd.weapon"
+        weapon      "Species/_NPC/weapons/Herald_bal_APgauss.weapon"
         turretclass standard
         turretsize  small
 
@@ -202,7 +201,7 @@ shipsection
     bank
     {
 
-        weapon      "Species/_NPC/weapons/Ripper_guass_pd.weapon"
+        weapon      "Species/_NPC/weapons/Herald_bal_APgauss.weapon"
         turretclass standard
         turretsize  small
 
@@ -218,7 +217,7 @@ shipsection
 
     bank
     {
-        weapon      "Species/_NPC/weapons/Ripper_guass_pd.weapon"
+        weapon      "Species/_NPC/weapons/Herald_bal_APgauss.weapon"
         turretclass standard
         turretsize  small
 

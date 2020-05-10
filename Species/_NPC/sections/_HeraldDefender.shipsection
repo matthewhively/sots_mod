@@ -8,7 +8,7 @@ shipsection
     entity_class  "HeraldDefender"
     design_class  rider
 
-    health  4500
+    health  2500
     mass    10000
     cost    92000
     cpoints 11800
@@ -16,8 +16,8 @@ shipsection
 
     autonomous 1    // actually means this is a ship with only a mission section
 
-    ftlspeed   .5
-    range      10
+    ftlspeed    .5
+    range       10
     crew        20
     preview_ofs "2 -170 0"
 
@@ -41,13 +41,13 @@ shipsection
         torque_pitch        6.4e+7
         torque_roll         6.4e+7
         
-        speed               100
-        rotspeed            150
+        speed               85
+        rotspeed            85
     }
 
     bank
     {
-        weapon      "Species/_NPC/weapons/Ripper_guass_pd.weapon"
+        weapon      "Species/_NPC/weapons/Herald_bal_APgauss.weapon"
         turretclass standard
         turretsize  small
 
@@ -64,7 +64,7 @@ shipsection
 
     bank
     {
-        weapon      "Species/_NPC/weapons/Ripper_guass_pd.weapon"
+        weapon      "Species/_NPC/weapons/Herald_bal_APgauss.weapon"
         turretclass standard
         turretsize  small
 
