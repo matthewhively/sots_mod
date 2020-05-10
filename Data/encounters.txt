@@ -12,17 +12,19 @@ RANDENC_TURNS_TO_EXCLUDE               10    // Turns after getting a random enc
 RANDENC_SINGLEPLAYER_ODDS              2    // Of 100.  For singleplayer games.  Overrides odds for multiplayer.
 
 SYSTEMKILLER_ODDS        1.0       // (0-100) Percentage chance per turn to init system killer.
-SYSTEMKILLER_MINTURN     100       // First turn to start rolling for system killer to show up.
-SYSTEMKILLER_MINSYS      50        // Minimum number of systems in a map for system killer to show up.
+SYSTEMKILLER_MINTURN     130       // First turn to start rolling for system killer to show up.
+SYSTEMKILLER_MINSYS      120        // Minimum number of systems in a map for system killer to show up.
     
 PUPPETMASTER_ODDS        1.0
-PUPPETMASTER_MINTURN     100
-PUPPETMASTER_MINSYS      50
+PUPPETMASTER_MINTURN     130
+PUPPETMASTER_MINSYS      120
 
 LOCUST_ODDS              1.0
-LOCUST_MINTURN           100
-LOCUST_MINSYS            50
+LOCUST_MINTURN           130
+LOCUST_MINSYS            120
 
+LOCUSTNEST_DEATH_RESOURCE_BONUS         5000
+    
     
 // PLANETRU = planet ru
 // RU = von neumann construction point ru (don't confuse the two!)
@@ -39,15 +41,15 @@ VNEUMANN_CHILD_RESEEK_DELAY              3.0
 VNEUMANN_CHILD_COLLECT_PROXIMITY         100.0
 VNEUMANN_CHILD_COLLECT_PLANET_PROXIMITY  700.0
 VNEUMANN_CHILD_EMIT_PROXIMITY            150.0
-VNEUMANN_MIN_CHILDREN                    2    // Mom always magically has enough RUs to maintain this baseline num children.
-VNEUMANN_NUM_SHIPS_PER_CHILD             2
-VNEUMANN_NUM_SATS_PER_CHILD              4
+VNEUMANN_MIN_CHILDREN                    2       // Mom always magically has enough RUs to maintain this baseline num children.
+VNEUMANN_NUM_SHIPS_PER_CHILD             3
+VNEUMANN_NUM_SATS_PER_CHILD              10
 VNEUMANN_CHILD_INTEGRATE_TIME            8
 VNEUMANN_SALVAGE_RESEARCH_BONUS          0.25    // research performance mod when a mom is killed
 VNEUMANN_MOM_INTEGRATE_TIME              10
-VNEUMANN_MOM_ARRIVE_AT_RANGE             5000 // Dist from center of planet
+VNEUMANN_MOM_ARRIVE_AT_RANGE             7000    // Dist from center of planet
 VNEUMANN_MOM_ORBIT_AT_RANGE              1000
-VNEUMANN_FLEE_TO_RANGE                   6000
+VNEUMANN_FLEE_TO_RANGE                   8000
 VNEUMANN_REACHED_FLEE_DEST               800
 VNEUMANN_HPBONUS_PER_TURN_SCALE          10
 VNEUMANN_INTEGRATE_CHILD_SOUND           "Sounds/SFX/vonneuman_create.wav"
@@ -57,18 +59,19 @@ VNEUMANN_TRANSFER_TO_MOM_SOUND           "Sounds/SFX/vonneuman_share.wav"
 VNEUMANN_CHILD_RU_COST                   400
 VNEUMANN_MOM_RU_COST                     5000
 VNEUMANN_BERSERKER_RU_COST               31250
-VNEUMANN_BERSERKER_MINTURN               100
+VNEUMANN_BERSERKER_MINTURN               130
 VNEUMANN_DISINTEGRATE_PLANETEFFECT_NAME  "Effects/VonHarvest.effect"
 VNEUMANN_DISINTEGRATE_EFFECT_NAME        "Effects/VonBeam.effect"
 VNEUMANN_INTEGRATE_EFFECT_NAME           "Effects/VonBeam.effect"
 VNEUMANN_EMIT_EFFECT_NAME                "Effects/VonBeam.effect"
 VNEUMANN_GLOW_EFFECT_NAME                "Effects/VonGlow.effect"
+// FINSOL = Final Solution, end game threat
 VNEUMANN_FINSOL_TRIGGER_BERSERKERS_LOST  3
 VNEUMANN_FINSOL_RU_COST                  62500
-VNEUMANN_FINSOL_MINTURN                  150
+VNEUMANN_FINSOL_MINTURN                  200
 VNEUMANN_FINSOL_MIN_BUILD_TIME           10
 VNEUMANN_HOME_MINSYS                     80
-VNEUMANN_HOME_DISTANCE                   11.9
+VNEUMANN_HOME_DISTANCE                   30
 VNEUMANN_HOME_RESOURCES                  20000
 VNEUMANN_HOME_SIZE                       10
 VNEUMANN_HOME_POPULATION                 2000000000
@@ -95,7 +98,7 @@ BERSERKER_STERILIZER_BEAM_DAMAGE_POP_RATE    500000
 BLASTEROIDS_ENCOUNTER_THINK_PERIOD       0.2
 BLASTEROIDS_NUM_APPROACHGROUPS           3
 BLASTEROIDS_APPROACHGROUP_HEADING_SEP    45.0    // degrees
-BLASTEROIDS_MIN                          6       // if less then per-ship x num-ships
+BLASTEROIDS_MIN                          12       // if less then per-ship x num-ships
 BLASTEROIDS_PER_SHIP                     3
 BLASTEROIDS_START_RANGE                  8000.0
 BLASTEROIDS_START_POS_WIDTH_VARIATION    1000.0
@@ -114,7 +117,7 @@ BLASTEROIDS_COLLIDE_PSYS_NAME            "Effects/collide_asteroid.effect"
 
 
 SWARM_ENCOUNTER_THINK_PERIOD      0.1
-SWARM_HIVE_ARRIVE_AT_RANGE        5000.0    // Dist from planet center
+SWARM_HIVE_ARRIVE_AT_RANGE        4000.0    // Dist from planet center
 SWARM_SWARMER_LAUNCH_RANGE        100.0
 SWARM_NUM_SWARMERS                30
 SWARM_NUM_DRONES                  4
@@ -124,8 +127,8 @@ SWARM_LAUNCH_PERIOD               1.0    // (s) delay between each launch (will 
 SWARM_LAUNCH_COUNT                1      // How many to launch every period
 SWARM_MIN_SAVINGSBONUS            15000
 SWARM_MAX_SAVINGSBONUS            150000
-SWARMLARVA_MIN_TURNS_TO_MATURE    5
-SWARMLARVA_MAX_TURNS_TO_MATURE    5
+SWARMLARVA_MIN_TURNS_TO_MATURE    3
+SWARMLARVA_MAX_TURNS_TO_MATURE    6
 
 
 DERELICT_INITIAL_WEAPONSFREE_DELAY        15.0      // (s)
@@ -144,10 +147,10 @@ DERELICT_SECTION_05                       "Species/_NPC/sections/_Wreckage_E.shi
 
 
 ASTEROIDMONITOR_INITIAL_WEAPONSFREE_DELAY    30.0      // (s)
-ASTEROIDMONITOR_START_RANGE                  5000.0    // Dist from planet center
-ASTEROIDMONITOR_START_RANGE_OWNED            4100.0    // Dist from planet center
+ASTEROIDMONITOR_START_RANGE                  3500.0    // Dist from planet center (inner edge of asteroid belt)
+ASTEROIDMONITOR_START_RANGE_OWNED            3500.0    // Dist from planet center
 ASTEROIDMONITOR_ENCOUNTER_THINK_PERIOD       0.5
-ASTEROIDMONITOR_ROTATE_SPEED                 10.0      // degs/sec
+ASTEROIDMONITOR_ROTATE_SPEED                 6.0      // degs/sec
 ASTEROIDMONITOR_SPECIALPRJ_RESEARCH_MIN      5000
 ASTEROIDMONITOR_SPECIALPRJ_RESEARCH_MAX      10000
 ASTEROIDMONITOR_RESCAN_PERIOD                1.0       // time between npc checks for cease combat
@@ -179,7 +182,6 @@ SWARMQUEEN_MIN_HIVE_AGE                 5        // How old a hive must be befor
 SWARMQUEEN_MIN_SAVINGSBONUS             25000
 SWARMQUEEN_MAX_SAVINGSBONUS             500000
 
-LOCUSTNEST_DEATH_RESOURCE_BONUS         2500
 
 CROWDEFENDERS_MIN_SYSTEMS               80
 CROWDEFENDERS_DEFENSE_RADIUS            10
@@ -187,6 +189,7 @@ CROWDEFENDERS_MIN_DEFENDERS             1
 CROWDEFENDERS_MAX_DEFENDERS             4
 CROWDEFENDERS_MAX_INTERCEPT_SIZE        5
 
+// QUESTION: what is the difference? Is this similar to the derelicts?
 CROWRUINS_KILLCROWS_SAVINGSBONUS_MIN        100000
 CROWRUINS_KILLCROWS_SAVINGSBONUS_MAX        500000
 CROWRUINS_KILLCROWS_RESEARCHBONUS_AMOUNT    0.1
@@ -196,8 +199,8 @@ CROWRUINS_KILLRUINS_SAVINGSBONUS_MAX        0
 CROWRUINS_KILLRUINS_RESEARCHBONUS_AMOUNT    0.1
 CROWRUINS_KILLRUINS_RESEARCHBONUS_TURNS     2
 CROWRUINS_ODDS                              25 // of 100
-CROWRUINS_NUM_RUINS_MIN                     3
-CROWRUINS_NUM_RUINS_MAX                     3
+CROWRUINS_NUM_RUINS_MIN                     2
+CROWRUINS_NUM_RUINS_MAX                     6
 
 REFUGEES_REQUEST_ASYLUM_DELAY               5.0     // time until dialog pops up
 REFUGEES_REQUEST_ASYLUM_TIMEOUT             20.0    // timeout on popup dialog in combat
