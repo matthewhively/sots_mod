@@ -2245,7 +2245,7 @@ tech
 name        "DRV_Flicker"
 threat      3
 allows      "DRV_McrFlkr    RP:95000    Human:0 Zuul:0 Hiver:0 Tarkas:0 Liir:75 Morrigi:0"
-allows      "SLD_Intang     RP:130000   Human:0 Zuul:0 Hiver:0 Tarkas:0 Liir:70 Morrigi:0"
+//allows      "SLD_Intang     RP:130000   Human:0 Zuul:0 Hiver:0 Tarkas:0 Liir:70 Morrigi:0"
 requires    "DRV_AntiMat" 
 strategy 
     { 
@@ -2285,7 +2285,7 @@ tech
 {
 name        "DRV_FarCast"
 threat      3
-allows      "SLD_Intang     RP:150000   Human:0 Zuul:0 Hiver:50 Tarkas:0 Liir:0 Morrigi:0"
+//allows      "SLD_Intang     RP:150000   Human:0 Zuul:0 Hiver:50 Tarkas:0 Liir:0 Morrigi:0"
 requires    "DRV_AntiMat"
 strategy 
     { 
@@ -2779,7 +2779,7 @@ ship
 tech
 {
 name        "SLD_ImpClk"
-allows      "SLD_Intang     RP:120000   Human:10 Zuul:10 Hiver:10 Tarkas:20 Liir:50 Morrigi:50"
+//allows      "SLD_Intang     RP:120000   Human:10 Zuul:10 Hiver:10 Tarkas:20 Liir:50 Morrigi:50"
 allows      "WEP_ClkMine    RP:90000    Human:60 Zuul:80 Hiver:70 Tarkas:80 Liir:60 Morrigi:70"
 requires    "DRV_AntiMat"
 }
@@ -2879,14 +2879,14 @@ group       SHIELDS
 OPTION_COST 2.5
 }
 
-
+/*
 tech
 {
 name        "SLD_Intang"
 OPTION_COST 2.0
 requires    "SLD_Clk"
 }
-
+*/
 
 tech
 {
