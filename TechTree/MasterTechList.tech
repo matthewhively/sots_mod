@@ -107,8 +107,8 @@ tech
     allows      "CCC_TrnsLir    RP:2000"
     allows      "CCC_TrnsTrk    RP:2000"
     allows      "CCC_TrnsHvr    RP:2000"
-    allows      "CCC_TrnsZul    RP:2000"
-    allows      "CCC_TrnsMorr   RP:2000"
+    allows      "CCC_TrnsMorr   RP:2000" // This might give a 15-25% bonus to xeno-tech research, but I don't see it defined here
+    allows      "CCC_TrnsZul    RP:5000" // Zuul gets the War section, so this should be more expensive
 }                                                           
 
 
@@ -3238,9 +3238,9 @@ tech
 {
     name        "XNC_IncHum"
     family      "XNC"
-    allows      "XNC_AdctHum    RP:60000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
-    allows      "XNC_TrnsHum3   RP:50000"
-    allows      "XNC_TempHum    RP:50000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+    allows      "XNC_TrnsHum3   RP:60000"
+    allows      "XNC_AdctHum    RP:50000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+    allows      "XNC_TempHum    RP:60000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
     requires    "XNC_TrnsHum2"
 }
 
@@ -3306,7 +3306,7 @@ tech
 {
     name        "XNC_TrnsHvr2"
     family      "XNC"
-    allows      "XNC_IncHvr     RP:27000"
+    allows      "XNC_IncHvr     RP:25000"
     requires    "CCC_TrnsHvr"
 }
 
@@ -3314,9 +3314,9 @@ tech
 {
     name        "XNC_IncHvr"
     family      "XNC"
-    allows      "XNC_AdctHvr    RP:60000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
-    allows      "XNC_TrnsHvr3   RP:40000"
-    allows      "XNC_TempHvr    RP:30000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+    allows      "XNC_TrnsHvr3   RP:60000"
+    allows      "XNC_AdctHvr    RP:50000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+    allows      "XNC_TempHvr    RP:60000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
     requires    "XNC_TrnsHvr2"
 }
 
@@ -3338,7 +3338,7 @@ tech
 {
     name        "XNC_TrnsHvr3"
     family      "XNC"
-    allows      "XNC_SubHvr     RP:60000"
+    allows      "XNC_SubHvr     RP:80000"
     requires    "XNC_IncHvr"
 }
 
@@ -3373,7 +3373,7 @@ tech
 {
     name        "CCC_TrnsTrk"
     family      "XNC"
-    allows      "XNC_TrnsTrk2   RP:13000"
+    allows      "XNC_TrnsTrk2   RP:15000"
     
     unlock_explicitly   true
 }
@@ -3382,7 +3382,7 @@ tech
 {
     name        "XNC_TrnsTrk2"
     family      "XNC"
-    allows      "XNC_IncTrk     RP:22000"
+    allows      "XNC_IncTrk     RP:25000"
     requires    "CCC_TrnsTrk"
 }
 
@@ -3390,9 +3390,9 @@ tech
 {
     name        "XNC_IncTrk"
     family      "XNC"
-    allows      "XNC_AdctTrk    RP:90000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
-    allows      "XNC_TrnsTrk3   RP:40000"
-    allows      "XNC_TempTrk    RP:35000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+    allows      "XNC_TrnsTrk3   RP:60000"
+    allows      "XNC_AdctTrk    RP:50000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+    allows      "XNC_TempTrk    RP:60000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
     requires    "XNC_TrnsTrk2"
 }
 
@@ -3414,7 +3414,7 @@ tech
 {
     name        "XNC_TrnsTrk3"
     family      "XNC"
-    allows      "XNC_SubTrk     RP:60000"
+    allows      "XNC_SubTrk     RP:80000"
     requires    "XNC_IncTrk"
 }
 
@@ -3423,7 +3423,7 @@ tech
     name        "XNC_SubTrk"
     family      "XNC"
     allows      "XNC_AccTrk     RP:100000   Human:100 Zuul:0 Hiver:100 Tarkas:0 Liir:100 Morrigi:100"
-    allows      "XNC_ProfTrk    RP:80000    Human:100 Zuul:0 Hiver:100 Tarkas:0 Liir:100 Morrigi:100"
+    allows      "XNC_ProfTrk    RP:100000   Human:100 Zuul:0 Hiver:100 Tarkas:0 Liir:100 Morrigi:100"
     requires    "XNC_TrnsTrk3"
 }
 
@@ -3449,7 +3449,7 @@ tech
 {
     name        "CCC_TrnsLir"
     family      "XNC"
-    allows      "XNC_TrnsLir2   RP:25000"
+    allows      "XNC_TrnsLir2   RP:15000"
     
     unlock_explicitly   true
 }
@@ -3458,7 +3458,7 @@ tech
 {
     name        "XNC_TrnsLir2"
     family      "XNC"
-    allows      "XNC_IncLir     RP:35000"
+    allows      "XNC_IncLir     RP:25000"
     requires    "CCC_TrnsLir"
 }
 
@@ -3466,9 +3466,9 @@ tech
 {
     name        "XNC_IncLir"
     family      "XNC"
-    allows      "XNC_AdctLir    RP:60000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
-    allows      "XNC_TrnsLir3   RP:50000"
-    allows      "XNC_TempLir    RP:35000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+    allows      "XNC_TrnsLir3   RP:60000"
+    allows      "XNC_AdctLir    RP:50000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+    allows      "XNC_TempLir    RP:60000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
     requires    "XNC_TrnsLir2"
 }
 
@@ -3490,7 +3490,7 @@ tech
 {
     name        "XNC_TrnsLir3"
     family      "XNC"
-    allows      "XNC_SubLir     RP:90000"
+    allows      "XNC_SubLir     RP:80000"
     requires    "XNC_IncLir"
 }
 
@@ -3498,8 +3498,8 @@ tech
 {
     name        "XNC_SubLir"
     family      "XNC"
-    allows      "XNC_AccLir     RP:120000   Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:0 Morrigi:100"
-    allows      "XNC_ProfLir    RP:90000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:0 Morrigi:100"
+    allows      "XNC_AccLir     RP:100000   Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:0 Morrigi:100"
+    allows      "XNC_ProfLir    RP:100000   Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:0 Morrigi:100"
     requires    "XNC_TrnsLir3"
 }
 
@@ -3525,7 +3525,7 @@ tech
 {
     name        "CCC_TrnsZul"
     family      "XNC"
-    allows      "XNC_TrnsZuul2  RP:30000"
+    allows      "XNC_TrnsZuul2  RP:12000" // Cannot trade with Zuul, so make this cheaper
     ship
         {
             section DEWar
@@ -3535,19 +3535,22 @@ tech
     unlock_explicitly   true
 }
 
+// Zuul doesn't have incorporate level, so split the regular 25k cost between dominate and subjugate levels (so that the total cost is the same)
+
 tech
 {
     name        "XNC_TrnsZuul2"
     family      "XNC"
-    allows      "XNC_DomZuul    RP:50000"
+    allows      "XNC_DomZuul    RP:70000" // +10k (see above note)
     requires    "CCC_TrnsZul"
 }
 
+// Zuul has no incorporate level, so add the cost of that onto this
 tech
 {
     name        "XNC_DomZuul"
     family      "XNC"
-    allows      "XNC_SubZuul    RP:70000"
+    allows      "XNC_SubZuul    RP:95000" // +15k (see above note)
     requires    "XNC_TrnsZuul2"
 }
 
@@ -3564,7 +3567,7 @@ tech
 {
     name        "CCC_TrnsMorr"
     family      "XNC"
-    allows      "XNC_TrnsMorr2  RP:16000"
+    allows      "XNC_TrnsMorr2  RP:15000"
     
     unlock_explicitly   true
 }
@@ -3582,8 +3585,8 @@ tech
 {
     name        "XNC_IncMorr"
     family      "XNC"
+    allows      "XNC_TrnsMorr3  RP:60000"
     allows      "XNC_AdctMorr   RP:50000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
-    allows      "XNC_TrnsMorr3  RP:50000"
     allows      "XNC_TempMorr   RP:60000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
 }
 
@@ -3605,7 +3608,7 @@ tech
 {
     name        "XNC_TrnsMorr3"
     family      "XNC"
-    allows      "XNC_SubMorr    RP:70000"
+    allows      "XNC_SubMorr    RP:80000"
     requires    "XNC_IncMorr"
 }
 
@@ -3613,8 +3616,8 @@ tech
 {
     name        "XNC_SubMorr"
     family      "XNC"
-    allows      "XNC_AccMorr    RP:90000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:0"
-    allows      "XNC_ProfMorr   RP:90000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:0"
+    allows      "XNC_AccMorr    RP:100000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:0"
+    allows      "XNC_ProfMorr   RP:100000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:0"
     requires    "XNC_TrnsMorr3"
 }
 
