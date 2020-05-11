@@ -1,0 +1,103 @@
+shipsection
+{
+	
+	model Species/Tarkas/art/sections/DestroyerExtendedRange.X
+	socket_aft EngineNode
+	socket_fore CommandNode
+	section_type mission
+	section_class destroyer
+	health 300
+	mass 2000
+	cost 2500
+	cpoints	750
+	range	16
+	preview_ofs "-4 0 3"
+
+	death_effect "Effects/DEER_Fuel_Explosion.effect"
+	death_area_impact_effect ""
+	death_dam 200
+	death_damradius 150
+	
+	option
+	{
+		option 	IND_PlyAlloy
+		option	IND_MagLat
+		option	IND_QrkRes
+		option	IND_AdmAly
+		option	IND_StlthArm
+	}
+
+	option 
+	{
+		option	IND_RefCoat
+		option	IND_ImpRfCt
+	}
+	
+	netforcelimits
+	{
+		force_forward			0	
+		force_right			0
+		force_up			0	
+		
+		torque_yaw			0
+		torque_pitch			0
+		torque_roll			0
+		
+		speed				5
+		rotspeed			0
+	}
+
+	bank
+	{
+		turretclass standard
+		turretsize small
+
+		mount
+		{
+			node LightGunNode01
+			min_azimuth -110
+			max_azimuth 110
+			min_inclination -10
+			max_inclination 90
+
+		}
+
+	}
+
+
+	bank
+	{
+		turretclass standard
+		turretsize small
+
+		mount
+		{
+			node LightGunNode02
+			min_azimuth -120
+			max_azimuth 40
+			min_inclination -10
+			max_inclination 90
+
+		}
+
+	}
+
+	bank
+	{
+		turretclass standard
+		turretsize small
+
+		mount
+		{
+			node LightGunNode03
+			min_azimuth -40
+			max_azimuth 120
+			min_inclination -10
+			max_inclination 90
+
+		}
+
+	}
+
+
+}
