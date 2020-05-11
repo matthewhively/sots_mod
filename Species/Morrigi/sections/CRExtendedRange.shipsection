@@ -1,6 +1,6 @@
 shipsection 
 {
-    
+
     model Species/Morrigi/art/sections/CruiserExtendedRange.X
 
     socket_aft    EngineNode
@@ -13,7 +13,14 @@ shipsection
     cost    6600
     cpoints 2900
 
-    range   20
+    //Fission
+    // 20 + 7 = 27
+    // (2 + 7) * 4 = 36
+    //AM
+    // 20 + 21 = 41
+    // (2 + 21) * 4 = 92
+    refueling_capacity  4  // CR gets +1
+    range   2
     crew    20
 
     preview_ofs "0 -50 0"

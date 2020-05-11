@@ -1,6 +1,6 @@
 shipsection 
 {
-    
+
     model Species/Human/art/sections/CruiserExtendedRange.X
 
     socket_aft    MissionNode
@@ -13,7 +13,14 @@ shipsection
     cost    10000
     cpoints 1890
 
-    range   16
+    //Fission
+    // 16 + 9 = 25
+    // (4 + 9) * 3 = 39
+    //AM
+    // 16 + 32 = 48
+    // (4 + 32) * 3 = 108
+    refueling_capacity  3  // CR gets +1
+    range   4
     crew    20
 
     preview_ofs "0 -50 0"

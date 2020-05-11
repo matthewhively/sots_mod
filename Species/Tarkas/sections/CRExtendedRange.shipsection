@@ -20,7 +20,14 @@ shipsection
     cost    8000
     cpoints 1980
 
-    range   22
+    //Fission
+    // 22 + 4 = 28
+    // (3 + 4) * 4 = 28
+    //AM
+    // 22 + 18 = 40
+    // (3 + 18) * 4 = 84
+    refueling_capacity  4  // CR gets +1
+    range   3
     crew    20
 
     option

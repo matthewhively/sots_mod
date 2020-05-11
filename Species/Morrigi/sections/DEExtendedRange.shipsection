@@ -13,7 +13,14 @@ shipsection
     cost    1650
     cpoints 890
 
-    range   18
+    //Fission
+    // 18 + 7 = 25
+    // (2 + 7) * 3 = 27
+    //AM
+    // 18 + 21 = 39
+    // (2 + 21) * 3 = 69
+    refueling_capacity  3
+    range   2
 
     preview_ofs "-.5 0 1.7"
 

@@ -12,7 +12,14 @@ shipsection
     cost    1000
     cpoints 460
 
-    range   24
+    //Fission
+    // 24 + 14 = 38
+    // (4 + 14) * 2 = 36
+    //AM
+    // 24 + 38 = 62
+    // (4 + 38) * 2 = 84
+    refueling_capacity  2
+    range   4
 
     preview_ofs "2.7 0 .5"
 

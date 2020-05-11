@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Hiver/art/sections/CruiserExRange.X
 
     socket_aft    EngineNode
@@ -13,7 +13,14 @@ shipsection
     cost    12000
     cpoints 2260
 
-    range   24
+    //Fission
+    // 24 + 5 = 29
+    // (5 + 5) * 4 = 40
+    //AM
+    // 24 + 25 = 49
+    // (5 + 25) * 4 = 120
+    refueling_capacity  4  // CR gets +1
+    range   5
     crew    45
 
     preview_ofs "-15 120 5"

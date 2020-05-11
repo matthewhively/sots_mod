@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Liir/art/sections/DestroyerExtendedRange.X
 
     socket_aft    EngineNode
@@ -20,7 +20,14 @@ shipsection
     cost    2100
     cpoints 690
 
-    range   18
+    //Fission
+    // 18 + 6 = 24
+    // (2 + 6) * 3 = 24
+    //AM
+    // 18 + 18 = 36
+    // (2 + 18) * 3 = 60
+    refueling_capacity  3
+    range   2
 
     option
     {

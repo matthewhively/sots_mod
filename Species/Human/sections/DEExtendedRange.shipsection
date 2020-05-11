@@ -12,7 +12,15 @@ shipsection
     cost    2000
     cpoints 690
 
-    range   18
+    //Fission
+    // 18 + 9 = 27
+    // (4 + 9) * 2 = 26
+    //AM
+    // 18 + 32 = 50
+    // (4 + 32) * 2 = 72
+    // Scaling factor is lower because its important to have increased node length range
+    refueling_capacity  2
+    range   4
 
     preview_ofs "-.5 0 1.7"
 
