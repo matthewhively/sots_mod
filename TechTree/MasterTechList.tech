@@ -2943,7 +2943,7 @@ threat      1
 type        P
 allows      "IND_PredGun    RP:17000    Human:70 Zuul:30 Hiver:80 Tarkas:90 Liir:95 Morrigi:95"
 allows      "IND_ExpSys     RP:16000    Human:90 Zuul:40 Hiver:75 Tarkas:85 Liir:95 Morrigi:95"
-allows      "DRN_AdvRob RP:12000"
+allows      "DRN_AdvRob     RP:12000"
 strategy 
     { 
         inc TECHBEN_INDOUTPUT 
@@ -3041,7 +3041,7 @@ tech
 name        "DRN_Squad"
 threat      2
 allows      "DRN_WingMan    RP:170000"
-allows      "DRN_AdvFrm RP:60000"
+allows      "DRN_AdvFrm     RP:60000"
 requires    "IND_CruisCon"
 ship 
     { 
