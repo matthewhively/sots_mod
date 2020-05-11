@@ -1,110 +1,100 @@
 shipsection
 {
-	
-	model Species/Liir/art/sections/DestroyerExtendedRange.X
-	socket_aft EngineNode
-	socket_fore CommandNode
-	section_type mission
-	section_class destroyer
-	preview_ofs "0 0 -4"
+    
+    model Species/Liir/art/sections/DestroyerExtendedRange.X
 
-	death_effect "Effects/DEER_Fuel_Explosion.effect"
-	death_area_impact_effect ""
-	death_dam 200
-	death_damradius 150
-	
-	health 350
-	mass 1800
-	cost 2100
-	cpoints	690
-	range	18
+    socket_aft    EngineNode
+    socket_fore   CommandNode
+    section_type  mission
+    section_class destroyer
 
-	option
-	{
-		option 	IND_PlyAlloy
-		option	IND_MagLat
-		option	IND_QrkRes
-		option	IND_AdmAly
-		option	IND_StlthArm
-	}
+    preview_ofs "0 0 -4"
 
-	option 
-	{
-		option	IND_RefCoat
-		option	IND_ImpRfCt
-	}
-	
+    death_effect             "Effects/DEER_Fuel_Explosion.effect"
+    death_area_impact_effect ""
+    death_dam                200
+    death_damradius          150
+    
+    health  350
+    mass    1800
+    cost    2100
+    cpoints 690
 
-	netforcelimits
-	{
-		force_forward 0
-		force_right   0
-		force_up      0
-		
-		torque_yaw    0
-		torque_pitch  0
-		torque_roll   0
-		
-		speed         0
-		rotspeed      0
-	}
+    range   18
 
+    option
+    {
+        option  IND_PlyAlloy
+        option  IND_MagLat
+        option  IND_QrkRes
+        option  IND_AdmAly
+        option  IND_StlthArm
+    }
 
+    option 
+    {
+        option  IND_RefCoat
+        option  IND_ImpRfCt
+    }
+    
 
-	bank
-	{
-		turretclass standard
-		turretsize small
+    netforcelimits
+    {
+        force_forward 0
+        force_right   0
+        force_up      0
+        
+        torque_yaw    0
+        torque_pitch  0
+        torque_roll   0
+        
+        speed         0
+        rotspeed      0
+    }
 
+    bank
+    {
+        turretclass standard
+        turretsize  small
 
+        mount
+        {
+            node            LightGunNode01
+            min_azimuth     -40
+            max_azimuth     50
+            min_inclination -8
+            max_inclination 90
 
-		mount
-		{
-			node LightGunNode01
-			min_azimuth -40
-			max_azimuth 50
-			min_inclination -8
-			max_inclination 90
+        }
+    }
 
-		}
-	}
+    bank
+    {
+        turretclass standard
+        turretsize  small
+        mount
+        {
+            node            LightGunNode02
+            min_azimuth     -50
+            max_azimuth     40
+            min_inclination -8
+            max_inclination 90
+        }
+    }
 
+    bank
+    {
+        turretclass standard
+        turretsize  medium
 
-
-	bank
-	{
-		turretclass standard
-		turretsize small
-		mount
-		{
-			node LightGunNode02
-			min_azimuth -50
-			max_azimuth 40
-			min_inclination -8
-			max_inclination 90
-
-		}
-
-
-
-	}
-
-
-
-	bank
-	{
-		turretclass standard
-		turretsize medium
-
-		mount
-		{
-			node MediumGunNode01
-	 		min_azimuth -110
-			max_azimuth 110
-			min_inclination -5
-			max_inclination 90
-		}
-
-	}
-	
+        mount
+        {
+            node            MediumGunNode01
+            min_azimuth     -110
+            max_azimuth     110
+            min_inclination -5
+            max_inclination 90
+        }
+    }
+    
 }
