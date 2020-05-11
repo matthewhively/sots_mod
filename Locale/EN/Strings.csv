@@ -2453,7 +2453,7 @@ TECHDESC_BAL_ROOT,Ballistic Weapons
 TECHDESC_DRV_ROOT,Star Drives
 TECHDESC_BIO_ROOT,Biological
 TECHDESC_CCC_ROOT,C3
-TECHDESC_IND_Waldo,Remote control construction devices that allow workers to build in hostile or dangerous environments without risk. This results in lowering the construction costs for ships by 10% and a 15% increase in the industrial output of all planets.
+TECHDESC_IND_Waldo,Remote control construction devices that allow workers to build in hostile or dangerous environments without risk. This results in a 10% decrease to ship construction costs and a 15% increase in the industrial output of all planets.
 TECHDESC_IND_RefCoat,A subsurface layer of highly reflective ceramic to defeat incoming laser fire by causing the beams to reflect off into space
 TECHDESC_IND_ImpRfCt,A subsurface layer of highly reflective ceramic combined with a curved EM field to increase the chance of reflecting incoming laser fire.
 TECHDESC_IND_OrbFound,Orbital bases for the processing of metals in zero-G. Lowers the fiscal cost of ship construction by 5% and makes larger ship hulls possible.
@@ -2471,11 +2471,11 @@ TECHDESC_IND_CruisCon,The creation of facilities and machines that allow you to 
 TECHDESC_IND_BrdPod,Small shuttles designed to deliver squads of soldiers to enemy ships and cut through the hulls so they can enter. Once aboard the troops will try and subdue the crew and slave the guns to their own fire control system turning the enemy ship into a immobile weapons platform.
 TECHDESC_IND_AtProc,This technology uses focused plasma torches to break down toxic atmospheres on a gigantic scale and speeds terraforming by 40%.
 TECHDESC_IND_OrbDry,Enclosed Construction Bases for the efficient building of very large ships in orbit. Reduces the construction cost of Cruisers and Dreadnoughts by 5%
-TECHDESC_IND_HvyPlat,Allows the mounting and use of very large construction and processing equipment on orbital platforms. Increases the production output of all planets by 10%
+TECHDESC_IND_HvyPlat,Allows the mounting and use of very large construction and processing equipment on orbital platforms. Increases the industrial output of all planets by 10%
 TECHDESC_IND_TrpSat,The use of reinforced orbital structures to place large torpedo systems aboard medium and heavy defence platforms.
 TECHDESC_IND_DreadCon,"The creation of facilities and machines that allow the construction of the largest starship class, the Dreadnought. These massive ships are approximately 3 times larger than cruisers and pack devastating firepower."
-TECHDESC_IND_GravCon,This technology allows for the creation and manipulation of artificial gravity fields. This results in a 30% increase in industrial efficiency on all worlds.
-TECHDESC_IND_CyberInt,A mind machine interface that allows a single being to control fleets of machines. Allows ships to be built more 5% more efficiently and increases the industrial output of all worlds by 20%.
+TECHDESC_IND_GravCon,This technology allows for the creation and manipulation of artificial gravity fields. This results in a 30% increase in industrial output on all worlds.
+TECHDESC_IND_CyberInt,A mind machine interface that allows a single being to control fleets of machines. This results in a 5% decrease to ship construction cost and increases the industrial output of all worlds by 20%.
 TECHDESC_IND_ExpSys,Advanced Software that allows for construction robots to function with a minimum of intelligent supervision. Allows ships to be built 10% more efficiently and increases the industrial output of all worlds by 15%.
 TECHDESC_IND_PredGun,This simple AI targeting system will allow ships equipped with this technology to fire much more accurately.
 TECHDESC_IND_TrctBm,An Electromagnetic Beam capable of locking on to another ship over a distance and holding it.
@@ -4398,7 +4398,7 @@ TECHDESC_SLD_Proj,"This technology combines advanced shield technologies and com
 TECHNAME_SLD_Disr,Disruptor Shield
 TECHDESC_SLD_Disr,Creates an electro-magnetic field around the front of a ship that breaks up and dissipates any energy weapon that impacts it.
 TECHNAME_DRN_AdvRob,Advanced Robotics
-TECHDESC_DRN_AdvRob,This technology allows for autonomous AI driven robots to perform simple construction tasks in zero-G conditions and results in a 5% boost to ship construction efficiency.
+TECHDESC_DRN_AdvRob,This technology allows for autonomous AI driven robots to perform simple construction tasks in zero-G conditions and results in a 5% decrease to ship construction cost.
 TECHNAME_DRN_Cmbt,Combat Drones
 TECHDESC_DRN_Cmbt,Construction drones taken to the next level have become autonomous combat vessels able to engage and harass targets far away from their command ship.
 TECHNAME_DRN_Squad,Drone Squadrons
