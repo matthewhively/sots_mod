@@ -523,7 +523,7 @@ allows      "WEP_GrvMine    RP:80000    Human:80 Zuul:90 Hiver:80 Tarkas:80 Liir
 allows      "WEP_ThmpDrvr   RP:65000    Human:50 Zuul:90 Hiver:50 Tarkas:60 Liir:80 Morrigi:90"
 strategy 
     { 
-        dec TECHBEN_SHIPCONCOST 
+        inc TECHBEN_INDOUTPUT
     }
 }
 
@@ -555,6 +555,12 @@ name        "IND_HrdStrct"
 threat      2
 type        P
 requires    "IND_QrkRes"
+/*
+strategy 
+    { 
+        dec TECHBEN_INDOUTPUT
+    }
+*/
 }
 
 
@@ -2946,7 +2952,8 @@ allows      "IND_ExpSys     RP:16000    Human:90 Zuul:40 Hiver:75 Tarkas:85 Liir
 allows      "DRN_AdvRob     RP:12000"
 strategy 
     { 
-        inc TECHBEN_INDOUTPUT 
+        inc TECHBEN_INDOUTPUT
+        dec TECHBEN_SHIPCONCOST 
     }
 }
 
@@ -2960,7 +2967,8 @@ type        P
 allows      "CCC_AI     RP:120000   Human:40 Zuul:30 Hiver:70 Tarkas:50 Liir:30 Morrigi:80"
 strategy 
     { 
-        inc TECHBEN_INDOUTPUT 
+        inc TECHBEN_INDOUTPUT
+        dec TECHBEN_SHIPCONCOST 
     }
 }
 
