@@ -2367,11 +2367,11 @@ TECHNAME_DRV_NodPath,Sub-Space Pathing
 TECHNAME_DRV_Rip,Rip Drive
 TECHNAME_DRV_Rend,Rend Drive
 TECHNAME_DRV_Rad,Radiant Drive
-TECHNAME_DRV_Hyper,Hyperdrive
-TECHNAME_DRV_HyprFld,Shaped Hyper-Fields
-TECHNAME_DRV_Warp,WarpDrive
-TECHNAME_DRV_StrWrp,StutterWarp
-TECHNAME_DRV_ImpStWrp,Improved StutterWarp
+TECHNAME_DRV_Hyper,Hyper Drive
+TECHNAME_DRV_HyprFld,Warp Drive
+TECHNAME_DRV_Warp,TransWarp Drive
+TECHNAME_DRV_StrWrp,StutterDrive
+TECHNAME_DRV_ImpStWrp,BlinkDrive
 TECHNAME_DRV_Flicker,FlickerDrive
 TECHNAME_DRV_McrFlkr,Micro-FlickerDrive
 TECHNAME_DRV_TpGate,Teleport Gate
@@ -2563,12 +2563,12 @@ TECHDESC_DRV_NodPath,The ultimate refinement in Node drive technology allowing f
 TECHDESC_DRV_Rip,This FTL technology allows specialized Ripper ""tunneling ships"" to literally tear open a hole between ""normal"" and node space. This lets the Rippers create their own node line network at will. The only drawback to artificial node lines is that they are unstable and will collapse over time and through extended disruption by ships' mass. A node line that collapses will destroy any ship in transit down it. 
 TECHDESC_DRV_Rend,"A more powerful version of the Zuul Rip Drive, Rending drives tear open space more efficiently and create a more stable node line but require more power and the use of a larger tunneler ship."
 TECHDESC_DRV_Rad,Radiant drives use multiple foci to slice open space very efficiently and create a relatively stable node line. The power required is massive and requires a very large class of tunneler ship.
-TECHDESC_DRV_Hyper,The ability to create a field of warped space-time that allows a ship to travel faster than the speed of light on any course.
-TECHDESC_DRV_HyprFld,This refinement in hyperdrive fields allows for faster FTL travel and a small increase in stellar range.
-TECHDESC_DRV_Warp,"The ultimate expression of hyper-field technology, the Warp drive uses a hyper-field to warp space-time for maneuvering as well as FTL travel. This is far more efficient for drive space though it is vulnerable to damage."
+TECHDESC_DRV_Hyper,The ability to deform a field of space-time that allows a ship to travel faster than the speed of light on any course.
+TECHDESC_DRV_HyprFld,The enhancement of hyper-field technology into Warp Drive allows for faster FTL travel and a small increase in stellar range.
+TECHDESC_DRV_Warp,"The ultimate expression hyper-field technology, the TransWarp Drive fully encloses a ship within a warped space-time bubble for FTL travel. This is far more efficient for drive space, although it is vulnerable to damage."
 TECHDESC_DRV_StrWrp,"A mode of travel that creates movement by tiny teleports millions of times per second.  It has poor maneuvering ability, especially near the gravity well of star systems, but has the advantage of being both an FTL and main drive unit at the same time."
-TECHDESC_DRV_ImpStWrp,A refinement of stutterwarp technology that allows for more efficient FTL travel and higher speeds near gravity wells.
-TECHDESC_DRV_Flicker,"The ultimate refinement of stutterwarp tech results in a drive that actually ports the ship so fast and precisely, it has a chance to slip between enemy shots while moving"
+TECHDESC_DRV_ImpStWrp,The refinement of StutterDrive into BlinkDrive technology allows for more efficient FTL travel and higher speeds near gravity wells.
+TECHDESC_DRV_Flicker,"The ultimate refinement of BlinkDrive results in a drive that actually ports the ship so fast and precisely, it has a chance to slip between enemy shots while moving"
 TECHDESC_DRV_McrFlkr,This miniature flicker drive can be fitted to missiles allowing them the same chance of weapons fire to pass right through them.
 TECHDESC_DRV_TpGate,The technology Hivers use to teleport their ships instantaneously from system to system. Allows instant strategic map movement for Hiver ships between star systems that both have gates.
 TECHDESC_DRV_GatAmp,A set of energy amplifiers that increase the number of ships the Hiver gate network can transport at any given time. Results in a gate capacity increase of 3 for every gate.
@@ -2600,7 +2600,7 @@ TECHDESC_CCC_TrnsLir,"Having encountered the Liir race, this tech allows you to 
 TECHDESC_CCC_TrnsZul,"Having encountered the Zuul race, this tech allows you to translate basic military communications from the Zuul and form Ceasefire agreements with them, though why you would want to is beyond us."
 TECHDESC_CCC_NdTrkZul,A system for tracking Zuul ships traveling in node space and deriving their origins and destinations via drive radiation and decoded transmissions. 
 TECHDESC_CCC_NdTrkHum,A system for tracking human ships traveling in node space and deriving their origins and destinations via drive radiation and decoded transmissions.
-TECHDESC_CCC_HypCom,Enables communication with ships traveling at warp and allows you to send them new movement orders mid-transit.
+TECHDESC_CCC_HypCom,Enables communication with ships traveling within any sort of hyper-field and allows you to send them new movement orders mid-transit.
 TECHDESC_CCC_BtlCmp,Computer systems designed specifically to enhance command and control of squadron-sized groups of ships. Increases number of ships that can be controlled in combat.
 TECHDESC_CCC_FTLBrdB,Faster-Than-Light Broadband allows you to observe the combat of allied players.
 TECHDESC_CCC_SpyBm,Sub-space Spy Beams allow you to observe enemy combat in nearby star systems.
@@ -2643,9 +2643,9 @@ TECHDESC_SLD_Intang,This technology allows a ship to go out of phase with realit
 SECTIONNAME_CRAIC,AI Command
 SECTIONNAME_CRAbsorber,Point Absorber
 SECTIONNAME_CRAntiMatter,Antimatter
-SECTIONNAME_CRAntiMatterFlickerWarp,Antimatter Flicker Warp
-SECTIONNAME_CRAntiMatterImpSW,Antimatter Improved S.W.
-SECTIONNAME_CRAntiMatterWarp,Antimatter Warp
+SECTIONNAME_CRAntiMatterFlickerWarp,Antimatter FlickerDrive
+SECTIONNAME_CRAntiMatterImpSW,Antimatter BlinkDrive
+SECTIONNAME_CRAntiMatterWarp,Antimatter TransWarp
 SECTIONNAME_CRArmor,Armor
 SECTIONNAME_CRAssault,Assault
 SECTIONNAME_CRBarrage,Barrage
@@ -2662,30 +2662,30 @@ SECTIONNAME_CRDeflector,Point Deflector
 SECTIONNAME_CRExtendedRange,Extended Range
 SECTIONNAME_CRFireControl,Fire Control
 SECTIONNAME_CRFission,Fission
-SECTIONNAME_CRFissionStutterWarp,Fission Stutter Warp
-SECTIONNAME_CRFocusNodeAntimatter,F-Node Antimatter
-SECTIONNAME_CRFocusNodeFission,F-Node Fission
-SECTIONNAME_CRFocusNodeFusion,F-Node Fusion
+SECTIONNAME_CRFissionStutterWarp,Fission
+SECTIONNAME_CRFocusNodeAntimatter,Antimatter F-Node
+SECTIONNAME_CRFocusNodeFission,Fission F-Node
+SECTIONNAME_CRFocusNodeFusion,Fusion F-Node
 SECTIONNAME_CRFusion,Fusion
-SECTIONNAME_CRFusionImpStutterWarp,Fusion Improved S.W.
+SECTIONNAME_CRFusionImpStutterWarp,Fusion BlinkDrive
 SECTIONNAME_CRFussionStutterWarp,Fusion
 SECTIONNAME_CRGate,Gate
 SECTIONNAME_CRHammerHead,Hammerhead
-SECTIONNAME_CRLongRangeFission,Long Range Fission
-SECTIONNAME_CRLongRangeFusion,Long Range Fusion
+SECTIONNAME_CRLongRangeFission,L.R. Pulsed Fission
+SECTIONNAME_CRLongRangeFusion,L.R. Fusion
 SECTIONNAME_CRMineLayer,Minelayer
 SECTIONNAME_CRMining,Mining
 SECTIONNAME_CRNodeBore,Rending Bore
-SECTIONNAME_CRNodePathingAntimatter,N-Pathing Antimatter
-SECTIONNAME_CRNodePathingFusion,N-Pathing Fusion
+SECTIONNAME_CRNodePathingAntimatter,Antimatter P-Node
+SECTIONNAME_CRNodePathingFusion,Fusion P-Node
 SECTIONNAME_CRPointDefence,Point Defence
 SECTIONNAME_CRPulsedFission,Pulsed Fission
-SECTIONNAME_CRPulsedFocusNodeFission,F-Node Pulsed Fission
+SECTIONNAME_CRPulsedFocusNodeFission,Pulsed Fission F-Node
 SECTIONNAME_CRRamscoop,Ram Scoop
 SECTIONNAME_CRRefinery,Refinery
 SECTIONNAME_CRRepairandSalvage,Repair and Salvage
-SECTIONNAME_CRShapedHyperFieldAntimatter,S.H. Antimatter
-SECTIONNAME_CRShapedHyperFieldFusion,S.H. Fusion
+SECTIONNAME_CRShapedHyperFieldAntimatter,Antimatter Warp
+SECTIONNAME_CRShapedHyperFieldFusion,Fusion Warp
 SECTIONNAME_CRShield,Shield
 SECTIONNAME_CRStrikeForceCNC,Strikeforce CNC
 SECTIONNAME_CRScavenger,Scavenger
@@ -2696,9 +2696,9 @@ SECTIONNAME_CRProjector,Projector
 SECTIONNAME_DEAIC,AI Command
 SECTIONNAME_DEAbsorber,Absorption
 SECTIONNAME_DEAntiMatter,Antimatter
-SECTIONNAME_DEAntiMatterWarp,Antimatter Warp
-SECTIONNAME_DEAntimatterFlickerWarp,Antimatter Flicker Warp
-SECTIONNAME_DEAntimatterImpSW,Antimatter Improved S.W.
+SECTIONNAME_DEAntiMatterWarp,Antimatter TransWarp
+SECTIONNAME_DEAntimatterFlickerWarp,Antimatter FlickerDrive
+SECTIONNAME_DEAntimatterImpSW,Antimatter BlinkDrive
 SECTIONNAME_DEArmor,Armor
 SECTIONNAME_DEAssaultShuttle,Assault Shuttle
 SECTIONNAME_DEBiowar,Bio War
@@ -2711,28 +2711,28 @@ SECTIONNAME_DEDeflector,Deflector
 SECTIONNAME_DEExtendedRange,Extended Range
 SECTIONNAME_DEFireControl,Fire Control
 SECTIONNAME_DEFission,Fission
-SECTIONNAME_DEFocusNodeAntimatter,F-Node Antimatter
-SECTIONNAME_DEFocusNodeFission,F-Node Fission
-SECTIONNAME_DEFocusNodeFusion,F-Node Fusion
+SECTIONNAME_DEFocusNodeAntimatter,Antimatter F-Node
+SECTIONNAME_DEFocusNodeFission,Fission F-Node
+SECTIONNAME_DEFocusNodeFusion,Fusion F-Node
 SECTIONNAME_DEFreighter,Freighter
 SECTIONNAME_DEFusion,Fusion
-SECTIONNAME_DEFusionImpStutterWarp,Fusion Improved S.W.
+SECTIONNAME_DEFusionImpStutterWarp,Fusion BlinkDrive
 SECTIONNAME_DEGate,Gate
 SECTIONNAME_DEHammerHead,Hammerhead
 SECTIONNAME_DEJammer,Jammer
-SECTIONNAME_DELongRangeFission,Long Range Fission
-SECTIONNAME_DELongRangeFusion,Long Range Fusion
+SECTIONNAME_DELongRangeFission,L.R. Pulsed Fission
+SECTIONNAME_DELongRangeFusion,L.R. Fusion
 SECTIONNAME_DEMineLayer,Minelayer
 SECTIONNAME_DENodeBore,Rip Bore
 SECTIONNAME_DENodeMissile,Node Missile
-SECTIONNAME_DENodePathingAntimatter,N-Pathing Antimatter
-SECTIONNAME_DENodePathingFusion,N-Pathing Fusion
+SECTIONNAME_DENodePathingAntimatter,Antimatter P-Node
+SECTIONNAME_DENodePathingFusion,Fusion P-Node
 SECTIONNAME_DEPointDefence,Point Defence
 SECTIONNAME_DEPulsedFission,Pulsed Fission
-SECTIONNAME_DEPulsedFocusNodeFission,F-Node Pulsed Fission
+SECTIONNAME_DEPulsedFocusNodeFission,Pulsed Fission F-Node
 SECTIONNAME_DERamScoop,RamScoop
-SECTIONNAME_DEShapedHyperFieldFusion,S.H. Fusion
-SECTIONNAME_DEShapedHyperfieldAntimatter,S.H. Antimatter
+SECTIONNAME_DEShapedHyperFieldFusion,Fusion Warp
+SECTIONNAME_DEShapedHyperfieldAntimatter,Antimatter Warp
 SECTIONNAME_DEShield,Shield
 SECTIONNAME_DESpinalMount,Spinal Mount
 SECTIONNAME_DESquadronCNC,Squadron CnC
@@ -2745,9 +2745,9 @@ SECTIONNAME_DEWar,War
 SECTIONNAME_DNAIC,AI Command
 SECTIONNAME_DNAbsorber,Point Absorber
 SECTIONNAME_DNAntimatter,Antimatter
-SECTIONNAME_DNAntimatterFlickerWarp,Antimatter Flicker Warp
-SECTIONNAME_DNAntimatterImpSW,Antimatter Improved S.W.
-SECTIONNAME_DNAntimatterWarp,Antimatter Warp
+SECTIONNAME_DNAntimatterFlickerWarp,Antimatter FlickerDrive
+SECTIONNAME_DNAntimatterImpSW,Antimatter BlinkDrive
+SECTIONNAME_DNAntimatterWarp,Antimatter TransWarp
 SECTIONNAME_DNArmadaCNC,Armada CNC
 SECTIONNAME_DNArmour,Armor
 SECTIONNAME_DNAssault,Assault
@@ -2757,16 +2757,16 @@ SECTIONNAME_DNBioWar,Bio War
 SECTIONNAME_DNCommand,Standard Command
 SECTIONNAME_DNDefencePlatform,Heavy Defense Platform
 SECTIONNAME_DNDeflector,Point Deflector
-SECTIONNAME_DNFocusNodeAntimatter,F-Node Antimatter
-SECTIONNAME_DNFocusNodeFusion,F-Node Fusion
+SECTIONNAME_DNFocusNodeAntimatter,Antimatter F-Node
+SECTIONNAME_DNFocusNodeFusion,Fusion F-Node
 SECTIONNAME_DNFusion,Fusion
-SECTIONNAME_DNFusionImpSW,Fusion Improved S.W.
+SECTIONNAME_DNFusionImpSW,Fusion BlinkDrive
 SECTIONNAME_DNFusionStutterwarp,Fusion
-SECTIONNAME_DNLongRangeFusion,Long Range Fusion
-SECTIONNAME_DNNodePathingAntimatter,N-Pathing Antimatter
-SECTIONNAME_DNNodePathingFusion,N-Pathing Fusion
-SECTIONNAME_DNShapedHyperFieldAntimatterWarp,S.H. Antimatter
-SECTIONNAME_DNShapedHyperfieldFusion,S.H. Fusion,,
+SECTIONNAME_DNLongRangeFusion,L.R. Fusion
+SECTIONNAME_DNNodePathingAntimatter,Antimatter P-Node
+SECTIONNAME_DNNodePathingFusion,Fusion P-Node
+SECTIONNAME_DNShapedHyperFieldAntimatterWarp,Antimatter Warp
+SECTIONNAME_DNShapedHyperfieldFusion,Fusion Warp
 SECTIONNAME_DNSiegeDriver,Siege Driver,,
 SECTIONNAME_DNGuard,Princess Guard,,Big hiver command ship for HiverInvasion scenario.
 SECTIONNAME_DNTorpedoPlatform,Heavy Torpedo Defense Platform,,
@@ -2783,8 +2783,8 @@ SECTIONNAME_DNWar,War,,
 SECTIONDESC_CRAIC,"By placing some ship systems under AI control, the ship enjoys improved accuracy of all weapons, faster turret speed, and better thrust and turning speed.",,
 SECTIONDESC_CRAbsorber,Absorber sections are equipped with a power transducer that uses energy weapons fire to recharge on-board weapons systems.,,
 SECTIONDESC_CRAntiMatter,"More efficient than Fusion or Fission drives, Antimatter engines provide the best strategic range and maneuvering speed."
-SECTIONDESC_CRAntiMatterFlickerWarp,The cycling computers in this drive section are so efficient in their control of stutter teleportation that it is possible for enemy fire to pass through the ship.
-SECTIONDESC_CRAntiMatterImpSW,More efficient use of the Stutter drive allows for an increase in movement near gravity wells.
+SECTIONDESC_CRAntiMatterFlickerWarp,The cycling computers in this drive section are so efficient in their control of flicker teleportation that it is possible for enemy fire to pass through the ship.
+SECTIONDESC_CRAntiMatterImpSW,Using the new BlinkDrive allows for an increase in movement near gravity wells.
 SECTIONDESC_CRAntiMatterWarp,"The ultimate hyper-drive design, improving the strategic and maneuvering speed of ships."
 SECTIONDESC_CRArmor,This section is designed with the single purpose of being thick-hulled and covered with a variety of weapon turrets.
 SECTIONDESC_CRAssault,Heavy combat section designed around heavy beam weapon and torpedo housings. These weapons systems decrease a ship's thrust and turning power.
@@ -2800,28 +2800,28 @@ SECTIONDESC_CRDeflector,A projector array diverts energy away from engines and u
 SECTIONDESC_CRExtendedRange,"By trading weapons systems and hull armor for extra fuel capacity, Extended Range ships can strategically travel nearly three times as far as other ship designs, making them perfect for reconnaissance and exploration."
 SECTIONDESC_CRFireControl,"Dedicated targeting computers improve the accuracy of all ship weapons. Less effective than an AI Command section, it is still cost effective."
 SECTIONDESC_CRFission,"The most basic power plant available in ship design. Fission ships are slow, but inexpensive."
-SECTIONDESC_CRFissionStutterWarp,"By teleporting an entire ship an imperceptible distance, the Stutter Drive are an inertia-free drive system, limited only by the availability of power and the ability of the system to cycle."
+SECTIONDESC_CRFissionStutterWarp,"By teleporting an entire ship an imperceptible distance, the StutterDrive are an inertia-free drive system, limited only by the availability of power and the ability of the system to cycle."
 SECTIONDESC_CRFocusNodeAntimatter,"Improvements to the focusing of the Node Drive provide an improvement to the strategic range of ships, as well as some improvement in maneuvering speed. The Antimatter engines give ships the best range out of all F-Node equipped ships."
 SECTIONDESC_CRFocusNodeFission,"Improvements to the focusing of the Node Drive provide an improvement to the strategic range of ships, as well as some improvement in maneuvering speed."
 SECTIONDESC_CRFocusNodeFusion,"Improvements to the focusing of the Node Drive provide an improvement to the strategic range of ships, as well as some improvement in maneuvering speed. The use of a Fusion engine to power the Node Drive gives the ship a greater range than the F-Node Fission engines."
 SECTIONDESC_CRFusion,"A marked improvement over Fission drives, Fusion drives provide a greater strategic range and maneuvering speed."
-SECTIONDESC_CRFusionImpStutterWarp,The cycling computers in this drive section are so efficient in their control of stutter teleportation that it is possible for enemy fire to pass through the ship.
-SECTIONDESC_CRFussionStutterWarp,The addition of a more powerful fusion power plant to the standard Stutter Warp improves the drives strategic range and speed.
+SECTIONDESC_CRFusionImpStutterWarp,Using the new BlinkDrive allows for an increase in movement near gravity wells.
+SECTIONDESC_CRFussionStutterWarp,The addition of a more powerful fusion power plant to the standard StutterDrive improves the drives strategic range and speed.
 SECTIONDESC_CRGate,"Each gate deployed increases the power of the network. Like all Gates, this ship must be kept safe for two turns before the brethren reinforcements can arrive. It is larger and better armed than the weaker destroyer Gates, but that also makes it a much bigger target."
 SECTIONDESC_CRHammerHead,"The addition of a T-section to the standard command design, this section can be outfitted with additional weapons. Outboard maneuvering jets provide a quick turning speed."
-SECTIONDESC_CRLongRangeFission,More efficient use of the Fission power plant gives Hiver ships a greater strategic range.
+SECTIONDESC_CRLongRangeFission,More efficient use of the Fission power plant combined with well timed pulses gives Hiver ships a greater strategic range.
 SECTIONDESC_CRLongRangeFusion,More efficient use of the Fusion power plant gives Hiver ships an even better strategic range.
 SECTIONDESC_CRMineLayer,"A simple weapon, mines are deployed behind a moving minelayer, and can be used to break-up incoming fleets or protect vital targets. Scientists have no shortage of ideas for new mine payloads, but only time and research will tell if any of them are viable."
 SECTIONDESC_CRMining,"The resources of unpopulated planets can be mined and transported to another planet, where they can provide a boost in production and overall resources. As expected, these ore carriers are very slow."
-SECTIONDESC_CRNodePathingAntimatter,"This drive system works on the same system improvements as N-Pathing Fusion, but the use of the more powerful Antimatter power plant provides the best combination strategy speed and range found in any engine design."
+SECTIONDESC_CRNodePathingAntimatter,"This drive system works on the same system improvements as Pathed-Node Fusion, but the use of the more powerful Antimatter power plant provides the best combination strategy speed and range found in any engine design."
 SECTIONDESC_CRNodePathingFusion,"Node pathing drive systems not only increase the strategy range of ships, but improves the node jump calculations greatly, allowing ships to travel along node lines much faster."
 SECTIONDESC_CRPointDefence,"Designed specifically to provide large firing arcs to multiple point-defense turrets. Cruiser designs allow for Command and Engine sections with considerable fire-power, but these ships are best deployed to provide cover fire against targets other ships may not be equipped to defend against, such as missiles and mines."
 SECTIONDESC_CRPulsedFission,"By re-fusing drive plasma, these engines can produce extra maneuvering thrust that a Fission power plant cannot produce alone."
-SECTIONDESC_CRPulsedFocusNodeFission,"The same plasma re-fusing found in a Pulsed Fission engine, coupled with the improved Strategic range of the F-Node drive system."
+SECTIONDESC_CRPulsedFocusNodeFission,"The same plasma re-fusing found in a Pulsed Fission engine, coupled with the improved Strategic range of the Focused-Node drive system."
 SECTIONDESC_CRRamscoop,"By minimizing the bridge and installing a ramscoop structure, this section can gather stellar matter for additional fuel, doubling the strategic range of a ship."
 SECTIONDESC_CRRefinery,"Besides carrying a large supply of fuel for other ships, this section can be ordered to stop in-system and convert resources in the area to fuel, replenishing its supply. Carrying this supply of fuel as well as processing equipment makes this section extremely slow and vulnerable."
 SECTIONDESC_CRRepairandSalvage,"Each Repair and Salvage ship can undo a certain amount of damage to other ships, per turn."
-SECTIONDESC_CRShapedHyperFieldAntimatter,The use of an Antimatter power planet creates a greater increase in strategic range and speed than in Shaped Hyperfield Fusion designs.
+SECTIONDESC_CRShapedHyperFieldAntimatter,The use of an Antimatter power planet further improves strategic range and speed of Warp Drive designs.
 SECTIONDESC_CRShapedHyperFieldFusion,A refinement in hyper field projections create an increase in strategic range and speed.
 SECTIONDESC_CRShield,"A projector array produces a quantum field around the ship that blocks incomming weapons. This field can be overwhelmed by too much incoming energy, causing the shields to temporarily power-down. This happens to prevent a back surge to the engines, which would at a minimum result in the destruction of the engine section. It may be possible to improve the field through research."
 SECTIONDESC_CRProjector,The Projector section is a heavily reinforced mission section dedicated to the support and firing of the powerful line of energy projector weapons. 
@@ -2836,8 +2836,8 @@ SECTIONDESC_DEAIC,"By placing some ship systems under AI control, the ship enjoy
 SECTIONDESC_DEAbsorber,Absorber sections are equipped with a power transducer that uses energy weapons fire to recharge on-board weapons systems.
 SECTIONDESC_DEAntiMatter,"More efficient than Fusion or Fission drives, Antimatter engines provide the best strategic range and maneuvering speed."
 SECTIONDESC_DEAntiMatterWarp,"The ultimate hyper-drive design, improving the strategic and maneuvering speed of ships."
-SECTIONDESC_DEAntimatterFlickerWarp,The cycling computers in this drive section are so efficient in their control of stutter teleportation that it is possible for enemy fire to pass through the ship.
-SECTIONDESC_DEAntimatterImpSW,More efficient use of the Stutter drive allows for an increase in movement near gravity wells.
+SECTIONDESC_DEAntimatterFlickerWarp,The cycling computers in this drive section are so efficient in their control of flicker teleportation that it is possible for enemy fire to pass through the ship.
+SECTIONDESC_DEAntimatterImpSW,Using the new BlinkDrive allows for an increase in movement near gravity wells.
 SECTIONDESC_DEArmor,This section is designed with the single purpose of being thick-hulled and covered with a variety of weapon turrets.
 SECTIONDESC_DEAssaultShuttle,"Often a small attack shuttle can be more effective at assaulting an enemy world than a ship in orbit. However the shuttles cannot sustain much damage, and should be deployed carefully. While they are away, their carrier ships should also be careful, so that the shuttles can be picked up after their attack run. It may be possible to upgrade the basic engine systems through research."
 SECTIONDESC_DEBiowar,"Through research, a variety of biological agents can be developed for war, but only one system can deliver them onto an enemy world. Bio Missiles cannot sustain much damage, and should be deployed with care. Bio War sections can be re-armed between combat rounds. It may be possible to upgrade the basic engine systems through research."
@@ -2854,23 +2854,23 @@ SECTIONDESC_DEFocusNodeAntimatter,"Improvements to the focusing of the Node Driv
 SECTIONDESC_DEFocusNodeFission,"Improvements to the focusing of the Node Drive provide an improvement to the strategic range of ships, as well as some improvement in maneuvering speed."
 SECTIONDESC_DEFocusNodeFusion,"Improvements to the focusing of the Node Drive provide an improvement to the strategic range of ships, as well as some improvement in maneuvering speed. The use of a Fusion engine to power the Node Drive gives the ship a greater range than the F-Node Fission engines."
 SECTIONDESC_DEFusion,"A marked improvement over Fission drives, Fusion drives provide a greater strategic range and maneuvering speed."
-SECTIONDESC_DEFusionImpStutterWarp,The cycling computers in this drive section are so efficient in their control of stutter teleportation that it is possible for enemy fire to pass through the ship.
+SECTIONDESC_DEFusionImpStutterWarp,Using the new BlinkDrive allows for an increase in movement near gravity wells.
 SECTIONDESC_DEGate,"The Gate ships give the Hivers wings, allowing instant transport across the gate network. Each gate deployed increases the power of the network, allowing more ships to access the web at once. Deploying Gates takes time however, and must be kept safe for two turns before the brethren reinforcements can arrive."
 SECTIONDESC_DEHammerHead,"The addition of a T-section to the standard command design, this section can be outfitted with additional weapons. Outboard maneuvering jets provide a quick turning speed."
 SECTIONDESC_DEJammer,"Sophisticated electronic warfare systems allow Jammer ships to obfuscate themselves and nearby ships on enemy sensors in combat. As well, they can mask the composition and size of fleets traveling from system to system."
-SECTIONDESC_DELongRangeFission,More efficient use of the Fission power plant gives Hiver ships a greater strategic range.
+SECTIONDESC_DELongRangeFission,More efficient use of the Fission power plant combined with well timed pulses gives Hiver ships a greater strategic range.
 SECTIONDESC_DELongRangeFusion,More efficient use of the Fusion power plant gives Hiver ships an even better strategic range.
 SECTIONDESC_DEMineLayer,"A simple weapon, mines are deployed behind a moving minelayer, and can be used to break-up incoming fleets or protect vital targets. Scientists have no shortage of ideas for new mine payloads, but only time and research will tell if any of them are viable."
 SECTIONDESC_DENodeBore,"A specialized ship design to tear open holes in space time and tunnel through node space to create artificial node lines usable by Zuul vessels using their Rip drives. Artificial node lines are unstable and those created by this ship will last, on average, 35 years but may collapse sooner due to excessive usage. A fleet without a NodeBore ship will be destroyed if a line collapses on it."
 SECTIONDESC_DENodeMissile,"Simple, but effective, Node Missiles are unmanned missile systems outfitted with a one-time Node Drive collar, allowing them to travel from one system to another, where they can be targeting on planets or large targets."
-SECTIONDESC_DENodePathingAntimatter,"This engine works on the same system improvements as N-Pathing Fusion, but the use of the more powerful Antimatter power plant provides the best combination strategy speed and range found in any engine design."
+SECTIONDESC_DENodePathingAntimatter,"This engine works on the same system improvements as Pathed-Node Fusion, but the use of the more powerful Antimatter power plant provides the best combination strategy speed and range found in any engine design."
 SECTIONDESC_DENodePathingFusion,"Node pathing systems not only increase the strategy range of ships, but improves the node jump calculations greatly, allowing ships to travel along node lines much faster."
 SECTIONDESC_DEPointDefence,"Designed specifically to provide large firing arcs to multiple point-defense turrets, Point Defense ships aren't front-line combat vessels, but are critical support against an enemy with missile systems."
 SECTIONDESC_DEPulsedFission,"By re-fusing drive plasma, these engines can produce extra maneuvering thrust that a Fission power plant cannot produce alone."
-SECTIONDESC_DEPulsedFocusNodeFission,"The same plasma re-fusing found in a Pulsed Fission engine, coupled with the improved Strategic range of the F-Node drive system."
+SECTIONDESC_DEPulsedFocusNodeFission,"The same plasma re-fusing found in a Pulsed Fission engine, coupled with the improved Strategic range of the Focused-Node drive system."
 SECTIONDESC_DERamScoop,"By minimizing the bridge and installing a ramscoop structure, this section can gather stellar matter for additional fuel, doubling the strategic range of a ship."
 SECTIONDESC_DEShapedHyperFieldFusion,A refinement in hyper field projections create an increase in strategic range and speed.
-SECTIONDESC_DEShapedHyperfieldAntimatter,The use of an Antimatter power planet creates a greater increase in strategic range and speed than in Shaped Hyperfield Fusion designs.
+SECTIONDESC_DEShapedHyperfieldAntimatter,The use of an Antimatter power planet further improves strategic range and speed of Warp Drive designs.
 SECTIONDESC_DEShield,"A projector array produces a quantum field around the ship that blocks incomming weapons. This field can be overwhelmed by too much incoming energy, causing the shields to temporarily power-down. This happens to prevent a back surge to the engines, which would at a minimum result in the destruction of the engine section. It may be possible to improve the field through research."
 SECTIONDESC_DESpinalMount,"Destroyer class ships simply aren't big enough to be outfitted with heavy beam weapons, but by devoting an entire section, these ships can wield a single heavy beam weapon. There is a trade-off, as smaller, flexible weapon systems are exchanged for a single, devastating attack."
 SECTIONDESC_DESquadronCNC,"The organization and deployment of ships is a complex task. Squadron CnC ships increase the number of ships that can be deployed into combat at once. As well, they can organize a fleet into formations and alter the order in which reinforcement ships arrive. They are not combat vessels however, and should be kept well out of danger."
@@ -2884,8 +2884,8 @@ SECTIONDESC_DEFreighter,Star Freighters ply the trade routes between friendly st
 SECTIONDESC_DNAIC,"By placing some ship systems under AI control, the ship enjoys improved accuracy of all weapons, faster turret speed, and better thrust and turning speed."
 SECTIONDESC_DNAbsorber,Absorber sections are equipped with a power transducer that uses energy weapons fire to recharge on-board weapons systems.
 SECTIONDESC_DNAntimatter,"More efficient than Fusion or Fission drives, Antimatter engines provide the best strategic range and maneuvering speed."
-SECTIONDESC_DNAntimatterFlickerWarp,The cycling computers in this drive section are so efficient in their control of stutter teleportation that it is possible for some enemy fire to pass through the ship.
-SECTIONDESC_DNAntimatterImpSW,More efficient use of the Stutter drive allows for an increase in movement near gravity wells.
+SECTIONDESC_DNAntimatterFlickerWarp,The cycling computers in this drive section are so efficient in their control of flicker teleportation that it is possible for some enemy fire to pass through the ship.
+SECTIONDESC_DNAntimatterImpSW,Using the new BlinkDrive allows for an increase in movement near gravity wells.
 SECTIONDESC_DNAntimatterWarp,"The ultimate hyper-drive design, improving the strategic and maneuvering speed of ships."
 SECTIONDESC_DNArmadaCNC,"The pinnacle of Command and Control systems, these dreadnoughts can field the maximum number of ships into the field at once. Given their massive size, these ships are often used in combat and only shrink from overpowering opposition."
 SECTIONDESC_DNArmour,This section is designed with the single purpose of being thick-hulled and covered with a variety of weapon turrets.
@@ -2900,12 +2900,12 @@ SECTIONDESC_DNDeflector,A projector array diverts energy away from engines and u
 SECTIONDESC_DNFocusNodeAntimatter,"Improvements to the focusing of the Node Drive provide an improvement to the strategic range of ships, as well as some improvement in maneuvering speed. The Antimatter engines give ships the best range out of all F-Node equipped ships."
 SECTIONDESC_DNFocusNodeFusion,"Improvements to the focusing of the Node Drive provide an improvement to the strategic range of ships, as well as some improvement in maneuvering speed. The use of a Fusion engine to power the Node Drive gives the ship a greater range than the F-Node Fission engines."
 SECTIONDESC_DNFusion,"A marked improvement over Fission drives, Fusion drives provide a greater strategic range and maneuvering speed."
-SECTIONDESC_DNFusionImpSW,The cycling computers in this drive section are so efficient in their control of stutter teleportation that it is possible for enemy fire to pass through the ship.
-SECTIONDESC_DNFusionStutterwarp,The addition of a more powerful fusion power plant to the standard Stutter Warp improves the drives strategic range and speed.
+SECTIONDESC_DNFusionImpSW,Using the new BlinkDrive allows for an increase in movement near gravity wells.
+SECTIONDESC_DNFusionStutterwarp,The addition of a more powerful fusion power plant to the standard StutterDrive improves the drives strategic range and speed.
 SECTIONDESC_DNLongRangeFusion,More efficient use of the Fusion power plant gives Hiver ships an even better strategic range.
-SECTIONDESC_DNNodePathingAntimatter,"This engine works on the same system improvements as N-Pathing Fusion, but the use of the more powerful Antimatter power plant provides the best combination strategy speed and range found in any engine design."
+SECTIONDESC_DNNodePathingAntimatter,"This engine works on the same system improvements as Pathed-Node Fusion, but the use of the more powerful Antimatter power plant provides the best combination strategy speed and range found in any engine design."
 SECTIONDESC_DNNodePathingFusion,"Node pathing systems not only increase the strategy range of ships, but improves the node jump calculations greatly, allowing ships to travel along node lines much faster."
-SECTIONDESC_DNShapedHyperFieldAntimatterWarp,The use of an Antimatter power planet creates a greater increase in strategic range and speed than in Shaped Hyperfield Fusion designs.
+SECTIONDESC_DNShapedHyperFieldAntimatterWarp,The use of an Antimatter power planet further improves strategic range and speed of Warp Drive designs.
 SECTIONDESC_DNShapedHyperfieldFusion,A refinement in hyper field projections create an increase in strategic range and speed.
 SECTIONDESC_DNSiegeDriver,"This gigantic mass accelerator uses asteroids to cause massive damage to big ships and planets. Well armed, but slow moving, the ship operates best with support ships."
 SECTIONDESC_DNWar,"In response to the heavier calibre weapon systems found on Zuul incursion vessels, engineers have devised the War section to maintain parity. Based on the standard Armor section it employs fewer but larger turrets in order to bring heavier weapons to battle. The cost of these hasty modifications is a small reduction in durability, maneuverability and speed. In addition, war dreadnought sections have increased broadside fire abilities thanks to the instillations of side firing Heavy Beams."
@@ -4380,9 +4380,9 @@ TECHDESC_DRV_QntCap,The technology utilizes advanced quantum systems to store en
 TECHNAME_DRV_VdCtr,Void Cutter Drive
 TECHDESC_DRV_VdCtr,This FTL technology of the Morrigi race pulls their ships into FTL channels using focused gravity to infinitely curve space-time. This allows them to accelerate and maneuver sub-light as well without using vented reactor plasma. 
 TECHNAME_DRV_VdCrv,Void Carver Drive
-TECHDESC_DRV_VdCrv,This refinement of the Cutter Drive allows for greater range and speed.
+TECHDESC_DRV_VdCrv,This refinement of the Cutter Drive into Carver Drive allows for greater range and speed.
 TECHNAME_DRV_VdMstr,Void Mastery Drive
-TECHDESC_DRV_VdMstr,The ultimate refinement of the Cutter Drive allows for great range and speed.
+TECHDESC_DRV_VdMstr,The ultimate refinement of the Carver Drive allows for great range and speed.
 TECHNAME_DRV_GrvSyn,Grav Synergy
 TECHDESC_DRV_GrvSyn,This technology effectively doubles the number of Morrigi ships that count towards the flock efficiency bonus.
 TECHNAME_BIO_SmrtNan,Smart Nanites
@@ -4528,21 +4528,28 @@ WEAPON_COL_CRACKER_GRAV,Gravity Cracker COL
 WEAPON_COL_CRACKER_IMPLO,Implosion Cracker COL
 WEAPON_COL_CRACKER_LEAP,Leap Cracker COL
 WEAPON_BEM_PRJMESON,Meson Projector
+
+
+
+
 SECTIONNAME_DEpolice,Police Cutter
 SECTIONNAME_SpyAsteroid,Spy Craft
 SECTIONNAME_CRConstruction,Construction
-SECTIONNAME_DEFusion_Carver,Fusion Void Carver
-SECTIONNAME_DEAntimatter_Carver,AM Void Carver
-SECTIONNAME_DEAntimatter_Mastery,AM Void Mastery
+SECTIONNAME_DEFusion_Carver,Fusion V-Carver
+SECTIONNAME_DEAntimatter_Carver,Antimatter V-Carver
+SECTIONNAME_DEAntimatter_Mastery,Antimatter V-Mastery
 SECTIONNAME_DEGravboat,Gravboat
 SECTIONNAME_CRGravboat,Gravboat
-SECTIONNAME_CRGravboat ,Gravboat
-SECTIONNAME_DNFusion_Carver,Fusion Void Carver
-SECTIONNAME_DNAntimatter_Carver,AM Void Carver
-SECTIONNAME_DNAntimatter_Mastery,AM Void Mastery
-SECTIONNAME_CRAntimatter_Carver ,AM Void Carver
-SECTIONNAME_CRAntimatter_Mastery ,AM Void Mastery
-SECTIONNAME_CRFusion_Carver ,Fusion Void Carver
+SECTIONNAME_CRGravboat,Gravboat
+SECTIONNAME_DNFusion_Carver,Fusion V-Carver
+SECTIONNAME_DNAntimatter_Carver,Antimatter V-Carver
+SECTIONNAME_DNAntimatter_Mastery,Antimatter V-Mastery
+SECTIONNAME_CRAntimatter_Carver,Antimatter V-Carver
+SECTIONNAME_CRAntimatter_Mastery,Antimatter V-Mastery
+SECTIONNAME_CRFusion_Carver,Fusion V-Carver
+
+
+
 
 MESTR_ALLY_SURRENDERS,Alliance member %s surrendered.
 MESTR_ALLY_SURRENDERS_TO,Alliance member %s surrendered to enemy.
@@ -4575,10 +4582,12 @@ WEAPON_MIS_MIRV_WARHEAD,MW Warhead
 WEAPON_COL_FLOCK,Flock COL
 
 
+
+
 SECTIONNAME_DNDrone,Drone
-SECTIONNAME_CRFusion_Carver,Fusion Void Carver
-SECTIONNAME_CRAntimatter_Carver,AM Void Carver
-SECTIONNAME_CRAntimatter_Mastery,AM Void Mastery
+SECTIONNAME_CRFusion_Carver,Fusion V-Carver
+SECTIONNAME_CRAntimatter_Carver,Antimatter V-Carver
+SECTIONNAME_CRAntimatter_Mastery,Antimatter V-Mastery
 SECTIONNAME_DNStationCommand_Fore,Command Station
 SECTIONNAME_DNStationCommand_Aft,Command Station
 SECTIONNAME_DNStationRepair_Fore,Repair Station
@@ -4600,6 +4609,9 @@ SECTIONNAME_DNGravboat,Gravboat
 SECTIONNAME_CRCOL,Complex Ordinance Launcher
 SECTIONNAME_DNEW,Electronic Warfare
 SECTIONNAME_DNFlagship,Flagship CnC
+
+
+
 
 ALLIANCEMAN_INVITE_CEASEFIRE,Invite to Cease Fire
 ALLIANCEMAN_CANCEL_CEASEFIRE,Cancel Cease Fire
@@ -5379,7 +5391,7 @@ MESTR_SYSTEM_SURRENDERS,Surrendered to your empire.
 
 FLEETMOVE_STOP,Stop %s
 FLEETMOVE_CANCEL,Cancel
-EVENTMSG_FLEET_NOFUEL_WARP,It has dropped out of warp to establish communications.
+EVENTMSG_FLEET_NOFUEL_WARP,It has dropped back into normal space to establish communications.
 
 SCENARIO_GATHERING_EVENTSUM_ELIMINATED,Game Over
 SCENARIO_GATHERING_EVENTMSG_ELIMINATED,The last %s empire has been eliminated. How can there be true unity without all of the races of the galaxy?
@@ -5483,7 +5495,7 @@ TECHDESC_WEP_IntCan,"Deeper understanding of field physics allows the projection
 TECHDESC_WEP_HvyIntCan,A heavy barrel triple pulse version of the Inertial Cannon
 TECHDESC_WEP_KelTrp,Particle manipulation and field tech allows for this torpedo capable of draining a target of its molecular motion to the point of leaving it near absolute zero for a few moments. This not only causes surface stress damage to the hull of the target but also makes it more fragile and therefore it takes more damage from any kind of subsequent damage.
 TECHDESC_WEP_HvyPMsl,"A more robust and expensive version of the standard planetary defense missile. It packs a moderately larger warhead and travels somewhat slower but is much more heavily armored than the standard version. Once researched, planets can fire one Heavy Missile for every 200 million population, rounding up."
-TECHDESC_SLD_Focus,"This tech combines the shield projector with the Liirian flicker warp technology to literally project a single shield over multiple targets millions of times per second, making it appear as if each ship had its own complete shield. "
+TECHDESC_SLD_Focus,"This tech combines the shield projector with the Liirian FlickerDrive technology to literally project a single shield over multiple targets millions of times per second, making it appear as if each ship had its own complete shield. "
 TECHDESC_IND_AstMon,Advances in both asteroid mining and deep space construction allows for the hollowing out of large asteroids to recreate some of the power and function of the ancient Morrigi Asteroid monitors. Construction of new asteroid monitors requires a construction ship and the system in which they are being built MUST have an asteroid belt.
 TECHDESC_CCC_ScanSats,"Adaptations of deep scan technology allows for smaller, short range variants designed to provide limited tactical scan capability versus cloaked targets entering planetary bombardment range."
 TECHDESC_DRN_Sats,Engineering upgrades to standard defense satellite tech allows for the launching and re-arming of Drones from medium and large specialized platforms.
@@ -5508,8 +5520,8 @@ SECTIONNAME__Asteroid_Monitor,Neo-Monitor
 SECTIONNAME_CRDeepscanPlatform,Scanner Satellite
 SECTIONNAME_CRDronePlatform,Drone Satellite
 SECTIONNAME_DNDronePlatform,Drone Satellite
-SECTIONNAME__HunterShip_Fusion,Hunter-F
-SECTIONNAME__HunterShip_AntiMatter,Hunter-A
+SECTIONNAME__HunterShip_Fusion,Hunter-Fusion
+SECTIONNAME__HunterShip_AntiMatter,Hunter-Antimatter
 SECTIONNAME_DNCarrier,Carrier
 SECTIONNAME_DNSupport,Support
 SECTIONNAME_DNDevourer,Devourer
