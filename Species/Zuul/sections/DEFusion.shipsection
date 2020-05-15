@@ -16,7 +16,7 @@ shipsection
 
     nodespeed 6
     ftlspeed .5
-    range   24
+    range    24
 
     option  DRV_PlsmFoc
 
@@ -51,7 +51,7 @@ shipsection
         torque_roll         0
 
         speed               80
-        rotspeed            0
+        rotspeed            5
     }
 
     anim

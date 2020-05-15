@@ -14,10 +14,10 @@ shipsection
     cost    17000
     cpoints 2745
 
-    nodespeed 4
-    ftlspeed .2
-    range   14
-    crew    18
+    nodespeed 5
+    ftlspeed .4
+    range    14
+    crew     18
 
     option  DRV_RecFiss
 

@@ -14,10 +14,10 @@ shipsection
     cost    15000
     cpoints 2700
 
-    nodespeed 3
-    ftlspeed .2
-    range   14
-    crew    18
+    nodespeed 4
+    ftlspeed .3
+    range    14
+    crew     18
 
     shield_model_offset "0 5 0"
 
@@ -52,7 +52,7 @@ shipsection
         torque_pitch        0
         torque_roll         0
 
-        speed               60
+        speed               55
         rotspeed            -5
     }
 

@@ -14,15 +14,17 @@ shipsection
     cost    350000
     cpoints 12000
 
-    node_bore 1
+    node_bore  1
     autonomous 1    // actually means this is a ship with only a mission section
 
     nodespeed 4.0
-    ftlspeed .7
-    range   32
-    crew    60
+    ftlspeed  .5
+    range     28
+    crew      60
 
     preview_ofs "-10 0 0"
+
+    option  DRV_PlsmFoc
 
     option
     {
@@ -43,7 +45,7 @@ shipsection
     engine_idle_sound   Sounds/Ships/Shared/DEFusion_idle.wav
     engine_sound_minrange 85
 
-    section_sound   "Sounds/Ships/Zuul/zuul_tunnelers.wav"
+    section_sound           "Sounds/Ships/Zuul/zuul_tunnelers.wav"
     section_sound_repeat    2
 
     netforcelimits
@@ -56,8 +58,8 @@ shipsection
         torque_pitch        3.3e+8
         torque_roll         3.31e+8
 
-        speed               25
-        rotspeed            15
+        speed               45
+        rotspeed            25
     }
 
     bank

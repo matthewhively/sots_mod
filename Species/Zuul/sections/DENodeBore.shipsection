@@ -11,15 +11,17 @@ shipsection
     cost    120000
     cpoints 7750
 
-    node_bore 1
+    node_bore  1
     autonomous 1    // actually means this is a ship with only a mission section
 
-    nodespeed 1.55
-    ftlspeed .1
-    range   18
-    crew 10
+    nodespeed 2.5
+    ftlspeed  .3
+    range     18
+    crew      10
 
     preview_ofs "-10 0 0"
+
+    option  DRV_RecFiss
 
     option
     {
@@ -49,7 +51,7 @@ shipsection
         torque_pitch        1.2e+7
         torque_roll         1.2e+7
 
-        speed               30
+        speed               60
         rotspeed            45
     }
 
