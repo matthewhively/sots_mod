@@ -1,244 +1,231 @@
 shipsection
 {
-	model Species/Zuul/art/sections/DreadnoughtFusion.x
-	requires DRV_Fusn
-	socket_fore EngineNode
-	section_type engine
-	section_class dreadnought
-	engine_techera	fusion
-	health 9000
-	mass 45000
-	cost 200000
-	cpoints 8000
-	nodespeed 6
-	ftlspeed .5
-	range	24
-	crew	60
+    model Species/Zuul/art/sections/DreadnoughtFusion.x
 
-	option	DRV_PlsmFoc
-	
-	option
-	{
-		option 	IND_PlyAlloy
-		option	IND_MagLat
-		option	IND_QrkRes
-		option	IND_AdmAly
-		option	IND_StlthArm
-	}
+    requires DRV_Fusn
 
-	option 
-	{
-		option	IND_RefCoat
-		option	IND_ImpRfCt
-	}
-	
-	engine_sound		Sounds/Ships/Shared/DEFusion_thrust.wav
-	engine_idle_sound	Sounds/Ships/Shared/DEFusion_idle.wav
-	engine_sound_minrange 85
-	
-	
-	netforcelimits
-	{
-		force_forward			250000
-		force_right			250000
-		force_up			250000
-		
-		torque_yaw			0
-		torque_pitch			0
-		torque_roll			0
-		
-		speed				80
-		rotspeed			0
-	}
+    socket_fore     EngineNode
+    section_type    engine
+    section_class   dreadnought
+    engine_techera  fusion
 
+    health  9000
+    mass    45000
+    cost    200000
+    cpoints 8000
 
-	anim
-	{
-		name "Idle"
-		event "StartIdle"
-		start_frame "0 end"
-		speed_scale "0"
-		loop "1"
-	}
+    nodespeed 6
+    ftlspeed .5
+    range   24
+    crew    60
 
-	bank
-	{
-		turretclass standard
-		turretsize large
+    option  DRV_PlsmFoc
 
-		mount
-		{
-			node HeavyGunNode01
-			min_azimuth -90
-			max_azimuth 90
-			min_inclination -10
-			max_inclination 90
-		}
+    option
+    {
+        option  IND_PlyAlloy
+        option  IND_MagLat
+        option  IND_QrkRes
+        option  IND_AdmAly
+        option  IND_StlthArm
+    }
 
-		mount
-		{
-			node HeavyGunNode02
-			min_azimuth -90
-			max_azimuth 90
-			min_inclination -10
-			max_inclination 90
-		}
-	}
+    option
+    {
+        option  IND_RefCoat
+        option  IND_ImpRfCt
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize small
+    engine_sound        Sounds/Ships/Shared/DEFusion_thrust.wav
+    engine_idle_sound   Sounds/Ships/Shared/DEFusion_idle.wav
+    engine_sound_minrange 85
 
-		mount
-		{
-			node LightGunNode01
-			min_azimuth -160
-			max_azimuth 90
-			min_inclination -5
-			max_inclination 90
-		}
-	}
+    netforcelimits
+    {
+        force_forward       250000
+        force_right         250000
+        force_up            250000
 
-	bank
-	{
-		turretclass standard
-		turretsize small
+        torque_yaw          0
+        torque_pitch        0
+        torque_roll         0
 
-		mount
-		{
-			node LightGunNode02
-			min_azimuth -45
-			max_azimuth 150
-			min_inclination -5
-			max_inclination 90
-		}
-	}
+        speed               80
+        rotspeed            0
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize small
+    anim
+    {
+        name        "Idle"
+        event       "StartIdle"
+        start_frame "0 end"
+        speed_scale "0"
+        loop        "1"
+    }
 
-		mount
-		{
-			node LightGunNode03
-			min_azimuth -90
-			max_azimuth 90
-			min_inclination -5
-			max_inclination 90
-		}
-	}
+    bank
+    {
+        turretclass standard
+        turretsize large
 
-	thruster
-	{
-		node EngineThruster01
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
+        mount
+        {
+            node            HeavyGunNode01
+            min_azimuth     -90
+            max_azimuth     90
+            min_inclination -10
+            max_inclination 90
+        }
 
-	thruster
-	{
-		node EngineThruster02
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
+        mount
+        {
+            node            HeavyGunNode02
+            min_azimuth     -90
+            max_azimuth     90
+            min_inclination -10
+            max_inclination 90
+        }
+    }
 
-	thruster
-	{
-		node EngineThruster03
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
+    bank
+    {
+        turretclass standard
+        turretsize small
 
-	thruster
-	{
-		node EngineThruster04
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
+        mount
+        {
+            node            LightGunNode01
+            min_azimuth     -160
+            max_azimuth     90
+            min_inclination -5
+            max_inclination 90
+        }
+    }
 
-	thruster
-	{
-		node EngineThruster05
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
+    bank
+    {
+        turretclass standard
+        turretsize small
 
-	thruster
-	{
-		node EngineThruster06
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
+        mount
+        {
+            node            LightGunNode02
+            min_azimuth     -45
+            max_azimuth     150
+            min_inclination -5
+            max_inclination 90
+        }
+    }
 
-	thruster
-	{
-		node EngineThruster07
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
+    bank
+    {
+        turretclass standard
+        turretsize small
 
-	thruster
-	{
-		node EngineThruster08
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
+        mount
+        {
+            node            LightGunNode03
+            min_azimuth     -90
+            max_azimuth     90
+            min_inclination -5
+            max_inclination 90
+        }
+    }
 
-	thruster
-	{
-		node EngineThruster10
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
-
-	thruster
-	{
-		node EngineThruster11
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
-
-	thruster
-	{
-		node EngineThruster12
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
-	thruster
-	{
-		node EngineThruster13
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
-
-	thruster
-	{
-		node EngineThruster14
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
-
-	thruster
-	{
-		node EngineThruster15
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
-
-	thruster
-	{
-		node EngineThruster16
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
-
-	thruster
-	{
-		node EngineThruster17
-		effect effects/Engine_FusionC.effect
-		idle_effect effects/Engine_FusionIdleC.effect
-	}
-
-	}
+    thruster
+    {
+        node            EngineThruster01
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster02
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster03
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster04
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster05
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster06
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster07
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster08
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster10
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster11
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster12
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster13
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster14
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster15
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster16
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+    thruster
+    {
+        node            EngineThruster17
+        effect effects/Engine_FusionC.effect
+        idle_effect effects/Engine_FusionIdleC.effect
+    }
+}

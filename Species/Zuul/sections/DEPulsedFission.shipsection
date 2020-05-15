@@ -1,116 +1,115 @@
 shipsection
 {
-	model Species/Zuul/art/sections/DestroyerPulseFission.X
-	socket_fore EngineNode
-	section_type engine
-	section_class destroyer
-	engine_techera	fission
-	requires DRV_PlsFiss
-	health 450
-	mass 2550
-	cost 7000
-	cpoints	1380
-	nodespeed 4
-	ftlspeed .4
-	range	14
+    model Species/Zuul/art/sections/DestroyerPulseFission.X
 
-	option
-	{
-		option 	IND_PlyAlloy
-		option	IND_MagLat
-		option	IND_QrkRes
-		option	IND_AdmAly
-		option	IND_StlthArm
-	}
+    requires DRV_PlsFiss
 
+    socket_fore     EngineNode
+    section_type    engine
+    section_class   destroyer
+    engine_techera  fission
 
-	option 
-	{
-		option	IND_RefCoat
-		option	IND_ImpRfCt
-	}
-	option	DRV_RecFiss
-	
-	engine_sound		Sounds/Ships/Shared/DEFission_thrust.wav
-	engine_idle_sound	Sounds/Ships/Shared/DEFission_idle.wav
-	engine_sound_minrange 85
-	
-	
-	netforcelimits
-	{
-		force_forward			29000
-		force_right			27000
-		force_up			27000
-		
-		torque_yaw			0
-		torque_pitch			0
-		torque_roll			0
-		
-		speed				60
-		rotspeed			0
-	}
+    health  450
+    mass    2550
+    cost    7000
+    cpoints 1380
 
+    nodespeed 4
+    ftlspeed .4
+    range   14
 
-	thruster
-	{
-		node EngineThruster01
-		effect effects/Engine_FissionC.effect
-		idle_effect effects/Engine_FissionidleC.effect
-	}
-	
-	anim
-	{
-		name "Idle"
-		event "StartIdle"
-		start_frame "0 end"
-		speed_scale "0"
-		loop "1"
-	}	
+    option  DRV_RecFiss
 
+    option
+    {
+        option  IND_PlyAlloy
+        option  IND_MagLat
+        option  IND_QrkRes
+        option  IND_AdmAly
+        option  IND_StlthArm
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize small
-	
-		mount
-		{
-			node LightGunNode01
-			min_azimuth -1
-			max_azimuth 170
-			min_inclination -10
-			max_inclination 90
-		}
-	}	
+    option
+    {
+        option  IND_RefCoat
+        option  IND_ImpRfCt
+    }
 
+    engine_sound        Sounds/Ships/Shared/DEFission_thrust.wav
+    engine_idle_sound   Sounds/Ships/Shared/DEFission_idle.wav
+    engine_sound_minrange 85
 
-	bank
-	{
-		turretclass standard
-		turretsize small
-		mount
-		{
-			node LightGunNode02
-			min_azimuth -160
-			max_azimuth 160
-			min_inclination -12
-			max_inclination 90
-		}
-	}	
+    netforcelimits
+    {
+        force_forward       29000
+        force_right         27000
+        force_up            27000
 
+        torque_yaw          0
+        torque_pitch        0
+        torque_roll         0
 
-	bank
-	{
-		turretclass standard
-		turretsize small
-		mount
-		{
-			node LightGunNode03
-			min_azimuth -180
-			max_azimuth 180
-			min_inclination 0
-			max_inclination 90
-		}
-	}
+        speed               60
+        rotspeed            0
+    }
+
+    anim
+    {
+        name        "Idle"
+        event       "StartIdle"
+        start_frame "0 end"
+        speed_scale "0"
+        loop        "1"
+    }
+
+    bank
+    {
+        turretclass standard
+        turretsize small
+
+        mount
+        {
+            node            LightGunNode01
+            min_azimuth     -1
+            max_azimuth     170
+            min_inclination -10
+            max_inclination 90
+        }
+    }
+
+    bank
+    {
+        turretclass standard
+        turretsize small
+        mount
+        {
+            node            LightGunNode02
+            min_azimuth     -160
+            max_azimuth     160
+            min_inclination -12
+            max_inclination 90
+        }
+    }
+
+    bank
+    {
+        turretclass standard
+        turretsize small
+        mount
+        {
+            node            LightGunNode03
+            min_azimuth     -180
+            max_azimuth     180
+            min_inclination 0
+            max_inclination 90
+        }
+    }
+
+    thruster
+    {
+        node            EngineThruster01
+        effect effects/Engine_FissionC.effect
+        idle_effect effects/Engine_FissionidleC.effect
+    }
 }
 
