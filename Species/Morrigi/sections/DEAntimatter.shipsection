@@ -49,7 +49,7 @@ shipsection
         torque_roll         0
         
         speed               100
-        rotspeed            12
+        rotspeed            10
     }
 
     anim
