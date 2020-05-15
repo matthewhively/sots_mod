@@ -50,7 +50,7 @@ shipsection
         torque_pitch        0
         torque_roll         0
 
-        speed               85
+        speed               80
         rotspeed            10
     }
 

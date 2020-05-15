@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Human/art/sections/CruiserPulseFission.X
 
     requires DRV_PlsFiss
@@ -16,9 +16,9 @@ shipsection
     cost    25000
     cpoints 3015
 
-    nodespeed 4
+    nodespeed 5
     ftlspeed  .4
-    range     12
+    range     10
     crew      15
 
     option  DRV_RecFiss
@@ -32,7 +32,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt

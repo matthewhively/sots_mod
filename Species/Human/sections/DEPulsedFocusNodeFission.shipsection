@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Human/art/sections/DestroyerPulsedFocusNodeFission.X
 
     requires DRV_PlsFiss
@@ -17,8 +17,9 @@ shipsection
     cpoints 1490
 
     nodespeed 6
-    ftlspeed  .2
+    ftlspeed  .4
     range     16
+    crew      2
 
     option  DRV_RecFiss
 
@@ -31,7 +32,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -59,7 +60,7 @@ shipsection
     {
         turretclass standard
         turretsize  small
-    
+
         mount
         {
             node            LightGunNode15

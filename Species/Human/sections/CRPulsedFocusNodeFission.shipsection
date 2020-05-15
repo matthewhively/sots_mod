@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Human/art/sections/CruiserPulsedFocusNodeFission.X
 
     requires DRV_PlsFiss
@@ -17,7 +17,7 @@ shipsection
     cpoints 3330
 
     nodespeed 6
-    ftlspeed  .3
+    ftlspeed  .4
     range     16
     crew      16
 
@@ -32,7 +32,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -53,7 +53,7 @@ shipsection
         torque_roll         0
 
         speed               50
-        rotspeed            0
+        rotspeed            -5
     }
 
     bank

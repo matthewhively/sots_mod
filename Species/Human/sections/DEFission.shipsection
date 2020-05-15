@@ -17,8 +17,9 @@ shipsection
     cpoints 1380
 
     nodespeed 4
-    ftlspeed  .2
-    range     9
+    ftlspeed  .3
+    range     8
+    crew      2
 
     option  DRV_RecFiss
 
@@ -51,7 +52,7 @@ shipsection
         torque_pitch        0
         torque_roll         0
 
-        speed               40
+        speed               45
         rotspeed            -10
     }
 

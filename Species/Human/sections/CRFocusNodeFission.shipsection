@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Human/art/sections/CruiserFocusNodeFission.X
 
     requires DRV_Fissn
@@ -32,7 +32,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -52,8 +52,8 @@ shipsection
         torque_pitch        0
         torque_roll         0
 
-        speed               50
-        rotspeed            0
+        speed               40
+        rotspeed            -10
     }
 
     bank
