@@ -50,7 +50,7 @@ shipsection
         torque_roll         0
         
         speed               70
-        rotspeed            5
+        rotspeed            0
     }
 
     bank
