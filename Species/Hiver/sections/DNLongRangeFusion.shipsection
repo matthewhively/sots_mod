@@ -19,6 +19,8 @@ shipsection
     range     16
     crew      85
 
+    option  DRV_PlsmFoc
+
     option
     {
         option  IND_PlyAlloy
