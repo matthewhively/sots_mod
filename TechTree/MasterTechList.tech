@@ -2067,8 +2067,8 @@ tech
 {
 name        "DRV_NodFoc"
 threat      1
-allows      "DRV_NodPath    RP:150000   Human:90 Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
-allows      "WEP_NdMsl      RP:180000   Human:70 Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
+allows      "DRV_NodPath    RP:150000   Human:100 Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
+allows      "WEP_NdMsl      RP:180000   Human:70  Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
 strategy 
     { 
         inc TECHBEN_STRATSPD
@@ -2158,7 +2158,7 @@ tech
 {
 name        "DRV_VdMstr"
 threat      2
-allows      "DRV_GrvSyn RP:100000   Human:0 Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morrigi:100"
+allows      "DRV_GrvSyn RP:100000   Human:0 Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morrigi:80"
 requires    "DRV_AntiMat"
 strategy 
     { 
