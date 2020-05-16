@@ -1,82 +1,71 @@
 shipsection
 {
-	
-	model Species/Tarkas/art/sections/CruiserFireControl.X
-	requires IND_PredGun
-	socket_aft CommandNode
-	section_type command
-	section_class Cruiser
 
+    model Species/Tarkas/art/sections/CruiserFireControl.X
 
-	health 2200
-	mass 3600
-	cost 33000
-	cpoints 1800
-	crew	10
-	
-	option
-	{
-		option 	IND_PlyAlloy
-	}
+    requires IND_PredGun
 
-	option 
-	{
-		option	IND_RefCoat
-	}
-		
+    socket_aft    CommandNode
+    section_type  command
+    section_class Cruiser
 
-	netforcelimits
-	{
-		force_forward			0	
-		force_right			0
-		force_up			0	
-		
-		torque_yaw			2e+8
-		torque_pitch			2e+8
-		torque_roll			2e+8
-		
-		speed				0
-		rotspeed			40
-	}
-	
+    health  2200
+    mass    3600
+    cost    33000
+    cpoints 1800
+    crew    10
 
+    option
+    {
+        option  IND_PlyAlloy
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize medium
-		mount
-		{
-			node MediumGunNode01
+    option
+    {
+        option  IND_RefCoat
+    }
 
-			min_azimuth 0
-			max_azimuth 135
-			min_inclination -3
-			max_inclination 90
-		}
-	}
+    netforcelimits
+    {
+        force_forward       0
+        force_right         0
+        force_up            0
 
+        torque_yaw          2e+8
+        torque_pitch        2e+8
+        torque_roll         2e+8
 
-	bank
-	{
-		turretclass standard
-		turretsize medium
-		mount
-		{
-			node MediumGunNode02
-			min_azimuth -135
-			max_azimuth 0
-			min_inclination -3
-			max_inclination 90
-		}
+        speed               0
+        rotspeed            40
+    }
 
+    bank
+    {
+        turretclass standard
+        turretsize medium
 
-	}
+        mount
+        {
+            node            MediumGunNode01
+            min_azimuth     0
+            max_azimuth     135
+            min_inclination -3
+            max_inclination 90
+        }
+    }
 
+    bank
+    {
+        turretclass standard
+        turretsize medium
 
-
-	
-
-
-
+        mount
+        {
+            node            MediumGunNode02
+            min_azimuth     -135
+            max_azimuth     0
+            min_inclination -3
+            max_inclination 90
+        }
+    }
 }

@@ -1,46 +1,46 @@
 shipsection
 {
-	
-	model Species/Liir/art/sections/DestroyerFireControl.X
-	requires IND_PredGun
-	socket_aft CommandNode
-	section_type command
-	section_class destroyer
-	
-	health 500
-	cost 12000
-	cpoints	580
-	mass 900
 
-	option
-	{
-		option 	IND_PlyAlloy
-		option	IND_MagLat
-		option	IND_QrkRes
-		option	IND_AdmAly
-		option	IND_StlthArm
-	}
+    model Species/Liir/art/sections/DestroyerFireControl.X
 
-	option 
-	{
-		option	IND_RefCoat
-		option	IND_ImpRfCt
-	}
+    requires IND_PredGun
 
+    socket_aft     CommandNode
+    section_type   command
+    section_class  destroyer
 
-	netforcelimits
-	{
-		force_forward			0	
-		force_right			0
-		force_up			0	
-		
-		torque_yaw			9e+7
-		torque_pitch			9e+7
-		torque_roll			9e+7
-		
-		speed				0
-		rotspeed			40
-	}
+    health  500
+    cost    12000
+    cpoints 580
+    mass    900
 
+    option
+    {
+        option  IND_PlyAlloy
+        option  IND_MagLat
+        option  IND_QrkRes
+        option  IND_AdmAly
+        option  IND_StlthArm
+    }
+
+    option
+    {
+        option  IND_RefCoat
+        option  IND_ImpRfCt
+    }
+
+    netforcelimits
+    {
+        force_forward       0
+        force_right         0
+        force_up            0
+
+        torque_yaw          9e+7
+        torque_pitch        9e+7
+        torque_roll         9e+7
+
+        speed               0
+        rotspeed            40
+    }
 }
 
