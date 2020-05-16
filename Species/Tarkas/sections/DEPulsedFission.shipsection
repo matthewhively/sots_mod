@@ -12,7 +12,7 @@ shipsection
     engine_techera  fission
 
     health  400
-    mass    1500
+    mass    2050
     cost    10000
     cpoints 1580
 
