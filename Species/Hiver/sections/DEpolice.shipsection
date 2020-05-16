@@ -1,150 +1,143 @@
 shipsection
 {
-	
-	model Species/Hiver/art/sections/DestroyerPolice.X
-	section_type mission
-	section_class destroyer
-	preview_ofs "0 0 1"
 
-	requires DRV_Fusn
-	requires CCC_FTLEcon
+    model Species/Hiver/art/sections/DestroyerPolice.X
 
-	health 2500
-	mass 8000
-	cost 45000
-	cpoints	2620
-	
-	police 1
-	autonomous 1	// actually means this is a ship with only a mission section
-	ftlspeed .5
-	range	10
-	crew 0
-	preview_ofs "-8 -90 0"
+    requires DRV_Fusn
+    requires CCC_FTLEcon
 
-	netforcelimits
-	{
-		force_forward			65000
-		force_right			55000
-		force_up			55000
-		
-		torque_yaw			4e+8
-		torque_pitch			4e+8
-		torque_roll			4e+8
-		
-		speed				80
-		rotspeed			45
-	}
+    section_type  mission
+    section_class destroyer
+    preview_ofs "0 0 1"
 
+    health  2500
+    mass    8000
+    cost    45000
+    cpoints 2620
 
+    police 1
+    autonomous 1    // actually means this is a ship with only a mission section
 
-	bank
-	{
-		turretclass standard
-		turretsize small	
+    ftlspeed .5
+    range   10
+    crew 0
 
-		mount
-		{
-			node LightGunNode01
-			min_azimuth -120
-			max_azimuth 120
-			min_inclination -10
-			max_inclination 90
-		}
+    preview_ofs "-8 -90 0"
 
-	}
+    netforcelimits
+    {
+        force_forward       65000
+        force_right         55000
+        force_up            55000
 
+        torque_yaw          4e+8
+        torque_pitch        4e+8
+        torque_roll         4e+8
 
-	bank
-	{
-		turretclass standard
-		turretsize small
+        speed               80
+        rotspeed            45
+    }
 
-		mount
-		{
-			node LightGunNode02
-			min_azimuth -130
-			max_azimuth 130
-			min_inclination -10
-			max_inclination 90
-		}
-	}
+    bank
+    {
+        turretclass standard
+        turretsize small
 
-	bank
-	{
-		turretclass standard
-		turretsize medium	
+        mount
+        {
+            node            LightGunNode01
+            min_azimuth     -120
+            max_azimuth     120
+            min_inclination -10
+            max_inclination 90
+        }
+    }
 
-		mount
-		{
-			node MediumGunNode01
-			min_azimuth -180
-			max_azimuth 10
-			min_inclination -10
-			max_inclination 90
-		}
-	}
+    bank
+    {
+        turretclass standard
+        turretsize small
 
-	bank
-	{
-		turretclass standard
-		turretsize medium	
+        mount
+        {
+            node            LightGunNode02
+            min_azimuth     -130
+            max_azimuth     130
+            min_inclination -10
+            max_inclination 90
+        }
+    }
 
-		mount
-		{
-			node MediumGunNode02
-			min_azimuth -10
-			max_azimuth 180
-			min_inclination -10
-			max_inclination 90
-		}
-	}
+    bank
+    {
+        turretclass standard
+        turretsize medium
 
-	thruster
-	{
-		node EngineFXNode03
-		effect effects/Engine_FissionA.effect
-		idle_effect effects/Engine_Fissionidle.effect
-	}
-	
-	thruster
-	{
-		node EngineFXNode04
-		effect effects/Engine_FissionA.effect
-		idle_effect effects/Engine_Fissionidle.effect
-	}
-	
-	thruster
-	{
-		node EngineFXNode05
-		effect effects/Engine_FissionA.effect
-		idle_effect effects/Engine_Fissionidle.effect
-	}
-	
-	thruster
-	{
-		node EngineFXNode06
-		effect effects/Engine_FissionA.effect
-		idle_effect effects/Engine_Fissionidle.effect
-	}
-	
-	thruster
-	{
-		node EngineFXNode07
-		effect effects/Engine_FissionA.effect
-		idle_effect effects/Engine_Fissionidle.effect
-	}
-	
-	thruster
-	{
-		node EngineFXNode01
-		effect effects/Engine_FissionA.effect
-		idle_effect effects/Engine_Fissionidle.effect
-	}
-	
-	thruster
-	{
-		node EngineFXNode02
-		effect effects/Engine_FissionB.effect
-		idle_effect effects/Engine_Fissionidle.effect
-	}
+        mount
+        {
+            node            MediumGunNode01
+            min_azimuth     -180
+            max_azimuth     10
+            min_inclination -10
+            max_inclination 90
+        }
+    }
+
+    bank
+    {
+        turretclass standard
+        turretsize medium
+
+        mount
+        {
+            node            MediumGunNode02
+            min_azimuth     -10
+            max_azimuth     180
+            min_inclination -10
+            max_inclination 90
+        }
+    }
+
+    thruster
+    {
+        node            EngineFXNode03
+        effect effects/Engine_FissionA.effect
+        idle_effect effects/Engine_Fissionidle.effect
+    }
+    thruster
+    {
+        node            EngineFXNode04
+        effect effects/Engine_FissionA.effect
+        idle_effect effects/Engine_Fissionidle.effect
+    }
+    thruster
+    {
+        node            EngineFXNode05
+        effect effects/Engine_FissionA.effect
+        idle_effect effects/Engine_Fissionidle.effect
+    }
+    thruster
+    {
+        node            EngineFXNode06
+        effect effects/Engine_FissionA.effect
+        idle_effect effects/Engine_Fissionidle.effect
+    }
+    thruster
+    {
+        node            EngineFXNode07
+        effect effects/Engine_FissionA.effect
+        idle_effect effects/Engine_Fissionidle.effect
+    }
+    thruster
+    {
+        node            EngineFXNode01
+        effect effects/Engine_FissionA.effect
+        idle_effect effects/Engine_Fissionidle.effect
+    }
+    thruster
+    {
+        node            EngineFXNode02
+        effect effects/Engine_FissionB.effect
+        idle_effect effects/Engine_Fissionidle.effect
+    }
 }

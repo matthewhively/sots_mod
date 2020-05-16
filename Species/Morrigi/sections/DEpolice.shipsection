@@ -1,124 +1,122 @@
 shipsection
 {
-	
-	model Species/Morrigi/art/sections/DestroyerPolice.X
-	section_type mission
-	section_class destroyer
-	preview_ofs "0 0 1"
 
-	requires DRV_Fusn
-	requires DRV_VdCtr
-	requires CCC_FTLEcon
+    model Species/Morrigi/art/sections/DestroyerPolice.X
 
-	health 2100
-	mass 6000
-	cost 44000
-	cpoints	1600
-	
-	police 1
-	autonomous 1	// actually means this is a ship with only a mission section
-	ftlspeed 2
-	range	12
-	crew 0
-	preview_ofs "-30 -200 0"
+    requires DRV_Fusn
+    requires DRV_VdCtr
+    requires CCC_FTLEcon
 
-	netforcelimits
-	{
-		force_forward			95000
-		force_right			65000
-		force_up			65000
-		
-		torque_yaw			5e+8
-		torque_pitch			5e+8
-		torque_roll			5e+8
-		
-		speed				90
-		rotspeed			55
-	}
+    section_type  mission
+    section_class destroyer
 
-	anim
-	{
-		name "combatready"
-		event "CombatReady"
-		start_frame "0"
-		speed_scale "2"
-		loop "1"
-	}
+    health  2100
+    mass    6000
+    cost    44000
+    cpoints 1600
 
-	anim
-	{
-		name "combatready"
-		event "CombatRest"
-		start_frame "end"
-		speed_scale "-2"
-		loop "1"
-	}
+    police 1
+    autonomous 1    // actually means this is a ship with only a mission section
 
+    ftlspeed 2
+    range    12
+    crew     0
 
-	bank
-	{
-		turretclass standard
-		turretsize small	
+    preview_ofs "-30 -200 0"
 
-		mount
-		{
-			node LightGunNode01
-			min_azimuth -160
-			max_azimuth 160
-			min_inclination -12
-			max_inclination 90
-			home_inclination 0
-		}
+    netforcelimits
+    {
+        force_forward       95000
+        force_right         65000
+        force_up            65000
 
-	}
+        torque_yaw          5e+8
+        torque_pitch        5e+8
+        torque_roll         5e+8
 
+        speed               90
+        rotspeed            55
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize small
+    anim
+    {
+        name        "combatready"
+        event       "CombatReady"
+        start_frame "0"
+        speed_scale "2"
+        loop        "1"
+    }
 
-		mount
-		{
-			node LightGunNode02
-			min_azimuth -160
-			max_azimuth 160
-			min_inclination -12
-			max_inclination 90
-			home_inclination 0
-		}
-	}
+    anim
+    {
+        name        "combatready"
+        event       "CombatRest"
+        start_frame "end"
+        speed_scale "-2"
+        loop        "1"
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize medium	
+    bank
+    {
+        turretclass standard
+        turretsize small
 
-		mount
-		{
-			node MediumGunNode01
-			min_azimuth -2
-			max_azimuth 150
-			min_inclination -12
-			max_inclination 90
-			home_inclination 0
-		}
-	}
+        mount
+        {
+            node            LightGunNode01
+            min_azimuth     -160
+            max_azimuth     160
+            min_inclination -12
+            max_inclination 90
+            home_inclination 0
+        }
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize medium	
+    bank
+    {
+        turretclass standard
+        turretsize small
 
-		mount
-		{
-			node MediumGunNode02
-			min_azimuth -150
-			max_azimuth 2
-			min_inclination -12
-			max_inclination 90
-			home_inclination 0
-		}
-	}
+        mount
+        {
+            node            LightGunNode02
+            min_azimuth     -160
+            max_azimuth     160
+            min_inclination -12
+            max_inclination 90
+            home_inclination 0
+        }
+    }
 
+    bank
+    {
+        turretclass standard
+        turretsize medium
+
+        mount
+        {
+            node            MediumGunNode01
+            min_azimuth     -2
+            max_azimuth     150
+            min_inclination -12
+            max_inclination 90
+            home_inclination 0
+        }
+    }
+
+    bank
+    {
+        turretclass standard
+        turretsize medium
+
+        mount
+        {
+            node            MediumGunNode02
+            min_azimuth     -150
+            max_azimuth     2
+            min_inclination -12
+            max_inclination 90
+            home_inclination 0
+        }
+    }
 }
