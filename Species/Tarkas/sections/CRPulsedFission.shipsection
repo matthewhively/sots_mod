@@ -17,8 +17,10 @@ shipsection
     cpoints 3150
 
     ftlspeed 2.0
-    range    6
+    range    5
     crew     20
+
+    option  DRV_RecFiss
 
     option
     {
@@ -35,8 +37,6 @@ shipsection
         option  IND_ImpRfCt
     }
 
-    option  DRV_RecFiss
-
     engine_sound        Sounds/Ships/Shared/DEPulseFission_thrust.wav
     engine_idle_sound   Sounds/Ships/Shared/DEPulseFission_idle.wav
     engine_sound_minrange 85
@@ -51,7 +51,7 @@ shipsection
         torque_pitch        0
         torque_roll         0
 
-        speed               60
+        speed               55
         rotspeed            0
     }
 

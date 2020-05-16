@@ -17,7 +17,7 @@ shipsection
     cpoints 3060
 
     ftlspeed 2.0
-    range    4
+    range    5
     crew     20
 
     option  DRV_RecFiss
@@ -52,7 +52,7 @@ shipsection
         torque_roll         0
 
         speed               50
-        rotspeed            0
+        rotspeed            -5
     }
 
     bank

@@ -48,8 +48,8 @@ shipsection
         torque_pitch        0
         torque_roll         0
 
-        speed               95
-        rotspeed            0
+        speed               90
+        rotspeed            20
     }
 
     bank

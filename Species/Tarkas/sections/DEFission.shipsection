@@ -17,7 +17,7 @@ shipsection
     cpoints 1490
 
     ftlspeed 2.0
-    range    4
+    range    5
 
     option  DRV_RecFiss
 

@@ -17,7 +17,7 @@ shipsection
     cpoints 2070
 
     ftlspeed 12
-    range    20
+    range    18
     crew     30
 
     option
@@ -50,7 +50,7 @@ shipsection
         torque_roll         0
 
         speed               90
-        rotspeed            15
+        rotspeed            10
     }
 
     bank
