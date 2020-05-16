@@ -30,6 +30,14 @@ shipsection
     {
         option  IND_PlyAlloy
         option  IND_MagLat
+        option  IND_QrkRes
+        option  IND_AdmAly
+    }
+
+    option
+    {
+        option  IND_RefCoat
+        option  IND_ImpRfCt
     }
 
     netforcelimits
