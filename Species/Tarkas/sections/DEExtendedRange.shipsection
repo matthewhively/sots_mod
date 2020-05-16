@@ -15,12 +15,12 @@ shipsection
 
     //Fission
     // 16 + 4 = 20
-    // (3 + 4) * 3 = 21
+    // (2 + 5) * 3 = 21
     //AM
     // 16 + 18 = 34
-    // (3 + 18) * 3 = 63
+    // (2 + 18) * 3 = 60
     refueling_capacity  3
-    range   3
+    range   2
 
     preview_ofs "-4 0 3"
 

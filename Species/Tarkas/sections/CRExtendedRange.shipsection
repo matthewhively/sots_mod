@@ -22,12 +22,12 @@ shipsection
 
     //Fission
     // 22 + 4 = 28
-    // (3 + 4) * 4 = 28
+    // (2 + 5) * 4 = 28
     //AM
     // 22 + 18 = 40
-    // (3 + 18) * 4 = 84
+    // (2 + 18) * 4 = 80
     refueling_capacity  4  // CR gets +1
-    range   3
+    range   2
     crew    20
 
     option
