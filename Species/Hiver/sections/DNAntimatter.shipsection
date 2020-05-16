@@ -11,7 +11,7 @@ shipsection
     engine_techera  antimatter
 
     health  14000
-    mass    70000
+    mass    60000
     cost    300000
     cpoints 6000
 
