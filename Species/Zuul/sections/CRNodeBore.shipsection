@@ -10,7 +10,7 @@ shipsection
     engine_techera  fusion
 
     health  12500
-    mass    24000
+    mass    55000
     cost    350000
     cpoints 12000
 
