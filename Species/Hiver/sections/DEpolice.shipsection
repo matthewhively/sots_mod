@@ -8,7 +8,6 @@ shipsection
 
     section_type  mission
     section_class destroyer
-    preview_ofs "0 0 1"
 
     health  2500
     mass    8000
@@ -18,11 +17,21 @@ shipsection
     police 1
     autonomous 1    // actually means this is a ship with only a mission section
 
-    ftlspeed .5
-    range   10
-    crew 0
+    ftlspeed .75
+    range     12
+    crew      0
 
     preview_ofs "-8 -90 0"
+
+    option
+    {
+        option  IND_PlyAlloy
+    }
+
+    option 
+    {
+        option  IND_RefCoat
+    }
 
     netforcelimits
     {

@@ -19,10 +19,20 @@ shipsection
     autonomous 1    // actually means this is a ship with only a mission section
 
     ftlspeed 2
-    range    12
+    range    14
     crew     0
 
     preview_ofs "-30 -200 0"
+
+    option
+    {
+        option  IND_PlyAlloy
+    }
+
+    option 
+    {
+        option  IND_RefCoat
+    }
 
     netforcelimits
     {

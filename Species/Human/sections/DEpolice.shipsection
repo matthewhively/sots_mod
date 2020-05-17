@@ -19,11 +19,21 @@ shipsection
     autonomous 1    // actually means this is a ship with only a mission section
 
     ftlspeed  .5
-    nodespeed 4
-    range     15
+    nodespeed 5
+    range     18
     crew      0
 
     preview_ofs "-10 -200 0"
+
+    option
+    {
+        option  IND_PlyAlloy
+    }
+
+    option 
+    {
+        option  IND_RefCoat
+    }
 
     netforcelimits
     {
