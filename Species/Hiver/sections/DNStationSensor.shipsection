@@ -36,6 +36,18 @@ shipsection
     section_lod_type 1  // 1 for guns visible further, 0 for regular distance
     view_dist 12000
 
+    option
+    {
+        option  IND_PlyAlloy
+        option  IND_MagLat
+        option  IND_QrkRes
+    }
+
+    option 
+    {
+        option  IND_RefCoat
+    }
+
     netforcelimits
     {
         force_forward       1e+9
