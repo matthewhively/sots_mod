@@ -19,7 +19,8 @@ shipsection
     //AM
     // 16 + 18 = 34
     // (2 + 18) * 3 = 60
-    refueling_capacity  3
+    // E.G. number of extra fuel tanks
+    refueling_capacity  2
     range   2
 
     preview_ofs "-4 0 3"

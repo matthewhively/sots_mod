@@ -19,7 +19,8 @@ shipsection
     //AM
     // 20 + 21 = 41
     // (2 + 21) * 4 = 92
-    refueling_capacity  4  // CR gets +1
+    // E.G. number of extra fuel tanks
+    refueling_capacity  3  // CR gets +1
     range   2
     crew    20
 

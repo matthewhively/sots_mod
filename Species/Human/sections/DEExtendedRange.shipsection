@@ -19,7 +19,8 @@ shipsection
     // 18 + 32 = 50
     // (4 + 32) * 2 = 72
     // Scaling factor is lower because its important to have increased node length range
-    refueling_capacity  2
+    // E.G. number of extra fuel tanks
+    refueling_capacity  1
     range   4
 
     preview_ofs "-.5 0 1.7"
