@@ -555,12 +555,10 @@ name        "IND_HrdStrct"
 threat      2
 type        P
 requires    "IND_QrkRes"
-/*
-strategy 
-    { 
-        dec TECHBEN_INDOUTPUT
-    }
-*/
+//strategy
+//    {
+//        dec TECHBEN_INDOUTPUT
+//    }
 }
 
 
@@ -2468,23 +2466,23 @@ threat      1
 allows      "BIO_UniAnti        RP:90000    Human:15 Zuul:0 Hiver:15 Tarkas:15 Liir:40 Morrigi:30"
 }
 
-/*
-tech
-{
-name        "BIO_AsPlg"
-group       BIOMISSILE
-threat      1   
-allows      "BIO_AsPlgVac       RP:50000    Human:35 Zuul:0 Hiver:35 Tarkas:45 Liir:70 Morrigi:50"
-}
+
+//tech
+//{
+//name        "BIO_AsPlg"
+//group       BIOMISSILE
+//threat      1   
+//allows      "BIO_AsPlgVac       RP:50000    Human:35 Zuul:0 Hiver:35 Tarkas:45 Liir:70 Morrigi:50"
+//}
 
 
-tech
-{
-name        "BIO_AsPlgVac"
-threat      1
-allows      "BIO_UniAnti        RP:70000    Human:25 Zuul:0 Hiver:25 Tarkas:35 Liir:70 Morrigi:40"
-}
-*/
+//tech
+//{
+//name        "BIO_AsPlgVac"
+//threat      1
+//allows      "BIO_UniAnti        RP:70000    Human:25 Zuul:0 Hiver:25 Tarkas:35 Liir:70 Morrigi:40"
+//}
+
 
 tech
 {
@@ -2885,14 +2883,14 @@ group       SHIELDS
 OPTION_COST 2.5
 }
 
-/*
-tech
-{
-name        "SLD_Intang"
-OPTION_COST 2.0
-requires    "SLD_Clk"
-}
-*/
+
+//tech
+//{
+//name        "SLD_Intang"
+//OPTION_COST 2.0
+//requires    "SLD_Clk"
+//}
+
 
 tech
 {
