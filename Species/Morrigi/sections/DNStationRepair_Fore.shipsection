@@ -1,0 +1,40 @@
+shipsection
+{
+	
+	model Species/Morrigi/art/sections/DNStationRepair_Fore.x
+	dam_model Species/Morrigi/art/sections_dam/DNStationRepair_Fore.x
+	section_type Command
+	section_class dreadnought
+	socket_Aft Fore
+	dam_socket_aft Fore
+
+	requires "IND_DSCon"
+
+	explicit_section true
+
+	health 8000
+	mass 100000
+	cost 500000
+	cpoints 21000
+	crew	100
+	entity_class "Station"
+	design_class station
+	
+	preview_ofs "-23 -40 9"
+
+	netforcelimits
+	{
+		force_forward			0
+		force_right			0
+		force_up			0
+		
+		torque_yaw			0
+		torque_pitch			0
+		torque_roll			0
+		
+		speed				0
+		rotspeed			0
+	}
+
+}
+
