@@ -1,49 +1,52 @@
 shipsection
 {
-	
-	model Species/Tarkas/art/sections/DNStationTrade.X
-	dam_model Species/Tarkas/art/sections_dam/DNStationTrade.X
-	section_type mission
-	section_class dreadnought
-	socket_aft Engine
-	socket_fore Command
-	dam_socket_aft Engine
-	dam_socket_fore Command
 
-	requires "IND_OrbCom"
-	requires "CCC_FTLEcon"
+    model     Species/Tarkas/art/sections/DNStationTrade.X
+    dam_model Species/Tarkas/art/sections_dam/DNStationTrade.X
 
-	health 5000
-	mass 100000
-	cost 700000
-	cpoints 14500
-	crew	100
-	entity_class "Station"
-	design_class station
-	station trade
-	tradingpost 1
-	
-	explicit_command_section "DNStationTrade_Fore"
-	explicit_engine_section "DNStationTrade_Aft"
-	
-	preview_ofs "-23 -440 9"
+    requires "IND_OrbCom"
+    requires "CCC_FTLEcon"
 
-	section_lod_type 1	// 1 for guns visible further, 0 for regular distance
-	view_dist 12000
+    section_type  mission
+    section_class dreadnought
+    entity_class  "Station"
+    design_class  station
 
-	netforcelimits
-	{
-		force_forward			1e+9
-		force_right			1e+9
-		force_up			1e+9
-		
-		torque_yaw			1e+9
-		torque_pitch			1e+9
-		torque_roll			1e+9
-		
-		speed				30
-		rotspeed			6
-	}
+    socket_aft      Engine
+    socket_fore     Command
+    dam_socket_aft  Engine
+    dam_socket_fore Command
+
+    health  5000
+    mass    100000
+    cost    700000
+    cpoints 14500
+    crew    100
+
+    station trade
+    tradingpost 1
+
+    explicit_command_section "DNStationTrade_Fore"
+    explicit_engine_section  "DNStationTrade_Aft"
+
+    preview_ofs "-23 -440 9"
+
+    section_lod_type 1  // 1 for guns visible further, 0 for regular distance
+    view_dist 12000
+
+    netforcelimits
+    {
+        force_forward       1e+9
+        force_right         1e+9
+        force_up            1e+9
+
+        torque_yaw          1e+9
+        torque_pitch        1e+9
+        torque_roll         1e+9
+
+        speed               30
+        rotspeed            6
+    }
 
 }
 
