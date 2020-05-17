@@ -24,6 +24,18 @@ shipsection
 
     preview_ofs "-23 -40 9"
 
+    option
+    {
+        option  IND_PlyAlloy
+        option  IND_MagLat
+    }
+
+    option 
+    {
+        option  IND_RefCoat
+        option  IND_ImpRfCt
+    }
+
     netforcelimits
     {
         force_forward       0
