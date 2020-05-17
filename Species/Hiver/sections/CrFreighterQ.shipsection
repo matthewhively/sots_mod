@@ -1,25 +1,27 @@
 shipsection
 {
-    
+
     model         Species/Hiver/art/sections/CrfreighterQ.X
-    section_type  mission
-    section_class cruiser
-    preview_ofs   "0 0 1"
-    
+
     requires IND_ModCon
     requires DRV_Fissn
     requires CCC_FTLEcon
+
+    section_type  mission
+    section_class cruiser
 
     health  9500
     mass    25000
     cost    1000000  // 5x
     cpoints 26100    // 2x
-    
+
     freighterQ  1
     autonomous  1    // actually means this is a ship with only a mission section
+
     ftlspeed    .5
-    range       8
+    range       12
     crew        0
+
     preview_ofs "-30 -270 0"
 
     netforcelimits
@@ -27,11 +29,11 @@ shipsection
         force_forward       250000
         force_right         250000
         force_up            250000
-        
+
         torque_yaw          4e+8
         torque_pitch        4e+8
         torque_roll         4e+8
-        
+
         speed               55
         rotspeed            60
     }
@@ -54,12 +56,10 @@ shipsection
         loop        "1"
     }
 
-
-    
     bank
     {
         turretclass standard
-        turretsize  small    
+        turretsize  small
 
         mount
         {
@@ -69,9 +69,7 @@ shipsection
             min_inclination -10
             max_inclination 90
         }
-
     }
-
 
     bank
     {
@@ -88,11 +86,10 @@ shipsection
         }
     }
 
-
     bank
     {
         turretclass standard
-        turretsize  medium    
+        turretsize  medium
 
         mount
         {
@@ -107,7 +104,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  medium    
+        turretsize  medium
 
         mount
         {
@@ -119,11 +116,10 @@ shipsection
         }
     }
 
-
     bank
     {
         turretclass standard
-        turretsize  medium    
+        turretsize  medium
 
         mount
         {
@@ -147,7 +143,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  medium    
+        turretsize  medium
 
         mount
         {
@@ -157,7 +153,6 @@ shipsection
             min_inclination -10
             max_inclination 90
         }
-    
 
         mount
         {
@@ -171,7 +166,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  medium    
+        turretsize  medium
 
         mount
         {
@@ -186,7 +181,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  medium    
+        turretsize  medium
 
         mount
         {
@@ -200,7 +195,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  medium    
+        turretsize  medium
 
         mount
         {
@@ -210,7 +205,6 @@ shipsection
             min_inclination -10
             max_inclination 90
         }
-    
 
         mount
         {
@@ -224,7 +218,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  medium    
+        turretsize  medium
 
         mount
         {
@@ -234,7 +228,6 @@ shipsection
             min_inclination -10
             max_inclination 90
         }
-    
 
         mount
         {
@@ -245,7 +238,6 @@ shipsection
             max_inclination 90
         }
     }
-
 
     thruster
     {

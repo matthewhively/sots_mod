@@ -1,38 +1,40 @@
 shipsection
 {
-    
+
     model         Species/Tarkas/art/sections/CrfreighterQ.X
-    section_type  mission
-    section_class cruiser
-    preview_ofs   "0 0 1"
 
     requires DRV_Fissn
     requires DRV_Hyper
     requires IND_ModCon
 
+    section_type  mission
+    section_class cruiser
+
     health  8000
     mass    16500
     cost    875000  // 5x
     cpoints 26400   // x2
-    
+
     freighterQ  1
     autonomous  1    // actually means this is a ship with only a mission section
+
     ftlspeed    2.0
-    range       8
+    range       12
     crew        16
+
     preview_ofs "-30 -270 0"
 
     netforcelimits
     {
-    
+
         force_forward       80000
         force_right         80000
         force_up            80000
-        
+
         torque_yaw          4.5e+8
         torque_pitch        4.5e+8
         torque_roll         4.5e+8
-        
+
         speed               50
         rotspeed            45
     }
@@ -58,7 +60,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  small    
+        turretsize  small
 
         mount
         {
@@ -68,7 +70,6 @@ shipsection
             min_inclination -10
             max_inclination 90
         }
-
     }
 
     bank
@@ -89,7 +90,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  medium    
+        turretsize  medium
 
         mount
         {
@@ -118,11 +119,11 @@ shipsection
             max_inclination 90
         }
     }
-    
+
     bank
     {
         turretclass standard
-        turretsize  medium    
+        turretsize  medium
 
         mount
         {
@@ -155,7 +156,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  medium    
+        turretsize  medium
 
         mount
         {
@@ -188,7 +189,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  medium    
+        turretsize  medium
 
         mount
         {
@@ -198,7 +199,7 @@ shipsection
             min_inclination -10
             max_inclination 90
         }
-    
+
         mount
         {
             node            MediumGunNode11
@@ -207,7 +208,7 @@ shipsection
             min_inclination -10
             max_inclination 90
         }
-    
+
         mount
         {
             node            MediumGunNode12

@@ -1,26 +1,28 @@
 shipsection
 {
-    
+
     model         Species/Morrigi/art/sections/CrfreighterQ.X
-    section_type  mission
-    section_class cruiser
-    preview_ofs   "0 0 1"
 
     requires DRV_Fissn
     requires DRV_VdCtr
     requires IND_ModCon
     requires CCC_FTLEcon
 
+    section_type  mission
+    section_class cruiser
+
     health  8500
     mass    16000
     cost    940000  // 5x
     cpoints 30600   // x2
-    
+
     freighterQ  1
     autonomous  1    // actually means this is a ship with only a mission section
-    ftlspeed    3
-    range       15
+
+    ftlspeed    2
+    range       12
     crew        0
+
     preview_ofs "-70 -250 0"
 
     anim
@@ -46,11 +48,11 @@ shipsection
         force_forward       250000
         force_right         250000
         force_up            250000
-        
+
         torque_yaw          4e+8
         torque_pitch        4e+8
         torque_roll         4e+8
-        
+
         speed               65
         rotspeed            60
     }
@@ -58,7 +60,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  small    
+        turretsize  small
 
         mount
         {
@@ -69,7 +71,6 @@ shipsection
             max_inclination  90
             home_inclination 0
         }
-
     }
 
     bank
@@ -86,7 +87,6 @@ shipsection
             max_inclination  90
             home_inclination 0
         }
-
     }
 
     bank
@@ -134,7 +134,7 @@ shipsection
             max_inclination  90
             home_inclination 0
         }
-    
+
         mount
         {
             node             MediumGunNode06
@@ -159,7 +159,7 @@ shipsection
             max_inclination  90
             home_inclination 0
         }
-    
+
         mount
         {
             node             MediumGunNode08
@@ -184,7 +184,7 @@ shipsection
             max_inclination  90
             home_inclination 0
         }
-    
+
         mount
         {
             node             MediumGunNode10
@@ -209,7 +209,7 @@ shipsection
             max_inclination  90
             home_inclination 0
         }
-    
+
         mount
         {
             node             MediumGunNode04
@@ -220,6 +220,5 @@ shipsection
             home_inclination 0
         }
     }
-
 
 }
