@@ -1,41 +1,44 @@
 shipsection
 {
-	
-	model Species/Morrigi/art/sections/DNStationHabitat_Fore.x
-	dam_model Species/Morrigi/art/sections_dam/DNStationHabitat_Fore.x
-	section_type Command
-	section_class dreadnought
-	socket_Aft Fore
-	dam_socket_aft Fore
 
-	requires "IND_DSCon"
+    model     Species/Morrigi/art/sections/DNStationHabitat_Fore.x
+    dam_model Species/Morrigi/art/sections_dam/DNStationHabitat_Fore.x
 
-	explicit_section true
+    requires "IND_DSCon"
 
-	health 6000
-	mass 100000
-	cost 800000
-	cpoints 18000
-	crew	50
-	entity_class "Station"
-	design_class station
-	station habitat
-	
-	preview_ofs "-23 -40 9"
+    section_type  Command
+    section_class dreadnought
+    entity_class  "Station"
+    design_class  station
 
-	netforcelimits
-	{
-		force_forward			0
-		force_right			0
-		force_up			0
-		
-		torque_yaw			0
-		torque_pitch			0
-		torque_roll			0
-		
-		speed				0
-		rotspeed			0
-	}
+    socket_aft      Fore
+    dam_socket_aft  Fore
+
+    explicit_section true
+
+    health  6000
+    mass    100000
+    cost    800000
+    cpoints 18000
+    crew    50
+
+    station habitat
+
+    preview_ofs "-23 -40 9"
+
+    netforcelimits
+    {
+        force_forward       0
+        force_right         0
+        force_up            0
+
+        torque_yaw          0
+        torque_pitch        0
+        torque_roll         0
+
+        speed               0
+        rotspeed            0
+    }
 
 }
 
