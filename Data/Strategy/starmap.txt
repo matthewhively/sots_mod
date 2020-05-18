@@ -1,3 +1,4 @@
+// NOTE: Moon distance defined in data/combat/terrain default 7200
 STARMAP_MOON_ODDS                       10	// %
 STARMAP_ASTEROIDBELT_ODDS               25	// %
 STARMAP_EASTEREGG_ODDS                  11	// %
