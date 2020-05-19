@@ -20,6 +20,9 @@ shipsection
     cost    2100
     cpoints 690
 
+    // NOTE: the AI is dependent on ER sections for early game exploration.
+    //       they MUST be able to reach a destination with the main fuel tank of an ER or they won't build one or do much of anything.
+    //       This must be taken into account when designing the ER scaling!
     range   18
 
     option
