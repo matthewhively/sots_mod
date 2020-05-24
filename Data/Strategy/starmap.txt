@@ -6,6 +6,10 @@ STARMAP_MAX_SYSTEMS_PER_CLUSTER         30
 STARMAP_MAX_CLUSTER_SEPARATION          15.0
 STARMAP_MAX_CLUSTER_NODEPATH_LENGTH     30.0
 
+// Map names:
+// sphere, clusters, spiral, arm, hourglass, rift, 2d, hollow sphere, globular clusters, mini clusters, galactic collision, tube, ring, stellar nursery, barred, disk, barbell, clouds, real space, cubes, sinusoid, mountain, helix
+// NOTE: at this time, it does not appear that any maps other than those listed here are configurable in any way.
+
 STARMAP_RIFT_MINSEP         3
 STARMAP_RIFT_MAXSEP         6
 STARMAP_RIFT_WIDTH          18
@@ -15,7 +19,7 @@ STARMAP_MINICLUSTERS_MAXSEP             6.0
 STARMAP_MINICLUSTERS_CLUSTERSEP         10.0
 STARMAP_MINICLUSTERS_MAXCLUSTERPATHDIST 16.0
 STARMAP_MINICLUSTERS_MINCLUSTERS        8
-STARMAP_MINICLUSTERS_MAXPERCLUSTER      5
+STARMAP_MINICLUSTERS_MAXPERCLUSTER      8
 
 //Reducing the armlength tends to make more arms and lessen the definition of the spiral galaxy in general
 //minsep adjusts not only the core, but also the arms... bad for human in arms
@@ -37,6 +41,7 @@ STARMAP_PLANET_MESHNAME_LOD1        "Models/Planets/StarMapPlanetoid_9_LOD1.X"
 STARMAP_PLANET_MESHNAME_LOD2        "Models/Planets/StarMapPlanetoid_9_LOD2.X"
 STARMAP_PLANET_RINGMESHNAME         "Models/Planets/Ring.X"
 
+// NOTE: This is a viewing distance NOT a length when generating node lines.
 STARMAPIMAGE_MAX_NODELINEDISTANCE   230
 STARMAPIMAGE_NEW_ENEMY_FLASH_SPEED  10
 STARMAPIMAGE_AXES_OVERHANG          10
