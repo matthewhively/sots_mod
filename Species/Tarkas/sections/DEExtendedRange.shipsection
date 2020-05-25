@@ -14,14 +14,10 @@ shipsection
     cpoints 750
 
     //Fission
-    // 16 + 4 = 20
-    // (2 + 5) * 3 = 21
+    // 22 + 5 = 27
     //AM
-    // 16 + 18 = 34
-    // (2 + 18) * 3 = 60
-    // E.G. number of extra fuel tanks
-    refueling_capacity  2
-    range   2
+    // 22 + 18 = 40
+    range   22
 
     preview_ofs "-4 0 3"
 

@@ -8,20 +8,16 @@ shipsection
     section_type  mission
     section_class cruiser
 
-    health   1500
+    health  1500
     mass    5800
     cost    6600
     cpoints 2900
 
     //Fission
     // 20 + 7 = 27
-    // (2 + 7) * 4 = 36
     //AM
     // 20 + 21 = 41
-    // (2 + 21) * 4 = 92
-    // E.G. number of extra fuel tanks
-    refueling_capacity  3  // CR gets +1
-    range   2
+    range   20
     crew    20
 
     preview_ofs "0 -50 0"

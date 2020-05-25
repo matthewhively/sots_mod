@@ -15,13 +15,9 @@ shipsection
 
     //Fission
     // 24 + 5 = 29
-    // (5 + 5) * 4 = 40
     //AM
     // 24 + 25 = 49
-    // (5 + 25) * 4 = 120
-    // E.G. number of extra fuel tanks
-    refueling_capacity  3  // CR gets +1
-    range   5
+    range   24
     crew    45
 
     preview_ofs "-15 120 5"

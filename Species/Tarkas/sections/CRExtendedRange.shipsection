@@ -7,13 +7,6 @@ shipsection
     socket_fore   MissionNode01
     section_type  mission
     section_class Cruiser
-
-    preview_ofs "-15 50 5"
-
-    death_effect             "Effects/CRER_Fuel_Explosion.effect"
-    death_area_impact_effect ""
-    death_dam                750
-    death_damradius          320
     
     health  1050
     mass    6000
@@ -21,15 +14,18 @@ shipsection
     cpoints 1980
 
     //Fission
-    // 22 + 4 = 28
-    // (2 + 5) * 4 = 28
+    // 22 + 5 = 27
     //AM
     // 22 + 18 = 40
-    // (2 + 18) * 4 = 80
-    // E.G. number of extra fuel tanks
-    refueling_capacity  3  // CR gets +1
-    range   2
+    range   22
     crew    20
+
+    preview_ofs "-15 50 5"
+
+    death_effect             "Effects/CRER_Fuel_Explosion.effect"
+    death_area_impact_effect ""
+    death_dam                750
+    death_damradius          320
 
     option
     {

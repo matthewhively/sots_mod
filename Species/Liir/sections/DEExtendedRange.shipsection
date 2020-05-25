@@ -8,27 +8,23 @@ shipsection
     section_type  mission
     section_class destroyer
 
-    preview_ofs "0 0 -4"
-
-    death_effect             "Effects/DEER_Fuel_Explosion.effect"
-    death_area_impact_effect ""
-    death_dam                200
-    death_damradius          150
-    
     health  350
     mass    1800
     cost    2100
     cpoints 690
 
     //Fission
-    // 18 + 6 = 24
-    // (2 + 6) * 3 = 24
+    // 20 + 6 = 26
     //AM
-    // 18 + 18 = 36
-    // (2 + 18) * 3 = 60
-    // E.G. number of extra fuel tanks
-    refueling_capacity  2
-    range   2
+    // 20 + 18 = 38
+    range   20
+
+    preview_ofs "0 0 -4"
+
+    death_effect             "Effects/DEER_Fuel_Explosion.effect"
+    death_area_impact_effect ""
+    death_dam                200
+    death_damradius          150
 
     option
     {
