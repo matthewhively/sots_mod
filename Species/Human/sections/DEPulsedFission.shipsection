@@ -18,7 +18,7 @@ shipsection
 
     nodespeed 5
     ftlspeed  .4
-    range     10
+    range     12
     crew      2
 
     option  DRV_RecFiss
