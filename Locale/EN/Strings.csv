@@ -2597,7 +2597,7 @@ TECHDESC_CCC_TrnsHum,"Having encountered the Human race, this tech allows you to
 TECHDESC_CCC_TrnsHvr,"Having encountered the Hiver race, this tech allows you to translate basic military communications from them and form Ceasefire agreements. This tech also allows the Morrigi to establish trade routes with this species."
 TECHDESC_CCC_TrnsTrk,"Having encountered the Tarka race, this tech allows you to translate basic military communications from them and form Ceasefire agreements. This tech also allows the Morrigi to establish trade routes with this species."
 TECHDESC_CCC_TrnsLir,"Having encountered the Liir race, this tech allows you to translate basic military communications from them and form Ceasefire agreements. This tech also allows the Morrigi to establish trade routes with this species."
-TECHDESC_CCC_TrnsZul,"Having encountered the Zuul race, this tech allows you to translate basic military communications from the Zuul and form Ceasefire agreements with them, though why you would want to is beyond us."
+TECHDESC_CCC_TrnsZul,"Having encountered the Zuul race, this tech allows you to translate basic military communications from the Zuul and form Ceasefire agreements with them, though why you would want to is beyond us.\n\n* Also enables production of the War mission section."
 TECHDESC_CCC_NdTrkZul,A system for tracking Zuul ships traveling in node space and deriving their origins and destinations via drive radiation and decoded transmissions. 
 TECHDESC_CCC_NdTrkHum,A system for tracking human ships traveling in node space and deriving their origins and destinations via drive radiation and decoded transmissions.
 TECHDESC_CCC_HypCom,Enables communication with ships traveling within any sort of hyper-field and allows you to send them new movement orders mid-transit.
@@ -4484,7 +4484,7 @@ TECHDESC_XNC_DomZuul,This deepest understanding of Zuul communication along with
 TECHNAME_XNC_SubZuul,Subjugate Zuul
 TECHDESC_XNC_SubZuul,"Allows you to take full control of a Zuul culture, which not only allows new possibilities in assimilation but also allows you a chance to absorb much weaker Zuul empires into your own without firing a shot."
 TECHNAME_CCC_TrnsMorr,Translate Trade Creole
-TECHDESC_CCC_TrnsMorr,"Allows you to translate basic communications from Morrigi players, form Ceasefire agreements and establish trade routes with them. Also provides a 15% bonus to all Xeno-culture research."
+TECHDESC_CCC_TrnsMorr,"Allows you to translate basic communications from Morrigi players, form Ceasefire agreements and establish trade routes with them.\n\n* Also provides a 15% bonus to all Xeno-culture research."
 TECHNAME_XNC_TrnsMorr2,Translate Female Dialect
 TECHDESC_XNC_TrnsMorr2,"This deeper understanding of this race's common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements as well as establish trade routes with them."
 TECHNAME_XNC_IncMorr,Incorporate Morrigi
@@ -4494,7 +4494,7 @@ TECHDESC_XNC_AdctMorr,"Intimate knowledge of this alien species coupled with exp
 TECHNAME_XNC_TempMorr,Morrigi Temperance
 TECHDESC_XNC_TempMorr,This development is in response to a dependency spreading though the Morrigi portions of the empire. Temperance is social and biochemical response to negate to the effect of these dependencies entering from other empires.
 TECHNAME_XNC_TrnsMorr3,Translate Ancient Morrigi
-TECHDESC_XNC_TrnsMorr3,This deeper understanding of this race's highest governmental and scientific language allows you to access the deepest levels of Morrigi culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to this race as well as try to force a planetary surrender in the face of overwhelming power. Aspects of Ancient Morrigi also allow you circumvent Colony and Asteroid Traps as well as make taking control of Asteroid Monitors much easier.
+TECHDESC_XNC_TrnsMorr3,"This deeper understanding of this race's highest governmental and scientific language allows you to access the deepest levels of Morrigi culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to this race as well as try to force a planetary surrender in the face of overwhelming power.\n\n* Aspects of Ancient Morrigi also allow you circumvent Colony and Asteroid Traps as well as make taking control of Asteroid Monitors much easier."
 TECHNAME_XNC_SubMorr,Subjugate Morrigi
 TECHDESC_XNC_SubMorr,"Allows you to take full control of a Morrigi culture, which not only allows new possibilities in assimilation but also allows you a chance to absorb much weaker Morrigi empires into your own without firing a shot."
 TECHNAME_XNC_AccMorr,Accommodate Morrigi
@@ -4539,7 +4539,6 @@ SECTIONNAME_DEFusion_Carver,Fusion V-Carver
 SECTIONNAME_DEAntimatter_Carver,Antimatter V-Carver
 SECTIONNAME_DEAntimatter_Mastery,Antimatter V-Mastery
 SECTIONNAME_DEGravboat,Gravboat
-SECTIONNAME_CRGravboat,Gravboat
 SECTIONNAME_CRGravboat,Gravboat
 SECTIONNAME_DNFusion_Carver,Fusion V-Carver
 SECTIONNAME_DNAntimatter_Carver,Antimatter V-Carver
@@ -5064,9 +5063,9 @@ SECTIONDESC_DNAntimatter_Mastery,"This faster than light technology pulls their 
 SECTIONDESC_CRAntimatter_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma. "
 SECTIONDESC_CRAntimatter_Mastery,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma. "
 SECTIONDESC_CRFusion_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma. "
-SECTIONDESC_DEGravboat,"Special, single purpose ships that add to the additive grav effects of a fleet, allowing them to move even faster in Strat movement between worlds. However, in combat, they have the opposite effect, slowing down the movement of enemy ships."
-SECTIONDESC_CRGravboat,"Special, single purpose ships that add to the additive grav effects of a fleet, allowing them to move even faster in Strat movement between worlds. However, in combat, they have the opposite effect, slowing down the movement of enemy ships."
-SECTIONDESC_DNGravboat,"Special, single purpose ships that add to the additive grav effects of a fleet, allowing them to move even faster in Strat movement between worlds. However, in combat, they have the opposite effect, slowing down the movement of enemy ships."
+SECTIONDESC_DEGravboat,"Special, single purpose ships that use gravitational effects to modify nearby ships movement. In strategic view a fleet's FTL speed between worlds is substantially increased. In combat they have the opposite effect, instead slowing down the movement of hostile ships."
+SECTIONDESC_CRGravboat,"Special, single purpose ships that use gravitational effects to modify nearby ships movement. In strategic view a fleet's FTL speed between worlds is substantially increased. In combat they have the opposite effect, instead slowing down the movement of hostile ships."
+SECTIONDESC_DNGravboat,"Special, single purpose ships that use gravitational effects to modify nearby ships movement. In strategic view a fleet's FTL speed between worlds is substantially increased. In combat they have the opposite effect, instead slowing down the movement of hostile ships."
 SECTIONDESC_CRDrone,"Extremely effective in combat, Attack Drones require a mothership to carry them between systems. These Drone Carriers operate as the micro-CnC for the drones, acting as their launch base and giving them their orders."
 SECTIONDESC_DEDrone,"Extremely effective in combat, Attack Drones require a mothership to carry them between systems. These Drone Carriers operate as the micro-CnC for the drones, acting as their launch base and giving them their orders."
 SECTIONDESC_DNDrone,"Extremely effective in combat, Attack Drones require a mothership to carry them between systems. These Drone Carriers operate as the micro-CnC for the drones, acting as their launch base and giving them their orders."
