@@ -24,6 +24,8 @@
 // 0x660011  deep red  (very similar to pomegranate)
 
 
+// AI rebellion color:       "120 0 0"     - Strategy/AI/AIRebellion.txt - Conflict with Pomagranate?
+// Independent System color: "150 160 100" - Strategy/StrategyVars.txt   - Garbage green ?
 
 //1     250  250  250    // white
 //6     140  255  140    // pastel green

@@ -78,18 +78,19 @@ COMBATHUD_TARGET_FLASH_PERIOD                0.5
 COMBATHUD_WAYPOINT_FLASH_OFF_PERIOD          0.25
 COMBATHUD_WAYPOINT_FLASH_ON_PERIOD           0.25
 
-PIECHARTCOLOR_INCOME                "0   155 0   255"
-PIECHARTCOLOR_COST_FLEETS           "12  12  248 255"
-PIECHARTCOLOR_COST_SYSTEMS          "137 190 217 255"
-PIECHARTCOLOR_COST_RESEARCH         "240 190 60  255"
-PIECHARTCOLOR_COST_RESEARCH_AID     "200 120 0   255"
-PIECHARTCOLOR_COST_SAVINGS_AID      "196 196 196 255"
-PIECHARTCOLOR_COST_INTEREST         "160 0   0   255"
-PIECHARTCOLOR_COST_FLEETS_QUEUED    "30  30  157 255"
-PIECHARTCOLOR_COST_FLEETS_TOTAL     "255 255 0   255"
-PIECHARTCOLOR_COST_PROJECTS         "255 255 255"
-PIECHARTCOLOR_COST_MISC             "128 64  0"
+PIECHARTCOLOR_INCOME                "0   155 0   255" // green
+PIECHARTCOLOR_COST_FLEETS           "255 255 255"     // white 
+PIECHARTCOLOR_COST_SYSTEMS          "137 190 217 255" // light blue - planetary development
+PIECHARTCOLOR_COST_RESEARCH         "240 190 60  255" // golden-yellowish
+PIECHARTCOLOR_COST_RESEARCH_AID     "200 120 0   255" // golden-brown
+PIECHARTCOLOR_COST_SAVINGS_AID      "196 196 196 255" // gray
+PIECHARTCOLOR_COST_INTEREST         "160 0   0   255" // red
+PIECHARTCOLOR_COST_FLEETS_QUEUED    "30  30  157 255" // also dark blue -- unused?
+PIECHARTCOLOR_COST_FLEETS_TOTAL     "255 255 0   255" // yellow -- unused?
+PIECHARTCOLOR_COST_PROJECTS         "255 128 192 255" // pink
+PIECHARTCOLOR_COST_MISC             "128 64  0"       // additional costs
 PIECHARTCOLOR_DEFAULT               "128 128 128"
+// "12  12  248 255" // dark blue -- too hard to read
 
 BUDGETBAR_WIDTH                      150    // How wide the budget part is, as it appears in two separate screens.
 STATUSPANEL_MIN_WIDTH                480    // Panel which shows status of players, turn number, some buttons.
