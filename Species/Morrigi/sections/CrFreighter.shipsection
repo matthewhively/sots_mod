@@ -23,6 +23,20 @@ shipsection
     crew        0
     preview_ofs "-70 -250 0"
 
+    netforcelimits
+    {
+        force_forward       55000
+        force_right         55000
+        force_up            55000
+
+        torque_yaw          6e+7
+        torque_pitch        6e+7
+        torque_roll         6e+7
+
+        speed               35
+        rotspeed            30
+    }
+
     anim
     {
         name        "combatready"
@@ -39,20 +53,6 @@ shipsection
         start_frame "end"
         speed_scale "-2"
         loop        "1"
-    }
-
-    netforcelimits
-    {
-        force_forward       55000
-        force_right         55000
-        force_up            55000
-        
-        torque_yaw          6e+7
-        torque_pitch        6e+7
-        torque_roll         6e+7
-        
-        speed               35
-        rotspeed            30
     }
 
     bank
