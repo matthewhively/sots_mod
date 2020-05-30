@@ -107,10 +107,10 @@ tech
     allows      "CCC_TrnsLir    RP:2000"
     allows      "CCC_TrnsTrk    RP:2000"
     allows      "CCC_TrnsHvr    RP:2000"
-    allows      "CCC_TrnsMorr   RP:2000" // This might give a 15-25% bonus to xeno-tech research, but I don't see it defined here
+    allows      "CCC_TrnsMorr   RP:5000" // Assuming it gives the 15% bonus in the description, this needs to be more expensive
     allows      "CCC_TrnsZul    RP:5000" // Zuul gets the War section, so this should be more expensive
 }                                                           
-
+// TODO: standardize all racial costs here if I can find a way to grant bonuses to the other 4 races starter technologies
 
 
 
@@ -3296,7 +3296,7 @@ tech
     requires    "XNC_SubHum"
 }
 
-//*********** Hiver*** *************
+//*********** Hiver ****************
 //**********************************
 
 tech
@@ -3372,7 +3372,7 @@ tech
     requires    "XNC_SubHvr"
 }
 
-//***********Tarkas****************
+//*********** Tarkas ****************
 //**********************************
 
 tech
@@ -3448,7 +3448,7 @@ tech
     requires    "XNC_SubTrk"
 }
 
-//*********** Liir****** *************
+//*********** Liir *******************
 //**********************************
 
 tech
@@ -3524,7 +3524,7 @@ tech
     requires    "XNC_SubLir"
 }
 
-//*********** Zuul**** *************
+//*********** Zuul *****************
 //**********************************
 
 tech
@@ -3591,7 +3591,7 @@ tech
 {
     name        "XNC_IncMorr"
     family      "XNC"
-    allows      "XNC_TrnsMorr3  RP:60000"
+    allows      "XNC_TrnsMorr3  RP:80000"   // NOTE: more expensive because it negates colony/mining traps and ancient ruins
     allows      "XNC_AdctMorr   RP:50000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
     allows      "XNC_TempMorr   RP:60000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
 }
