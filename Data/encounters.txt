@@ -148,7 +148,7 @@ DERELICT_SECTION_04                       "Species/_NPC/sections/_Wreckage_D.shi
 DERELICT_SECTION_05                       "Species/_NPC/sections/_Wreckage_E.shipsection"
 
 // NOTE: asteroid belt radius is defined in data/combat/terrain.txt  4000 <--> 8000
-ASTEROIDMONITOR_INITIAL_WEAPONSFREE_DELAY    40.0      // (s)
+ASTEROIDMONITOR_INITIAL_WEAPONSFREE_DELAY    50.0      // (s)
 ASTEROIDMONITOR_START_RANGE                  4100.0    // Dist from planet center
 ASTEROIDMONITOR_START_RANGE_OWNED            3900.0
 ASTEROIDMONITOR_ENCOUNTER_THINK_PERIOD       0.5
