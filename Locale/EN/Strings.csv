@@ -2453,6 +2453,8 @@ TECHDESC_BAL_ROOT,Ballistic Weapons
 TECHDESC_DRV_ROOT,Star Drives
 TECHDESC_BIO_ROOT,Biological
 TECHDESC_CCC_ROOT,C3
+
+
 TECHDESC_IND_Waldo,Remote control construction devices that allow workers to build in hostile or dangerous environments without risk. This results in a 10% decrease to ship construction costs and a 15% increase in the industrial output of all planets.
 TECHDESC_IND_RefCoat,A subsurface layer of highly reflective ceramic to defeat incoming laser fire by causing the beams to reflect off into space
 TECHDESC_IND_ImpRfCt,A subsurface layer of highly reflective ceramic combined with a curved EM field to increase the chance of reflecting incoming laser fire.
@@ -2482,6 +2484,8 @@ TECHDESC_IND_TrctBm,An Electromagnetic Beam capable of locking on to another shi
 TECHDESC_IND_DeCon,Systems that allow starships of all sizes to be broken up for recycling while still in orbit and thus tripling the return on scrapped ships.
 TECHDESC_IND_HrdStrct,"The use of armored construction materials to create industrial and population centers resistant to orbital bombardment and reduces the damage taken by industry and population by 50%. Unfortunately, the over-centralization required for this reduces industrial output by 10%."
 TECHDESC_IND_ArcCon,The ability to create huge structures than can house up a million people with many times the efficiency of normal cities. This results in a 100 million population increase to the planetary limit and an overall 15% increase in the population growth rate.
+
+
 TECHDESC_WEP_RedLas,Initial combat laser technology. Very fast and accurate but low damage.
 TECHDESC_WEP_GrnLas,A more efficient laser weapon. Very fast and accurate with slightly faster recharge than the Red Laser.
 TECHDESC_WEP_UvLas,Higher energy laser weapon. Very fast and accurate with longer range and slightly higher damage than previous lasers.
@@ -2489,6 +2493,7 @@ TECHDESC_WEP_XryLas,"Very High-energy laser weapon. Very fast, accurate and deli
 TECHDESC_WEP_LtEmitr,"A high energy discharge weapon commonly known as a lightning gun.  It damages target ships by inducing an arc of plasma. Damage is low but the plasma arc can sometimes jump to another close by ship, damaging it as well."
 TECHDESC_WEP_Emitr,"A high energy medium discharge weapon commonly known as a lightning gun.  It damages target ships by inducing an arc of plasma. Damage is low but the plasma arc can often jump to multiple nearby ships, damaging them as well."
 TECHDESC_WEP_HvyEmitr,The strongest version of the emitter.  This technology is pushed to its furthest point to become the ultimate weapon in mass discharging. Damage is moderate and the plasma arc can often jump to a large number nearby ships
+
 TECHDESC_WEP_PlsmCan,A small packet of high-energy plasma fired from a standard medium turret mount.
 TECHDESC_WEP_FusCan,"Improvement of the plasma cannon, allows the plasma to reach critical fusion temperatures before impact, causing more damage."
 TECHDESC_WEP_AmCan,The most powerful of the standard cannon weapons produced firing a small ball of positronic plasma at targets for devastating effect.
@@ -2498,6 +2503,7 @@ TECHDESC_WEP_HvyACan,"A triple-barrel rapid-fire version of the standard anti-ma
 TECHDESC_WEP_PlsmProj,This weapon uses a massive array of plasma generating nodes to project a storm of high-energy blasts at a target. It is so large it can only be specially mounted on a cruiser hull.
 TECHDESC_WEP_FusProj,This weapon uses a massive array of Fusion generating nodes to project a storm of high energy blasts at a target. It is so large it can only be specially mounted on a cruiser hull.
 TECHDESC_WEP_AmProj,This weapon uses a massive array of anti-matter generating nodes to project a storm of devastating high energy blasts at a target. It is so large it can only be specially mounted on a cruiser hull.
+
 TECHDESC_WEP_Phas,A highly efficient beam weapon using phased laser light and particle discharge to maximize damage and accuracy. Its optimized design allows it to be fitted in medium turrets.
 TECHDESC_WEP_PDPhas,"A low power, high rate of fire, version of the standard phaser designed to fit point-defence turret mounts and engage incoming tracking weapons with a high level of accuracy and good stopping power."
 TECHDESC_WEP_PlsPhas,A rapid-fire version of the phaser that breaks the beam up into a handful of high-powered phaser pulses at a single targeting point. This allows the weapon to be placed in small turret mounts while retaining much of the deadly power of the phaser beam.
@@ -2509,6 +2515,7 @@ TECHDESC_WEP_NeutBm,A large turret or spinal mount beam weapon that fires concen
 TECHDESC_WEP_PosiBm,A beam of anti-matter particles that does intense explosive damage when it contacts solid positive matter. It causes massive environmental damage against planets but is harmless against shields.
 TECHDESC_WEP_MesBm,A directed beam of sub-atomic particles that penetrates solid matter and shielding to detonate on command causing massive internal damage.
 TECHDESC_WEP_GravBm,A directed beam of graviton particles that causes stress damage to the entire ship at once and also serves as a tractor beam to hold the target in place.
+
 TECHDESC_WEP_Dsrptr,A charged ball of electrical plasma that passes the energy along to the target on impact. Does superficial damage and has a chance of shorting out some systems of the target ship.
 TECHDESC_WEP_EmPulse,A ball of electrical plasma that detonates and affects a large area with an EM pulse capable of shorting out enemy ship systems temporarily.
 TECHDESC_WEP_PlsTrp,A guided ball of electrical plasma that is capable of shorting out enemy ship systems temporarily.
@@ -2518,6 +2525,7 @@ TECHDESC_WEP_FusTrp,A tracking sphere of Fusing plasma that gets stronger over d
 TECHDESC_WEP_DtFsTrp,A tracking sphere of Fusing plasma that gets stronger over distance as the fusion process grows until it finally achieves critical mass and detonates in a massive explosion that damages everything in the blast area. It can be shot down and as the sphere takes more damage its own explosive force is disrupted.
 TECHDESC_WEP_AmTrp,A tracking sphere of anti-matter deuterium contained in a magnetic field that releases upon impact allowing the Anti-matter to explode. The destructive energy grows over time as the anti-matter begins the fusion process but it can be shot down and as the sphere takes more damage its own explosive force is disrupted.
 TECHDESC_WEP_DtAmTrp,A tracking sphere of fusing anti-matter deuterium gets stronger over distance as the fusion process grows until it finally achieves critical mass and detonates in a massive explosion that damages everything in the blast area. It can be shot down and as the sphere takes more damage its own explosive force is disrupted.
+
 TECHDESC_WEP_Nukes,The standard tactical nuclear warhead for missiles.
 TECHDESC_WEP_NukeWhd,A more powerful warhead for nuclear missiles that concentrates the radiation in a directed blast.
 TECHDESC_WEP_GmaWhd,A powerful optimized warhead for nuclear missiles and mines
@@ -2534,6 +2542,7 @@ TECHDESC_WEP_NdMsl,A smart missile using advanced node drive technology that all
 TECHDESC_WEP_DFMsl,"A large array of missile tubes mounted on a medium turret station. These unguided missiles are much smaller than the standard missile and pack a smaller warhead, though they save some space for explosive force by not using large electronic modules."
 TECHDESC_WEP_CorMsl,A large missile capable of dispersing a cloud of powerful molecular acid contained in mini-spheres that bind to a passing ship's hull and eat into it causing damage over time. Requires a large turret mount.
 TECHDESC_WEP_NanMsl,A large missile capable of dispersing a large cloud of powerful nano-disassemblers that bind to a passing ship's hull and do a large amount of erosion damage over time. Requires a large turret mount.
+
 TECHDESC_WEP_GsDrvr,These ballistic weapons use magnetic fields to hurl dense metallic spheres at very high speeds at a target. The spheres do intense kinetic damage at impact.
 TECHDESC_WEP_MasDrvr,A heavier ballistic system using advanced power systems to magnetically hurl larger rounds and designed for a medium turret mount.
 TECHDESC_WEP_HvyDrvr,Heavy barrel mass drivers that hurl very large kinetic rounds that do very heavy damage.
@@ -2546,6 +2555,8 @@ TECHDESC_WEP_SgeDrvr,Massive Magnetic Drivers that literally hurl chunks of iron
 TECHDESC_WEP_ThmpDrvr,This weapon uses an anti-grav generator mounted inside a Heavy Driver round to create an aimed field effect which will push any vessel away from the center of the field.
 TECHDESC_WEP_NeutRnd,A method of creating mass driver ammunition out of super-dense neutronium. This increases the damage potential of all driver rounds.
 TECHDESC_WEP_ErgDrain,Highly specialized large driver shells that bind to the hull of the target and punch invasive superconductor spikes into the target ships power conduits. The leach round will then drain power from the target ship for 20 seconds before burning out and falling away. This results in slower recharge rate for weapons on the target ship as well as lower drive thrusts.
+
+
 TECHDESC_DRV_Fissn,The basic propulsion drive of all ships.
 TECHDESC_DRV_PlsFiss,An improvement of the fission drive that releases drive plasma in high-powered pulses.
 TECHDESC_DRV_LRFiss,"A high-velocity, high efficiency drive system used by the Hivers to push across deep space"
@@ -2557,23 +2568,31 @@ TECHDESC_DRV_PlsmFoc,A refinement of fusion power physics that allows for greate
 TECHDESC_DRV_LRFusn,"A high-velocity, high efficiency fusion drive system used by the Hivers to push across deep space."
 TECHDESC_DRV_AntiMat,The ultimate level of reactor technology using anti-matter for 100% efficiency in matter to energy conversion.
 TECHDESC_DRV_Rmscps,A Hiver technology that allows Hiver ships to draw fuel from interstellar hydrogen clouds. This allows them to travel indefinitely without needing to refuel.
+
 TECHDESC_DRV_Node,"Using Super-string theory, the Node drive allows a ship to access a gravitational string nexus and travel faster than light to another star.  This travel is faster than light but is restricted to the natural string connections between gravity nodes and these may or may not be close by in terms of the regular fabric of space-time."
 TECHDESC_DRV_NodFoc,A refinement of the node ring technology that allows more efficient nodeline access resulting in higher speed jumps.
 TECHDESC_DRV_NodPath,The ultimate refinement in Node drive technology allowing for longer range and faster travel times.
+
 TECHDESC_DRV_Rip,This FTL technology allows specialized Ripper ""tunneling ships"" to literally tear open a hole between ""normal"" and node space. This lets the Rippers create their own node line network at will. The only drawback to artificial node lines is that they are unstable and will collapse over time and through extended disruption by ships' mass. A node line that collapses will destroy any ship in transit down it. 
 TECHDESC_DRV_Rend,"A more powerful version of the Zuul Rip Drive, Rending drives tear open space more efficiently and create a more stable node line but require more power and the use of a larger tunneler ship."
 TECHDESC_DRV_Rad,Radiant drives use multiple foci to slice open space very efficiently and create a relatively stable node line. The power required is massive and requires a very large class of tunneler ship.
+
 TECHDESC_DRV_Hyper,The ability to deform a field of space-time that allows a ship to travel faster than the speed of light on any course.
 TECHDESC_DRV_HyprFld,The enhancement of hyper-field technology into Warp Drive allows for faster FTL travel and a small increase in stellar range.
 TECHDESC_DRV_Warp,"The ultimate expression hyper-field technology, the TransWarp Drive fully encloses a ship within a warped space-time bubble for FTL travel. This is far more efficient for drive space, although it is vulnerable to damage."
+
 TECHDESC_DRV_StrWrp,"A mode of travel that creates movement by tiny teleports millions of times per second.  It has poor maneuvering ability, especially near the gravity well of star systems, but has the advantage of being both an FTL and main drive unit at the same time."
 TECHDESC_DRV_ImpStWrp,The refinement of StutterDrive into BlinkDrive technology allows for more efficient FTL travel and higher speeds near gravity wells.
 TECHDESC_DRV_Flicker,"The ultimate refinement of BlinkDrive results in a drive that actually ports the ship so fast and precisely, it has a chance to slip between enemy shots while moving"
 TECHDESC_DRV_McrFlkr,This miniature flicker drive can be fitted to missiles allowing them the same chance of weapons fire to pass right through them.
+
 TECHDESC_DRV_TpGate,The technology Hivers use to teleport their ships instantaneously from system to system. Allows instant strategic map movement for Hiver ships between star systems that both have gates.
 TECHDESC_DRV_GatAmp,A set of energy amplifiers that increase the number of ships the Hiver gate network can transport at any given time. Results in a gate capacity increase of 3 for every gate.
 TECHDESC_DRV_FarCast,This advancement in gate technology allows a Hiver gate to transport a Hiver fleet up to ten light-years WITHOUT a receiver gate. There are some issues with accuracy as the fleet will arrive on target + or - 2 light-years.
+
 TECHDESC_DRV_IncThrst,These highly efficient thrusters use heavy elements driven to relativistic speeds for thrusting power. Increases turn thrust on all ships and missiles by 25%
+
+
 TECHDESC_BIO_GnMod,Allows you to genetically modify the characteristics of your colonists to improve population growth on alien worlds by 10%
 TECHDESC_BIO_SpndAni,Allows you to place colonists in suspended animation for transport to their new world and increase your base population.
 TECHDESC_BIO_Btrans,A system of placing entire environmental biomes in stasis for transport aboard cruiser class hulls. This allows colony ships to literally carry pieces of the homeworld to new colonies for a head start in terrforming.
@@ -2592,6 +2611,8 @@ TECHDESC_BIO_AsPlgVac,An antidote to the Assimilation Plague Virus. Makes your r
 TECHDESC_BIO_UniAnti,A universal Vaccine for all bio-weapons rendering your race immune to them.
 TECHDESC_BIO_NanVir,"A nanobot based ""plague"" which is designed to attack and breakdown all artificial structures such as buildings, machines and electronics. Extremely effective against AI rebellion planets."
 TECHDESC_BIO_ConNan,"Nanobots designed to ""counter attack"" enemy nanobot incursions and repair the damage made by them. Counter nanites ""cure"" NanoVirus outbreaks as well as reducing the damage taken from ships hit by nano-missiles."
+
+
 TECHDESC_CCC_FTLCom,The basic level of communicating and issuing orders to planets and ships.
 TECHDESC_CCC_TrnsHum,"Having encountered the Human race, this tech allows you to translate basic military communications from them and form Ceasefire agreements. This tech also allows the Morrigi to establish trade routes with this species."
 TECHDESC_CCC_TrnsHvr,"Having encountered the Hiver race, this tech allows you to translate basic military communications from them and form Ceasefire agreements. This tech also allows the Morrigi to establish trade routes with this species."
@@ -2623,6 +2644,8 @@ TECHDESC_CCC_AISlv,This programming development allows AI to be rendered loyal s
 TECHDESC_CCC_FTLEcon,"The establishment of systems using Faster Than Light communication and travel to facilitate efficient trade systems between friendly worlds. This technology allow an empire the ability to create trade routes and the star-freighters to service them. Combined with fusion, this will allow us to build police ships to protect our sectors and maintain morale."
 TECHDESC_CCC_ComRaid,"A system of tactics, communication, and support systems capable of keeping small fleets in action and undetected for large periods of time while they patrol enemy trade routes in order to intercept, destroy or capture Merchant shipping. "
 TECHDESC_CCC_DatCor,"Using advancements in FTL communications, Data Correlation allows for real time updating of a central database of enemy ship performance in combat. This creates a report for each opposing empire listing current ships known designations and observed weapon load-outs."
+
+
 TECHDESC_SLD_Def,A projector technology which creates an electro-magnetic field in front of a ship that has a chance of deflecting ballistic weapons and detonating tracking weapons.
 TECHDESC_SLD_Clk,Cloak capable ships are invisible to other players in tactical and strategic movement. Cloaked ships cannot fire.
 TECHDESC_SLD_ImpClk,"Similar in effect to basic cloaking technology, however ships with advanced cloaking can fire their weapons while cloaking is engaged."
@@ -4337,6 +4360,8 @@ TECHNAME_DRN_ROOT,DRN_ROOT
 TECHDESC_DRN_ROOT,Drone
 TECHNAME_XNC_ROOT,XNC_ROOT
 TECHDESC_XNC_ROOT,Xenotech
+
+
 TECHNAME_IND_TrkStl,Tarkasian Living Steel
 TECHDESC_IND_TrkStl,This brings eons of Tarkasian mastery of steel and armor alloys into the starship age. Giving their ships an armor quality that increases deflection chances as well as a very limited self-repair ability through the molecular re-ordering nature of Tarkasian Alloys.
 TECHNAME_IND_HrdElec,Hardened Electronics
@@ -4351,6 +4376,8 @@ TECHNAME_IND_OrbCom,Orbital Complexes
 TECHDESC_IND_OrbCom,"Allows for the construction of large, special purpose space stations."
 TECHNAME_IND_AdvDreadEng,Advanced Dreadnought Engineering
 TECHDESC_IND_AdvDreadEng,The incorporation of complex systems into a single Dreadnought module.
+
+
 TECHNAME_WEP_GrnBmr,Green Beamers
 TECHDESC_WEP_GrnBmr,A sustained low energy laser beam for small turret mounts. 
 TECHNAME_WEP_UvBmr,UV Beamers
@@ -4375,6 +4402,8 @@ TECHNAME_WEP_HStrmDrvr,Heavy Stormers
 TECHDESC_WEP_HStrmDrvr,Heavy barrel version of the Stormer that hurls streams of mass driver rounds that do heavy damages.
 TECHNAME_WEP_MasShtDrvr,Mass Shotgun
 TECHDESC_WEP_MasShtDrvr,"A heavy driver that fires a burst of mass driver rounds in a cone shaped pattern. Devastating to small, fast moving targets."
+
+
 TECHNAME_DRV_QntCap,Quantum Capacitors
 TECHDESC_DRV_QntCap,The technology utilizes advanced quantum systems to store energy at previously unheard of levels while remaining small enough to be used in ship's systems. The result in increased beam weapon rates of fire and stronger shields.
 TECHNAME_DRV_VdCtr,Void Cutter Drive
@@ -4385,18 +4414,26 @@ TECHNAME_DRV_VdMstr,Void Mastery Drive
 TECHDESC_DRV_VdMstr,The ultimate refinement of the Carver Drive allows for great range and speed.
 TECHNAME_DRV_GrvSyn,Grav Synergy
 TECHDESC_DRV_GrvSyn,This technology effectively doubles the number of Morrigi ships that count towards the flock efficiency bonus.
+
+
 TECHNAME_BIO_SmrtNan,Smart Nanites
 TECHDESC_BIO_SmrtNan,This generation of offensive nanites is designed to recognize unique molecular signatures in the hulls of friendly vessels and does not attack them. This creates a nano-missile that ONLY damages enemy ships.
+
+
 TECHNAME_CCC_TunSens,Tunneling Sensors
 TECHDESC_CCC_TunSens,"Using sensors deliberately tuned to the deep quantum tunneling of reactor particle radiation, this technology provides very large sensor arrays like those found aboard Sensor Stations and Dreadnought Advanced EW Sections a chance to detect cloaked vessels at interstellar range."
 TECHNAME_CCC_FCCom,Flag Central Command
 TECHDESC_CCC_FCCom,The ultimate advancement in command and control systems.
+
+
 TECHNAME_SLD_Magni,Shield Magnifier
 TECHDESC_SLD_Magni,"Increased understanding of high-energy quantum effects allows for focusing much more power through shield generators, effectively doubling their strength."
 TECHNAME_SLD_Proj,Shield Projector
 TECHDESC_SLD_Proj,"This technology combines advanced shield technologies and combines them with energy projector tech to create a large turret device that can focus energy in a completely impenetrable small disk at some distance from the ship. While relatively tiny in its coverage area, the shield disk created can block any incoming weapon fire."
 TECHNAME_SLD_Disr,Disruptor Shield
 TECHDESC_SLD_Disr,Creates an electro-magnetic field around the front of a ship that breaks up and dissipates any energy weapon that impacts it.
+
+
 TECHNAME_DRN_AdvRob,Advanced Robotics
 TECHDESC_DRN_AdvRob,This technology allows for autonomous AI driven robots to perform simple construction tasks in zero-G conditions and results in a 5% decrease to ship construction cost.
 TECHNAME_DRN_Cmbt,Combat Drones
@@ -4413,6 +4450,8 @@ TECHNAME_DRN_CrakCOL,Cracker COL
 TECHDESC_DRN_CrakCOL,This COL uses Mine technology to create a COL round that bursts into a small minefield at the target point.
 TECHNAME_DRN_TPCOL,TarPit COL
 TECHDESC_DRN_TPCOL,This COL uses grav technology to create a COL round that creates a large gravity field at the target point for a few moments.
+
+
 TECHNAME_XNC_TrnsHum2,Translate Latin
 TECHDESC_XNC_TrnsHum2,"This deeper understanding of this race's common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements as well as establish trade routes with them."
 TECHNAME_XNC_IncHum,Incorporate Human
@@ -4429,6 +4468,7 @@ TECHNAME_XNC_AccHum,Accommodate Human
 TECHDESC_XNC_AccHum,"Complete understanding of human physiology coupled with the social sciences allows you to integrate the life support needs of human seamlessly into your culture, thus removing the need to take into account planetary hazard ratings for them."
 TECHNAME_XNC_ProfHum,Proliferate Human
 TECHDESC_XNC_ProfHum,This technology makes your worlds and culture more hospitable to humans and gives them the ability to spontaneously attract human civilian populations as well as increasing the overall alien population limit on all your worlds.
+
 TECHNAME_XNC_TrnsHvr2,Translate K'en-Ken
 TECHDESC_XNC_TrnsHvr2,"This deeper understanding of this race's common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements as well as establish trade routes with them."
 TECHNAME_XNC_IncHvr,Incorporate Hiver
@@ -4445,6 +4485,7 @@ TECHNAME_XNC_AccHvr,Accommodate Hiver
 TECHDESC_XNC_AccHvr,"Complete understanding of Hiver physiology coupled with the social sciences allows you to integrate the life support needs of Hivers seamlessly into your culture without disrupting your own citizens, thus removing the need to take into account planetary hazard ratings for them."
 TECHNAME_XNC_ProfHvr,Proliferate Hiver
 TECHDESC_XNC_ProfHvr,This technology makes your worlds and culture more hospitable to Hivers and gives them the ability to spontaneously attract Hiver civilian populations as well as increasing the overall alien population limit on all your worlds.
+
 TECHNAME_XNC_TrnsTrk2,Translate Gutter Dialect
 TECHDESC_XNC_TrnsTrk2,"This deeper understanding of this race's common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements as well as establish trade routes with them."
 TECHNAME_XNC_IncTrk,Incorporate Tarka
@@ -4461,6 +4502,7 @@ TECHNAME_XNC_AccTrk,Accommodate Tarka
 TECHDESC_XNC_AccTrk,"Complete understanding of Tarkasian physiology coupled with the social sciences allows you to integrate the life support needs of the Tarka seamlessly into your culture without disrupting your own citizens, thus removing the need to take into account planetary hazard ratings for them."
 TECHNAME_XNC_ProfTrk,Proliferate Tarka
 TECHDESC_XNC_ProfTrk,This technology makes your worlds and culture more hospitable to Tarka and gives them the ability to spontaneously attract Tarkasian civilian populations as well as increasing the overall alien population limit on all your worlds.
+
 TECHNAME_XNC_TrnsLir2,Translate SteelSong
 TECHDESC_XNC_TrnsLir2,"This deeper understanding of this race's common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements with them."
 TECHNAME_XNC_IncLir,Incorporate Liir
@@ -4477,12 +4519,14 @@ TECHNAME_XNC_AccLir,Accommodate Liir
 TECHDESC_XNC_AccLir,"Complete understanding of Liir physiology coupled with the social sciences allows you to integrate the life support needs of the Liir seamlessly into your culture without disrupting your own citizens, thus removing the need to take into account planetary hazard ratings for them."
 TECHNAME_XNC_ProfLir,Proliferate Liir
 TECHDESC_XNC_ProfLir,This technology makes your worlds and culture more hospitable to Liir and gives them the ability to spontaneously attract Liir civilian populations as well as increasing the overall alien population limit on all your worlds.
+
 TECHNAME_XNC_TrnsZuul2,Interrogate Zuul
 TECHDESC_XNC_TrnsZuul2,"This deeper understanding of Zuul communications and Dominance protocols allows you to interact more deeply with Zuul culture, with less risk, allowing you to form NAP/Alliance agreements with them."
 TECHNAME_XNC_DomZuul,Dominate Zuul
 TECHDESC_XNC_DomZuul,This deepest understanding of Zuul communication along with very advanced artificial psionic communication equipment allows you to subvert and impress the deepest levels of Zuul culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to this race as well as try to force a planetary surrender in the face of overwhelming power.
 TECHNAME_XNC_SubZuul,Subjugate Zuul
 TECHDESC_XNC_SubZuul,"Allows you to take full control of a Zuul culture, which not only allows new possibilities in assimilation but also allows you a chance to absorb much weaker Zuul empires into your own without firing a shot."
+
 TECHNAME_CCC_TrnsMorr,Translate Trade Creole
 TECHDESC_CCC_TrnsMorr,"Allows you to translate basic communications from Morrigi players, form Ceasefire agreements and establish trade routes with them.\n\n* Also provides a 15% bonus to all Xeno-culture research."
 TECHNAME_XNC_TrnsMorr2,Translate Female Dialect
@@ -5485,6 +5529,7 @@ TECHDESC_DRV_OvrThrust,The development of the oscillation overthruster allows fo
 TECHDESC_DRN_Auto,A set of AI routines that allow a drone to function without control or user input for many years at a time. The Morrigi use this technology to create ships that can set colony and asteroid traps. The vessel is consumed in the construction of the trap system.
 TECHDESC_DRN_AdvFrm,"This technology allows for the creation of more robust drone frames, power systems and control surfaces, which results in the ability to support larger weapon loadouts and more robust attack systems. This gives an Empire the ability to build Heavy Drones, Advanced Assault Shuttles, and the Cruiser Assault Shuttle section."
 TECHDESC_DRV_Ints,"Advancements in micro-missile tech as well as in high-speed tracking and vector calculation allows for the creation of point defense missiles capable of engaging drones, guided torpedoes and mines. Other missiles remain too hard to vector against accurately and so Interceptors will NOT engage other missile ordinance."
+
 TECHDESC_WEP_PulGrvBm,A refinement of the standard Graviton beam that adds an oscillating gravimetric pulse to the beam which induce brutal shockwaves into the target. Resonating waves can get so strong it can result in catastrophic structure failures in systems like Turret Connections.
 TECHDESC_WEP_AccAmp,Breakthroughs both in superconductors and advanced alloys allows for the creation of a very large railgun that provides the hitting power and range previously only achievable in heavy beams. This technology can also be used to tune existing ballistic drivers to achieve a 10% increase in damage and a 20% increase in round velocity.
 TECHDESC_WEP_PolPlsm,"This focusing technology allows for the creation of weaponized plasma forms, which are polarized to ""spin"" along a horizontal axis. The result plasma focuses its thermal release along a very narrow plane upon contact with the target and achieves a ""slicing"" effect that defeats ship armor. This small-barreled weapon has been nicknamed the ""War Quoit"" by human ship crews."
@@ -5494,9 +5539,13 @@ TECHDESC_WEP_IntCan,"Deeper understanding of field physics allows the projection
 TECHDESC_WEP_HvyIntCan,A heavy barrel triple pulse version of the Inertial Cannon
 TECHDESC_WEP_KelTrp,Particle manipulation and field tech allows for this torpedo capable of draining a target of its molecular motion to the point of leaving it near absolute zero for a few moments. This not only causes surface stress damage to the hull of the target but also makes it more fragile and therefore it takes more damage from any kind of subsequent damage.
 TECHDESC_WEP_HvyPMsl,"A more robust and expensive version of the standard planetary defense missile. It packs a moderately larger warhead and travels somewhat slower but is much more heavily armored than the standard version. Once researched, planets can fire one Heavy Missile for every 200 million population, rounding up."
+
 TECHDESC_SLD_Focus,"This tech combines the shield projector with the Liirian FlickerDrive technology to literally project a single shield over multiple targets millions of times per second, making it appear as if each ship had its own complete shield. "
+
 TECHDESC_IND_AstMon,Advances in both asteroid mining and deep space construction allows for the hollowing out of large asteroids to recreate some of the power and function of the ancient Morrigi Asteroid monitors. Construction of new asteroid monitors requires a construction ship and the system in which they are being built MUST have an asteroid belt.
+
 TECHDESC_CCC_ScanSats,"Adaptations of deep scan technology allows for smaller, short range variants designed to provide limited tactical scan capability versus cloaked targets entering planetary bombardment range."
+
 TECHDESC_DRN_Sats,Engineering upgrades to standard defense satellite tech allows for the launching and re-arming of Drones from medium and large specialized platforms.
 TECHDESC_DRN_BtlRdrs,Advancements in dreadnought engineering and heavy auxiliary ships have allowed Tark engineers to recreate a First Empire STL Hunter cruiser design and the corresponding Dreadnought Carrier for it.
 
