@@ -12,8 +12,8 @@ shipsection
 
     health  2500
     mass    9000
-    cost    60500
-    cpoints 8820
+    cost    65500  // REM: morrigi get significantly more trade value per route, so they should be more expensive
+    cpoints 9200
 
     freighter   1
     autonomous  1    // actually means this is a ship with only a mission section
