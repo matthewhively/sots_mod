@@ -21,7 +21,7 @@ shipsection
     range    20
     crew     12
 
-    preview_ofs "-10 0 0"
+    preview_ofs "-10 -500 0"
 
     option  DRV_PlsmFoc 
 

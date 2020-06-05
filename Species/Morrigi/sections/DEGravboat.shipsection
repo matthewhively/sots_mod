@@ -21,7 +21,7 @@ shipsection
     range    12
     crew     6
 
-    preview_ofs "-10 0 0"
+    preview_ofs "-10 -100 0"
 
     option  DRV_RecFiss
 
