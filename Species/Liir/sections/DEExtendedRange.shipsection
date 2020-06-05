@@ -8,13 +8,6 @@ shipsection
     section_type  mission
     section_class destroyer
 
-    preview_ofs "0 0 -4"
-
-    death_effect             "Effects/DEER_Fuel_Explosion.effect"
-    death_area_impact_effect ""
-    death_dam                200
-    death_damradius          150
-    
     health  350
     mass    1800
     cost    2100
@@ -24,6 +17,13 @@ shipsection
     //       they MUST be able to reach a destination with the main fuel tank of an ER or they won't build one or do much of anything.
     //       This must be taken into account when designing the ER scaling!
     range   18
+
+    preview_ofs "0 0 -4"
+
+    death_effect             "Effects/DEER_Fuel_Explosion.effect"
+    death_area_impact_effect ""
+    death_dam                200
+    death_damradius          150
 
     option
     {

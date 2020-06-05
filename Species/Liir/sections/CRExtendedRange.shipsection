@@ -7,13 +7,6 @@ shipsection
     section_type  mission
     section_class cruiser
 
-    preview_ofs "18 10 5"
-
-    death_effect             "Effects/CRER_Fuel_Explosion.effect"
-    death_area_impact_effect ""
-    death_dam                750
-    death_damradius          320
-    
     health  1200
     mass    5800
     cost    9000
@@ -21,6 +14,13 @@ shipsection
 
     range   20
     crew    13
+
+    preview_ofs "18 10 5"
+
+    death_effect             "Effects/CRER_Fuel_Explosion.effect"
+    death_area_impact_effect ""
+    death_dam                750
+    death_damradius          320
 
     option
     {
