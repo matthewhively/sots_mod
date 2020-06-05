@@ -16,8 +16,8 @@ shipsection
     cost    15000
     cpoints 3060
 
-    ftlspeed 2.0
-    range    5
+    ftlspeed  2
+    range     4
     crew     20
 
     option  DRV_RecFiss

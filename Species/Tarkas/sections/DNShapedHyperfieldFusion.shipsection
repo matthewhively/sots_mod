@@ -16,7 +16,7 @@ shipsection
     cost    200000
     cpoints 10300
 
-    ftlspeed  6.0
+    ftlspeed   6
     range     10
     crew      75
 

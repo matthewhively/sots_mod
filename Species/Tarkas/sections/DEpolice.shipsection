@@ -18,9 +18,9 @@ shipsection
     police 1
     autonomous 1    // actually means this is a ship with only a mission section
 
-    ftlspeed 3.5
-    range    10
-    crew     0
+    ftlspeed  4
+    range    12
+    crew      0
 
     preview_ofs "-8 -90 0"
 

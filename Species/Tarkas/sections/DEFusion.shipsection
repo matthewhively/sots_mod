@@ -16,8 +16,8 @@ shipsection
     cost    12000
     cpoints 1150
 
-    ftlspeed  3.5
-    range     10
+    ftlspeed  4
+    range     8
 
     option  DRV_PlsmFoc
 

@@ -16,8 +16,8 @@ shipsection
     cost    25000
     cpoints 920
 
-    ftlspeed 9
-    range    18
+    ftlspeed  10
+    range     18
 
     option
     {

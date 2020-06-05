@@ -16,8 +16,8 @@ shipsection
     cost    10000
     cpoints 1540
 
-    ftlspeed  2.0
-    range     5
+    ftlspeed  2
+    range     6
 
     option  DRV_RecFiss
 
@@ -51,7 +51,7 @@ shipsection
         torque_pitch        0
         torque_roll         0
 
-        speed               55
+        speed               60
         rotspeed            5
     }
 
