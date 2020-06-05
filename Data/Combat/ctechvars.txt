@@ -1,133 +1,119 @@
 combattechvars
 {
 
-	// Ric prob eqn:
-	// ( 1 - angle/90 + b + c ) * ( k + 1 ) = R
+    // Ric prob eqn:
+    // ( 1 - angle/90 + b + c ) * ( k + 1 ) = R
 
-	// ricochet modifiers (b/c)
-	//
-	IND_REFCOAT_RicMod  1.0		// affects laser ricochet
-	IND_IMPRFCT_RicMod  1.5
-	IND_PLYALLOY_RicMod	0.8		// affects ballistic ricochet
-	IND_MAGLAT_RicMod	1.1
-	IND_QRKRES_RicMod	1.3
-	IND_ADMALY_RicMod	1.5
-	SLD_DEF_RicMod      0.5
-	SLD_DISR_RicMod     0.5
+    // ricochet modifiers (b/c)
+    IND_REFCOAT_RicMod  1.0     // affects laser ricochet
+    IND_IMPRFCT_RicMod  1.5
+    IND_PLYALLOY_RicMod 0.8     // affects ballistic ricochet
+    IND_MAGLAT_RicMod   1.1
+    IND_QRKRES_RicMod   1.3
+    IND_ADMALY_RicMod   1.5
+    SLD_DEF_RicMod      0.5
+    SLD_DISR_RicMod     0.5
 
-	// ricochet probability modifiers (k)
-	//
-	IND_TRKSTL_RicProbMod	0.1
+    // ricochet probability modifiers (k)
+    IND_TRKSTL_RicProbMod   0.1
 
-	// health modifiers
-	// 1 = +100%
-	//
-	IND_PLYALLOY_HealthMod	0.15
-	IND_MAGLAT_HealthMod	0.35
-	IND_QRKRES_HealthMod	0.6
-	IND_ADMALY_HealthMod	1.0
+    // health  modifiers
+    // 1 = +100%
+    IND_PLYALLOY_HealthMod  0.15
+    IND_MAGLAT_HealthMod    0.35
+    IND_QRKRES_HealthMod    0.6
+    IND_ADMALY_HealthMod    1.0
 
-	// shield health modifiers
-	// 1 = +100%
-	//
-	SLD_MAGNI_ShieldHealthMod   1.0
-	DRV_QNTCAP_ShieldHealthMod  0.25
+    // shield health  modifiers
+    // 1 = +100%
+    SLD_MAGNI_ShieldHealthMod   1.0
+    DRV_QNTCAP_ShieldHealthMod  0.25
 
-	// hitpoints (0 for indestructible)
-	//
-	SLD_MKONE_Health    800
-	SLD_MKTWO_Health    1200
-	SLD_MKTHREE_Health  1500
-	SLD_MKFOUR_Health   2500
-	SLD_MesShld_Health  0		// Invincible versus all except beams.
-	SLD_GrvShld_Health  0		// Only stops grav effects, all else goes through.
+    // hitpoints (0 for indestructible)
+    SLD_MKONE_Health    800
+    SLD_MKTWO_Health    1200
+    SLD_MKTHREE_Health  1500
+    SLD_MKFOUR_Health   2500
+    SLD_MesShld_Health  0       // Invincible versus all except beams.
+    SLD_GrvShld_Health  0       // Only stops grav effects, all else goes through.
 
-	// recharge times (in secs)
-	//
-	SLD_DEF_Recharge      30
-	SLD_DISR_Recharge     30
-	SLD_MKONE_Recharge    20
-	SLD_MKTWO_Recharge    15
-	SLD_MKTHREE_Recharge  10
-	SLD_MKFOUR_Recharge   10
-	SLD_MesShld_Recharge  30
-	SLD_GrvShld_Recharge  30
-	SLD_CLK_Recharge      30
-	SLD_IMPCLK_Recharge   20
-	SLD_INTANG_Recharge   3
+    // recharge times (in secs)
+    SLD_DEF_Recharge      30
+    SLD_DISR_Recharge     30
+    SLD_MKONE_Recharge    20
+    SLD_MKTWO_Recharge    15
+    SLD_MKTHREE_Recharge  10
+    SLD_MKFOUR_Recharge   10
+    SLD_MesShld_Recharge  30
+    SLD_GrvShld_Recharge  30
+    SLD_CLK_Recharge      30
+    SLD_IMPCLK_Recharge   20
+    SLD_INTANG_Recharge   3
 
-	// recharge mods (+ is % reduction in time [faster], - is % added to time [slower])
-	//
-	WEP_VRFtech_ChargeMod 	   0.2
-	SLD_IMPCLK_ChargeMod      -0.5
-	DRV_QNTCAP_BeamChargeMod   0.2
+    // recharge mods (+ is % reduction in time [faster], - is % added to time [slower])
+    WEP_VRFtech_ChargeMod      0.2
+    SLD_IMPCLK_ChargeMod      -0.5
+    DRV_QNTCAP_BeamChargeMod   0.2
 
-	// emp time mods (+ is % reduction in time, - is % increase in time)
-	//
-	IND_HrdElec_EmpTimeMod     0.5
+    // emp time mods (+ is % reduction in time, - is % increase in time)
+    IND_HrdElec_EmpTimeMod     0.5
 
-	// durations (in secs)
-	//
-	SLD_INTANG_Duration  30
+    // durations (in secs)
+    SLD_INTANG_Duration  30
 
-	// damage mods (% increase)
-	//
-	WEP_NukeWhd_DamMod	0.50
-	WEP_GmaWhd_DamMod	1.00
-	WEP_FusWhd_DamMod	2.50
-	WEP_AmWhd_DamMod	4.00
-	WEP_NeutRnd_DamMod	0.50
-	SLD_ErgAb_DamMod	-0.75	// Dam reduction vs hit ship section
-	BIO_ConNan_DamMod	-0.50	// Dam reduction of nanites vs player with counter-nanite tech
-	IND_HrdElec_DamMod      -0.50   // Dam reduction of emitters vs player with hardened elec tech
-	IND_RefCoat_BeamerDamMod  -0.25  // Dam reduction of beamers vs ship with refcoat
-	IND_ImpRfCt_BeamerDamMod  -0.50  // Dam reduction of beamers vs ship with improved refcoat
-	WEP_AccAmp_DamMod       0.10
+    // damage mods (% increase)
+    WEP_NukeWhd_DamMod  0.50
+    WEP_GmaWhd_DamMod   1.00
+    WEP_FusWhd_DamMod   2.50
+    WEP_AmWhd_DamMod    4.00
+    WEP_NeutRnd_DamMod  0.50
+    WEP_AccAmp_DamMod   0.10
+    SLD_ErgAb_DamMod    -0.75   // Dam reduction vs hit ship section
+    BIO_ConNan_DamMod   -0.50   // Dam reduction of nanites vs player with counter-nanite tech
+    IND_HrdElec_DamMod        -0.50  // Dam reduction of emitters vs player with hardened elec tech
+    IND_RefCoat_BeamerDamMod  -0.25  // Dam reduction of beamers vs ship with refcoat
+    IND_ImpRfCt_BeamerDamMod  -0.50  // Dam reduction of beamers vs ship with improved refcoat
 
-	// payload speed mods (% increase)
-	//
-	WEP_AccAmp_SpdMod        0.20
-	
-	// mass mods (% increase)
-	//
-	WEP_NeutRnd_MassMod	 0.50
 
-	// accuracy mods (% increase)
-	//
-	IND_PREDGUN_AccMod	0.75
-	CCC_AIFrCon_AccMod	0.95
-	
-	// speed mods (% increase)
-	//
-	DRV_McroFus_SpdMod	 0.50
-	DRV_IncThrst_SpdMod	 0.50
-	DRV_SmlFus_SpdMod	 0.75
-	SLD_CLK_SpdMod		 -0.35
-	SLD_Intang_SpdMod	 -0.15
-	
-	// command quota mods (point increase)
-	//
-	CCC_CmbtAlg_CmdMod	4
-	CCC_HoloTac_CmdMod	4
+    // payload speed mods (% increase)
+    WEP_AccAmp_SpdMod        0.20
 
-	// FTLPrepTime	
-	DRV_Node_FTLPrepTime		120.0
-	DRV_NodFoc_FTLPrepTime		90.0
-	DRV_NodPath_FTLPrepTime		60.0
+    // mass    mods (% increase)
+    WEP_NeutRnd_MassMod  0.50
 
-	DRV_StrWrp_FTLPrepTime		100.0
-	DRV_ImpStWrp_FTLPrepTime	75.0
-	DRV_Flicker_FTLPrepTime		30.0
+    // accuracy mods (% increase)
+    IND_PREDGUN_AccMod  0.75
+    CCC_AIFrCon_AccMod  0.95
 
-	DRV_Hyper_FTLPrepTime		130.0
-	DRV_HyprFld_FTLPrepTime		85.0
-	DRV_Warp_FTLPrepTime		40.0
+    // speed mods (% increase)
+    DRV_McroFus_SpdMod   0.50
+    DRV_IncThrst_SpdMod  0.50
+    DRV_SmlFus_SpdMod    0.75
+    SLD_CLK_SpdMod       -0.35
+    SLD_Intang_SpdMod    -0.15
 
-	DRV_Rip_FTLPrepTime		60.0
-	DRV_Rend_FTLPrepTime		40.0
-	DRV_Rad_FTLPrepTime		20.0
+    // command quota mods (point increase)
+    CCC_CmbtAlg_CmdMod  4
+    CCC_HoloTac_CmdMod  4
 
-	DRV_VdCtr_FTLPrepTime		45.0
-	DRV_VdCrv_FTLPrepTime		30.0
-	DRV_VdMstr_FTLPrepTime		15.0
+    // FTLPrepTime
+    DRV_Node_FTLPrepTime        120.0
+    DRV_NodFoc_FTLPrepTime      90.0
+    DRV_NodPath_FTLPrepTime     60.0
+
+    DRV_StrWrp_FTLPrepTime      100.0
+    DRV_ImpStWrp_FTLPrepTime    75.0
+    DRV_Flicker_FTLPrepTime     30.0
+
+    DRV_Hyper_FTLPrepTime       130.0
+    DRV_HyprFld_FTLPrepTime     85.0
+    DRV_Warp_FTLPrepTime        40.0
+
+    DRV_Rip_FTLPrepTime         60.0
+    DRV_Rend_FTLPrepTime        40.0
+    DRV_Rad_FTLPrepTime         20.0
+
+    DRV_VdCtr_FTLPrepTime       45.0
+    DRV_VdCrv_FTLPrepTime       30.0
+    DRV_VdMstr_FTLPrepTime      15.0
 }
