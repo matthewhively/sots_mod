@@ -11,10 +11,10 @@ shipsection
     section_class   Destroyer
     engine_techera  antimatter
 
-    health  750
+    health  800
     mass    1700
     cost    25000
-    cpoints 800
+    cpoints 920
 
     ftlspeed 9
     range    18

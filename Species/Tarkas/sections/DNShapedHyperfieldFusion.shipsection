@@ -11,7 +11,7 @@ shipsection
     section_class   Dreadnought
     engine_techera  fusion
 
-    health  10000
+    health  9000
     mass    55000
     cost    200000
     cpoints 10300

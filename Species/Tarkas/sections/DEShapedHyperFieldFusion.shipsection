@@ -11,7 +11,7 @@ shipsection
     section_class   destroyer
     engine_techera  fusion
 
-    health  550
+    health  600
     mass    2000
     cost    15000
     cpoints 1150

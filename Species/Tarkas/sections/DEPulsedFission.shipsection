@@ -11,10 +11,10 @@ shipsection
     section_class   destroyer
     engine_techera  fission
 
-    health  400
+    health  450
     mass    2050
     cost    10000
-    cpoints 1580
+    cpoints 1540
 
     ftlspeed  2.0
     range     5

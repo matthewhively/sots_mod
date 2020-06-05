@@ -11,7 +11,7 @@ shipsection
     section_class   Cruiser
     engine_techera  antimatter
 
-    health  3050
+    health  3300
     mass    6000
     cost    60000
     cpoints 2070

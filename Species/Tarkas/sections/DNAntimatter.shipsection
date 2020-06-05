@@ -11,7 +11,7 @@ shipsection
     section_class   Dreadnought
     engine_techera  antimatter
 
-    health  12000
+    health  11000
     mass    40000
     cost    250000
     cpoints 9200

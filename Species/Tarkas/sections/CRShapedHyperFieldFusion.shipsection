@@ -11,7 +11,7 @@ shipsection
     section_class   Cruiser
     engine_techera  fusion
 
-    health  2500
+    health  2300
     mass    6500
     cost    32000
     cpoints 2520
