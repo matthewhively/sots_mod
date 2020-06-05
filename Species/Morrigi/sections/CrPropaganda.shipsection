@@ -1,0 +1,46 @@
+shipsection
+{
+	
+	model Species/Morrigi/art/sections/CrPropaganda.X
+	section_type mission
+	section_class cruiser
+	preview_ofs "0 0 1"
+
+	requires DRV_Fusn
+	requires CCC_FTLBrdB
+
+	health 4500
+	mass 35000
+	cost 275000
+	cpoints 20300
+	
+	propaganda 1
+	autonomous 1	// actually means this is a ship with only a mission section
+	ftlspeed 3
+	range	15
+	crew 45
+	preview_ofs "-70 -250 0"
+
+
+
+	netforcelimits
+	{
+		force_forward			55000
+		force_right			55000
+		force_up			55000
+		
+		torque_yaw			6e+7
+		torque_pitch			6e+7
+		torque_roll			6e+7
+		
+		speed				45
+		rotspeed			40
+	}
+
+
+	
+
+	
+
+
+}
