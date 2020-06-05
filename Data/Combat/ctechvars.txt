@@ -97,23 +97,23 @@ combattechvars
     CCC_HoloTac_CmdMod  4
 
     // FTLPrepTime
-    DRV_Node_FTLPrepTime        120.0
-    DRV_NodFoc_FTLPrepTime      90.0
+    DRV_Node_FTLPrepTime        120.0 // 2x
+    DRV_NodFoc_FTLPrepTime      90.0  // 1.5x
     DRV_NodPath_FTLPrepTime     60.0
 
-    DRV_StrWrp_FTLPrepTime      100.0
-    DRV_ImpStWrp_FTLPrepTime    75.0
-    DRV_Flicker_FTLPrepTime     30.0
+    DRV_StrWrp_FTLPrepTime      105.0  // 3x
+    DRV_ImpStWrp_FTLPrepTime    70.0   // 2x
+    DRV_Flicker_FTLPrepTime     35.0
 
-    DRV_Hyper_FTLPrepTime       130.0
-    DRV_HyprFld_FTLPrepTime     85.0
+    DRV_Hyper_FTLPrepTime       120.0 // 3x
+    DRV_HyprFld_FTLPrepTime     80.0  // 2x
     DRV_Warp_FTLPrepTime        40.0
 
-    DRV_Rip_FTLPrepTime         60.0
-    DRV_Rend_FTLPrepTime        40.0
-    DRV_Rad_FTLPrepTime         20.0
+    DRV_Rip_FTLPrepTime         100.0  // 2x
+    DRV_Rend_FTLPrepTime        75.0   // 1.5x
+    DRV_Rad_FTLPrepTime         50.0
 
-    DRV_VdCtr_FTLPrepTime       45.0
-    DRV_VdCrv_FTLPrepTime       30.0
-    DRV_VdMstr_FTLPrepTime      15.0
+    DRV_VdCtr_FTLPrepTime       75.0  // 3x
+    DRV_VdCrv_FTLPrepTime       50.0  // 2x
+    DRV_VdMstr_FTLPrepTime      25.0
 }
