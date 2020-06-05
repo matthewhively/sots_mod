@@ -9,10 +9,10 @@ shipsection
     entity_class   "Gravboat"
     gravboat_bonus 3.0
 
-    health  17500
+    health  47500      // Target 2x basic DN
     mass    93000
-    cost    1320000
-    cpoints 65300
+    cost    1820000    // Target 2x basic DN
+    cpoints 65300      // Target equivalent to basic DN (no change)
 
     autonomous 1    // actually means this is a ship with only a mission section
 
