@@ -2085,7 +2085,7 @@ tech
 {
 name        "DRV_NodPath"
 threat      2
-requires    "DRV_AntiMat"
+requires    "DRV_Fusn"
 strategy 
     { 
         inc TECHBEN_STRATSPD
