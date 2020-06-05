@@ -23,8 +23,8 @@ shipsection
     huge         1    // huge ship (larger than normal for ship class) gets placed above the plane in combat
 
     ftlspeed  2
-    range    12
-    crew      0
+    range    14
+    crew    100
 
     preview_ofs "-70 -930 0"
 

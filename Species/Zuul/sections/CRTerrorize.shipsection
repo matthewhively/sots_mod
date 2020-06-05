@@ -17,8 +17,8 @@ shipsection
     propaganda 1
     autonomous 1    // actually means this is a ship with only a mission section
 
-    nodespeed 4.0
-    ftlspeed  .6
+    nodespeed  6
+    ftlspeed  .5
     range     20
     crew      60
 

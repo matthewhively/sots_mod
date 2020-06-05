@@ -14,10 +14,11 @@ shipsection
     cost    452000
     cpoints 19800
 
-    propaganda 1
-    autonomous 1    // actually means this is a ship with only a mission section
+    command_cost 0
+    propaganda   1
+    autonomous   1    // actually means this is a ship with only a mission section
 
-    ftlspeed  2
+    ftlspeed  4
     range     8
     crew     35
 

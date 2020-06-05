@@ -3,6 +3,8 @@ shipsection
     model Species/Zuul/art/sections/Zuul_Devourer.X
 
     requires DRV_AntiMat
+    requires IND_SlvgTech
+    // Maybe require deep space constructors instead?
 
     section_type    mission
     section_class   dreadnought
@@ -20,7 +22,7 @@ shipsection
 
     autonomous 1    // actually means this is a ship with only a mission section
 
-    nodespeed 10
+    nodespeed 12
     ftlspeed  .7
     range     38
     crew      300

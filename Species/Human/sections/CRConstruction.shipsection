@@ -22,10 +22,10 @@ shipsection
     autonomous   1    // actually means this is a ship with only a mission section
     huge         1    // huge ship (larger than normal for ship class) gets placed above the plane in combat
 
-    nodespeed  4
-    ftlspeed  .3
-    range     16
-    crew       0
+    nodespeed  5
+    ftlspeed  .5
+    range     18
+    crew      200
 
     preview_ofs "-70 -1030 0"
 
