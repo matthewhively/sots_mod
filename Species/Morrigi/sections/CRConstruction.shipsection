@@ -1,51 +1,45 @@
 shipsection
 {
-	
-	model Species/Morrigi/art/sections/DnConstruction.X
-	section_type mission
-	section_class cruiser
-	preview_ofs "0 0 1"
-	huge 1			// huge ship (larger than normal for ship class) gets placed above the plane in combat
 
-	engine_techera	fusion
+    model Species/Morrigi/art/sections/DnConstruction.X
 
-	requires DRV_Fusn
-	requires DRV_VdCtr
-	requires IND_DSCon
+    requires DRV_Fusn
+    requires DRV_VdCtr
+    requires IND_DSCon
 
-	health 2800
-	mass 19000
-	cost 880000
-	cpoints 16000
-	
-	command_cost 0
-	construction_capacity 10900
-	autonomous 1	// actually means this is a ship with only a mission section
+    section_type    mission
+    section_class   cruiser
+    engine_techera  fusion
 
-	ftlspeed 2
-	range	12
-	crew 0
-	preview_ofs "-70 -930 0"
+    health  2800
+    mass    19000
+    cost    880000
+    cpoints 16000
 
-	netforcelimits
-	{
-		force_forward			43000
-		force_right			43000
-		force_up			43000
-		
-		torque_yaw			2e+8
-		torque_pitch			2e+8
-		torque_roll			2e+8
-		
-		speed				35
-		rotspeed			45
-	}
+    construction_capacity 10900
 
+    command_cost 0
+    autonomous   1    // actually means this is a ship with only a mission section
+    huge         1    // huge ship (larger than normal for ship class) gets placed above the plane in combat
 
-	
+    ftlspeed  2
+    range    12
+    crew      0
 
-	
-	
+    preview_ofs "-70 -930 0"
 
+    netforcelimits
+    {
+        force_forward       43000
+        force_right         43000
+        force_up            43000
+
+        torque_yaw          2e+8
+        torque_pitch        2e+8
+        torque_roll         2e+8
+
+        speed               35
+        rotspeed            45
+    }
 
 }
