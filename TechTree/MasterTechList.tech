@@ -2529,7 +2529,7 @@ threat      1
 tech
 {
 name        "CCC_FTLCom"
-allows      "CCC_FTLBrdB    RP:4000"
+allows      "CCC_FTLBrdB    RP:2000"
 allows      "CCC_BtlCmp     RP:10000"
 allows      "CCC_HypCom     RP:10000    Human:0   Zuul:0   Hiver:0   Tarkas:100 Liir:0 Morrigi:0"
 }
@@ -2560,7 +2560,7 @@ tech
 name        "CCC_FTLBrdB"
 allows      "CCC_SpyBm      RP:12000    Human:80 Zuul:100 Hiver:80 Tarkas:90 Liir:90 Morrigi:100"
 allows      "CCC_SpJam      RP:12000    Human:70 Zuul:90 Hiver:70 Tarkas:80 Liir:80 Morrigi:100"
-allows      "CCC_FTLEcon    RP:18000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+allows      "CCC_FTLEcon    RP:20000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
 allows      "CCC_ComRaid    RP:5000     Human:0 Zuul:100 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
 }
 
