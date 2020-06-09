@@ -827,8 +827,18 @@ name        "WEP_PlsmProj"
 family      "NRG"
 threat      2
 allows      "WEP_FusProj    RP:100000   Human:30 Zuul:20 Hiver:40 Tarkas:30 Liir:80 Morrigi:50"
+
 requires    "IND_CruisCon"
 GROUP       PRJCTR
+
+ship 
+    {
+        section CRProjector
+        section DNProjector
+    }
+weapon  {
+            filename  "Weapons/can_prjplasma.weapon"
+        }
 }
 
 
@@ -843,6 +853,15 @@ allows      "SLD_Proj       RP:100000   Human:60 Zuul:30 Hiver:30 Tarkas:50 Liir
 requires    "DRV_Fusn"
 requires    "IND_CruisCon"
 GROUP       PRJCTR
+
+ship 
+    {
+        section CRProjector
+        section DNProjector
+    }
+weapon  {
+            filename  "Weapons/can_prjfus.weapon"
+        }
 }
 
 
@@ -852,9 +871,19 @@ name        "WEP_AmProj"
 family      "NRG"
 threat      3
 allows      "WEP_MesProj    RP:200000   Human:25 Zuul:10 Hiver:20 Tarkas:30 Liir:60 Morrigi:50"
+
 requires    "DRV_AntiMat"
 requires    "IND_CruisCon"
 GROUP       PRJCTR
+
+ship 
+    {
+        section CRProjector
+        section DNProjector
+    }
+weapon  {
+            filename  "Weapons/can_prjam.weapon"
+        }
 }
 
 
@@ -863,10 +892,19 @@ tech
 name        "WEP_MesProj"
 family      "NRG"
 threat      3
+
 requires    "WEP_MesBm"
 requires    GRP_PRJCTR
 GROUP       PRJCTR
-            
+
+ship 
+    {
+        section CRProjector
+        section DNProjector
+    }
+weapon  {
+            filename  "Weapons/bem_prjmeson.weapon"
+        }
 }
 
 
