@@ -1137,6 +1137,7 @@ ship
         section CRAssault
         section DNBarrage
     }
+// TODO: technically irrelevant because you cannot unlock this without first having gotten disruptor (which shows torps)
 }
 
 
@@ -1177,6 +1178,13 @@ group       TORPS
 weapon  {
             filename  "Weapons/trp_pulsar.weapon"
         }
+ship 
+    { 
+        section DETorpedo
+        section CRAssault
+        section DNBarrage
+    }
+// TODO: technically irrelevant because you cannot unlock this without first having gotten disruptor (which shows torps)
 }
 
 
@@ -1230,8 +1238,14 @@ group       TORPS
 weapon  {
             filename  "Weapons/trp_kelvinic.weapon"
         }
-
+ship 
+    { 
+        section DETorpedo
+        section CRAssault
+        section DNBarrage
+    }
 }
+
 
 
 tech
