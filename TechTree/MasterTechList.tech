@@ -487,6 +487,13 @@ tech
 name        "IND_TrpSat"
 threat      2
 requires    GRP_TORPS
+
+//ship
+//    {
+//        section DNTorpedoPlatform
+//        section CRTorpedoPlatform
+//    }
+// There is no icon for these, also the names are different.
 }
 
 
@@ -2154,6 +2161,7 @@ ship
     }
 }
 
+// TODO: list the nodebore ship sections?
 tech
 {
 name        "DRV_Rip"
@@ -2186,6 +2194,7 @@ strategy
 }
 
 
+// TODO: add in gravboats? Or ignore that for now?
 tech
 {
 name        "DRV_VdCtr"
@@ -2697,7 +2706,7 @@ allows      "CCC_AdvSens    RP:20000"
 allows      "CCC_DatCor     RP:15000"
 }
 
-
+// Data Correlation
 tech
 {
 name        "CCC_DatCor"
@@ -2734,6 +2743,11 @@ name        "CCC_TunSens"
 tech
 {
 name        "CCC_ScanSats"
+//ship 
+//    { 
+//        section CRDeepscanPlatform
+//    }
+// There is no icon for this
 }
 
 
@@ -3089,7 +3103,12 @@ tech
 name        "DRN_Sats"
 threat      1
 requires    "IND_CruisCon"
-
+//ship 
+//    { 
+//        section CRDronePlatform
+//        section DNDronePlatform
+//    }
+// There is no icon for these
 }
 
 
@@ -3234,7 +3253,6 @@ strategy
     { 
         inc TECHBEN_GUNACC 
     }
-
 ship 
     { 
         section DEAIC
