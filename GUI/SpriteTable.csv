@@ -1611,6 +1611,10 @@ TECHSHIP_DEColonyTrickster,TechTree\ShipArt\%s_DE_Mission.tga,0,0,256,128
 TECHSHIP_DEPursuit,TechTree\ShipArt\%s_DE_Mission.tga,0,0,256,128
 TECHSHIP__AsteroidMonitor,TechTree\ShipArt\%s_DN_Mission.tga,0,0,256,128
 TECHSHIP_CRImpactor,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
+TECHSHIP_CRBoarding,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
+TECHSHIP_CRConstruction,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
+TECHSHIP_CRProjector,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
+TECHSHIP_CRAssaultShuttle,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
 // ... species specific
 TECHSHIP_DEShapedHyperFieldFusion,TechTree\ShipArt\Tarkas_DECRDN_Engine.tga,0,0,256,128
 TECHSHIP_DEAntimatterWarp,TechTree\ShipArt\Tarkas_DECRDN_Engine.tga,0,0,256,128
@@ -1620,6 +1624,7 @@ TECHSHIP_DENodeMissile,TechTree\ShipArt\human_DE_Mission.tga,0,0,256,128
 TECHSHIP_DERamscoop,TechTree\ShipArt\hiver_DECR_Command.tga,0,0,256,128
 TECHSHIP_DELongRangeFission,TechTree\ShipArt\hiver_DECR_Engine.tga,0,0,256,128
 TECHSHIP_DELongRangeFusion,TechTree\ShipArt\hiver_DECRDN_Engine.tga,0,0,256,128
+TECHSHIP_CRGate,TechTree\ShipArt\hiver_CR_Mission.tga,0,0,256,128
 
 
 // Combat load screen

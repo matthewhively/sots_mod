@@ -418,6 +418,10 @@ tech
 name        "IND_BrdPod"
 threat      1
 requires    "IND_CruisCon"
+ship
+    { 
+        section CRBoarding
+    }
 }
 
 
@@ -456,6 +460,10 @@ name        "IND_DSCon"
 threat      2
 allows      "IND_OrbCom     RP:15000"
 requires    "DRV_Fusn"
+ship
+    { 
+        section CRConstruction
+    }
 }
 
 
@@ -967,10 +975,14 @@ allows      "WEP_Lancer     RP:120000   Human:75 Zuul:50 Hiver:70 Tarkas:80 Liir
 requires    "IND_CruisCon"
 GROUP       HVYBEAM
 ship 
-    { 
+    {
+// NOTE: the first listed is what determines the graphics, everything listed has its name written over the icon
         section CRBattleBridge
-        section DNBattleBridge 
-    } 
+        section DNBattleBridge
+        section CRBlazer
+        section DNBlazer
+// NOTE: Blazer is not defined in the sprite table, so do NOT list it first
+    }
 weapon  {
             filename  "Weapons/hvy_bem_hclas.weapon"
         }
@@ -989,7 +1001,9 @@ GROUP       HVYBEAM
 ship 
     { 
         section CRBattleBridge
-        section DNBattleBridge 
+        section DNBattleBridge
+        section CRBlazer
+        section DNBlazer
     } 
 weapon  {
             filename  "Weapons/hvy_bem_lancer.weapon"
@@ -1007,7 +1021,9 @@ GROUP       HVYBEAM
 ship 
     { 
         section CRBattleBridge
-        section DNBattleBridge 
+        section DNBattleBridge
+        section CRBlazer
+        section DNBlazer
     }
 weapon  {
             filename  "Weapons/hvy_bem_cutting.weapon"
@@ -1026,7 +1042,6 @@ allows      "WEP_NeutBm     RP:65000    Human:80 Zuul:40 Hiver:70 Tarkas:70 Liir
 weapon  {
             filename  "Weapons/bem_part.weapon"
         }
-
 }
 
 
@@ -2342,7 +2357,12 @@ requires    "DRV_Fusn"
 strategy 
     { 
         inc TECHBEN_GATCAP 
-    }                       
+    }
+ship 
+    { 
+        section CRGate
+    }
+// Technically cruiser construction would also be necessary, but I think this is ok
 }
 
 
@@ -3132,8 +3152,10 @@ tech
 {
 name        "DRN_AdvFrm"
 threat      1
-
-
+ship 
+    { 
+        section CRAssaultShuttle
+    }
 }
 
 
