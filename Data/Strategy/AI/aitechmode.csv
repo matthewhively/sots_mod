@@ -10,3 +10,374 @@
 # IND_CruisCon,w
 # ^ IND_CruisCon is in weapon and empire research modes
 #
+# The way this is supposed to work according to forums is:
+#   From all rolled techs > filter based on the tech mode > specific purpose tech groups > finally aitechprio.csv
+#
+# TODO: it doesn't look like this is completely free of card-coded nonsense. AI still targets:
+#       Battle Computers, VRF, PolySilicate, Reflective Coating, Green Lasers, Shaped Nuke, Sensor Jammers, Mass Driver... (and more) too early
+#
+# NOTE: we hope that when a tech is specified in this file it overwrites whatever hard coded values exist (since there is no way to UN-group a tech)
+
+
+# TODO: Find any other hidden requirements on techs and adjust categorization appropriately
+
+# Core Gateway technologies, all 3 modes
+DRV_Fusn,e
+DRV_Fusn,n
+DRV_Fusn,w
+DRV_AntiMat,e
+DRV_AntiMat,n
+DRV_AntiMat,w
+
+# Lead to Lrger Ships (e & w)
+IND_Waldo,e
+IND_OrbFound,e
+IND_OrbDry,e
+IND_HvyPlat,e
+IND_SlvgTech,e
+IND_Waldo,w
+IND_OrbFound,w
+IND_OrbDry,w
+IND_HvyPlat,w
+IND_SlvgTech,w
+
+# Easy Cheap range/speed increases (e & n)
+DRV_PlsFiss,e
+DRV_LRFiss,e
+DRV_RecFiss,e
+DRV_PlsmFoc,e
+DRV_LRFusn,e
+DRV_PlsFiss,n
+DRV_LRFiss,n
+DRV_RecFiss,n
+DRV_PlsmFoc,n
+DRV_LRFusn,n
+
+
+##########################
+# engines (n)
+
+#DRV_Fissn  # root engines
+
+#DRV_Rmscps,n       # AI should probably avoid this, too specialized?
+
+#DRV_Node,n
+DRV_NodFoc,n
+DRV_NodPath,n
+
+#DRV_Rip,n
+DRV_Rend,n
+DRV_Rad,n
+
+#DRV_Hyper,n
+DRV_HyprFld,n
+DRV_Warp,n
+
+#DRV_StrWrp,n
+DRV_ImpStWrp,n
+DRV_Flicker,n
+
+#DRV_TpGate,n
+DRV_GatAmp,n
+DRV_FarCast,n
+
+#DRV_VdCtr,n
+DRV_VdCrv,n
+DRV_VdMstr,n
+DRV_GrvSyn,n
+
+##########################
+# empire (e)
+
+IND_AstMine,e
+IND_MsMine,e
+IND_EleNans,e
+IND_GravCon,e
+IND_MegFrght,e
+IND_ModCon,e
+IND_DSCon,e
+IND_OrbCom,e
+IND_ArcCon,e
+# Probably not really useful for weapon systems, hopefully the AI doesn't waste turrets on it
+IND_TrctBm,e
+# atmospheric processing
+IND_AtProc,e
+# zero-g deconstruction, (I don't think AI scraps any ships, so leave it alone)
+#IND_DeCon,e
+
+IND_CyberInt,e
+IND_ExpSys,e
+
+DRN_AdvRob,e
+
+BIO_GnMod,e
+BIO_SpndAni,e
+BIO_Btrans,e
+BIO_AtmoAd,e
+BIO_TerBac,e
+BIO_EnvTail,e
+BIO_GrvAdpt,e
+
+CCC_FTLBrdB,e
+CCC_FTLEcon,e
+
+
+##########################
+# weapons (w)
+
+BIO_Plg,w
+BIO_PlgVac,w
+BIO_RtPlg,w
+BIO_RtPlgVac,w
+BIO_Bst,w
+BIO_BstVac,w
+#BIO_AsPlg,w       # removed in phase 1
+#BIO_AsPlgVac,w    # removed in phase 1
+BIO_UniAnti,w
+BIO_NanVir,w
+BIO_ConNan,w
+BIO_SmrtNan,w
+
+#WEP_RedLas # starter laser
+WEP_GrnLas,w
+WEP_UvLas,w
+WEP_XryLas,w
+WEP_LtEmitr,w
+WEP_Emitr,w
+WEP_HvyEmitr,w
+WEP_PlsmCan,w
+WEP_FusCan,w
+WEP_HvyPCan,w
+WEP_HvyFCan,w
+WEP_HvyACan,w
+WEP_AmCan,w
+WEP_PlsmProj,w
+WEP_FusProj,w
+WEP_AmProj,w
+WEP_Phas,w
+WEP_PDPhas,w
+WEP_PlsPhas,w
+WEP_HCLas,w
+WEP_Lancer,w
+WEP_CtngBm,w
+WEP_PrtBm,w
+WEP_NeutBm,w
+WEP_PosiBm,w
+WEP_MesBm,w
+WEP_GravBm,w
+WEP_Dsrptr,w
+WEP_EmPulse,w
+WEP_PlsTrp,w
+WEP_PhotTrp,w
+WEP_PlsmTrp,w
+WEP_FusTrp,w
+WEP_DtFsTrp,w
+WEP_AmTrp,w
+WEP_DtAmTrp,w
+
+#WEP_Nukes   # starter missile
+WEP_NukeWhd,w
+WEP_GmaWhd,w
+WEP_FusWhd,w
+WEP_AmWhd,w
+WEP_NukMine,w
+WEP_FusMine,w
+WEP_AmMine,w
+WEP_GrvMine,w
+WEP_ImpMine,w
+WEP_LpMine,w
+WEP_ClkMine,w
+WEP_DFMsl,w
+WEP_CorMsl,w
+WEP_NanMsl,w
+WEP_NdMsl,w
+
+#WEP_GsDrvr # starter balistics
+WEP_MasDrvr,w
+WEP_HvyDrvr,w
+WEP_APRtech,w
+WEP_VRFtech,w
+WEP_PDtech,w
+WEP_BrstrDrvr,w
+WEP_ShldDrvr,w
+WEP_SgeDrvr,w
+WEP_ThmpDrvr,w
+WEP_NeutRnd,w
+WEP_ErgDrain,w
+WEP_GrnBmr,w
+WEP_UvBmr,w
+WEP_MesProj,w
+WEP_DsrptrWhp,w
+WEP_GluTrp,w
+WEP_MesTrp,w
+WEP_MWMsl,w
+WEP_KKMsl,w
+WEP_SnpCanDrvr,w
+WEP_StrmDrvr,w
+WEP_HStrmDrvr,w
+WEP_MasShtDrvr,w
+WEP_PulGrvBm,w
+WEP_AccAmp,w
+WEP_PolPlsm,w
+WEP_PolFus,w
+WEP_PolAm,w
+WEP_IntCan,w
+WEP_HvyIntCan,w
+WEP_KelTrp,w
+WEP_HvyPMsl,w
+
+IND_RefCoat,w
+IND_ImpRfCt,w
+IND_PlyAlloy,w
+IND_MagLat,w
+IND_QrkRes,w
+IND_AdmAly,w
+IND_StlthArm,w
+
+IND_SpnlMnt,w
+IND_CruisCon,w
+IND_TrpSat,w
+IND_DreadCon,w
+IND_PredGun,w
+IND_BrdPod,w
+IND_TrkStl,w
+IND_HrdElec,w
+IND_AdvDreadEng,w
+IND_AstMon,w
+
+# Since this is -10% IO, maybe AI should always ignore this tech?
+IND_HrdStrct,w
+
+DRV_McroFus,w
+DRV_SmlFus,w
+DRV_McrFlkr,w
+DRV_QntCap,w
+DRV_OvrThrust,w
+# interceptor missiles
+DRV_Ints,w
+# ionic thrusters
+DRV_IncThrst,w 
+
+#CCC_FTLCom     # starter CCC
+#CCC_NdTrkZul   # does zuul start with this?
+#CCC_NdTrkHum   # does human start with this?
+
+CCC_BtlCmp,w
+CCC_DatSyn,w
+CCC_ArmCom,w
+CCC_CmbtAlg,w
+CCC_HoloTac,w
+# flag central command
+CCC_FCCom,w
+
+# Does the AI need/use these? Should ignore them?
+#CCC_AdvCnC
+#CCC_DatCor
+#CCC_SpyBm
+#CCC_SpJam
+# The AI does research this, but maybe it never changes a fleets orders? Maybe skip it?
+#CCC_HypCom
+
+CCC_SnsJam,w
+CCC_QntChaf,w
+CCC_IntSens,w
+CCC_AdvSens,w
+CCC_TunSens,w
+CCC_ScanSats,w
+CCC_ComRaid,w
+
+# does the AI techs?
+#CCC_AI         
+#CCC_AIAdmin
+#CCC_AIFac
+#CCC_AIFrCon
+#CCC_AIVrus
+#CCC_AISlv
+
+SLD_Def,w
+SLD_Clk,w
+SLD_ImpClk,w
+SLD_MkOne,w
+SLD_MkTwo,w
+SLD_MkThree,w
+SLD_MkFour,w
+SLD_ErgAb,w
+SLD_MesShld,w
+SLD_GrvShld,w
+#SLD_Intang,w  # Removed by phase 1
+SLD_Magni,w
+SLD_Proj,w
+SLD_Disr,w
+SLD_Focus,w
+
+# combat drones
+DRN_Cmbt,w
+DRN_Squad,w
+DRN_WingMan,w
+DRN_AdvFrm,w
+DRN_Sats,w
+DRN_BtlRdrs,w
+DRN_COL,w
+DRN_CryCOL,w
+DRN_CrakCOL,w
+# TarPit
+DRN_TPCOL,w
+# autonomous drones 
+DRN_Auto,w
+
+
+# Leave the xeno techs as default, Does the AI ever research them?
+
+#CCC_TrnsHum
+#CCC_TrnsHvr
+#CCC_TrnsTrk
+#CCC_TrnsLir
+#CCC_TrnsMorr
+# I guess they should unlock war sections
+CCC_TrnsZul,w
+
+#XNC_TrnsHum2
+#XNC_IncHum
+#XNC_AdctHum
+#XNC_TempHum
+#XNC_TrnsHum3
+#XNC_SubHum
+#XNC_AccHum
+#XNC_ProfHum
+#XNC_TrnsHvr2
+#XNC_IncHvr
+#XNC_AdctHvr
+#XNC_TempHvr
+#XNC_TrnsHvr3
+#XNC_SubHvr
+#XNC_AccHvr
+#XNC_ProfHvr
+#XNC_TrnsTrk2
+#XNC_IncTrk
+#XNC_AdctTrk
+#XNC_TempTrk
+#XNC_TrnsTrk3
+#XNC_SubTrk
+#XNC_AccTrk
+#XNC_ProfTrk
+#XNC_TrnsLir2
+#XNC_IncLir
+#XNC_AdctLir
+#XNC_TempLir
+#XNC_TrnsLir3
+#XNC_SubLir
+#XNC_AccLir
+#XNC_ProfLir
+#XNC_TrnsZuul2
+#XNC_DomZuul
+#XNC_SubZuul
+#XNC_TrnsMorr2
+#XNC_IncMorr
+#XNC_AdctMorr
+#XNC_TempMorr
+#XNC_TrnsMorr3
+#XNC_SubMorr
+#XNC_AccMorr
+#XNC_ProfMorr
+
+
