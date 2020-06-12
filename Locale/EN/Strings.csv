@@ -2588,7 +2588,7 @@ TECHDESC_DRV_McrFlkr,This miniature flicker drive can be fitted to missiles allo
 
 TECHDESC_DRV_TpGate,The technology Hivers use to teleport their ships instantaneously from system to system. Allows instant strategic map movement for Hiver ships between star systems that both have gates.
 TECHDESC_DRV_GatAmp,A set of energy amplifiers that increase the number of ships the Hiver gate network can transport at any given time. Results in a gate capacity increase of 3 for every gate.
-TECHDESC_DRV_FarCast,This advancement in gate technology allows a Hiver gate to transport a Hiver fleet up to ten light-years WITHOUT a receiver gate. There are some issues with accuracy as the fleet will arrive on target + or - 2 light-years.
+TECHDESC_DRV_FarCast,This advancement in gate technology allows a Hiver gate to transport a Hiver fleet up to 10 light-years WITHOUT a receiver gate. There are some issues with accuracy as the fleet will arrive on target + or - 2 light-years.
 
 TECHDESC_DRV_IncThrst,These highly efficient thrusters use heavy elements driven to relativistic speeds for thrusting power. Increases turn thrust on all ships and missiles by 25%
 
@@ -4407,7 +4407,7 @@ TECHDESC_WEP_MasShtDrvr,"A heavy driver that fires a burst of mass driver rounds
 TECHNAME_DRV_QntCap,Quantum Capacitors
 TECHDESC_DRV_QntCap,The technology utilizes advanced quantum systems to store energy at previously unheard of levels while remaining small enough to be used in ship's systems. The result in increased beam weapon rates of fire and stronger shields.
 TECHNAME_DRV_VdCtr,Void Cutter Drive
-TECHDESC_DRV_VdCtr,This FTL technology of the Morrigi race pulls their ships into FTL channels using focused gravity to infinitely curve space-time. This allows them to accelerate and maneuver sub-light as well without using vented reactor plasma. 
+TECHDESC_DRV_VdCtr,This FTL technology of the Morrigi race pulls their ships into FTL channels using focused gravity to infinitely curve space-time. This allows them to accelerate and maneuver sub-light as well without need of primitive reactor plasma venting systems. 
 TECHNAME_DRV_VdCrv,Void Carver Drive
 TECHDESC_DRV_VdCrv,This refinement of the Cutter Drive into Carver Drive allows for greater range and speed.
 TECHNAME_DRV_VdMstr,Void Mastery Drive
