@@ -2681,7 +2681,7 @@ SECTIONNAME_CRCloaking,Cloaking
 SECTIONNAME_CRCommand,Standard Command
 SECTIONNAME_CRDeepScan,Deep Scan
 SECTIONNAME_CRDefencePlatform,Medium Defense Platform
-SECTIONNAME_CRDeflector,Point Deflector
+SECTIONNAME_CRDeflector,Deflector
 SECTIONNAME_CRExtendedRange,Extended Range
 SECTIONNAME_CRFireControl,Fire Control
 SECTIONNAME_CRFission,Fission
@@ -2779,7 +2779,7 @@ SECTIONNAME_DNBattleBridge,Battle Bridge
 SECTIONNAME_DNBioWar,Bio War
 SECTIONNAME_DNCommand,Standard Command
 SECTIONNAME_DNDefencePlatform,Heavy Defense Platform
-SECTIONNAME_DNDeflector,Point Deflector
+SECTIONNAME_DNDeflector,Deflector
 SECTIONNAME_DNFocusNodeAntimatter,Antimatter F-Node
 SECTIONNAME_DNFocusNodeFusion,Fusion F-Node
 SECTIONNAME_DNFusion,Fusion
@@ -4644,9 +4644,9 @@ SECTIONNAME_DNStationTrade_Aft,Sensor Station
 SECTIONNAME_DNStationHabitat_Fore,Sensor Station
 SECTIONNAME_DNStationHabitat_Aft,Sensor Station
 SECTIONNAME_CRDrone,Drone
-SECTIONNAME_DEDisruptor,Disruptor
-SECTIONNAME_CRDisruptor,Disruptor
-SECTIONNAME_DNDisruptor,Disruptor
+SECTIONNAME_DEDisruptor,Point Disruptor
+SECTIONNAME_CRDisruptor,Point Disruptor
+SECTIONNAME_DNDisruptor,Point Disruptor
 SECTIONNAME_DEDrone,Drone
 SECTIONNAME_DNGravboat,Gravboat
 SECTIONNAME_CRCOL,Complex Ordinance Launcher
