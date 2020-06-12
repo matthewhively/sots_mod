@@ -4375,7 +4375,7 @@ TECHDESC_IND_DSCon,The creation of highly specialized deep space construction sh
 TECHNAME_IND_OrbCom,Orbital Complexes
 TECHDESC_IND_OrbCom,"Allows for the construction of large, special purpose space stations."
 TECHNAME_IND_AdvDreadEng,Advanced Dreadnought Engineering
-TECHDESC_IND_AdvDreadEng,The incorporation of complex systems into a single Dreadnought module.
+TECHDESC_IND_AdvDreadEng,"By incorporating multiple complex systems into a single Dreadnought module, fleet compositions can be dramatically simplified.\n\n*When in combination with the following technologies new sections unlock: Complex Ordinance Launchers, Salvage Technology, Sensor Jammers, Advanced Sensors, Quantum Chaff"
 
 
 TECHNAME_WEP_GrnBmr,Green Beamers

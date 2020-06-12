@@ -525,8 +525,14 @@ threat      2
 ship
     {
         section DNEW
+        section DNCol
+        section DNSupport
     }
-}   
+// NOTE: none of these sections are unlocked just by this. Always in combination with other techs. See tech description string.
+// + COL > COL
+// + Jammers + Adv Sensors + Chaff > EW
+// + Salvage > Support
+}
 
 
 tech
