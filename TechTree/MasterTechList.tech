@@ -3008,9 +3008,9 @@ tech
 name        "SLD_Disr"
 ship 
     { 
-        section DEDeflector
-        section CRDeflector
-        section DNDeflector
+        section DEDisruptor
+        section CRDisruptor
+        section DNDisruptor
     }
 
 }
