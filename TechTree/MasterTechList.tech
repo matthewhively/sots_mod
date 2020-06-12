@@ -2872,6 +2872,12 @@ name        "SLD_ImpClk"
 //allows      "SLD_Intang     RP:120000   Human:10 Zuul:10 Hiver:10 Tarkas:20 Liir:50 Morrigi:50"
 allows      "WEP_ClkMine    RP:90000    Human:60 Zuul:80 Hiver:70 Tarkas:80 Liir:60 Morrigi:70"
 requires    "DRV_AntiMat"
+
+ship 
+    { 
+        section DECloaking
+        section CRCloaking
+    }
 }
 
 
@@ -2897,6 +2903,13 @@ allows      "SLD_MkThree    RP:70000    Human:50 Zuul:30 Hiver:40 Tarkas:50 Liir
 allows      "SLD_Magni      RP:120000   Human:40 Zuul:10 Hiver:20 Tarkas:30 Liir:70 Morrigi:75"
 group       SHIELDS
 OPTION_COST 1.4
+
+ship 
+    { 
+        section DEShield
+        section CRShield
+    }
+}
 }
 
 
@@ -2935,7 +2948,7 @@ tech
 name        "SLD_Magni"
 allows      "SLD_MkFour     RP:95000    Human:70 Zuul:25 Hiver:30 Tarkas:60 Liir:85 Morrigi:90"
 requires    "DRV_AntiMat"
-
+requires    GRP_SHIELDS
 }
 
 
