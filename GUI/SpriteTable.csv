@@ -1306,7 +1306,7 @@ TECHICON_DRV_AntiMat,TechTree\AntiMatter.tga,0,0,64,64
 TECHICON_IND_GravCon,TechTree\GravityControl.tga,0,0,64,64
 TECHICON_IND_ImpRfCt,TechTree\ImprovedReflectiveCoating.tga,0,0,64,64
 TECHICON_WEP_LtEmitr,TechTree\LightEmitter.tga,0,0,64,64
-TECHICON_WEP_PDtech,TechTree\GaussPointDefense.tga,0,0,64,64
+TECHICON_WEP_PDtech,TechTree\PointDefence.tga,0,0,64,64
 TECHICON_WEP_PhotTrp,TechTree\PhotonicTorpedo.tga,0,0,64,64
 TECHICON_WEP_VRFtech,TechTree\VRFTech.tga,0,0,64,64
 TECHICON_CCC_AdvCnC,TechTree\AdvancedCnC.tga,0,0,64,64
@@ -1421,8 +1421,8 @@ TECHICON_CCC_ScanSats,TechTree\Scan_Sats.tga,0,0,64,64
 TECHICON_DRN_Sats,TechTree\Drone_Sats.tga,0,0,64,64
 TECHICON_DRN_BTLRdrs,TechTree\Battle_Riders.tga,0,0,64,64
 TECHICON_SLD_Focus,TechTree\Focused_Shielding.tga,0,0,64,64
-
 TECHICON_WEP_AccAmp,TechTree\Accelerator_Amplification.tga,0,0,64,64
+
 TECHICON_XNC_AccHum,TechTree\accommodate_human.tga,0,0,64,64
 TECHICON_XNC_AccHvr,TechTree\accommodate_hiver.tga,0,0,64,64
 TECHICON_XNC_AccLir,TechTree\accommodate_liir.tga,0,0,64,64
