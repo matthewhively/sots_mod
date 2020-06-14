@@ -14,8 +14,8 @@ weapon
     turretsize      medium
     turretclass     standard
     trackspeed_mod  1.0
-    burst_volleys   10
-    volley_period   .1
+    burst_volleys   5  // how many projectiles are fired total  -so fire 5 rockets over 1 sec period
+    volley_period   .1 // how long it takes to fire each round
     recharge_time   15
     muzzle_speed    250
 
@@ -57,15 +57,15 @@ weapon
         {
             pb_range        180
             pb_range_dev    2
-            pb_range_dam    10
+            pb_range_dam    20
 
             eff_range       375
             eff_range_dev   3
-            eff_range_dam   10
+            eff_range_dam   20
 
             max_range       580
             max_range_dev   4
-            max_range_dam   10
+            max_range_dam   20
         }
 
         effect      "effects/D_Missile_Bullet.effect"
@@ -74,8 +74,8 @@ weapon
         ricochet_sound_minrange     50
         mass        25
 
-        dam_pop     2000
-        dam_infra   .00003
+        dam_pop     4000
+        dam_infra   .00006
         dam_terra   0
     }
 
@@ -84,5 +84,8 @@ weapon
     rating_acc      7
     rating_range    3
 
-    dam_est     45
+    // NOTE: estimated dmg used by the AI
+    // NOTE: regular missiles are 40dmg but rated at 125 -- I think this is too high
+    // plasma cannon is 150max dmg but rated at 100
+    dam_est     100
 }
