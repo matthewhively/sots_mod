@@ -4453,32 +4453,32 @@ TECHDESC_DRN_TPCOL,This COL uses grav technology to create a COL round that crea
 
 
 TECHNAME_XNC_TrnsHum2,Translate Latin
-TECHDESC_XNC_TrnsHum2,"This deeper understanding of this race's common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements as well as establish trade routes with them."
+TECHDESC_XNC_TrnsHum2,"This deeper understanding of Humanity's common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements as well as establish trade routes with them."
 TECHNAME_XNC_IncHum,Incorporate Human
-TECHDESC_XNC_IncHum,"With deeper study, members of this species living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
+TECHDESC_XNC_IncHum,"With deeper study, Humans living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
 TECHNAME_XNC_AdctHum,Addict Human
-TECHDESC_XNC_AdctHum,"Intimate knowledge of this alien species coupled with expanding experience in bio-weapons research allows for the development of a variety of highly addictive chemical products designed specifically for the human species and to which they have very little resistance. This results in a large bonus for trade routes into Human space, and a slow decline in human production due to addiction problems as well as an increased chance of planetary surrender."
+TECHDESC_XNC_AdctHum,"Intimate knowledge of Human physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Human species and to which they have very little resistance. This results in a large bonus for trade routes into Human space, and a slow decline in Human production due to addiction problems as well as an increased chance of planetary surrender."
 TECHNAME_XNC_TempHum,Human Temperance
-TECHDESC_XNC_TempHum,This development is in response to a dependency spreading though the human portions of the empire. Temperance is social and biochemical response to negate to the effect of these dependencies entering from other empires.
+TECHDESC_XNC_TempHum,This development is in response to a dependency spreading though the Human portions of the empire. Temperance is social and biochemical response to negate the effect of these dependencies entering from other empires. However the Human civilian population won't be happy about it.
 TECHNAME_XNC_TrnsHum3,Translate Hanzi
-TECHDESC_XNC_TrnsHum3,This deeper understanding of this race's highest governmental and scientific language allows you to access the deepest levels of human culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to this race as well as try to force a planetary surrender in the face of overwhelming power.
+TECHDESC_XNC_TrnsHum3,"By developing proficiency in Humanity's high governmental and scientific language, you gain access to the deepest levels of Human culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to them as well as demand planetary surrender in the face of overwhelming power."
 TECHNAME_XNC_SubHum,Subjugate Human
-TECHDESC_XNC_SubHum,"Allows you to take full control of a human culture, which not only allows new possibilities in assimilation but also allows you a chance to absorb much weaker human empires into your own without firing a shot."
+TECHDESC_XNC_SubHum,"Allows you to take full control of a Human culture, which not only allows new possibilities in assimilation but also allows you a chance to absorb much weaker Human empires into your own without firing a shot."
 TECHNAME_XNC_AccHum,Accommodate Human
-TECHDESC_XNC_AccHum,"Complete understanding of human physiology coupled with the social sciences allows you to integrate the life support needs of human seamlessly into your culture, thus removing the need to take into account planetary hazard ratings for them."
+TECHDESC_XNC_AccHum,"Complete understanding of Human physiology coupled with the social sciences allows you to integrate the life support needs of Human seamlessly into your culture, thus removing the need to take into account planetary hazard ratings for them."
 TECHNAME_XNC_ProfHum,Proliferate Human
-TECHDESC_XNC_ProfHum,This technology makes your worlds and culture more hospitable to humans and gives them the ability to spontaneously attract human civilian populations as well as increasing the overall alien population limit on all your worlds.
+TECHDESC_XNC_ProfHum,This technology makes your worlds and culture more hospitable to humans and gives them the ability to spontaneously attract Human civilian populations as well as increasing the overall alien population limit on all your worlds.
 
 TECHNAME_XNC_TrnsHvr2,Translate K'en-Ken
-TECHDESC_XNC_TrnsHvr2,"This deeper understanding of this race's common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements as well as establish trade routes with them."
+TECHDESC_XNC_TrnsHvr2,"This deeper understanding of Hiver common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements as well as establish trade routes with them."
 TECHNAME_XNC_IncHvr,Incorporate Hiver
-TECHDESC_XNC_IncHvr,"With deeper study, members of this species living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
+TECHDESC_XNC_IncHvr,"With deeper study, Hiver living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
 TECHNAME_XNC_AdctHvr,Addict Hiver
-TECHDESC_XNC_AdctHvr,"Intimate knowledge of this alien species coupled with expanding experience in bio-weapons research allows for the development of a variety of highly addictive chemical products designed specifically for the Hiver species and to which they have very little resistance. This results in a large bonus for trade routes into Hiver space, and a slow decline in Hiver production due to addiction problems as well as an increased chance of planetary surrender."
+TECHDESC_XNC_AdctHvr,"Intimate knowledge of Hiver physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Hiver species and to which they have very little resistance. This results in a large bonus for trade routes into Hiver space, and a slow decline in Hiver production due to addiction problems as well as an increased chance of planetary surrender."
 TECHNAME_XNC_TempHvr,Hiver Temperance
-TECHDESC_XNC_TempHvr,This development is in response to a dependency spreading though the Hiver portions of the empire. Temperance is social and biochemical response to negate to the effect of these dependencies entering from other empires.
+TECHDESC_XNC_TempHvr,This development is in response to a dependency spreading though the Hiver portions of the empire. Temperance is social and biochemical response to negate the effect of these dependencies entering from other empires. However the Hiver civilian population won't be happy about it.
 TECHNAME_XNC_TrnsHvr3,Translate Tcho'to-Ken
-TECHDESC_XNC_TrnsHvr3,This deeper understanding of this race's highest governmental and scientific language allows you to access the deepest levels of Hiver culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to this race as well as try to force a planetary surrender in the face of overwhelming power.
+TECHDESC_XNC_TrnsHvr3,"By developing proficiency in Hiver high governmental and scientific language, you gain access to the deepest levels of Hiver culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to them as well as demand planetary surrender in the face of overwhelming power."
 TECHNAME_XNC_SubHvr,Subjugate Hiver
 TECHDESC_XNC_SubHvr,"Allows you to take full control of a Hiver culture, which not only allows new possibilities in assimilation but also allows you a chance to absorb much weaker Hiver empires into your own without firing a shot."
 TECHNAME_XNC_AccHvr,Accommodate Hiver
@@ -4487,15 +4487,15 @@ TECHNAME_XNC_ProfHvr,Proliferate Hiver
 TECHDESC_XNC_ProfHvr,This technology makes your worlds and culture more hospitable to Hivers and gives them the ability to spontaneously attract Hiver civilian populations as well as increasing the overall alien population limit on all your worlds.
 
 TECHNAME_XNC_TrnsTrk2,Translate Gutter Dialect
-TECHDESC_XNC_TrnsTrk2,"This deeper understanding of this race's common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements as well as establish trade routes with them."
+TECHDESC_XNC_TrnsTrk2,"This deeper understanding of Tarkasian common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements as well as establish trade routes with them."
 TECHNAME_XNC_IncTrk,Incorporate Tarka
-TECHDESC_XNC_IncTrk,"With deeper study, members of this species living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
+TECHDESC_XNC_IncTrk,"With deeper study, Tarka living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
 TECHNAME_XNC_AdctTrk,Addict Tarka
-TECHDESC_XNC_AdctTrk,"Intimate knowledge of this alien species coupled with expanding experience in bio-weapons research allows for the development of a variety of highly addictive chemical products designed specifically for the Tarka species and to which they have very little resistance. This results in a large bonus for trade routes into Tarkasian space, and a slow decline in Tarka production due to addiction problems as well as an increased chance of planetary surrender."
+TECHDESC_XNC_AdctTrk,"Intimate knowledge of Tarkasian physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Tarka species and to which they have very little resistance. This results in a large bonus for trade routes into Tarkasian space, and a slow decline in Tarka production due to addiction problems as well as an increased chance of planetary surrender."
 TECHNAME_XNC_TempTrk,Tarka Temperance
-TECHDESC_XNC_TempTrk,This development is in response to a dependency spreading though the Tarka portions of the empire. Temperance is social and biochemical response to negate to the effect of these dependencies entering from other empires.
+TECHDESC_XNC_TempTrk,This development is in response to a dependency spreading though the Tarka portions of the empire. Temperance is social and biochemical response to negate the effect of these dependencies entering from other empires. However the Tarka civilian population won't be happy about it.
 TECHNAME_XNC_TrnsTrk3,Translate Kona Kai
-TECHDESC_XNC_TrnsTrk3,This deeper understanding of this race's highest governmental and scientific language allows you to access the deepest levels of Tarkasian culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to this race as well as try to force a planetary surrender in the face of overwhelming power.
+TECHDESC_XNC_TrnsTrk3,"By developing proficiency in Tarkasian high governmental and scientific language, you gain access to the deepest levels of Tarkasian culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to them as well as demand planetary surrender in the face of overwhelming power."
 TECHNAME_XNC_SubTrk,Subjugate Tarka
 TECHDESC_XNC_SubTrk,"Allows you to take full control of a Tarka culture, which not only allows new possibilities in assimilation but also allows you a chance to absorb much weaker Tarka empires into your own without firing a shot."
 TECHNAME_XNC_AccTrk,Accommodate Tarka
@@ -4504,41 +4504,41 @@ TECHNAME_XNC_ProfTrk,Proliferate Tarka
 TECHDESC_XNC_ProfTrk,This technology makes your worlds and culture more hospitable to Tarka and gives them the ability to spontaneously attract Tarkasian civilian populations as well as increasing the overall alien population limit on all your worlds.
 
 TECHNAME_XNC_TrnsLir2,Translate SteelSong
-TECHDESC_XNC_TrnsLir2,"This deeper understanding of this race's common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements with them."
+TECHDESC_XNC_TrnsLir2,"This deeper understanding of Liirian common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements with them."
 TECHNAME_XNC_IncLir,Incorporate Liir
-TECHDESC_XNC_IncLir,"With deeper study, members of this species living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
+TECHDESC_XNC_IncLir,"With deeper study, Liir living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
 TECHNAME_XNC_AdctLir,Addict Liir
-TECHDESC_XNC_AdctLir,"Intimate knowledge of this alien species coupled with expanding experience in bio-weapons research allows for the development of a variety of highly addictive chemical products designed specifically for the Liir species and to which they have very little resistance. This results in a large bonus for trade routes into Liir space, and a slow decline in Liir production due to addiction problems as well as an increased chance of planetary surrender."
+TECHDESC_XNC_AdctLir,"Intimate knowledge of Liirian physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Liir species and to which they have very little resistance. This results in a large bonus for trade routes into Liirian space, and a slow decline in Liir production due to addiction problems as well as an increased chance of planetary surrender."
 TECHNAME_XNC_TempLir,Liir Temperance
-TECHDESC_XNC_TempLir,This development is in response to a dependency spreading though the Liir portions of the empire. Temperance is social and biochemical response to negate to the effect of these dependencies entering from other empires.
+TECHDESC_XNC_TempLir,This development is in response to a dependency spreading though the Liir portions of the empire. Temperance is social and biochemical response to negate the effect of these dependencies entering from other empires. However the Liir civilian population won't be happy about it.
 TECHNAME_XNC_TrnsLir3,MetaConcert
-TECHDESC_XNC_TrnsLir3,This deeper understanding of this race's highest governmental and scientific language allows you to access the deepest levels of Liir culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to this race as well as try to force a planetary surrender in the face of overwhelming power.
+TECHDESC_XNC_TrnsLir3,"By developing proficiency in Liirian high governmental and scientific language, you gain access to the deepest levels of Liirian culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to them as well as demand planetary surrender in the face of overwhelming power."
 TECHNAME_XNC_SubLir,Subjugate Liir
 TECHDESC_XNC_SubLir,"Allows you to take full control of a Liir culture, which not only allows new possibilities in assimilation but also allows you a chance to absorb much weaker Liir empires into your own without firing a shot."
 TECHNAME_XNC_AccLir,Accommodate Liir
-TECHDESC_XNC_AccLir,"Complete understanding of Liir physiology coupled with the social sciences allows you to integrate the life support needs of the Liir seamlessly into your culture without disrupting your own citizens, thus removing the need to take into account planetary hazard ratings for them."
+TECHDESC_XNC_AccLir,"Complete understanding of Liirian physiology coupled with the social sciences allows you to integrate the life support needs of the Liir seamlessly into your culture without disrupting your own citizens, thus removing the need to take into account planetary hazard ratings for them."
 TECHNAME_XNC_ProfLir,Proliferate Liir
 TECHDESC_XNC_ProfLir,This technology makes your worlds and culture more hospitable to Liir and gives them the ability to spontaneously attract Liir civilian populations as well as increasing the overall alien population limit on all your worlds.
 
 TECHNAME_XNC_TrnsZuul2,Interrogate Zuul
 TECHDESC_XNC_TrnsZuul2,"This deeper understanding of Zuul communications and Dominance protocols allows you to interact more deeply with Zuul culture, with less risk, allowing you to form NAP/Alliance agreements with them."
 TECHNAME_XNC_DomZuul,Dominate Zuul
-TECHDESC_XNC_DomZuul,This deepest understanding of Zuul communication along with very advanced artificial psionic communication equipment allows you to subvert and impress the deepest levels of Zuul culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to this race as well as try to force a planetary surrender in the face of overwhelming power.
+TECHDESC_XNC_DomZuul,"This deepest understanding of Zuul communication, along with very advanced artificial psionic communication equipment, allows you to subvert and impress the highest levels of Zuul culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to this race as well as demand planetary surrender in the face of overwhelming power."
 TECHNAME_XNC_SubZuul,Subjugate Zuul
 TECHDESC_XNC_SubZuul,"Allows you to take full control of a Zuul culture, which not only allows new possibilities in assimilation but also allows you a chance to absorb much weaker Zuul empires into your own without firing a shot."
 
 TECHNAME_CCC_TrnsMorr,Translate Trade Creole
 TECHDESC_CCC_TrnsMorr,"Allows you to translate basic communications from Morrigi players, form Ceasefire agreements and establish trade routes with them.\n\n* Also provides a 15% bonus to all Xeno-culture research."
 TECHNAME_XNC_TrnsMorr2,Translate Female Dialect
-TECHDESC_XNC_TrnsMorr2,"This deeper understanding of this race's common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements as well as establish trade routes with them."
+TECHDESC_XNC_TrnsMorr2,"This deeper understanding of Morrigi common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements."
 TECHNAME_XNC_IncMorr,Incorporate Morrigi
-TECHDESC_XNC_IncMorr,"With deeper study, members of this species living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
+TECHDESC_XNC_IncMorr,"With deeper study, Morrigi living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
 TECHNAME_XNC_AdctMorr,Addict Morrigi
-TECHDESC_XNC_AdctMorr,"Intimate knowledge of this alien species coupled with expanding experience in bio-weapons research allows for the development of a variety of highly addictive chemical products designed specifically for the Morrigi species and to which they have very little resistance. This results in a large bonus for trade routes into Morrigi space, and a slow decline in Morrigi production due to addiction problems as well as an increased chance of planetary surrender."
+TECHDESC_XNC_AdctMorr,"Intimate knowledge of Morrigi physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Morrigi species and to which they have very little resistance. This results in a large bonus for trade routes into Morrigi space, and a slow decline in Morrigi production due to addiction problems as well as an increased chance of planetary surrender."
 TECHNAME_XNC_TempMorr,Morrigi Temperance
-TECHDESC_XNC_TempMorr,This development is in response to a dependency spreading though the Morrigi portions of the empire. Temperance is social and biochemical response to negate to the effect of these dependencies entering from other empires.
+TECHDESC_XNC_TempMorr,This development is in response to a dependency spreading though the Morrigi portions of the empire. Temperance is social and biochemical response to negate the effect of these dependencies entering from other empires. However the Morrigi civilian population won't be happy about it.
 TECHNAME_XNC_TrnsMorr3,Translate Ancient Morrigi
-TECHDESC_XNC_TrnsMorr3,"This deeper understanding of this race's highest governmental and scientific language allows you to access the deepest levels of Morrigi culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to this race as well as try to force a planetary surrender in the face of overwhelming power.\n\n* Aspects of Ancient Morrigi also allow you circumvent Colony and Asteroid Traps as well as make taking control of Asteroid Monitors much easier."
+TECHDESC_XNC_TrnsMorr3,"By developing proficiency in the Morrigi's ancient governmental and scientific language, you gain access to the deepest levels of Morrigi culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to this race as well as demand planetary surrender in the face of overwhelming power.\n\n* Aspects of Ancient Morrigi also allow you to circumvent Colony and Asteroid Traps as well as greatly speed the process when assuming control over Asteroid Monitors."
 TECHNAME_XNC_SubMorr,Subjugate Morrigi
 TECHDESC_XNC_SubMorr,"Allows you to take full control of a Morrigi culture, which not only allows new possibilities in assimilation but also allows you a chance to absorb much weaker Morrigi empires into your own without firing a shot."
 TECHNAME_XNC_AccMorr,Accommodate Morrigi
