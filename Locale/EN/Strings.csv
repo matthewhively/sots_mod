@@ -4385,7 +4385,7 @@ TECHDESC_WEP_UvBmr,A sustained low energy laser beam for small turret mounts.
 TECHNAME_WEP_MesProj,Meson Projector
 TECHDESC_WEP_MesProj,"This advanced projector technology focuses a wide beam that disrupts all pi mesons in the target area and if the disruption is allowed to complete its cycle it results in a massive disintegration of matter at the target point with the expected devastating energy release associated with such an event. If a Meson Projector stays focused on a target for the full period of time it will cause massive damage to the target, but should the beam lose its target point or be stopped before the projection time is complete, no damage will be done to the target."
 TECHNAME_WEP_DsrptrWhp,Disruptor Whip
-TECHDESC_WEP_DsrptrWhp,"A Zuul-only technology that runs a disruptor charge through the harpoon, shutting down all weapon systems in the section it hits on a Destroyer. Versus Cruisers it only shuts down small and medium turrets and versus Dreadnoughts only small."
+TECHDESC_WEP_DsrptrWhp,"By pushing a disruptor charge through a harpoon, the Zuul can shut down some weapon systems on the ship section it hits.\nFor destroyers all weapon systems, for Cruisers medium and small weapons and for Dreadnoughts only small weapons are affected."
 TECHNAME_WEP_GluTrp,Gluonic Torpedo
 TECHDESC_WEP_GluTrp,A self-sustaining field of charged gluons contained in an EM field. Capable of penetrating Deflector shields as well as circumventing energy absorbers. 
 TECHNAME_WEP_MesTrp,Mesonic Torpedo
