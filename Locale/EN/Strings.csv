@@ -2614,11 +2614,6 @@ TECHDESC_BIO_ConNan,"Nanobots designed to ""counter attack"" enemy nanobot incur
 
 
 TECHDESC_CCC_FTLCom,The basic level of communicating and issuing orders to planets and ships.
-TECHDESC_CCC_TrnsHum,"Having encountered the Human race, this tech allows you to translate basic military communications from them and form Ceasefire agreements. This tech also allows the Morrigi to establish trade routes with this species."
-TECHDESC_CCC_TrnsHvr,"Having encountered the Hiver race, this tech allows you to translate basic military communications from them and form Ceasefire agreements. This tech also allows the Morrigi to establish trade routes with this species."
-TECHDESC_CCC_TrnsTrk,"Having encountered the Tarka race, this tech allows you to translate basic military communications from them and form Ceasefire agreements. This tech also allows the Morrigi to establish trade routes with this species."
-TECHDESC_CCC_TrnsLir,"Having encountered the Liir race, this tech allows you to translate basic military communications from them and form Ceasefire agreements. This tech also allows the Morrigi to establish trade routes with this species."
-TECHDESC_CCC_TrnsZul,"Having encountered the Zuul race, this tech allows you to translate basic military communications from the Zuul and form Ceasefire agreements with them, though why you would want to is beyond us.\n\n* Also enables production of the War mission section."
 TECHDESC_CCC_NdTrkZul,A system for tracking Zuul ships traveling in node space and deriving their origins and destinations via drive radiation and decoded transmissions. 
 TECHDESC_CCC_NdTrkHum,A system for tracking human ships traveling in node space and deriving their origins and destinations via drive radiation and decoded transmissions.
 TECHDESC_CCC_HypCom,Enables communication with ships traveling within any sort of hyper-field and allows you to send them new movement orders mid-transit.
@@ -4451,6 +4446,12 @@ TECHDESC_DRN_CrakCOL,This COL uses Mine technology to create a COL round that bu
 TECHNAME_DRN_TPCOL,TarPit COL
 TECHDESC_DRN_TPCOL,This COL uses grav technology to create a COL round that creates a large gravity field at the target point for a few moments.
 
+
+TECHDESC_CCC_TrnsHum,"Having encountered the Human race, this tech allows you to translate basic military communications from them and form Ceasefire agreements.\n\n* This tech also allows the Morrigi to establish trade routes with this species."
+TECHDESC_CCC_TrnsHvr,"Having encountered the Hiver race, this tech allows you to translate basic military communications from them and form Ceasefire agreements.\n\n* This tech also allows the Morrigi to establish trade routes with this species."
+TECHDESC_CCC_TrnsTrk,"Having encountered the Tarka race, this tech allows you to translate basic military communications from them and form Ceasefire agreements.\n\n* This tech also allows the Morrigi to establish trade routes with this species."
+TECHDESC_CCC_TrnsLir,"Having encountered the Liir race, this tech allows you to translate basic military communications from them and form Ceasefire agreements.\n\n* This tech also allows the Morrigi to establish trade routes with this species."
+TECHDESC_CCC_TrnsZul,"Having encountered the Zuul race, this tech allows you to translate basic military communications from the Zuul and form Ceasefire agreements with them, though why you would want to is beyond us.\n\n* Also enables production of the War mission section."
 
 TECHNAME_XNC_TrnsHum2,Translate Latin
 TECHDESC_XNC_TrnsHum2,"This deeper understanding of Humanity's common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements as well as establish trade routes with them."
