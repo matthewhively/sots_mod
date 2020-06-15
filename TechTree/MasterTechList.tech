@@ -957,6 +957,9 @@ ship
         section DEPointDefence
         section CRPointDefence
     } 
+weapon  {
+            filename  "Weapons/phs_pd.weapon"
+        }
 }
 
 
@@ -1829,7 +1832,15 @@ ship
     { 
         section DEPointDefence
         section CRPointDefence
-    } 
+    }
+//weapon  {
+//            filename  "Weapons/bal_gauss_pd.weapon"
+//        }
+//weapon  {
+//            filename  "Weapons/las_pd.weapon"
+//        }
+// TODO: It isn't possible to show 2 weapons on the same tech. So leave them commented for now.
+//       Will revisit this when I split the laser vs gauss PD into separate techs.
 }
 
 
@@ -2039,7 +2050,10 @@ ship
     { 
         section DEPointDefence
         section CRPointDefence
-    } 
+    }
+weapon  { 
+            filename  "Weapons/mis_interceptor_pd.weapon" 
+        } 
 }
 
 
