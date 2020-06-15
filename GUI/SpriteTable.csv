@@ -1603,6 +1603,7 @@ TECHSHIP_DNDrone,TechTree\ShipArt\%s_DN_Mission.tga,0,0,256,128
 TECHSHIP_CRCOL,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
 TECHSHIP_DNEW,TechTree\ShipArt\%s_DN_Command.tga,0,0,256,128
 TECHSHIP_DNFlagship,TechTree\ShipArt\%s_DN_Mission.tga,0,0,256,128
+TECHSHIP_DEFreighter,TechTree\ShipArt\%s_DE_Mission.tga,0,0,256,128
 TECHSHIP_CRFreighter,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
 TECHSHIP_CRFreighterQ,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
 TECHSHIP_CRProtectorate,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
