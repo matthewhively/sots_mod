@@ -200,6 +200,10 @@ name        "IND_StlthArm"
 threat      1
 OPTION_COST 1.5
 Requires    GRP_JAMMING
+strategy
+    {
+        inc  TECHBEN_SHIPSAVCOST
+    }
 }
 
 
@@ -309,6 +313,7 @@ OPTION_COST 1.2
 strategy
     {
         inc TECHBEN_HULLSTR
+        inc TECHBEN_SHIPSAVCOST
     }
 }
 
@@ -324,6 +329,7 @@ OPTION_COST 1.4
 strategy
     {
         inc TECHBEN_HULLSTR
+        inc TECHBEN_SHIPSAVCOST
     }
 }
 
@@ -338,6 +344,7 @@ OPTION_COST 1.6
 strategy
     {
         inc TECHBEN_HULLSTR
+        inc TECHBEN_SHIPSAVCOST
     }
 }
 
@@ -364,6 +371,7 @@ OPTION_COST 1.8
 strategy
     {
         inc TECHBEN_HULLSTR
+        inc TECHBEN_SHIPSAVCOST
     }
 }
 
