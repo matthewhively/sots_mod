@@ -16,7 +16,7 @@ tech
     name        "EWP_ROOT"
     family      "NRG"
     allows      "WEP_RedLas     RP:0"
-    
+
 }
 
 
@@ -88,7 +88,7 @@ tech
     name        "CCC_ROOT"
     family      "CCC"
     allows      "CCC_FTLCom         RP:0"
-}                                                           
+}
 
 
 tech
@@ -96,7 +96,7 @@ tech
     name        "DRN_ROOT"
     family      "DRN"
     allows      "IND_CyberInt       RP:12000"
-}                                                           
+}
 
 
 tech
@@ -109,14 +109,14 @@ tech
     allows      "CCC_TrnsHvr    RP:2000"
     allows      "CCC_TrnsZul    RP:2000"
     allows      "CCC_TrnsMorr   RP:2000"
-}                                                           
+}
 
 
 
 
 
 //******************************************************************************************
-//INDUSTRIAL              
+//INDUSTRIAL
 //******************************************************************************************
 
 tech
@@ -127,16 +127,16 @@ type        P
 allows      "IND_OrbFound   RP:10000"
 allows      "IND_RefCoat    RP:16000    Human:60 Zuul:20 Hiver:60 Tarkas:70 Liir:95 Morrigi:100"
 allows      "IND_TrkStl     RP:8000     Human:0  Zuul:0  Hiver:0 Tarkas:100 Liir:0  Morrigi:0"
-strategy 
-    { 
-        inc TECHBEN_INDOUTPUT 
-        dec TECHBEN_SHIPCONCOST 
+strategy
+    {
+        inc TECHBEN_INDOUTPUT
+        dec TECHBEN_SHIPCONCOST
     }
-ship 
-    { 
+ship
+    {
         section DEHammerhead
         section CRHammerHead
-    } 
+    }
 }
 
 
@@ -145,9 +145,9 @@ tech
 name        "IND_TrkStl"
 threat      1
 allows      "IND_PlyAlloy   RP:8000     Human:0 Zuul:0 Hiver:0 Tarkas:100 Liir:0 Morrigi:0"
-strategy 
-    { 
-        inc TECHBEN_HULLSTR 
+strategy
+    {
+        inc TECHBEN_HULLSTR
     }
 }
 
@@ -162,10 +162,10 @@ allows      "IND_ImpRfCt    RP:27000    Human:70 Zuul:20 Hiver:50 Tarkas:50 Liir
 allows      "IND_PlyAlloy   RP:16000    Human:70 Zuul:50 Hiver:90 Tarkas:90 Liir:80 Morrigi:75"
 allows      "IND_StlthArm   RP:46000    Human:60 Zuul:70 Hiver:40 Tarkas:40 Liir:80 Morrigi:100"
 OPTION_COST 1.2
-strategy 
-    { 
-        inc TECHBEN_DEFENCELASER 
-        inc TECHBEN_SHIPSAVCOST 
+strategy
+    {
+        inc TECHBEN_DEFENCELASER
+        inc TECHBEN_SHIPSAVCOST
     }
 }
 
@@ -177,10 +177,10 @@ threat      2
 allows      "IND_StlthArm   RP:40000    Human:80 Zuul:85 Hiver:40 Tarkas:50 Liir:80 Morrigi:100"
 allows      "IND_HrdElec    RP:50000    Human:80 Zuul:65 Hiver:50 Tarkas:70 Liir:90 Morrigi:90"
 OPTION_COST 1.5
-strategy 
-    { 
-        inc TECHBEN_DEFENCELASER 
-        inc TECHBEN_SHIPSAVCOST 
+strategy
+    {
+        inc TECHBEN_DEFENCELASER
+        inc TECHBEN_SHIPSAVCOST
     }
 }
 
@@ -212,12 +212,12 @@ allows      "IND_SlvgTech   RP:12000"
 allows      "IND_CruisCon   RP:16000"
 allows      "IND_SpnlMnt    RP:8000"
 allows      "IND_PlyAlloy   RP:10000    Human:70 Zuul:40 Hiver:90 Tarkas:90 Liir:80 Morrigi:87"
-strategy 
-    { 
+strategy
+    {
         dec  TECHBEN_SHIPSAVCOST
     }
-ship 
-    { 
+ship
+    {
         section DEStrafe
         section CRStrafe
     }
@@ -229,10 +229,10 @@ tech
 name        "IND_SpnlMnt"
 threat      1
 Requires    GRP_SPINAL
-ship 
-    { 
-        section DESpinalMount 
-    }   
+ship
+    {
+        section DESpinalMount
+    }
 }
 
 
@@ -243,9 +243,9 @@ threat      1
 allows      "IND_AstMine    RP:30000"
 requires    "IND_CruisCon"
 ship
-    { 
-        section CRRepairandSalvage 
-    } 
+    {
+        section CRRepairandSalvage
+    }
 }
 
 
@@ -256,14 +256,14 @@ threat      2
 type        P
 allows      "IND_MsMine     RP:30000    Human:60 Zuul:90 Hiver:90 Tarkas:80 Liir:30 Morrigi:90"
 allows      "IND_PlyAlloy   RP:15000    Human:70 Zuul:60 Hiver:80 Tarkas:90 Liir:80 Morrigi:80"
-strategy 
-    { 
-        inc TECHBEN_SYSRES 
+strategy
+    {
+        inc TECHBEN_SYSRES
     }
-ship 
-    { 
-        section CRMining 
-    } 
+ship
+    {
+        section CRMining
+    }
 }
 
 
@@ -275,9 +275,9 @@ type        P
 allows      "IND_AtProc     RP:20000    Human:80 Zuul:40 Hiver:80 Tarkas:90 Liir:50 Morrigi:80"
 allows      "IND_MagLat     RP:30000    Human:50 Zuul:20 Hiver:60 Tarkas:50 Liir:40 Morrigi:40"
 allows      "IND_AstMon     RP:60000    "
-strategy 
-    { 
-        inc TECHBEN_OHVSTRATE 
+strategy
+    {
+        inc TECHBEN_OHVSTRATE
         inc TECHBEN_MINERATE
     }
 }
@@ -291,10 +291,10 @@ threat      2
 type        P
 requires    IND_DSCon
 //DG- There is no icon for asteroid monitor, and since this is purely visual I am commenting it out.
-//ship 
-//  { 
-//      section _AsteroidMonitor 
-//  } 
+//ship
+//  {
+//      section _AsteroidMonitor
+//  }
 }
 
 
@@ -302,13 +302,13 @@ tech
 {
 name        "IND_PlyAlloy"
 threat      1
-type        P   
+type        P
 allows      "IND_MagLat     RP:60000    Human:70 Zuul:30 Hiver:80 Tarkas:90 Liir:60 Morrigi:65"
 allows      "IND_ArcCon     RP:80000    Human:80 Zuul:10 Hiver:90 Tarkas:70 Liir:70 Morrigi:50"
 OPTION_COST 1.2
-strategy 
-    { 
-        inc TECHBEN_HULLSTR 
+strategy
+    {
+        inc TECHBEN_HULLSTR
     }
 }
 
@@ -321,9 +321,9 @@ type        P
 allows      "IND_QrkRes     RP:110000   Human:60 Zuul:30 Hiver:70 Tarkas:80 Liir:50 Morrigi:40"
 allows      "IND_EleNans    RP:60000    Human:70 Zuul:30 Hiver:60 Tarkas:50 Liir:90 Morrigi:80"
 OPTION_COST 1.4
-strategy 
-    { 
-        inc TECHBEN_HULLSTR 
+strategy
+    {
+        inc TECHBEN_HULLSTR
     }
 }
 
@@ -335,9 +335,9 @@ threat      2
 allows      "IND_AdmAly     RP:170000   Human:40 Zuul:20 Hiver:50 Tarkas:40 Liir:30 Morrigi:20"
 requires    "DRV_Fusn"
 OPTION_COST 1.6
-strategy 
-    { 
-        inc TECHBEN_HULLSTR 
+strategy
+    {
+        inc TECHBEN_HULLSTR
     }
 }
 
@@ -349,21 +349,21 @@ name        "IND_EleNans"
 threat      3
 type        P
 allows      "BIO_NanVir     RP:110000   Human:50 Zuul:0 Hiver:70 Tarkas:40 Liir:80 Morrigi:40"
-strategy 
-    { 
-        inc TECHBEN_TERAFORMSPD 
+strategy
+    {
+        inc TECHBEN_TERAFORMSPD
     }
 }
 
 tech
 {
 name        "IND_AdmAly"
-threat      2 
+threat      2
 requires    "DRV_AntiMat"
 OPTION_COST 1.8
-strategy 
-    { 
-        inc TECHBEN_HULLSTR 
+strategy
+    {
+        inc TECHBEN_HULLSTR
     }
 }
 
@@ -377,9 +377,9 @@ allows      "WEP_HCLas      RP:20000    Human:90  Zuul:90  Hiver:90  Tarkas:90  
 allows      "IND_AtProc     RP:30000    Human:70  Zuul:30  Hiver:70  Tarkas:90  Liir:20  Morrigi:50"
 allows      "IND_BrdPod     RP:30000    Human:80  Zuul:100 Hiver:80  Tarkas:90  Liir:50  Morrigi:60"
 allows      "IND_MegFrght   RP:50000    Human:100 Zuul:0   Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
-strategy 
-    { 
-                inc TECHBEN_HULLSIZE 
+strategy
+    {
+                inc TECHBEN_HULLSIZE
     }
 }
 
@@ -392,8 +392,8 @@ allows      "IND_ModCon     RP:10000    Human:100 Zuul:0 Hiver:85 Tarkas:95 Liir
 requires    "DRV_Fusn"
 requires    "CCC_FTLEcon"
 ship
-    { 
-        section CrFreighter 
+    {
+        section CrFreighter
     }
 }
 
@@ -407,8 +407,8 @@ strategy
         inc TECHBEN_INCOME
     }
 ship
-    { 
-        section CrFreighterQ 
+    {
+        section CrFreighterQ
     }
 }
 
@@ -428,8 +428,8 @@ name        "IND_AtProc"
 threat      3
 type        P
 requires    "DRV_PlsmFoc"
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_TERAFORMSPD
     }
 }
@@ -443,8 +443,8 @@ allows      "IND_HvyPlat    RP:60000"
 allows      "IND_Decon      RP:20000    Human:90 Zuul:20 Hiver:70 Tarkas:50 Liir:95 Morrigi:80"
 allows      "IND_DSCon      RP:15000"
 requires    "DRV_Fusn"
-strategy 
-    { 
+strategy
+    {
         dec TECHBEN_SHIPCONCOST
     }
 }
@@ -474,9 +474,9 @@ threat      2
 allows      "IND_DreadCon   RP:180000"
 allows      "IND_TrctBm     RP:50000    Human:80 Zuul:100 Hiver:70 Tarkas:70 Liir:90  Morrigi:100"
 allows      "IND_TrpSat     RP:30000    Human:80 Zuul:60  Hiver:90 Tarkas:85 Liir:100 Morrigi:70"
-strategy 
-    { 
-        inc TECHBEN_INDOUTPUT 
+strategy
+    {
+        inc TECHBEN_INDOUTPUT
     }
 }
 
@@ -496,9 +496,9 @@ tech
 name        "IND_DreadCon"
 allows      "IND_AdvDreadEng    RP:120000"
 threat      2
-strategy 
-    { 
-        inc TECHBEN_HULLSIZE 
+strategy
+    {
+        inc TECHBEN_HULLSIZE
     }
 }
 
@@ -511,7 +511,7 @@ ship
     {
         section DNEW
     }
-}   
+}
 
 
 tech
@@ -521,9 +521,9 @@ threat      3
 type        P
 allows      "WEP_GrvMine    RP:80000    Human:80 Zuul:90 Hiver:80 Tarkas:80 Liir:70 Morrigi:100"
 allows      "WEP_ThmpDrvr   RP:65000    Human:50 Zuul:90 Hiver:50 Tarkas:60 Liir:80 Morrigi:90"
-strategy 
-    { 
-        dec TECHBEN_SHIPCONCOST 
+strategy
+    {
+        dec TECHBEN_SHIPCONCOST
     }
 }
 
@@ -570,7 +570,7 @@ type        P
 
 
 //******************************************************************************************
-//WEAPONS                                                           
+//WEAPONS
 //******************************************************************************************
 
 
@@ -592,7 +592,7 @@ tech
 {
 name        "WEP_GrnLas"
 family      "NRG"
-threat      1  
+threat      1
 allows      "WEP_UvLas      RP:19000"
 allows      "WEP_GrnBmr     RP:10000    Human:40 Zuul:10 Hiver:20 Tarkas:30 Liir:85 Morrigi:100"
 weapon  {
@@ -633,7 +633,7 @@ tech
 {
 name        "WEP_GrnBmr"
 family      "NRG"
-threat      1  
+threat      1
 allows      "WEP_UvBmr  RP:25000    Human:60 Zuul:30 Hiver:40 Tarkas:50 Liir:80 Morrigi:90"
 weapon  {
             filename  "Weapons/bem_beamer_green.weapon"
@@ -645,7 +645,7 @@ tech
 {
 name        "WEP_UvBmr"
 family      "NRG"
-threat      2  
+threat      2
 allows      "WEP_Phas   RP:40000    Human:70 Zuul:40 Hiver:50 Tarkas:50 Liir:90 Morrigi:95"
 weapon  {
             filename  "Weapons/bem_beamer_UV.weapon"
@@ -659,7 +659,7 @@ tech
 {
 name        "WEP_LtEmitr"
 family      "NRG"
-threat      1  
+threat      1
 allows      "WEP_Emitr  RP:38000    Human:60 Zuul:20 Hiver:30 Tarkas:40 Liir:90 Morrigi:80"
 weapon  {
             filename  "Weapons/emt_light.weapon"
@@ -671,7 +671,7 @@ tech
 {
 name        "WEP_Emitr"
 family      "NRG"
-threat      2   
+threat      2
 allows      "WEP_HvyEmitr   RP:85000    Human:40 Zuul:20 Hiver:20 Tarkas:30 Liir:80 Morrigi:70"
 weapon  {
             filename  "Weapons/emt_medium.weapon"
@@ -686,7 +686,7 @@ requires    "IND_CruisCon"
 threat      2
 weapon  {
             filename  "Weapons/emt_heavy.weapon"
-        }  
+        }
 }
 
 
@@ -702,7 +702,7 @@ allows      "WEP_HvyPCan    RP:40000    Human:70 Zuul:30 Hiver:40 Tarkas:70 Liir
 allows      "WEP_PolPlsm    RP:35000    Human:75 Zuul:30 Hiver:40 Tarkas:50 Liir:95 Morrigi:90"
 weapon  {
             filename  "Weapons/can_plasma.weapon"
-        } 
+        }
 }
 
 
@@ -862,7 +862,7 @@ threat      3
 requires    "WEP_MesBm"
 requires    GRP_PRJCTR
 GROUP       PRJCTR
-            
+
 }
 
 
@@ -889,11 +889,11 @@ threat      2
 allows      "WEP_PlsPhas    RP:90000    Human:50 Zuul:20 Hiver:35 Tarkas:40 Liir:90 Morrigi:95"
 requires    "DRV_AntiMat"
 GROUP       PD
-ship 
-    { 
+ship
+    {
         section DEPointDefence
         section CRPointDefence
-    } 
+    }
 }
 
 
@@ -917,11 +917,11 @@ threat      2
 allows      "WEP_Lancer     RP:120000   Human:75 Zuul:50 Hiver:70 Tarkas:80 Liir:90 Morrigi:80"
 requires    "IND_CruisCon"
 GROUP       HVYBEAM
-ship 
-    { 
+ship
+    {
         section CRBattleBridge
-        section DNBattleBridge 
-    } 
+        section DNBattleBridge
+    }
 weapon  {
             filename  "Weapons/hvy_bem_hclas.weapon"
         }
@@ -937,11 +937,11 @@ allows      "WEP_CtngBm     RP:280000   Human:75 Zuul:30 Hiver:60 Tarkas:50 Liir
 requires    "DRV_Fusn"
 requires    "IND_CruisCon"
 GROUP       HVYBEAM
-ship 
-    { 
+ship
+    {
         section CRBattleBridge
-        section DNBattleBridge 
-    } 
+        section DNBattleBridge
+    }
 weapon  {
             filename  "Weapons/hvy_bem_lancer.weapon"
         }
@@ -955,10 +955,10 @@ family      "NRG"
 threat      3
 requires    "DRV_AntiMat"
 GROUP       HVYBEAM
-ship 
-    { 
+ship
+    {
         section CRBattleBridge
-        section DNBattleBridge 
+        section DNBattleBridge
     }
 weapon  {
             filename  "Weapons/hvy_bem_cutting.weapon"
@@ -1056,7 +1056,7 @@ group       TORPS
 weapon  {
             filename  "Weapons/trp_disruptor.weapon"
         }
-ship 
+ship
     {
         section DETorpedo
         section CRAssault
@@ -1089,8 +1089,8 @@ group       TORPS
 weapon  {
             filename  "Weapons/trp_empulsar.weapon"
         }
-ship 
-    { 
+ship
+    {
         section DETorpedo
         section CRAssault
         section DNBarrage
@@ -1149,8 +1149,8 @@ group       TORPS
 weapon  {
             filename  "Weapons/trp_photon.weapon"
         }
-ship 
-    { 
+ship
+    {
         section DETorpedo
         section CRAssault
         section DNBarrage
@@ -1170,8 +1170,8 @@ group       TORPS
 weapon  {
             filename  "Weapons/trp_gluonic.weapon"
         }
-ship 
-    { 
+ship
+    {
         section DETorpedo
         section CRAssault
         section DNBarrage
@@ -1202,8 +1202,8 @@ group       TORPS
 weapon  {
             filename  "Weapons/trp_mesonic.weapon"
         }
-ship 
-    { 
+ship
+    {
         section DETorpedo
         section CRAssault
         section DNBarrage
@@ -1218,8 +1218,8 @@ family      "TRP"
 threat      2
 allows      "WEP_FusTrp     RP:65000    Human:50 Zuul:40 Hiver:40 Tarkas:70 Liir:80 Morrigi:75"
 group       TORPS
-ship 
-    { 
+ship
+    {
         section DETorpedo
         section CRAssault
         section DNBarrage
@@ -1237,8 +1237,8 @@ family      "TRP"
 threat      2
 allows      "WEP_DtFsTrp    RP:45000    Human:50 Zuul:40 Hiver:40 Tarkas:80 Liir:60 Morrigi:75"
 group       TORPS
-ship 
-    { 
+ship
+    {
         section DETorpedo
         section CRAssault
         section DNBarrage
@@ -1256,8 +1256,8 @@ family      "TRP"
 threat      3
 allows      "WEP_AmTrp  RP:150000   Human:50 Zuul:30 Hiver:40 Tarkas:80 Liir:60 Morrigi:70"
 group       TORPS
-ship 
-    { 
+ship
+    {
         section DETorpedo
         section CRAssault
         section DNBarrage
@@ -1276,8 +1276,8 @@ threat      3
 allows      "WEP_DtAmTrp    RP:90000    Human:60 Zuul:20 Hiver:50 Tarkas:80 Liir:70 Morrigi:70"
 allows      "WEP_AmCan      RP:90000    Human:60 Zuul:30 Hiver:60 Tarkas:70 Liir:80 Morrigi:70"
 group       TORPS
-ship 
-    { 
+ship
+    {
         section DETorpedo
         section CRAssault
         section DNBarrage
@@ -1295,8 +1295,8 @@ family      "TRP"
 threat      3
 requires    "DRV_AntiMat"
 group       TORPS
-ship 
-    { 
+ship
+    {
         section DETorpedo
         section CRAssault
         section DNBarrage
@@ -1326,9 +1326,9 @@ family      "WAR"
 threat      2
 allows      "WEP_GmaWhd     RP:10000    Human:90 Zuul:50 Hiver:90 Tarkas:90 Liir:20 Morrigi:70"
 allows      "WEP_HvyPMsl    RP:10000    Human:95 Zuul:80 Hiver:90 Tarkas:90 Liir:75 Morrigi:70"
-strategy 
-    { 
-        inc TECHBEN_MSLDAM 
+strategy
+    {
+        inc TECHBEN_MSLDAM
     }
 }
 
@@ -1337,12 +1337,12 @@ tech
 {
 name        "WEP_GmaWhd"
 family      "WAR"
-threat      2 
+threat      2
 allows      "WEP_FusWhd     RP:25000    Human:80 Zuul:30 Hiver:80 Tarkas:90 Liir:50 Morrigi:70"
 allows      "WEP_HvyPMsl    RP:10000    Human:90 Zuul:50 Hiver:90 Tarkas:90 Liir:20 Morrigi:70"
-strategy 
-    { 
-        inc TECHBEN_MSLDAM 
+strategy
+    {
+        inc TECHBEN_MSLDAM
     }
 }
 
@@ -1351,7 +1351,7 @@ tech
 {
 name        "WEP_HvyPMsl"
 family      "WAR"
-threat      2 
+threat      2
 }
 
 
@@ -1359,12 +1359,12 @@ tech
 {
 name        "WEP_FusWhd"
 family      "WAR"
-threat      3   
+threat      3
 allows      "WEP_FusMine    RP:20000"
 allows      "WEP_AmWhd      RP:90000    Human:60 Zuul:10 Hiver:70 Tarkas:80 Liir:50 Morrigi:50"
-strategy 
-    { 
-        inc TECHBEN_MSLDAM 
+strategy
+    {
+        inc TECHBEN_MSLDAM
     }
 }
 
@@ -1374,9 +1374,9 @@ tech
 name        "WEP_AmWhd"
 family      "WAR"
 threat      3
-strategy 
-    { 
-        inc TECHBEN_MSLDAM 
+strategy
+    {
+        inc TECHBEN_MSLDAM
     }
 }
 
@@ -1391,11 +1391,11 @@ group       MINES
 weapon  {
             filename  "Weapons/min_nuke.weapon"
         }
-ship 
-    { 
+ship
+    {
         section DEMinelayer
         section CRMinelayer
-    } 
+    }
 }
 
 
@@ -1411,11 +1411,11 @@ group       MINES
 weapon  {
             filename  "Weapons/min_fus.weapon"
         }
-ship 
-    { 
+ship
+    {
         section DEMinelayer
         section CRMinelayer
-    } 
+    }
 }
 
 
@@ -1431,11 +1431,11 @@ group       MINES
 weapon  {
             filename  "Weapons/min_am.weapon"
         }
-ship 
-    { 
+ship
+    {
         section DEMinelayer
         section CRMinelayer
-    } 
+    }
 }
 
 
@@ -1450,11 +1450,11 @@ group       MINES
 weapon  {
             filename  "Weapons/min_grav.weapon"
         }
-ship 
-    { 
+ship
+    {
         section DEMinelayer
         section CRMinelayer
-    } 
+    }
 }
 
 
@@ -1467,11 +1467,11 @@ group       MINES
 weapon  {
             filename  "Weapons/min_implo.weapon"
         }
-ship 
-    { 
+ship
+    {
         section DEMinelayer
         section CRMinelayer
-    } 
+    }
 }
 
 
@@ -1485,11 +1485,11 @@ group       MINES
 weapon  {
             filename  "Weapons/min_leap.weapon"
         }
-ship 
-    { 
+ship
+    {
         section DEMinelayer
         section CRMinelayer
-    } 
+    }
 }
 
 
@@ -1505,11 +1505,11 @@ group       MINES
 weapon  {
             filename  "Weapons/min_clk.weapon"
         }
-ship 
-    { 
+ship
+    {
         section DEMinelayer
         section CRMinelayer
-    } 
+    }
 }
 
 
@@ -1519,10 +1519,10 @@ name        "WEP_NdMsl"
 family      "WAR"
 threat      3
 
-ship 
-    { 
+ship
+    {
         section DENodeMissile
-    } 
+    }
 }
 
 
@@ -1674,16 +1674,16 @@ family      "BAL"
 threat      2
 requires    "IND_CruisCon"
 requires    "DRV_AntiMat"
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_BALRATE
-        inc TECHBEN_BALDAM 
+        inc TECHBEN_BALDAM
     }
-ship 
-    { 
+ship
+    {
         section CRImpactor
         section DNImpactor
-    } 
+    }
 weapon  {
             filename  "Weapons/bal_railcannon.weapon"
         }
@@ -1718,9 +1718,9 @@ family      "BAL"
 threat      1
 allows      "WEP_PDtech     RP:15000    Human:90 Zuul:75 Hiver:90 Tarkas:90 Liir:95 Morrigi:100"
 allows      "WEP_StrmDrvr   RP:25000    Human:80 Zuul:90 Hiver:90 Tarkas:85 Liir:50 Morrigi:40"
-strategy 
-    { 
-        inc TECHBEN_BALRATE 
+strategy
+    {
+        inc TECHBEN_BALRATE
     }
 }
 
@@ -1741,11 +1741,11 @@ name        "WEP_PDtech"
 family      "BAL"
 threat      1
 GROUP       PD
-ship 
-    { 
+ship
+    {
         section DEPointDefence
         section CRPointDefence
-    } 
+    }
 }
 
 
@@ -1792,8 +1792,8 @@ requires    "IND_DreadCon"
 weapon  {
             filename  "Weapons/bal_siege.weapon"
         }
-ship 
-    { 
+ship
+    {
         section DNSiegeDriver
     }
 }
@@ -1816,9 +1816,9 @@ name        "WEP_NeutRnd"
 family      "BAL"
 threat      3
 allows      "WEP_KKMsl  RP:100000   Human:75 Zuul:50 Hiver:90 Tarkas:80 Liir:40 Morrigi:80"
-strategy 
-    { 
-        inc TECHBEN_BALDAM 
+strategy
+    {
+        inc TECHBEN_BALDAM
     }
 }
 
@@ -1848,14 +1848,14 @@ tech
 name        "DRV_PlsFiss"
 allows      "DRV_LRFiss     RP:10000    Human:0   Zuul:0   Hiver:100 Tarkas:0   Liir:0 Morrigi:0"
 allows      "DRV_OvrThrust  RP:15000    Human:100 Zuul:100 Hiver:100 Tarkas:100 Liir:0 Morrigi:0"
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_SHPTACSPD
         inc TECHBEN_STRATRNGE
-        inc TECHBEN_STRATSPD  
+        inc TECHBEN_STRATSPD
     }
-ship 
-    { 
+ship
+    {
         section DEPulsedFission
         section CRPulsedFission
     }
@@ -1866,8 +1866,8 @@ ship
 tech
 {
 name        "DRV_OvrThrust"
-ship 
-    { 
+ship
+    {
         section DEPursuit
     }
 }
@@ -1879,12 +1879,12 @@ tech
 {
 name        "DRV_LRFiss"
 allows      "DRV_RecFiss    RP:3000     Human:0 Zuul:0 Hiver:90 Tarkas:0 Liir:0 Morrigi:0"
-strategy 
-    { 
-        inc TECHBEN_STRATRNGE 
+strategy
+    {
+        inc TECHBEN_STRATRNGE
     }
-ship 
-    { 
+ship
+    {
         section DELongRangeFission
         section CRLongRangeFission
     }
@@ -1896,9 +1896,9 @@ tech
 name        "DRV_RecFiss"
 OPTION_COST 1.2
 type        P
-strategy 
-    { 
-        inc TECHBEN_STRATRNGE 
+strategy
+    {
+        inc TECHBEN_STRATRNGE
     }
 }
 
@@ -1917,13 +1917,13 @@ allows      "DRV_PlsmFoc    RP:10000    Human:70 Zuul:60 Hiver:90 Tarkas:90 Liir
 allows      "DRV_LRFusn     RP:10000    Human:0  Zuul:0  Hiver:90 Tarkas:0  Liir:0  Morrigi:0"
 allows      "WEP_PlsmTrp    RP:10000    Human:40 Zuul:30 Hiver:40 Tarkas:60 Liir:65 Morrigi:50"
 allows      "WEP_FusTrp     RP:30000    Human:30 Zuul:20 Hiver:30 Tarkas:55 Liir:90 Morrigi:80"
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_STRATRNGE
-        inc TECHBEN_SHPTACSPD 
+        inc TECHBEN_SHPTACSPD
     }
-ship 
-    { 
+ship
+    {
         section DEfusion
         section CRfusion
         section DNfusion
@@ -1939,8 +1939,8 @@ type        P
 allows      "WEP_LpMine     RP:10000    Human:80 Zuul:90 Hiver:80 Tarkas:60 Liir:10 Morrigi:90"
 allows      "WEP_MWMsl      RP:80000    Human:80 Zuul:40 Hiver:60 Tarkas:50 Liir:30 Morrigi:90"
 allows      "DRV_Ints       RP:70000    Human:85 Zuul:50 Hiver:80 Tarkas:80 Liir:55 Morrigi:70"
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_MSLSPD
     }
 }
@@ -1951,22 +1951,22 @@ tech
 name        "DRV_Ints"
 threat      1
 GROUP       PD
-ship 
-    { 
+ship
+    {
         section DEPointDefence
         section CRPointDefence
-    } 
+    }
 }
 
 
 tech
 {
-name        "DRV_SmlFus"    
+name        "DRV_SmlFus"
 threat      2
 type        P
 allows      "DRV_IncThrst   RP:15000    Human:80 Zuul:40 Hiver:80 Tarkas:60 Liir:50 Morrigi:90"
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_RDRSPD
     }
 }
@@ -1978,9 +1978,9 @@ name        "DRV_PlsmFoc"
 threat      2
 type        P
 OPTION_COST 1.4
-strategy 
-    { 
-        inc TECHBEN_STRATRNGE 
+strategy
+    {
+        inc TECHBEN_STRATRNGE
     }
 }
 
@@ -1990,12 +1990,12 @@ tech
 name        "DRV_LRFusn"
 threat      2
 allows      "DRV_Rmscps     RP:10000    Human:0 Zuul:0 Hiver:90 Tarkas:0 Liir:0 Morrigi:0"
-strategy 
-    { 
-        inc TECHBEN_STRATRNGE 
+strategy
+    {
+        inc TECHBEN_STRATRNGE
     }
-ship 
-    { 
+ship
+    {
         section DELongRangeFusion
         section CRLongRangeFusion
         section DNLongRangeFusion
@@ -2012,13 +2012,13 @@ allows      "SLD_ErgAb      RP:225000   Human:40 Zuul:10 Hiver:25 Tarkas:30 Liir
 allows      "IND_TrctBm     RP:50000    Human:80 Zuul:90 Hiver:80 Tarkas:60 Liir:90 Morrigi:100"
 allows      "WEP_AmTrp      RP:90000    Human:40 Zuul:20 Hiver:40 Tarkas:60 Liir:85 Morrigi:80"
 allows      "DRV_QntCap     RP:140000   Human:70 Zuul:20 Hiver:40 Tarkas:55 Liir:95 Morrigi:95"
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_STRATRNGE
-        inc TECHBEN_SHPTACSPD 
+        inc TECHBEN_SHPTACSPD
     }
-ship 
-    { 
+ship
+    {
         section DEAntimatter
         section CRAntimatter
         section DNAntimatter
@@ -2038,12 +2038,12 @@ tech
 {
 name        "DRV_Rmscps"
 threat      1
-strategy 
-    { 
-        inc TECHBEN_STRATRNGE 
+strategy
+    {
+        inc TECHBEN_STRATRNGE
     }
-ship 
-    { 
+ship
+    {
         section DERamscoop
         section CRRamscoop
     }
@@ -2063,13 +2063,13 @@ name        "DRV_NodFoc"
 threat      1
 allows      "DRV_NodPath    RP:150000   Human:90 Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
 allows      "WEP_NdMsl      RP:180000   Human:70 Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_STRATSPD
-        inc TECHBEN_STRATRNGE  
+        inc TECHBEN_STRATRNGE
     }
-ship 
-    { 
+ship
+    {
         section DEFocusNodeFission
         section CRFocusNodeFusion
         section DNFocusNodeFusion
@@ -2082,13 +2082,13 @@ tech
 name        "DRV_NodPath"
 threat      2
 requires    "DRV_AntiMat"
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_STRATSPD
-        inc TECHBEN_STRATRNGE  
+        inc TECHBEN_STRATRNGE
     }
-ship 
-    { 
+ship
+    {
         section DENodePathingFusion
         section CRNodePathingFusion
         section DNNodePathingFusion
@@ -2111,9 +2111,9 @@ threat      1
 allows      "DRV_Rad    RP:130000   Human:0 Zuul:100 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
 requires    "DRV_Fusn"
 requires    "IND_CruisCon"
-strategy 
-    { 
-        inc TECHBEN_STRATRNGE 
+strategy
+    {
+        inc TECHBEN_STRATRNGE
     }
 }
 
@@ -2123,9 +2123,9 @@ name        "DRV_Rad"
 threat      2
 requires    "DRV_AntiMat"
 requires    "IND_DreadCon"
-strategy 
-    { 
-        inc TECHBEN_STRATRNGE 
+strategy
+    {
+        inc TECHBEN_STRATRNGE
     }
 }
 
@@ -2142,9 +2142,9 @@ name        "DRV_VdCrv"
 threat      1
 allows      "DRV_VdMstr RP:120000   Human:0 Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morrigi:100"
 requires    "DRV_Fusn"
-strategy 
-    { 
-        inc TECHBEN_STRATSPD 
+strategy
+    {
+        inc TECHBEN_STRATSPD
     }
 }
 
@@ -2154,9 +2154,9 @@ name        "DRV_VdMstr"
 threat      2
 allows      "DRV_GrvSyn RP:100000   Human:0 Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morrigi:100"
 requires    "DRV_AntiMat"
-strategy 
-    { 
-        inc TECHBEN_STRATSPD  
+strategy
+    {
+        inc TECHBEN_STRATSPD
     }
 }
 
@@ -2164,9 +2164,9 @@ strategy
 tech
 {
 name        "DRV_GrvSyn"
-strategy 
-    { 
-        inc TECHBEN_STRATSPD 
+strategy
+    {
+        inc TECHBEN_STRATSPD
     }
 }
 
@@ -2185,13 +2185,13 @@ name        "DRV_HyprFld"
 threat      2
 allows      "DRV_Warp   RP:130000   Human:0 Zuul:0 Hiver:0 Tarkas:100 Liir:0 Morrigi:0"
 requires    "DRV_Fusn"
-strategy 
-    { 
-        inc TECHBEN_STRATSPD 
-        inc TECHBEN_STRATRNGE 
+strategy
+    {
+        inc TECHBEN_STRATSPD
+        inc TECHBEN_STRATRNGE
     }
-ship 
-    { 
+ship
+    {
         section DEShapedHyperFieldFusion
         section CRShapedHyperFieldFusion
         section DNShapedHyperfieldFusion
@@ -2204,13 +2204,13 @@ tech
 name        "DRV_Warp"
 threat      3
 requires    "DRV_AntiMat"
-strategy 
-    { 
-        inc TECHBEN_STRATSPD 
-         
+strategy
+    {
+        inc TECHBEN_STRATSPD
+
     }
-ship 
-    { 
+ship
+    {
         section DEAntimatterWarp
         section CRAntimatterWarp
         section DNAntimatterWarp
@@ -2233,9 +2233,9 @@ name        "DRV_ImpStWrp"
 threat      2
 allows      "DRV_Flicker    RP:90000    Human:0 Zuul:0 Hiver:0 Tarkas:0 Liir:100 Morrigi:0"
 requires    "DRV_Fusn"
-strategy 
-    { 
-        inc TECHBEN_STRATSPD 
+strategy
+    {
+        inc TECHBEN_STRATSPD
     }
 }
 
@@ -2246,10 +2246,10 @@ name        "DRV_Flicker"
 threat      3
 allows      "DRV_McrFlkr    RP:95000    Human:0 Zuul:0 Hiver:0 Tarkas:0 Liir:75 Morrigi:0"
 allows      "SLD_Intang     RP:130000   Human:0 Zuul:0 Hiver:0 Tarkas:0 Liir:70 Morrigi:0"
-requires    "DRV_AntiMat" 
-strategy 
-    { 
-        inc TECHBEN_STRATSPD 
+requires    "DRV_AntiMat"
+strategy
+    {
+        inc TECHBEN_STRATSPD
     }
 }
 
@@ -2274,10 +2274,10 @@ name        "DRV_GatAmp"
 threat      2
 allows      "DRV_FarCast    RP:180000   Human:0 Zuul:0 Hiver:100 Tarkas:0 Liir:0 Morrigi:0"
 requires    "DRV_Fusn"
-strategy 
-    { 
-        inc TECHBEN_GATCAP 
-    }                       
+strategy
+    {
+        inc TECHBEN_GATCAP
+    }
 }
 
 
@@ -2287,10 +2287,10 @@ name        "DRV_FarCast"
 threat      3
 allows      "SLD_Intang     RP:150000   Human:0 Zuul:0 Hiver:50 Tarkas:0 Liir:0 Morrigi:0"
 requires    "DRV_AntiMat"
-strategy 
-    { 
-        inc TECHBEN_STRATSPD 
-    }                       
+strategy
+    {
+        inc TECHBEN_STRATSPD
+    }
 }
 
 
@@ -2318,11 +2318,11 @@ name        "BIO_GnMod"
 allows      "BIO_Plg        RP:35000    Human:100 Zuul:0  Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
 allows      "BIO_AtmoAd     RP:13000"
 allows      "BIO_SpndAni    RP:4000     Human:90  Zuul:50 Hiver:100 Tarkas:90  Liir:100 Morrigi:100"
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_POPGROW
     }
-}                                                           
+}
 
 
 tech
@@ -2331,8 +2331,8 @@ name        "BIO_SpndAni"
 type        P
 allows      "BIO_Btrans     RP:20000    Human:80 Zuul:20 Hiver:90 Tarkas:70 Liir:100 Morrigi:90"
 OPTION_COST 1.4
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_COLCAP
     }
 }
@@ -2343,8 +2343,8 @@ tech
 name        "BIO_Btrans"
 type        P
 requires    "IND_CruisCon"
-ship 
-    { 
+ship
+    {
         section CRBiomeColonizer
     }
 }
@@ -2356,8 +2356,8 @@ name        "BIO_AtmoAd"
 type        P
 allows      "BIO_EnvTail    RP:30000    Human:70 Zuul:40 Hiver:80 Tarkas:60 Liir:100 Morrigi:90"
 allows      "BIO_TerBac     RP:15000    Human:80 Zuul:20 Hiver:75 Tarkas:60 Liir:90 Morrigi:80"
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_POPGROW
         inc TECHBEN_TERAFORMSPD
     }
@@ -2369,8 +2369,8 @@ tech
 name        "BIO_TerBac"
 type        P
 allows      "IND_EleNans    RP:65000    Human:70 Zuul:20 Hiver:75 Tarkas:70 Liir:90 Morrigi:55"
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_TERAFORMSPD
     }
 }
@@ -2381,8 +2381,8 @@ tech
 name        "BIO_EnvTail"
 type        P
 allows      "BIO_GrvAdpt    RP:75000    Human:50 Zuul:30 Hiver:60 Tarkas:50 Liir:90 Morrigi:100"
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_POPGROW
         inc TECHBEN_TERAFORMSPD
     }
@@ -2393,8 +2393,8 @@ tech
 {
 name        "BIO_GrvAdpt"
 type        P
-strategy 
-    { 
+strategy
+    {
         inc TECHBEN_POPGROW
     }
 }
@@ -2409,8 +2409,8 @@ allows      "BIO_PlgVac         RP:10000    Human:80 Zuul:0 Hiver:80 Tarkas:80 L
 allows      "BIO_RtPlg          RP:45000    Human:70 Zuul:0 Hiver:70 Tarkas:60 Liir:90 Morrigi:70"
 allows      "BIO_Bst            RP:60000    Human:30 Zuul:0 Hiver:30 Tarkas:25 Liir:80 Morrigi:30"
 allows      "BIO_TerBac         RP:20000    Human:50 Zuul:0 Hiver:45 Tarkas:40 Liir:90 Morrigi:50"
-ship 
-    { 
+ship
+    {
         section DEBiowar
         section CRBiowar
         section DNBiowar
@@ -2467,7 +2467,7 @@ tech
 {
 name        "BIO_AsPlg"
 group       BIOMISSILE
-threat      1   
+threat      1
 allows      "BIO_AsPlgVac       RP:50000    Human:35 Zuul:0 Hiver:35 Tarkas:45 Liir:70 Morrigi:50"
 }
 
@@ -2544,8 +2544,8 @@ name        "CCC_BtlCmp"
 allows      "CCC_IntSens    RP:12000"
 allows      "CCC_DatSyn     RP:20000"
 allows      "CCC_SnsJam     RP:10000    Human:80 Zuul:100 Hiver:70 Tarkas:90 Liir:80 Morrigi:100"
-ship 
-    { 
+ship
+    {
         section DESquadronCNC
     }
 }
@@ -2612,8 +2612,8 @@ tech
 name        "CCC_SnsJam"
 allows      "CCC_QntChaf    RP:50000    Human:60 Zuul:95 Hiver:50 Tarkas:50 Liir:80 Morrigi:90"
 Group       JAMMING
-ship 
-    { 
+ship
+    {
         section DEJammer
     }
 }
@@ -2625,8 +2625,8 @@ name        "CCC_QntChaf"
 allows      "SLD_Clk        RP:70000    Human:40 Zuul:80 Hiver:30 Tarkas:70 Liir:70 Morrigi:100"
 requires    "DRV_Fusn"
 Group       JAMMING
-ship 
-    { 
+ship
+    {
         section DEWildWeasel
     }
 }
@@ -2655,8 +2655,8 @@ name        "CCC_AdvSens"
 allows      "CCC_QntChaf    RP:40000    Human:60  Zuul:80  Hiver:50  Tarkas:50  Liir:90  Morrigi:95"
 allows      "CCC_TunSens    RP:20000    Human:100 Zuul:100 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
 allows      "CCC_ScanSats   RP:20000    Human:100 Zuul:100 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
-ship 
-    { 
+ship
+    {
         section DEDeepscan
         section CRDeepscan
     }
@@ -2688,8 +2688,8 @@ allows      "CCC_ArmCom     RP:125000"
 allows      "CCC_QntChaf    RP:30000    Human:30 Zuul:60 Hiver:20 Tarkas:40 Liir:40 Morrigi:95"
 allows      "CCC_CmbtAlg    RP:70000    Human:80 Zuul:90 Hiver:70 Tarkas:80 Liir:90 Morrigi:95"
 requires    "IND_CruisCon"
-ship 
-    { 
+ship
+    {
         section CRStrikeForceCNC
     }
 }
@@ -2710,8 +2710,8 @@ name        "CCC_ArmCom"
 allows      "CCC_HoloTac    RP:80000    Human:70 Zuul:90 Hiver:60 Tarkas:70 Liir:90 Morrigi:95"
 allows      "CCC_FCCom      RP:125000"
 requires    "IND_DreadCon"
-ship 
-    { 
+ship
+    {
         section DNArmadaCNC
     }
 }
@@ -2744,7 +2744,7 @@ allows      "CCC_AI     RP:120000   Human:50 Zuul:20 Hiver:50 Tarkas:40 Liir:60 
 
 
 //**************************************************************************************************
-//SHIELDS                                                           
+//SHIELDS
 //**************************************************************************************************
 
 tech
@@ -2753,8 +2753,8 @@ name        "SLD_Def"
 allows      "SLD_MkOne      RP:15000    Human:50 Zuul:20 Hiver:40 Tarkas:70 Liir:95 Morrigi:100"
 allows      "SLD_Disr       RP:20000    Human:50 Zuul:20 Hiver:40 Tarkas:70 Liir:95 Morrigi:95"
 allows      "WEP_IntCan     RP:55000    Human:45 Zuul:10 Hiver:30 Tarkas:35 Liir:55 Morrigi:65"
-ship 
-    { 
+ship
+    {
         section DEDeflector
         section CRDeflector
         section DNDeflector
@@ -2768,12 +2768,12 @@ name        "SLD_Clk"
 allows      "SLD_ImpClk     RP:190000   Human:30 Zuul:50 Hiver:20 Tarkas:30 Liir:70 Morrigi:90"
 allows      "WEP_ClkMine    RP:120000   Human:20 Zuul:50 Hiver:30 Tarkas:60 Liir:50 Morrigi:90"
 
-ship 
-    { 
+ship
+    {
         section DECloaking
         section CRCloaking
     }
-}                                                           
+}
 
 
 tech
@@ -2792,8 +2792,8 @@ allows      "SLD_MkTwo      RP:20000    Human:50 Zuul:30 Hiver:40 Tarkas:70 Liir
 allows      "WEP_ShldDrvr   RP:35000    Human:50 Zuul:80 Hiver:60 Tarkas:60 Liir:80 Morrigi:90"
 group       SHIELDS
 
-ship 
-    { 
+ship
+    {
         section DEShield
         section CRShield
     }
@@ -2819,8 +2819,8 @@ group       SHIELDS
 requires    "DRV_AntiMat"
 OPTION_COST 1.8
 
-ship 
-    { 
+ship
+    {
         section DEShield
         section CRShield
     }
@@ -2832,8 +2832,8 @@ tech
 name        "SLD_MkFour"
 group       SHIELDS
 OPTION_COST 2.2
-ship 
-    { 
+ship
+    {
         section DEShield
         section CRShield
     }
@@ -2854,8 +2854,8 @@ tech
 name        "SLD_ErgAb"
 allows      "SLD_MesShld    RP:190000   Human:40 Zuul:10 Hiver:30 Tarkas:50 Liir:85 Morrigi:90"
 OPTION_COST 2.5
-ship 
-    { 
+ship
+    {
         section DEAbsorber
         section CRAbsorber
         section DNAbsorber
@@ -2903,8 +2903,8 @@ requires    "WEP_FusProj"
 tech
 {
 name        "SLD_Disr"
-ship 
-    { 
+ship
+    {
         section DEDeflector
         section CRDeflector
         section DNDeflector
@@ -2918,8 +2918,8 @@ tech
 {
 name        "SLD_Focus"
 requires    "DRV_Flicker"
-ship 
-    { 
+ship
+    {
         section CRProtectorate
         section DNProtectorate
     }
@@ -2944,9 +2944,9 @@ type        P
 allows      "IND_PredGun    RP:17000    Human:70 Zuul:30 Hiver:80 Tarkas:90 Liir:95 Morrigi:95"
 allows      "IND_ExpSys     RP:16000    Human:90 Zuul:40 Hiver:75 Tarkas:85 Liir:95 Morrigi:95"
 allows      "DRN_AdvRob     RP:12000"
-strategy 
-    { 
-        inc TECHBEN_INDOUTPUT 
+strategy
+    {
+        inc TECHBEN_INDOUTPUT
     }
 }
 
@@ -2958,9 +2958,9 @@ family      "DRN"
 threat      2
 type        P
 allows      "CCC_AI     RP:120000   Human:40 Zuul:30 Hiver:70 Tarkas:50 Liir:30 Morrigi:80"
-strategy 
-    { 
-        inc TECHBEN_INDOUTPUT 
+strategy
+    {
+        inc TECHBEN_INDOUTPUT
     }
 }
 
@@ -2970,12 +2970,12 @@ tech
 name        "IND_PredGun"
 family      "DRN"
 threat      1
-strategy 
-    { 
-        inc TECHBEN_GUNACC 
+strategy
+    {
+        inc TECHBEN_GUNACC
     }
-ship 
-    { 
+ship
+    {
         section DEFireControl
         section CRFireControl
     }
@@ -2989,9 +2989,9 @@ name        "DRN_AdvRob"
 threat      2
 type        P
 allows      "DRN_Cmbt   RP:60000"
-strategy 
-    { 
-        dec TECHBEN_SHIPCONCOST 
+strategy
+    {
+        dec TECHBEN_SHIPCONCOST
     }
 }
 
@@ -3005,8 +3005,8 @@ allows      "DRN_COL    RP:90000"
 allows      "DRN_Squad  RP:75000"
 allows      "DRN_Sats   RP:35000"
 allows      "DRN_Auto   RP:12000    Human:0 Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morrigi:100"
-ship 
-    { 
+ship
+    {
         section DEDrone
     }
 }
@@ -3017,8 +3017,8 @@ tech
 {
 name        "DRN_Auto"
 threat      1
-ship 
-    { 
+ship
+    {
         section DEColonyTrickster
         section DEBeltTrickster
     }
@@ -3043,8 +3043,8 @@ threat      2
 allows      "DRN_WingMan    RP:170000"
 allows      "DRN_AdvFrm     RP:60000"
 requires    "IND_CruisCon"
-ship 
-    { 
+ship
+    {
         section CRDrone
     }
 }
@@ -3068,8 +3068,8 @@ threat      1
 allows      "CCC_AI         RP:100000   Human:40 Zuul:30 Hiver:70 Tarkas:50  Liir:60 Morrigi:80"
 allows      "DRN_BtlRdrs    RP:120000   Human:0  Zuul:0  Hiver:0  Tarkas:100 Liir:0  Morrigi:0"
 requires    "IND_DreadCon"
-ship 
-    { 
+ship
+    {
         section DNDrone
     }
 }
@@ -3081,11 +3081,11 @@ name        "DRN_BtlRdrs"
 threat      1
 requires    "IND_AdvDreadEng"
 requires    "DRN_AdvFrm"
-ship 
-    { 
+ship
+    {
         section DNCarrier
         section _HunterShip_Fusion
-        section _HunterShip_Antimatter  
+        section _HunterShip_Antimatter
     }
 }
 
@@ -3100,8 +3100,8 @@ allows      "DRN_CryCOL     RP:55000    Human:80 Zuul:50 Hiver:70 Tarkas:80 Liir
 allows      "DRN_CrakCOL    RP:55000    Human:80 Zuul:50 Hiver:90 Tarkas:90 Liir:55 Morrigi:65"
 allows      "DRN_TPCOL      RP:85000    Human:70 Zuul:30 Hiver:60 Tarkas:70 Liir:85 Morrigi:95"
 requires    "IND_CruisCon"
-ship 
-    { 
+ship
+    {
         section CRCOL
     }
 }
@@ -3159,9 +3159,9 @@ family      "DRN"
 threat      1
 type        P
 allows      "CCC_AIVrus     RP:90000    Human:40 Zuul:50 Hiver:40 Tarkas:30 Liir:50 Morrigi:90"
-strategy 
-    { 
-        inc TECHBEN_INDOUTPUT 
+strategy
+    {
+        inc TECHBEN_INDOUTPUT
     }
 }
 
@@ -3172,13 +3172,13 @@ name        "CCC_AIFrCon"
 family      "DRN"
 threat      1
 allows      "CCC_AIVrus     RP:90000    Human:40 Zuul:50 Hiver:40 Tarkas:30 Liir:50 Morrigi:90"
-strategy 
-    { 
-        inc TECHBEN_GUNACC 
+strategy
+    {
+        inc TECHBEN_GUNACC
     }
 
-ship 
-    { 
+ship
+    {
         section DEAIC
         section CRAIC
         section DNAIC
@@ -3222,7 +3222,7 @@ tech
     name        "CCC_TrnsHum"
     family      "XNC"
     allows      "XNC_TrnsHum2   RP:15000"
-    
+
     unlock_explicitly   true
 }
 
@@ -3298,7 +3298,7 @@ tech
     name        "CCC_TrnsHvr"
     family      "XNC"
     allows      "XNC_TrnsHvr2   RP:15000"
-    
+
     unlock_explicitly   true
 }
 
@@ -3374,7 +3374,7 @@ tech
     name        "CCC_TrnsTrk"
     family      "XNC"
     allows      "XNC_TrnsTrk2   RP:13000"
-    
+
     unlock_explicitly   true
 }
 
@@ -3450,7 +3450,7 @@ tech
     name        "CCC_TrnsLir"
     family      "XNC"
     allows      "XNC_TrnsLir2   RP:25000"
-    
+
     unlock_explicitly   true
 }
 
@@ -3565,7 +3565,7 @@ tech
     name        "CCC_TrnsMorr"
     family      "XNC"
     allows      "XNC_TrnsMorr2  RP:16000"
-    
+
     unlock_explicitly   true
 }
 
