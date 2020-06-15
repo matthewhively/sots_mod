@@ -2661,6 +2661,10 @@ ship
     {
         section DESquadronCNC
     }
+strategy
+    {
+        inc TECHBEN_COMMAND
+    }
 }
 
 
@@ -2814,6 +2818,10 @@ ship
     {
         section CRStrikeForceCNC
     }
+strategy
+    {
+        inc TECHBEN_COMMAND
+    }
 }
 
 
@@ -2823,6 +2831,10 @@ name        "CCC_CmbtAlg"
 type        P
 allows      "CCC_AI         RP:140000   Human:40 Zuul:20 Hiver:40 Tarkas:30 Liir:50 Morrigi:100"
 allows      "CCC_HoloTac    RP:75000    Human:80 Zuul:90 Hiver:70 Tarkas:80 Liir:90 Morrigi:95"
+strategy
+    {
+        inc TECHBEN_COMMAND
+    }
 }
 
 
@@ -2836,6 +2848,10 @@ ship
     {
         section DNArmadaCNC
     }
+strategy
+    {
+        inc TECHBEN_COMMAND
+    }
 }
 
 
@@ -2847,6 +2863,10 @@ ship
     {
         section DNFlagship
     }
+strategy
+    {
+        inc TECHBEN_COMMAND
+    }
 }
 
 
@@ -2855,6 +2875,10 @@ tech
 {
 name        "CCC_HoloTac"
 allows      "CCC_AI     RP:120000   Human:50 Zuul:20 Hiver:50 Tarkas:40 Liir:60 Morrigi:90"
+strategy
+    {
+        inc TECHBEN_COMMAND
+    }
 }
 
 
