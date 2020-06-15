@@ -2179,11 +2179,11 @@ WEAPON_MIN_GRAV,Gravity Mine
 WEAPON_MIN_FUS,Fusion Mine
 WEAPON_MIN_AM,Antimatter Mine
 WEAPON_MIN_CLK,Cloaked Mine
-WEAPON_LAS_XRAY,X-Ray Laser
-WEAPON_LAS_UV,UV Laser
-WEAPON_LAS_RED,Red Laser
+WEAPON_LAS_XRAY,X-Ray Pulsed Laser
+WEAPON_LAS_UV,UV Pulsed Laser
+WEAPON_LAS_RED,Red Pulsed Laser
 WEAPON_LAS_PD,Laser Point Defence
-WEAPON_LAS_GREEN,Green Laser
+WEAPON_LAS_GREEN,Green Pulsed Laser
 WEAPON_HVY_BEM_LANCER,Lancer
 WEAPON_HVY_BEM_HCLAS,HC Laser
 WEAPON_HVY_BEM_CUTTING,Cutting Beam
@@ -2286,10 +2286,10 @@ TECHNAME_IND_BrdPod,Boarding Pods
 TECHNAME_IND_HrdStrct,Hardened Structures
 TECHNAME_IND_DeCon,Zero-G Deconstruction
 TECHNAME_IND_ArcCon,Arcology Construction
-TECHNAME_WEP_RedLas,Red Lasers
-TECHNAME_WEP_GrnLas,Green Lasers
-TECHNAME_WEP_UvLas,UltraViolet Lasers
-TECHNAME_WEP_XryLas,X-Ray Lasers
+TECHNAME_WEP_RedLas,Red Pulsed Lasers
+TECHNAME_WEP_GrnLas,Green Pulsed Lasers
+TECHNAME_WEP_UvLas,UltraViolet Pulsed Lasers
+TECHNAME_WEP_XryLas,X-Ray Pulsed Lasers
 TECHNAME_WEP_LtEmitr,Light Emitter
 TECHNAME_WEP_Emitr,Emitter
 TECHNAME_WEP_HvyEmitr,Heavy Emitter
