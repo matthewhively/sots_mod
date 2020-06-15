@@ -13,7 +13,7 @@ shipsection
     health  2200
     mass    5000
     cost    42000
-    cpoints 5020
+    cpoints 2400
 
     police 1
     autonomous 1    // actually means this is a ship with only a mission section
