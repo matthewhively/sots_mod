@@ -2100,6 +2100,8 @@ TECHBEN_GUNACC,Weapon Accuracy,,
 TECHBEN_BALDAM,Ballistic Damage,,
 TECHBEN_MSLSPD,Missile Speed,,
 TECHBEN_RDRSPD,Shuttle/Bio Missile Speed,,
+TECHBEN_RESEARCHSPD,Research Efficency
+TECHBEN_ECONOMIC,Economic Efficency
 
 TOOLTIP_STANCE_NORMAL,Normal,50,
 TOOLTIP_STANCE_PURSUE,Pursue,50,

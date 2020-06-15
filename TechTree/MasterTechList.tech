@@ -3271,6 +3271,10 @@ allows      "CCC_AIAdmin    RP:110000"
 allows      "CCC_AIFac      RP:110000"
 allows      "CCC_AIFrCon    RP:110000"
 allows      "CCC_AIVrus     RP:150000   Human:30 Zuul:50 Hiver:30 Tarkas:20 Liir:40 Morrigi:90"
+strategy
+    {
+        inc TECHBEN_RESEARCHSPD
+    }
 }
 
 
@@ -3281,6 +3285,10 @@ family      "DRN"
 threat      1
 type        P
 allows      "CCC_AIVrus     RP:90000    Human:40 Zuul:50 Hiver:40 Tarkas:30 Liir:50 Morrigi:90"
+strategy
+    {
+        inc TECHBEN_ECONOMIC
+    }
 }
 
 
