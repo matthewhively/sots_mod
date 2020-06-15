@@ -2662,7 +2662,7 @@ TECHDESC_SLD_Intang,This technology allows a ship to go out of phase with realit
 
 
 SECTIONNAME_CRAIC,AI Command
-SECTIONNAME_CRAbsorber,Point Absorber
+SECTIONNAME_CRAbsorber,Absorber
 SECTIONNAME_CRAntiMatter,Antimatter
 SECTIONNAME_CRAntiMatterFlickerWarp,Antimatter FlickerDrive
 SECTIONNAME_CRAntiMatterImpSW,Antimatter BlinkDrive
@@ -2764,7 +2764,7 @@ SECTIONNAME_DEWraith,Wraith Abductor
 SECTIONNAME_DEWar,War
 
 SECTIONNAME_DNAIC,AI Command
-SECTIONNAME_DNAbsorber,Point Absorber
+SECTIONNAME_DNAbsorber,Absorber
 SECTIONNAME_DNAntimatter,Antimatter
 SECTIONNAME_DNAntimatterFlickerWarp,Antimatter FlickerDrive
 SECTIONNAME_DNAntimatterImpSW,Antimatter BlinkDrive
