@@ -4390,7 +4390,7 @@ TECHDESC_WEP_MWMsl,"A large heavily armored missile that carries 6 independent m
 TECHNAME_WEP_KKMsl,Kinetic Kill Missile
 TECHDESC_WEP_KKMsl,"Using neutronium alloys as a non-explosive warhead coupled with advanced ionic thrusters, the Kinetic Kill missiles uses only the impact damage of a very high velocity collision to damage or destroy its target while imparting a large kinetic vector to the target should it survive."
 TECHNAME_WEP_SnpCanDrvr,Sniper Cannon
-TECHDESC_WEP_SnpCanDrvr,A very high velocity variant of the gauss cannon that uses a nano-rifled barrel to create a very long range very accurate at long distances gauss weapon. The speed of the shot and slow barrel tracking makes the weapon less useful at close ranges though.
+TECHDESC_WEP_SnpCanDrvr,"A very high velocity variant of the gauss cannon that uses a nano-rifled barrel to create a gauss weapon that is accurate over very long ranges. The speed of the shot and slow barrel tracking makes the weapon less useful at close ranges though."
 TECHNAME_WEP_StrmDrvr,Stormers
 TECHDESC_WEP_StrmDrvr,A very rapid-fire driver delivery system that fires an intense stream of gauss cannon rounds onto a target. Slow tracking rate but very effective at hammering away against slower targets. 
 TECHNAME_WEP_HStrmDrvr,Heavy Stormers
