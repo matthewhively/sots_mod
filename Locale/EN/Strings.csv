@@ -2527,10 +2527,10 @@ TECHDESC_WEP_AmTrp,A tracking sphere of anti-matter deuterium contained in a mag
 TECHDESC_WEP_DtAmTrp,A tracking sphere of fusing anti-matter deuterium gets stronger over distance as the fusion process grows until it finally achieves critical mass and detonates in a massive explosion that damages everything in the blast area. It can be shot down and as the sphere takes more damage its own explosive force is disrupted.
 
 TECHDESC_WEP_Nukes,The standard tactical nuclear warhead for missiles.
-TECHDESC_WEP_NukeWhd,A more powerful warhead for nuclear missiles that concentrates the radiation in a directed blast.
-TECHDESC_WEP_GmaWhd,A powerful optimized warhead for nuclear missiles and mines
-TECHDESC_WEP_FusWhd,A powerful Fusion warhead for missiles.
-TECHDESC_WEP_AmWhd,A very powerful Anti-Matter warhead for missiles.
+TECHDESC_WEP_NukeWhd,"A more powerful warhead for nuclear missiles that concentrates the radiation in a directed blast.\n\n* Missile Warhead damage increased to 150% of the base value."
+TECHDESC_WEP_GmaWhd,"A powerful optimized warhead for nuclear missiles and mines.\n\n* Missile Warhead damage increased to 200% of the base value."
+TECHDESC_WEP_FusWhd,"A powerful Fusion warhead for missiles.\n\n* Missile Warhead damage increased to 350% of the base value."
+TECHDESC_WEP_AmWhd,"A very powerful Anti-Matter warhead for missiles.\n\n* Missile Warhead damage increased to 500% of the base value."
 TECHDESC_WEP_NukMine,A powerful Nuclear Bomb designed to track and explode close to a passing enemy ship.
 TECHDESC_WEP_FusMine,A powerful Fusion Bomb designed to track and explode close to a passing enemy ship.
 TECHDESC_WEP_AmMine,A powerful Anti-Matter bomb designed to track and explode close to a passing enemy ship.
@@ -2539,7 +2539,7 @@ TECHDESC_WEP_ImpMine,A grav mine combined with a fusion element that generates a
 TECHDESC_WEP_LpMine,A mine with a high burst micro-fusion drive attached which causes the mine to shoot towards a proximity target at high speed in a straight line.
 TECHDESC_WEP_ClkMine,This technology allows for a small cloak generator to be attached to a standard fusion mine rendering them invisible to visual and standard sensors. The energy drain caused by the cloaking module does reduce the active lifespan of the mine though.
 TECHDESC_WEP_NdMsl,A smart missile using advanced node drive technology that allows them to travel to and strike another star system on their own.
-TECHDESC_WEP_DFMsl,"A large array of missile tubes mounted on a medium turret station. These unguided missiles are much smaller than the standard missile and pack a smaller warhead, though they save some space for explosive force by not using large electronic modules."
+TECHDESC_WEP_DFMsl,"A large array of missile tubes mounted on a medium turret station. These unguided missiles are much smaller than the standard missile and pack a smaller warhead, though they save some space for explosive force by not using large electronic modules.\n\n* Also benefits from improved warhead technology."
 TECHDESC_WEP_CorMsl,A large missile capable of dispersing a cloud of powerful molecular acid contained in mini-spheres that bind to a passing ship's hull and eat into it causing damage over time. Requires a large turret mount.
 TECHDESC_WEP_NanMsl,A large missile capable of dispersing a large cloud of powerful nano-disassemblers that bind to a passing ship's hull and do a large amount of erosion damage over time. Requires a large turret mount.
 
@@ -4385,9 +4385,9 @@ TECHNAME_WEP_GluTrp,Gluonic Torpedo
 TECHDESC_WEP_GluTrp,A self-sustaining field of charged gluons contained in an EM field. Capable of penetrating Deflector shields as well as circumventing energy absorbers. 
 TECHNAME_WEP_MesTrp,Mesonic Torpedo
 TECHDESC_WEP_MesTrp,A self-perpetuating Meson field that can be launched as a long range Capable of penetrating any defense except meson shields. 
-TECHNAME_WEP_MWMsl,MW Missile
-TECHDESC_WEP_MWMsl,A large heavily armored missile that carries 6 independent mini missiles that burst out and make their own way to the target once the missile is inside Point defense Range. Requires a large turret mount.
-TECHNAME_WEP_KKMsl,KK Missile
+TECHNAME_WEP_MWMsl,"Multi-Warhead Missile"
+TECHDESC_WEP_MWMsl,"A large heavily armored missile that carries 6 independent mini missiles that burst out and make their own way to the target once the missile is inside Point defense Range. Requires a large turret mount. \n\n* Also benefits from improved warhead technology."
+TECHNAME_WEP_KKMsl,Kinetic Kill Missile
 TECHDESC_WEP_KKMsl,"Using neutronium alloys as a non-explosive warhead coupled with advanced ionic thrusters, the Kinetic Kill missiles uses only the impact damage of a very high velocity collision to damage or destroy its target while imparting a large kinetic vector to the target should it survive."
 TECHNAME_WEP_SnpCanDrvr,Sniper Cannon
 TECHDESC_WEP_SnpCanDrvr,A very high velocity variant of the gauss cannon that uses a nano-rifled barrel to create a very long range very accurate at long distances gauss weapon. The speed of the shot and slow barrel tracking makes the weapon less useful at close ranges though.
@@ -5539,7 +5539,7 @@ TECHDESC_WEP_PolAm,The upscaled polarized plasmatic weapon for use at AntiMatter
 TECHDESC_WEP_IntCan,"Deeper understanding of field physics allows the projection of contained fields that induce a temporary shift in the targets acceleration vs. inertia ratio. The result is a small reduction in the target's speed that slowly fades over time. Multiple hits by this weapon increases the effect. While the inertial field does no contact damage per se, the stress of the inertial shift does damage the target vessel's support structure."
 TECHDESC_WEP_HvyIntCan,A heavy barrel triple pulse version of the Inertial Cannon
 TECHDESC_WEP_KelTrp,Particle manipulation and field tech allows for this torpedo capable of draining a target of its molecular motion to the point of leaving it near absolute zero for a few moments. This not only causes surface stress damage to the hull of the target but also makes it more fragile and therefore it takes more damage from any kind of subsequent damage.
-TECHDESC_WEP_HvyPMsl,"A more robust and expensive version of the standard planetary defense missile. It packs a moderately larger warhead and travels somewhat slower but is much more heavily armored than the standard version. Once researched, planets can fire one Heavy Missile for every 200 million population, rounding up."
+TECHDESC_WEP_HvyPMsl,"A more robust and expensive version of the standard planetary defense missile. It packs a moderately larger warhead and travels somewhat slower but is much more heavily armored than the standard version. Once researched, planets can fire one Heavy Missile for every 200 million population, rounding up.\n\n* Also benefits from improved warhead technology."
 
 TECHDESC_SLD_Focus,"This tech combines the shield projector with the Liirian FlickerDrive technology to literally project a single shield over multiple targets millions of times per second, making it appear as if each ship had its own complete shield. "
 
