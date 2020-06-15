@@ -379,7 +379,7 @@ allows      "IND_BrdPod     RP:30000    Human:80  Zuul:100 Hiver:80  Tarkas:90  
 allows      "IND_MegFrght   RP:50000    Human:100 Zuul:0   Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
 strategy
     {
-                inc TECHBEN_HULLSIZE
+        inc TECHBEN_HULLSIZE
     }
 }
 
@@ -631,7 +631,7 @@ tech
 name        "WEP_UvLas"
 family      "NRG"
 threat      1
-allows      "WEP_HCLas      RP:35000"
+allows      "WEP_HCLas      RP:35000    Human:80 Zuul:80 Hiver:70 Tarkas:70 Liir:90 Morrigi:80"
 allows      "WEP_XryLas     RP:42000    Human:60 Zuul:30 Hiver:60 Tarkas:50 Liir:90 Morrigi:80"
 weapon  {
             filename  "Weapons/las_uv.weapon"
@@ -644,7 +644,7 @@ tech
 name        "WEP_XryLas"
 family      "NRG"
 threat      2
-allows      "WEP_HCLas  RP:20000    Human:80 Zuul:80 Hiver:70 Tarkas:70 Liir:90 Morrigi:80"
+allows      "WEP_HCLas  RP:20000"
 allows      "WEP_Phas   RP:55000    Human:60 Zuul:20 Hiver:40 Tarkas:40 Liir:80 Morrigi:95"
 requires    "DRV_Fusn"
 weapon  {
