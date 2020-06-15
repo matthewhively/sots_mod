@@ -1591,6 +1591,7 @@ TECHSHIP_CRBattleBridge,TechTree\ShipArt\%s_CRDN_CommandMission.tga,0,0,256,128
 TECHSHIP_DEPointDefence,TechTree\ShipArt\%s_DECR_Mission.tga,0,0,256,128
 TECHSHIP_DEAbsorber,TechTree\ShipArt\%s_DE_Mission_CRDR_Command.tga,0,0,256,128
 TECHSHIP_DEDeflector,TechTree\ShipArt\%s_DE_Mission_CRDR_Command.tga,0,0,256,128
+TECHSHIP_DEDisruptor,TechTree\ShipArt\%s_DE_Mission_CRDR_Command.tga,0,0,256,128
 TECHSHIP_DEShield,TechTree\ShipArt\%s_DE_Mission_CR_Command.tga,0,0,256,128
 TECHSHIP_DECloaking,TechTree\ShipArt\%s_DE_Mission_CR_Command.tga,0,0,256,128
 TECHSHIP_DEAIC,TechTree\ShipArt\%s_DECRDN_Command.tga,0,0,256,128
