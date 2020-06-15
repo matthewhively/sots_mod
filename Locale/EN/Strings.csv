@@ -2085,6 +2085,7 @@ TECHBEN_DEFENCELASER,Defense VS Lasers,,
 TECHBEN_SYSRES,System Resources,,
 TECHBEN_OHVSTRATE,Overharvest Rate,,
 TECHBEN_HULLSTR,Hull Strength,,
+TECHBEN_SELFREPAIR,Self Repair
 TECHBEN_TERAFORMSPD,Terraforming Efficiency,,
 TECHBEN_HULLSIZE,Hull Size,,
 TECHBEN_MSLDAM,Missile Damage,,
