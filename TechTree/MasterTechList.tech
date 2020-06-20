@@ -2177,8 +2177,14 @@ strategy
 ship
     {
         section DEFocusNodeFission
+        section CRFocusNodeFission
+// REM no DN fission exists
+        section DEFocusNodeFusion
         section CRFocusNodeFusion
         section DNFocusNodeFusion
+        section DEFocusNodeAntimatter
+        section CRFocusNodeAntimatter
+        section DNFocusNodeAntimatter
     }
 }
 
