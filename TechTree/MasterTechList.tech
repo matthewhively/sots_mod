@@ -2259,6 +2259,7 @@ requires    "DRV_Fusn"
 strategy
     {
         inc TECHBEN_STRATSPD
+        inc TECHBEN_STRATSPD
     }
 }
 
@@ -2270,6 +2271,7 @@ allows      "DRV_GrvSyn RP:100000   Human:0 Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morri
 requires    "DRV_AntiMat"
 strategy
     {
+        inc TECHBEN_STRATSPD
         inc TECHBEN_STRATSPD
     }
 }
@@ -2321,7 +2323,7 @@ requires    "DRV_AntiMat"
 strategy
     {
         inc TECHBEN_STRATSPD
-
+        inc TECHBEN_STRATRNGE
     }
 ship
     {
@@ -2350,6 +2352,7 @@ requires    "DRV_Fusn"
 strategy
     {
         inc TECHBEN_STRATSPD
+        inc TECHBEN_STRATRNGE
     }
 }
 
@@ -2364,6 +2367,7 @@ requires    "DRV_AntiMat"
 strategy
     {
         inc TECHBEN_STRATSPD
+        inc TECHBEN_STRATRNGE
     }
 }
 
