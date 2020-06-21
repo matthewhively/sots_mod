@@ -2188,7 +2188,7 @@ WEAPON_MIN_CLK,Cloaked Mine
 WEAPON_LAS_XRAY,X-Ray Pulsed Laser
 WEAPON_LAS_UV,UV Pulsed Laser
 WEAPON_LAS_RED,Red Pulsed Laser
-WEAPON_LAS_PD,Laser Point Defence
+WEAPON_LAS_PD,"Rapid Pulse Laser (PD)"
 WEAPON_LAS_GREEN,Green Pulsed Laser
 WEAPON_HVY_BEM_LANCER,Lancer
 WEAPON_HVY_BEM_HCLAS,HC Laser
@@ -2223,7 +2223,7 @@ WEAPON_BEM_MESON,Meson Beam
 WEAPON_BEM_GRAV,Graviton Beam
 WEAPON_BAL_THUMPER,Thumper
 WEAPON_BAL_SIEGE,Siege Driver Payload
-WEAPON_BAL_GAUSS_PD,Gauss Point Defence
+WEAPON_BAL_GAUSS_PD,"Gauss Phalanx (PD)"
 WEAPON_BAL_GAUSS,Gauss Cannon
 WEAPON_BAL_DRV_MASS,Mass Driver
 WEAPON_BAL_DRV_HEAVY,Heavy Driver
@@ -2246,7 +2246,7 @@ WEAPON_TRP_DISRUPTOR,Disruptor
 WEAPON_TRP_AMDET,Detonating Anti-Matter Torpedo
 WEAPON_TRP_AM,Anti-Matter Torpedo
 WEAPON_PHS_PULSED,Pulsed Phasers
-WEAPON_PHS_PD,Phaser Point Defence
+WEAPON_PHS_PD,"Phaser Point Defence"
 WEAPON_NODECANNON,Node Cannon
 
 
@@ -2554,7 +2554,7 @@ TECHDESC_WEP_MasDrvr,A heavier ballistic system using advanced power systems to 
 TECHDESC_WEP_HvyDrvr,Heavy barrel mass drivers that hurl very large kinetic rounds that do very heavy damage.
 TECHDESC_WEP_APRtech,"A shaped refinement to the standard driver ballistic slug designed to penetrate enemy ship armor deeper with less chance of ricochet. AP rounds can be applied to all 3 sizes of driver guns but does require a new barrel for greater accuracy and range and so AP rounds cannot be fired from standard driver guns. AP rounds do slightly less damage and carry less kinetic impact that standard rounds of the same calibre but are more accurate, longer ranged and suffer from deflection less often."
 TECHDESC_WEP_VRFtech,The use of quantum conductors to supercharge magnetic coils and allow for a increase in the rate of fire of ballistic weapons.
-TECHDESC_WEP_PDtech,"Very high speed turrets and targeting systems fitted with small-bore, rapid-fire weapons.  They are intended to track and engage incoming missiles and torpedoes as well threatening mines and asteroids."
+TECHDESC_WEP_PDtech,"Very high speed turrets and targeting systems fitted with small-bore, rapid-fire weapons.  They are intended to track and engage incoming missiles and torpedoes as well threatening mines and asteroids.\n\n* Unlocks both Gauss Phalanx and Rapid Pulse Lasers"
 TECHDESC_WEP_BrstrDrvr,A heavy driver that hurls a container that detonates at a set distance and spraying the area with hyper velocity shrapnel. Very good at damaging tight groups of small enemy ships.
 TECHDESC_WEP_ShldDrvr,A ferrous-silicate dust that is specially designed to disrupt high-energy shields and bring them down. This material is delivered by Heavy Driver cannons and will do massive damage to shields but no actual damage to the ship itself.
 TECHDESC_WEP_SgeDrvr,Massive Magnetic Drivers that literally hurl chunks of iron/nickel asteroids at large targets for devastating damage. Also known as World Killers for their terrible power at planetary bombardment. This weapon can only be fitted to a dreadnought class vessel.
@@ -5621,7 +5621,7 @@ SECTIONDESC_DNSubjugator,This Zuul dreadnought section can carry 4 slaver discs 
 WEAPON_DSC_WAR_QUOIT,War Quoit
 WEAPON_DSC_CHAKKAR,Chakkar
 WEAPON_DSC_CHAKRAM,Chakram
-WEAPON_MIS_INTERCEPTOR_PD,PD Missile
+WEAPON_MIS_INTERCEPTOR_PD,"Interceptor Missile (PD)"
 WEAPON_BEM_PULSEDGRAV,Pulsed Grav Beam
 WEAPON_BAL_RAILCANNON,Rail Cannon
 WEAPON_CAN_INERTIAL,Inertial Cannon
@@ -5635,6 +5635,8 @@ WEAPON_BRD_TARKAHUNTER,Hunter
 WEAPON_CAN_HVYPLASMA,Heavy Plasma Cannon
 WEAPON_CAN_HVYFUS,Heavy Fusion Cannon
 WEAPON_CAN_HVYAM,Heavy Anti-Matter Cannon
+
+
 WEAPON_NPC_SWARMERCANNON,Swarmer Cannon
 WEAPON_SYSK_MISSILE,Missile
 WEAPON_NPC_PMASTER_EYEMESONBEAM,Meson Beam
