@@ -1601,7 +1601,6 @@ TECHSHIP_DEDrone,TechTree\ShipArt\%s_DE_Mission.tga,0,0,256,128
 TECHSHIP_CRDrone,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
 TECHSHIP_DNDrone,TechTree\ShipArt\%s_DN_Mission.tga,0,0,256,128
 TECHSHIP_CRCOL,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
-TECHSHIP_DNEW,TechTree\ShipArt\%s_DN_Command.tga,0,0,256,128
 TECHSHIP_DNFlagship,TechTree\ShipArt\%s_DN_Mission.tga,0,0,256,128
 TECHSHIP_CRProtectorate,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
 TECHSHIP_DNCarrier,TechTree\ShipArt\%s_DN_Mission.tga,0,0,256,128
@@ -1612,6 +1611,8 @@ TECHSHIP_CRImpactor,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
 TECHSHIP_CRBoarding,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
 TECHSHIP_CRProjector,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
 TECHSHIP_CRAssaultShuttle,TechTree\ShipArt\%s_CR_Mission.tga,0,0,256,128
+// ... this is a standin for all the sections that are enabled by Advanced DN engineering
+TECHSHIP_DNEW,TechTree\ShipArt\%s_DN_CommandMission.tga,0,0,256,128
 // ... Single Section ships
 TECHSHIP_DEColonyTrickster,TechTree\ShipArt\%s_DE_Single.tga,0,0,256,128
 TECHSHIP_DEFreighter,TechTree\ShipArt\%s_DE_Single.tga,0,0,256,128
