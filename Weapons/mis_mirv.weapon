@@ -1,0 +1,102 @@
+weapon
+{
+	name			@WEAPON_MIS_MIRV
+	weaponclass		missile
+	weaponfamily	missile
+	model1			barrel_l1_missile.X
+	turretsize			large
+	requires		WEP_MWMsl
+	cost			3000
+	turretclass			missile
+	hpbonus			-30
+	burst_volleys		1
+	volley_period		.2
+	recharge_time		32
+	muzzle_sound		Sounds/Weapons/mis_missile_muzzle.wav
+	muzzle_sound_minrange	60
+	muzzle_effect		effects/Missile_muzzle.effect
+	muzzle_speed		90
+	solution_tolerance	90
+	icon_file		GUI/WeaponIcons_2.tga
+	icon_rect		"0 64 32 32"
+	range			2500
+	range_planet	2500	// Same as 'range' because missile has a fixed time-to-live. (range should be a bit less than [netforcelimits] speed x ttl)
+	
+	fc_requires_los				true
+	fc_requires_inrange			true
+	fc_requires_enemycolony		false
+	fc_manual_target			false
+	fc_manual_toggle			false
+	fc_manual_launch			false
+	fc_controllable				true
+	fc_holdsfire				true
+	blindfire false
+	pinpoint false
+
+	mirv
+	{
+		tracking 1
+	
+		impact_decal	decals/WeaponHit.decal
+		impact_decal_width .5
+		impact_decal_height .5
+		impact_decal_depth .1
+
+		beam_origin		-3
+		beam_length		5.5
+
+		impact_sound		Sounds/Weapons/mis_missile_impact.wav
+		impact_sound_minrange	200
+		impact_effect		effects/Missile_Impact.effect
+		area_impact_effect "effects/collide_asteroid.effect"
+		Planet_Impact_Effect	"effects/Missile_Planet.effect"
+
+		thrust_sound		Sounds/Weapons/mis_missile_travel.wav
+		
+		speed 125
+		seek_attenuation 4	// Higher number = tighter turns/faster accel
+		
+//		netforcelimits
+//		{
+//			force				9000
+//			torque_yaw			9000
+//			torque_pitch		9000
+//			torque_roll			500
+//			speed				135
+//			rotspeed			820
+//		}
+
+		ttl				30
+		model			missile_MIRV.X
+		health			75
+		dam			40
+		dam_radius		15
+		mass			50
+		thrust_effect		effects/missletrail.effect
+		thrust_node		EffectNode
+		dumbfire_period		0.8
+
+		mirv_warheads	6
+		mirv_warhead_weapon	"Weapons/_mis_mirv_warhead.weapon"
+		mirv_split_range	300			// distance from target at which warheads split
+		mirv_spread_angle	20			// angle at which warheads spread from delivery system
+		mirv_spiral_radius	60			// radius of the tracer spiral
+		mirv_spin_rate	100			// how fast the tracer points rotate
+		mirv_lead_time	0.05		// how far ahead the tracer leads (time in seconds)
+		
+		mirv_split_sound ""
+		mirv_split_sound_minrange "50"
+		mirv_split_effect ""
+
+		dam_pop		150000
+		dam_infra	.001	
+		dam_terra	.005
+	}
+
+	rating_frate	2
+	rating_dam	2
+	rating_acc	9
+	rating_range	9
+
+	dam_est		125
+}

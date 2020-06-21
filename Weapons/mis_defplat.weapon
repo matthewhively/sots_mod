@@ -1,0 +1,90 @@
+// Special planet missile that is selectable for heavy defence platforms
+
+weapon
+{
+	name			@WEAPON_MIS_DEFPLAT	
+	weaponclass			missile
+	weaponfamily	missile
+	model1			barrel_m1_icbm.X
+	model2			barrel_l2_icbm.X
+	turretsize			medium
+	cost			3000
+	turretclass			planetmissile
+	burst_volleys		1
+	volley_period		.2
+	recharge_time		30
+	muzzle_speed		180
+	muzzle_effect	effects/ICBM_Muzzle.effect
+	muzzle_sound		Sounds/Weapons/mis_planet_muzzle.wav
+	muzzle_sound_minrange	75
+	icon_file		GUI/WeaponIcons.tga
+	icon_rect		"224 192 32 32"
+	solution_tolerance	90
+	
+	fc_requires_los				true
+	fc_requires_inrange			true
+	fc_requires_enemycolony		false
+	fc_manual_target			false
+	fc_manual_toggle			false
+	fc_manual_launch			false
+	fc_controllable				true
+	fc_holdsfire				true
+	blindfire false
+	pinpoint false
+
+	missile
+	{
+		tracking 1
+		retarget_delay 3
+	
+		impact_decal	decals/WeaponHit.decal
+		impact_decal_width .5
+		impact_decal_height .5
+		impact_decal_depth .1
+
+		beam_origin		-3
+		beam_length		5.5
+
+		impact_sound		Sounds/Weapons/mis_missile_impact.wav
+		impact_sound_minrange	75
+		impact_effect		effects/Missile_impact.effect
+		area_impact_effect "effects/collide_asteroid.effect"
+
+		thrust_sound		Sounds/Weapons/mis_planet_travel.wav
+
+		
+		speed 180
+		seek_attenuation 3	// Higher number = tighter turns/faster accel
+		
+//		netforcelimits
+//		{
+//			force				3600
+//			torque_yaw			20000
+//			torque_pitch		20000
+//			torque_roll			100
+//			speed				180
+//			rotspeed			620
+//		}
+		
+		ttl				180
+		model			PlanetMissile.X
+		health			10
+		dam			100
+		dam_radius		15
+		mass			50
+		thrust_effect		effects/PlanetMissileTrail.effect
+		thrust_node		EffectNode
+		dumbfire_period		1
+
+		dam_pop		0
+		dam_infra	0	
+		dam_terra	0
+	}
+
+	rating_frate	1
+	rating_dam	3
+	rating_acc	9
+	rating_range	9
+
+	dam_est		150
+}

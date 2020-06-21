@@ -1,0 +1,100 @@
+weapon
+{
+	name		@WEAPON_TRP_FUSDET
+	weaponclass		dettorpedo
+	weaponfamily	torpedo
+	weapondamagetype trackingtorpedo
+	turretclass		torpedo
+	turretsize		large
+	requires 	WEP_DtFsTrp
+	hpbonus		175
+	Cost		15000
+	burst_volleys	1
+	volley_period	.2
+	recharge_time	35
+	muzzle_speed	90
+	muzzle_effect	effects/PlasmaTorpedo_muzzle.effect
+	muzzle_sound	Sounds/Weapons/trp_det_fusion_muzzle.wav
+	muzzle_sound_minrange	100
+	solution_tolerance	90
+	icon_file	GUI/WeaponIcons.tga
+	icon_rect	"64 160 32 32"
+	range			2000
+	range_planet	2500
+	
+	fc_requires_los				true
+	fc_requires_inrange			true
+	fc_requires_enemycolony		false
+	fc_manual_target			true
+	fc_manual_toggle			false
+	fc_manual_launch			false
+	fc_explicit_target			true
+	fc_exclusive_launch			true
+	fc_targets_expire			true
+	fc_controllable				true
+	fc_holdsfire				true
+	pinpoint true	// ok since we are making them detonate early (see range_trigger in missile {} block below)
+	target_queue_size 10
+	
+	torpedo
+	{
+		tracking 1
+		plasma 1
+	
+		beam_origin	-3
+		beam_length	5.5
+
+		impact_effect	effects/DetonationFusionTorpedo_Impact.effect
+		impact_sound	Sounds/Weapons/trp_det_fusion_impact.wav
+		impact_sound_minrange	100
+			area_impact_effect "effects/collide_asteroid.effect"
+
+
+		thrust_sound		Sounds/Weapons/trp_det_fusion_travel.wav
+		thrust_sound_minrange	20
+
+		rangetable
+		{
+			pb_range	300
+			pb_range_dev	2
+			pb_range_dam	75
+			eff_range	700
+			eff_range_dev	2
+			eff_range_dam	500
+			max_range	2000
+			max_range_dev	3
+			max_range_dam	750
+		}
+		
+		effect		effects/FusionTorpedo_bullet.effect
+		health			750	// same as max damage
+		dam_radius		200
+		mass			300
+		dumbfire_period		0.5
+		trigger_range "10 90"	// Random in here
+
+		speed 105
+		seek_attenuation 2	// Higher number = tighter turns/faster accel
+
+//		netforcelimits
+//		{
+//			force     30000
+//			torque    35000
+//			speed     115
+//			rotspeed  300
+//		}
+
+		ttl 20
+		
+		dam_pop		2000000
+		dam_infra	.001	
+		dam_terra	.001
+	}
+
+	rating_frate	2
+	rating_dam	4.8
+	rating_acc	9
+	rating_range	8
+
+	dam_est		350
+}
