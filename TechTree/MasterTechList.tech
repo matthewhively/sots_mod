@@ -2685,6 +2685,10 @@ allows      "CCC_SpyBm      RP:12000    Human:80 Zuul:100 Hiver:80 Tarkas:90 Lii
 allows      "CCC_SpJam      RP:12000    Human:70 Zuul:90 Hiver:70 Tarkas:80 Liir:80 Morrigi:100"
 allows      "CCC_FTLEcon    RP:20000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
 allows      "CCC_ComRaid    RP:5000     Human:0 Zuul:100 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
+ship
+    {
+        section CRPropaganda
+    }
 }
 
 
@@ -2695,6 +2699,7 @@ allows      "CCC_ComRaid    RP:12000    Human:100 Zuul:0 Hiver:0 Tarkas:100 Liir
 ship
     {
         section DEFreighter
+        section DEPolice
     }
 }
 

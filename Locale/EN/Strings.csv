@@ -2617,32 +2617,35 @@ TECHDESC_BIO_NanVir,"A nanobot based ""plague"" which is designed to attack and 
 TECHDESC_BIO_ConNan,"Nanobots designed to ""counter attack"" enemy nanobot incursions and repair the damage made by them. Counter nanites ""cure"" NanoVirus outbreaks as well as reducing the damage taken from ships hit by nano-missiles."
 
 
-TECHDESC_CCC_FTLCom,The basic level of communicating and issuing orders to planets and ships.
-TECHDESC_CCC_NdTrkZul,A system for tracking Zuul ships traveling in node space and deriving their origins and destinations via drive radiation and decoded transmissions. 
-TECHDESC_CCC_NdTrkHum,A system for tracking human ships traveling in node space and deriving their origins and destinations via drive radiation and decoded transmissions.
-TECHDESC_CCC_HypCom,Enables communication with ships traveling within any sort of hyper-field and allows you to send them new movement orders mid-transit.
+TECHDESC_CCC_FTLCom,"This breakthrough to permit Faster Than Light communications across your empire allows basic transmission of orders to planets and ships."
+TECHDESC_CCC_NdTrkZul,A system for tracking Zuul ships while traveling in node space and deriving their origins and destinations via drive radiation and decoded transmissions. 
+TECHDESC_CCC_NdTrkHum,A system for tracking Human ships while traveling in node space and deriving their origins and destinations via drive radiation and decoded transmissions.
+TECHDESC_CCC_HypCom,"Enables communication with ships traveling within any sort of hyper-field and allows you to issue new movement orders mid-transit."
 TECHDESC_CCC_BtlCmp,Computer systems designed specifically to enhance command and control of squadron-sized groups of ships. Increases number of ships that can be controlled in combat.
-TECHDESC_CCC_FTLBrdB,Faster-Than-Light Broadband allows you to observe the combat of allied players.
-TECHDESC_CCC_SpyBm,Sub-space Spy Beams allow you to observe enemy combat in nearby star systems.
-TECHDESC_CCC_SpJam,Sub-space jamming will prevent enemy empires from observing your combats.
-TECHDESC_CCC_SnsJam,Broadcast systems designed to fill enemy sensor channels with static and blocking their ability to gather information both tactically and at long strategic range.
+TECHDESC_CCC_FTLBrdB,"By adding broadband capabilities to our first generation Faster-Than-Light communications systems we gain the ability to remotely observe our allies in combat.\n\n* When combined with fusion, enables construction of Propaganda vessels (aka Terrorizors for Zuul)"
+TECHDESC_CCC_SpyBm,"Sub-space Spy Beams allow us to remotely observe our enemies in combat when in nearby star systems."
+TECHDESC_CCC_SpJam,"Sub-space jamming will prevent hostile empires from remotely observing our ships in combat."
+TECHDESC_CCC_SnsJam,"Broadcast systems designed to fill enemy sensor channels with static and blocking their ability to gather information both tactically and at long strategic range."
 TECHDESC_CCC_QntChaf,A system of using quantum waveforms to imitate the sensor signal of an entire ship to use as decoys. A ship fitted with this technology may create false images on enemy sensor modules as well as attracting and detonating enemy tracking ordinance.
-TECHDESC_CCC_IntSens,An advanced sensor system that integrates sensor data from all ships in the fleet in real time and makes that overall data available to command ships.
+TECHDESC_CCC_IntSens,"An advanced sensor system that merges sensor data from all fleet ships in real time and makes that combined data available to the fleet commander."
 TECHDESC_CCC_AdvSens,"Using advancements in FTL communications, Advanced Sensors use Tachyon particle waves to gather information at very long distances as well as sensing the disturbances caused by cloaked vessels."
 TECHDESC_CCC_AdvCnC,Allows you to select ships and give them orders from within the tactical sensor screen.
 TECHDESC_CCC_DatSyn,Full sensor and battle computer integration that allows for even larger fleets to be controlled effectively by cruiser class command ships.
 TECHDESC_CCC_CmbtAlg,A breakthrough in predictive systems that allows for the operation of more ships in a fleet.
 TECHDESC_CCC_ArmCom,The ultimate advancement in command and control systems designed for Dreadnought class ships.
 TECHDESC_CCC_HoloTac,An advancement in command and control technologies that allows commanders to view the entire combat at once in a specially designed HoloTank. This gives them the ability to control more ships.
+TECHDESC_CCC_FTLEcon,"Establishes systems of using Faster Than Light communications to facilitate efficient trade systems between friendly worlds. This technology allow an empire the ability to designate trade routes and build freighters to service them.\n\n* When combined with fusion, allows construction of special police ships to help protect our trade sectors and maintain civilian morale."
+TECHDESC_CCC_ComRaid,"A system of tactics, communication, and support systems capable of keeping small fleets in action and undetected for long periods of time while they patrol enemy trade routes, seeking Merchant ships to intercept and capture or destroy. "
+TECHDESC_CCC_DatCor,"Creates a, real time updating, central database of all ships from observed combats. This generates a report for each opponent that lists the most recently observed ships designations along with their weapon and technology load-outs."
+
+
 TECHDESC_CCC_AI,The development of truly self-aware computers advances scientific research like never before. 50% increases in researching efficiency.
 TECHDESC_CCC_AIAdmin,The instillation of AI intelligences into the bureaucratic system resulting in a large increase in revenues due to streamlining the economy. Increases financial output of all worlds by 50%.
 TECHDESC_CCC_AIFac,The instillation of AI intelligences into the manufacturing system resulting in the dramatic increase in industrial output. Increases industrial output of all worlds by 50%
 TECHDESC_CCC_AIFrCon,The instillation of AI intelligences into combat vessels to handle targeting and power allocation resulting in higher speed and maneuvering abilities
 TECHDESC_CCC_AIVrus,This digital Virus gives the player the ability to purge his civilization of AI influence and negate the effects of the AI Rebellion.
 TECHDESC_CCC_AISlv,This programming development allows AI to be rendered loyal slaves and reinstates AI bonuses after AI Virus or Rebellion has been triggered.
-TECHDESC_CCC_FTLEcon,"The establishment of systems using Faster Than Light communication and travel to facilitate efficient trade systems between friendly worlds. This technology allow an empire the ability to create trade routes and the star-freighters to service them. Combined with fusion, this will allow us to build police ships to protect our sectors and maintain morale."
-TECHDESC_CCC_ComRaid,"A system of tactics, communication, and support systems capable of keeping small fleets in action and undetected for large periods of time while they patrol enemy trade routes in order to intercept, destroy or capture Merchant shipping. "
-TECHDESC_CCC_DatCor,"Using advancements in FTL communications, Data Correlation allows for real time updating of a central database of enemy ship performance in combat. This creates a report for each opposing empire listing current ships known designations and observed weapon load-outs."
+
 
 
 TECHDESC_SLD_Def,A projector technology which creates an electro-magnetic field in front of a ship that has a chance of deflecting ballistic weapons and detonating tracking weapons.
@@ -4422,7 +4425,7 @@ TECHDESC_BIO_SmrtNan,This generation of offensive nanites is designed to recogni
 TECHNAME_CCC_TunSens,Tunneling Sensors
 TECHDESC_CCC_TunSens,"Using sensors deliberately tuned to the deep quantum tunneling of reactor particle radiation, this technology provides very large sensor arrays like those found aboard Sensor Stations and Dreadnought Advanced EW Sections a chance to detect cloaked vessels at interstellar range."
 TECHNAME_CCC_FCCom,Flag Central Command
-TECHDESC_CCC_FCCom,The ultimate advancement in command and control systems.
+TECHDESC_CCC_FCCom,The ultimate advancement in command and control systems. Enables construction of a single flagship to lead our fleets into battle.
 
 
 TECHNAME_SLD_Magni,Shield Magnifier
