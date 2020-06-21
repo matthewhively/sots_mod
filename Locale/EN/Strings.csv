@@ -1937,12 +1937,14 @@ EVENTMSG_PUPPETMASTER_ENTITYDEFEAT,The Puppet Master has been destroyed %s.,256,
 EVENTMSG_GASCLOUD_UNRESOLVED,You engaged Spectres %s.
 EVENTMSG_GASCLOUD_ENTITYVICTORY,Your forces were devoured by Spectres %s.
 EVENTMSG_GASCLOUD_ENTITYDEFEAT,You have destroyed a Spectre outbreak %s.
+
 EVENTMSG_CROWSNEST_UNRESOLVED,Your colonization fleet triggered a trap %s.
 EVENTMSG_CROWSNEST_ENTITYVICTORY,Your colonization fleet was destroyed by a trap %s.
 EVENTMSG_CROWSNEST_ENTITYDEFEAT,Your colonization fleet escaped a trap %s.
 EVENTMSG_GRAVTRAP_UNRESOLVED,Your mining fleet triggered a trap %s.
 EVENTMSG_GRAVTRAP_ENTITYVICTORY,Your mining fleet was destroyed by a trap %s.
 EVENTMSG_GRAVTRAP_ENTITYDEFEAT,Your mining fleet escaped a trap %s.
+
 EVENTMSG_LOCUST_UNRESOLVED,You have engaged a Locust FleetWorld %s.
 EVENTMSG_LOCUST_ENTITYVICTORY,You were destroyed by a Locust FleetWorld %s.
 EVENTMSG_LOCUST_ENTITYDEFEAT,You destroyed a Locust FleetWorld %s.
@@ -4306,11 +4308,11 @@ DEFENCEMAN_INCOMING_DISTANCE_LABEL,Show Neighbors (by distance):
 #EVENTSUM_ADDICTION_SPREAD,Addiction Spreads to %s
 #EVENTMSG_ADDICTION_SPREAD,%s has introduced alien contraband to %s. %s of the population is now happy!
 EVENTSUM_ADDICTION_TEMPERENCE,Temperance Accepted.
-EVENTMSG_ADDICTION_TEMPERENCE,"Temperance has been accepted within the empire. Production restored, but morale reduced."
+EVENTMSG_ADDICTION_TEMPERENCE,"Temperance has been accepted within the empire. Production is restored, but morale is suffering."
 #EVENTSUM_ADDICTION_CONTINUES,Plague Continues on %s
 #EVENTMSG_ADDICTION_CONTINUES,Plague outbreaks on %s have caused %s deaths and %s loss of infrastructure.
 EVENTSUM_ADDICTION_OUTBREAK,Dependence on %s.
-EVENTMSG_ADDICTION_OUTBREAK,Alien contraband has appeared amongst the %s population of %s.
+EVENTMSG_ADDICTION_OUTBREAK,Alien contraband has appeared amongst the %s population of %s. Productivity may be affected.
 
 
 EVENTSUM_SPY_REPORT,Spy Reporting In
@@ -4329,7 +4331,7 @@ EVENTMSG_SPY_DESTROYED_NODETAILS,Analysis of the debris from the destroyed spy s
 EVENTSUM_SPY_DETECTED_WARN,Spy Detected!
 EVENTMSG_SPY_DETECTED_WARN,Enemy forces at %s are closing in.
 
-
+# see line 1941 for the strings that are used
 #EVENTMSG_COLONYTRAP_UNRESOLVED,"%s ships were lost in the colony trap at %s, while %s surivied. Future colonization should be safe."
 #EVENTMSG_COLONYTRAP_ENTITYVICTORY,The colony fleet at %s was destroyed. At least the enemy drones are gone now.
 #EVENTMSG_COLONYTRAP_ENTITYDEFEAT,"%s ships were lost in the colony trap at %s, but the enemy drones were destroyed! Colonization can begin!"
@@ -4465,9 +4467,9 @@ TECHDESC_XNC_TrnsHum2,"This deeper understanding of Humanity's common language a
 TECHNAME_XNC_IncHum,Incorporate Human
 TECHDESC_XNC_IncHum,"With deeper study, Humans living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
 TECHNAME_XNC_AdctHum,Addict Human
-TECHDESC_XNC_AdctHum,"Intimate knowledge of Human physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Human species and to which they have very little resistance. This results in a large bonus for trade routes into Human space, and a slow decline in Human production due to addiction problems as well as an increased chance of planetary surrender."
+TECHDESC_XNC_AdctHum,"Intimate knowledge of Human physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Human species and to which they have very little resistance. Trade routes to Human planets effect the following:\n- Trade revenue doubled\n- Production & Revenue eventually decline due to addiction problems\n- Planetary surrender chance increases\n- Addiction problems have a chance to spread to nearby worlds\n\n* Does not apply to your own trade routes."
 TECHNAME_XNC_TempHum,Human Temperance
-TECHDESC_XNC_TempHum,This development is in response to a dependency spreading though the Human portions of the empire. Temperance is social and biochemical response to negate the effect of these dependencies entering from other empires. However the Human civilian population won't be happy about it.
+TECHDESC_XNC_TempHum,"Temperance involves both new biochemical agents and social modifications to respond to a Human chemical dependency spreading throughout the empire. The Human civilian population won't be happy about it, but this will negate the affects of chemical dependencies entering from other empires.\n- Removes all bonuses and penalities caused by Addict Human\n- Ongoing morale penalty for Human civilians"
 TECHNAME_XNC_TrnsHum3,Translate Hanzi
 TECHDESC_XNC_TrnsHum3,"By developing proficiency in Humanity's high governmental and scientific language, you gain access to the deepest levels of Human culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to them as well as demand planetary surrender in the face of overwhelming power."
 TECHNAME_XNC_SubHum,Subjugate Human
@@ -4482,9 +4484,9 @@ TECHDESC_XNC_TrnsHvr2,"This deeper understanding of Hiver common language allows
 TECHNAME_XNC_IncHvr,Incorporate Hiver
 TECHDESC_XNC_IncHvr,"With deeper study, Hiver living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
 TECHNAME_XNC_AdctHvr,Addict Hiver
-TECHDESC_XNC_AdctHvr,"Intimate knowledge of Hiver physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Hiver species and to which they have very little resistance. This results in a large bonus for trade routes into Hiver space, and a slow decline in Hiver production due to addiction problems as well as an increased chance of planetary surrender."
+TECHDESC_XNC_AdctHvr,"Intimate knowledge of Hiver physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Hiver species and to which they have very little resistance. Trade routes to Hiver planets effect the following:\n- Trade revenue doubled\n- Production & Revenue eventually decline due to addiction problems\n- Planetary surrender chance increases\n- Addiction problems have a chance to spread to nearby worlds\n\n* Does not apply to your own trade routes."
 TECHNAME_XNC_TempHvr,Hiver Temperance
-TECHDESC_XNC_TempHvr,This development is in response to a dependency spreading though the Hiver portions of the empire. Temperance is social and biochemical response to negate the effect of these dependencies entering from other empires. However the Hiver civilian population won't be happy about it.
+TECHDESC_XNC_TempHvr,"Temperance involves both new biochemical agents and social modifications to respond to a Hiver chemical dependency spreading throughout the empire. The Hiver civilian population won't be happy about it, but this will negate the affects of chemical dependencies entering from other empires.\n- Removes all bonuses and penalities caused by Addict Hiver\n- Ongoing morale penalty for Hiver civilians"
 TECHNAME_XNC_TrnsHvr3,Translate Tcho'to-Ken
 TECHDESC_XNC_TrnsHvr3,"By developing proficiency in Hiver high governmental and scientific language, you gain access to the deepest levels of Hiver culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to them as well as demand planetary surrender in the face of overwhelming power."
 TECHNAME_XNC_SubHvr,Subjugate Hiver
@@ -4499,13 +4501,13 @@ TECHDESC_XNC_TrnsTrk2,"This deeper understanding of Tarkasian common language al
 TECHNAME_XNC_IncTrk,Incorporate Tarka
 TECHDESC_XNC_IncTrk,"With deeper study, Tarka living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
 TECHNAME_XNC_AdctTrk,Addict Tarka
-TECHDESC_XNC_AdctTrk,"Intimate knowledge of Tarkasian physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Tarka species and to which they have very little resistance. This results in a large bonus for trade routes into Tarkasian space, and a slow decline in Tarka production due to addiction problems as well as an increased chance of planetary surrender."
+TECHDESC_XNC_AdctTrk,"Intimate knowledge of Tarkasian physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Tarka species and to which they have very little resistance. Trade routes to Tarka planets effect the following:\n- Trade revenue doubled\n- Production & Revenue eventually decline due to addiction problems\n- Planetary surrender chance increases\n- Addiction problems have a chance to spread to nearby worlds\n\n* Does not apply to your own trade routes."
 TECHNAME_XNC_TempTrk,Tarka Temperance
-TECHDESC_XNC_TempTrk,This development is in response to a dependency spreading though the Tarka portions of the empire. Temperance is social and biochemical response to negate the effect of these dependencies entering from other empires. However the Tarka civilian population won't be happy about it.
+TECHDESC_XNC_TempTrk,"Temperance involves both new biochemical agents and social modifications to respond to a Tarkasian chemical dependency spreading throughout the empire. The Tarka civilian population won't be happy about it, but this will negate the affects of chemical dependencies entering from other empires.\n- Removes all bonuses and penalities caused by Addict Tarka\n- Ongoing morale penalty for Tarka civilians"
 TECHNAME_XNC_TrnsTrk3,Translate Kona Kai
 TECHDESC_XNC_TrnsTrk3,"By developing proficiency in Tarkasian high governmental and scientific language, you gain access to the deepest levels of Tarkasian culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to them as well as demand planetary surrender in the face of overwhelming power."
 TECHNAME_XNC_SubTrk,Subjugate Tarka
-TECHDESC_XNC_SubTrk,"Allows you to take full control of a Tarka culture, which not only allows new possibilities in assimilation but also allows you a chance to absorb much weaker Tarka empires into your own without firing a shot."
+TECHDESC_XNC_SubTrk,"Allows you to take full control of a Tarkasian culture, which not only allows new possibilities in assimilation but also allows you a chance to absorb much weaker Tarka empires into your own without firing a shot."
 TECHNAME_XNC_AccTrk,Accommodate Tarka
 TECHDESC_XNC_AccTrk,"Complete understanding of Tarkasian physiology coupled with the social sciences allows you to integrate the life support needs of the Tarka seamlessly into your culture without disrupting your own citizens, thus removing the need to take into account planetary hazard ratings for them."
 TECHNAME_XNC_ProfTrk,Proliferate Tarka
@@ -4516,9 +4518,9 @@ TECHDESC_XNC_TrnsLir2,"This deeper understanding of Liirian common language allo
 TECHNAME_XNC_IncLir,Incorporate Liir
 TECHDESC_XNC_IncLir,"With deeper study, Liir living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
 TECHNAME_XNC_AdctLir,Addict Liir
-TECHDESC_XNC_AdctLir,"Intimate knowledge of Liirian physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Liir species and to which they have very little resistance. This results in a large bonus for trade routes into Liirian space, and a slow decline in Liir production due to addiction problems as well as an increased chance of planetary surrender."
+TECHDESC_XNC_AdctLir,"Intimate knowledge of Liirian physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Liir species and to which they have very little resistance. Trade routes to Liir planets effect the following:\n- Trade revenue doubled\n- Production & Revenue eventually decline due to addiction problems\n- Planetary surrender chance increases\n- Addiction problems have a chance to spread to nearby worlds\n\n* Does not apply to your own trade routes."
 TECHNAME_XNC_TempLir,Liir Temperance
-TECHDESC_XNC_TempLir,This development is in response to a dependency spreading though the Liir portions of the empire. Temperance is social and biochemical response to negate the effect of these dependencies entering from other empires. However the Liir civilian population won't be happy about it.
+TECHDESC_XNC_TempLir,"Temperance involves both new biochemical agents and social modifications to respond to a Liirian chemical dependency spreading throughout the empire. The Liir civilian population won't be happy about it, but this will negate the affects of chemical dependencies entering from other empires.\n- Removes all bonuses and penalities caused by Addict Liir\n- Ongoing morale penalty for Liir civilians"
 TECHNAME_XNC_TrnsLir3,MetaConcert
 TECHDESC_XNC_TrnsLir3,"By developing proficiency in Liirian high governmental and scientific language, you gain access to the deepest levels of Liirian culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to them as well as demand planetary surrender in the face of overwhelming power."
 TECHNAME_XNC_SubLir,Subjugate Liir
@@ -4542,9 +4544,9 @@ TECHDESC_XNC_TrnsMorr2,"This deeper understanding of Morrigi common language all
 TECHNAME_XNC_IncMorr,Incorporate Morrigi
 TECHDESC_XNC_IncMorr,"With deeper study, Morrigi living in enclaves on your worlds can be fully incorporated into your society. This allows them to be a fully functional portion of your civilian society on any given world."
 TECHNAME_XNC_AdctMorr,Addict Morrigi
-TECHDESC_XNC_AdctMorr,"Intimate knowledge of Morrigi physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Morrigi species and to which they have very little resistance. This results in a large bonus for trade routes into Morrigi space, and a slow decline in Morrigi production due to addiction problems as well as an increased chance of planetary surrender."
+TECHDESC_XNC_AdctMorr,"Intimate knowledge of Morrigi physiology, coupled with expanding experience in bio-weapons research, allows for the development of a variety of highly addictive chemical products designed specifically for the Morrigi species and to which they have very little resistance. Trade routes to Morrigi planets effect the following:\n- Trade revenue doubled\n- Production & Revenue eventually decline due to addiction problems\n- Planetary surrender chance increases\n- Addiction problems have a chance to spread to nearby worlds\n\n* Does not apply to your own trade routes."
 TECHNAME_XNC_TempMorr,Morrigi Temperance
-TECHDESC_XNC_TempMorr,This development is in response to a dependency spreading though the Morrigi portions of the empire. Temperance is social and biochemical response to negate the effect of these dependencies entering from other empires. However the Morrigi civilian population won't be happy about it.
+TECHDESC_XNC_TempMorr,"Temperance involves both new biochemical agents and social modifications to respond to a Morrigi chemical dependency spreading throughout the empire. The Morrigi civilian population won't be happy about it, but this will negate the affects of chemical dependencies entering from other empires.\n- Removes all bonuses and penalities caused by Addict Morrigi\n- Ongoing morale penalty for Morrigi civilians"
 TECHNAME_XNC_TrnsMorr3,Translate Ancient Morrigi
 TECHDESC_XNC_TrnsMorr3,"By developing proficiency in the Morrigi's ancient governmental and scientific language, you gain access to the deepest levels of Morrigi culture and government. With this level of language you can create Science Missions to teach aspects of technology that would otherwise be lost to this race as well as demand planetary surrender in the face of overwhelming power.\n\n* Aspects of Ancient Morrigi also allow you to circumvent Colony and Asteroid Traps as well as greatly speed the process when assuming control over Asteroid Monitors."
 TECHNAME_XNC_SubMorr,Subjugate Morrigi
