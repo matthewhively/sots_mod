@@ -1,0 +1,92 @@
+weapon
+{
+	hidden true	// Can't select this weapon explicitly from design screen.
+	
+	name			@WEAPON_MIS_PLANET_MIRV_WARHEAD
+	weaponclass		missile
+	weaponfamily	missile
+	model1			barrel_m1_missile.X
+	model2			barrel_l2_missile.X
+	turretsize			medium
+	cost			3000
+	turretclass			missile
+	hpbonus			-30
+	burst_volleys		1
+	volley_period		.2
+	recharge_time		32
+	muzzle_sound		Sounds/Weapons/mis_missile_muzzle.wav
+	muzzle_sound_minrange	60
+	muzzle_effect		effects/Missile_muzzle.effect
+	muzzle_speed		90
+	solution_tolerance	90
+	icon_file		GUI/WeaponIcons.tga
+	icon_rect		"0 32 32 32"
+	range			300000
+	range_planet	300000	// Same as 'range' because missile has a fixed time-to-live. (range should be a bit less than [netforcelimits] speed x ttl)
+	
+	fc_requires_los				true
+	fc_requires_inrange			true
+	fc_requires_enemycolony		false
+	fc_manual_target			false
+	fc_manual_toggle			false
+	fc_manual_launch			false
+	fc_controllable				true
+	fc_holdsfire				true
+	blindfire false
+	pinpoint false
+
+	missile
+	{
+		tracking 1
+	
+		impact_decal	decals/WeaponHit.decal
+		impact_decal_width .5
+		impact_decal_height .5
+		impact_decal_depth .1
+
+		beam_origin		-3
+		beam_length		5.5
+
+		impact_sound		Sounds/Weapons/mis_missile_impact.wav
+		impact_sound_minrange	200
+		impact_effect		effects/Missile_Impact.effect
+		area_impact_effect "effects/collide_asteroid.effect"
+		Planet_Impact_Effect	"effects/Missile_Planet.effect"
+
+		thrust_sound		Sounds/Weapons/mis_missile_travel.wav
+		
+		speed 135
+		seek_attenuation 4	// Higher number = tighter turns/faster accel
+		
+//		netforcelimits
+//		{
+//			force				9000
+//			torque_yaw			9000
+//			torque_pitch		9000
+//			torque_roll			500
+//			speed				135
+//			rotspeed			820
+//		}
+
+		ttl				20
+		model			missile.X
+		health			3
+		dam			20
+		dam_radius		10
+		mass			30
+		thrust_effect		effects/missletrail.effect
+		thrust_node		EffectNode
+		dumbfire_period		0.5
+
+		dam_pop		15000
+		dam_infra	.0001	
+		dam_terra	.0005
+	}
+
+	rating_frate	2
+	rating_dam	2
+	rating_acc	9
+	rating_range	9
+
+	dam_est		125
+}

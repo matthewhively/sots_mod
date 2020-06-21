@@ -1,0 +1,61 @@
+weapon
+{
+	name		@WEAPON_MIS_NODE
+	weaponclass	rider
+	weaponfamily	missile
+	requires 	WEP_NdMsl
+	cost		15000
+	turretsize		large
+	turretclass		nodemissilerider
+	
+	burst_volleys		1
+	buildup_delay		3	// time delay before rider disconnects
+	volley_period		1
+	volley_duration		0
+	recharge_time		10
+	muzzle_sound		Sounds/Weapons/mis_node_launch.wav
+	muzzle_sound_minrange	75
+
+	muzzle_speed 150
+	solution_tolerance	140
+
+	icon_file	GUI/WeaponIcons.tga
+	icon_rect	"192 160 32 32"
+	
+	fc_requires_los				false
+	fc_requires_inrange			false
+	fc_requires_enemycolony		false
+	fc_manual_target			true
+	fc_manual_toggle			false
+	fc_manual_launch			true
+	fc_controllable				true
+	fc_holdsfire				false
+	blindfire false
+	pinpoint false
+
+	rider
+	{
+		section_file	"_Nodemissile.shipsection"
+		entity_type		"NodeMissile"
+		prefire_effect	"Effects/BioMuzzle.effect"
+		Impact_effect   "effects/Shuttle_Death.effect"
+		impact_sound	"Sounds/Weapons/mis_missile_impact.wav"
+		impact_sound_minrange	75
+		area_impact_effect "effects/collide_asteroid.effect"
+
+		Planet_Impact_Effect	"effects/Node_Impact.effect"
+		Planet_impact_sound	"Sounds/Weapons/mis_planet_impact.wav"
+		Planet_Impact_Sound_minrange	100
+
+
+		thrust_sound		Sounds/Weapons/mis_planet_travel.wav
+		thrust_sound_minrange	80
+
+		dam             2000
+		dam_radius      250
+	
+		dam_pop		25000000
+		dam_infra	.05
+		dam_terra	0.00005
+	}
+}

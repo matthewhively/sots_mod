@@ -1,0 +1,77 @@
+weapon
+{
+	name			@WEAPON_MIS_PLANET
+	hidden			1						// not selectable by user
+	weaponclass			missile
+	weaponfamily	missile
+	turretclass			planetmissile
+	turretsize			medium
+	burst_volleys		1
+	volley_period		.2
+	recharge_time		30
+	muzzle_sound		Sounds/Weapons/mis_planet_muzzle.wav
+	solution_tolerance	90
+	muzzle_effect		effects/Missile_muzzle.effect
+	muzzle_speed		180
+	
+	fc_requires_los				true
+	fc_requires_inrange			true
+	fc_requires_enemycolony		false
+	fc_manual_target			false
+	fc_manual_toggle			false
+	fc_manual_launch			false
+	fc_controllable				true
+	fc_holdsfire				true
+	blindfire false
+	pinpoint false
+
+	missile
+	{
+		tracking 1
+		retarget_delay 3
+	
+		impact_decal	decals/WeaponHit.decal
+		impact_decal_width .5
+		impact_decal_height .5
+		impact_decal_depth .1
+
+		beam_origin		-3
+		beam_length		5.5
+
+		impact_sound		Sounds/Weapons/mis_planet_impact.wav
+		impact_sound_minrange	75
+		impact_effect		effects/ICBM_impact.effect
+		area_impact_effect "effects/collide_asteroid.effect"
+
+		thrust_sound		Sounds/Weapons/mis_planet_travel.wav
+
+		speed 140
+		seek_attenuation 4.5	// Higher number = tighter turns/faster accel
+		
+//		netforcelimits
+//		{
+//			force				20000
+//			torque_yaw			20000
+//			torque_pitch		20000
+//			torque_roll			300
+//			speed				140
+//			rotspeed			820
+//		}
+		
+		ttl				150
+		model			PlanetMissile.X
+		health			20
+		dam			150
+		dam_radius		50
+		mass			100
+		thrust_effect		effects/PlanetMissileTrail.effect
+		thrust_node		EffectNode
+		dumbfire_period		15
+
+		dam_pop		0
+		dam_infra	0	
+		dam_terra	0
+	}
+
+	dam_est		50
+}

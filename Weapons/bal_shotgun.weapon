@@ -1,0 +1,82 @@
+weapon
+{
+	name		@WEAPON_BAL_SHOTGUN
+	weaponclass	bullet
+	weaponfamily	gauss
+	requires 	WEP_MasShtDrvr
+	model1		barrel_l1_HeavyDriver.X
+	
+	cost		2000
+	turretsize		large
+	turretclass		standard
+	trackspeed_mod	1.0
+	burst_volleys	25
+	volley_period	.01
+	recharge_time	9
+	muzzle_speed	600
+	munitionsize	medium
+
+	muzzle_effect	effects/APGuass_muzzle.effect
+	muzzle_sound	Sounds/Weapons/bal_shotgun_muzzle.wav
+	muzzle_sound_minrange	100
+	icon_file	GUI/WeaponIcons_2.tga
+	icon_rect	"32 64 32 32"
+	range	955
+	range_planet	1175
+	
+	fc_requires_los				true
+	fc_requires_inrange			true
+	fc_requires_enemycolony		false
+	fc_manual_target			false
+	fc_manual_toggle			false
+	fc_manual_launch			false
+	fc_controllable				true
+	fc_holdsfire				true
+
+	bolt
+	{
+		volley_deviation 10
+
+		beam_origin	-0.5
+		beam_length	1.5
+	
+		impact_effect	effects/APguass_impact.effect
+		expire_effect   "effects/APguass_Expire.effect"
+		impact_sound	Sounds/Weapons/bal_gauss_impact.wav
+		impact_sound_minrange	50
+	
+		rangetable
+		{
+			pb_range	505
+			pb_range_dev	4
+			pb_range_dam	55
+
+			eff_range	720
+			eff_range_dev	5
+			eff_range_dam	55
+
+			max_range	955
+			max_range_dev	6
+			max_range_dam	45
+		}
+		
+		effect		effects/APguass_bullet.effect
+		ricochet_mod 	-1.2
+		ricochet_sound	Sounds/Weapons/bal_gauss_rico.wav
+		ricochet_sound_minrange		50
+		mass 100
+
+		dam_pop		500
+		dam_infra	.000003	
+		dam_terra	0
+	}
+
+	dam_est		10
+
+
+	rating_frate	7
+	rating_dam	2
+	rating_acc	6
+	rating_range	3
+
+}

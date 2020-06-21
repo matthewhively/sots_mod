@@ -1,0 +1,83 @@
+weapon
+{
+	name			@WEAPON_MIN_FUS
+	weaponclass		mine
+	weaponfamily	conventionalmine
+	turretsize			large
+	cost			2000
+	turretclass			mine
+	requires		WEP_FusMine
+	hpbonus			100
+
+	burst_volleys		2	// 2 mines dropped per cycle
+	buildup_delay		1	// 1-s before first mine dropped
+	volley_period		2	// 2-s between mine drops
+	volley_duration		0	// mines are deployed instantaneously
+	recharge_time		4	// cycle is done at t=4
+	
+	muzzle_sound		Sounds/Weapons/min_nuke_drop.wav
+	muzzle_sound_minrange	100
+	muzzle_effect		effects/PlasmaCannon_muzzle.effect
+	muzzle_speed		50
+	solution_tolerance	360
+	icon_file		GUI/WeaponIcons.tga
+	icon_rect		"0 128 32 32"
+	
+	fc_requires_los				false
+	fc_requires_inrange			false
+	fc_requires_enemycolony		false
+	fc_manual_target			false
+	fc_manual_toggle			true
+	fc_manual_launch			false
+	fc_controllable				true
+	fc_holdsfire				true
+	blindfire false
+	pinpoint false
+
+	mine
+	{
+		impact_sound		Sounds/Weapons/min_fusion_det.wav
+		impact_sound_minrange	75
+		impact_effect		effects/FusionMine_Impact.effect
+		area_impact_effect "effects/collide_asteroid.effect"
+
+		speed 90
+		seek_attenuation 1	// Higher number = tighter turns/faster accel
+		
+//		netforcelimits
+//		{
+//			force_forward		1000
+//			force_right			1000
+//			force_up			1000
+//			
+//			torque_yaw			100
+//			torque_pitch		100
+//			torque_roll			100
+//		
+//			speed				90
+//			rotspeed			10
+//		}
+		
+		model			mine.X
+		ttl			120	// time to live
+		health			30
+		dam			500
+		dam_radius		50
+		coll_lookahead		20
+		affect_radius		125
+		mass			50
+		dumbfire_period		0
+		leap			0	// 0 if this is not a leap mine
+
+		dam_pop		0
+		dam_infra	0	
+		dam_terra	0
+	}
+
+	rating_frate	8
+	rating_dam	5
+	rating_acc	4
+	rating_range	1
+
+	dam_est		70
+}
