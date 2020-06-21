@@ -256,7 +256,7 @@ DRV_OvrThrust,w
 # interceptor missiles
 DRV_Ints,w
 # ionic thrusters
-DRV_IncThrst,w 
+DRV_IncThrst,w
 
 #CCC_FTLCom     # starter CCC
 #CCC_NdTrkZul   # does zuul start with this?
@@ -287,7 +287,7 @@ CCC_ScanSats,w
 CCC_ComRaid,w
 
 # does the AI techs?
-#CCC_AI         
+#CCC_AI
 #CCC_AIAdmin
 #CCC_AIFac
 #CCC_AIFrCon
@@ -322,7 +322,7 @@ DRN_CryCOL,w
 DRN_CrakCOL,w
 # TarPit
 DRN_TPCOL,w
-# autonomous drones 
+# autonomous drones
 DRN_Auto,w
 
 
