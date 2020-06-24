@@ -24,8 +24,10 @@ weapon
     icon_file   GUI/WeaponIcons.tga
     icon_rect   "96 160 32 32"
 
+    // Firing range, projectile will continue traveling beyond this
     range           1500
     range_planet    2000
+    // TTL x SPEED = 2100
 
     fc_requires_los             true
     fc_requires_inrange         true
@@ -70,7 +72,7 @@ weapon
         }
 
         effect      effects/EMP_bullet.effect
-        health              1000    // same as max damage
+        health              100
         dam_radius          0
         mass                500
         dumbfire_period     0.5
@@ -94,7 +96,7 @@ weapon
 
         ttl         3
 
-        dam_pop     0
+        dam_pop     500
         dam_infra   .002
         dam_terra   0
     }
@@ -102,7 +104,7 @@ weapon
     rating_frate    3
     rating_dam      2
     rating_acc      8
-    rating_range    7
+    rating_range    6
 
-    dam_est     100
+    dam_est     250
 }

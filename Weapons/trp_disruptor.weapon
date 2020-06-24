@@ -23,8 +23,10 @@ weapon
     icon_file   GUI/WeaponIcons.tga
     icon_rect   "64 96 32 32"
 
+    // Firing range, projectile will continue traveling beyond this
     range         900
     range_planet  1050
+    // TTL x SPEED = 1400
 
     fc_requires_los             true
     fc_requires_inrange         true
@@ -66,7 +68,7 @@ weapon
         }
 
         effect      effects/Disruptor_bullet.effect
-        health              10
+        health              100
         dam_radius          0
         mass                10
         dumbfire_period     0.5
@@ -96,9 +98,9 @@ weapon
     }
 
     rating_frate    7
-    rating_dam      3
+    rating_dam      2.5
     rating_acc      8
-    rating_range    6
+    rating_range    4.5
 
-    dam_est     100
+    dam_est     150
 }

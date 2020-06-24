@@ -24,8 +24,10 @@ weapon
     icon_file   GUI/WeaponIcons.tga
     icon_rect   "160 128 32 32"
 
+    // Firing range, projectile will continue traveling beyond this (if target moves away, since its tracking)
     range           1500
     range_planet    1700
+    // TTL x SPEED = 2470
 
     fc_requires_los             true
     fc_requires_inrange         true
@@ -73,7 +75,7 @@ weapon
         }
 
         effect      effects/Pulsar_bullet.effect
-        health              200 // same as max damage
+        health              200
         dam_radius          200
         mass                500
         dumbfire_period     0.5
@@ -98,8 +100,8 @@ weapon
 
     rating_frate    3
     rating_dam      2
-    rating_acc      8
-    rating_range    7
+    rating_acc      9
+    rating_range    5.5
 
-    dam_est     200
+    dam_est     400
 }
