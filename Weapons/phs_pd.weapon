@@ -12,10 +12,10 @@ weapon
     hpbonus         30
     cost            2000
 
-    burst_volleys   1
-    volley_period   .2
-    volley_duration .3
-    recharge_time   2.0
+    burst_volleys   1    // how many volleys per cooldown
+    volley_period   .1   // ??? time inbetween damage applied ticks ???
+    volley_duration .3   // total duration of weapon fire
+    recharge_time   4    // weapon cooldown
 
     muzzle_effect   effects/phaser_muzzle.effect
     muzzle_sound    Sounds/Weapons/phaser_pd_muzzle.wav
@@ -24,7 +24,7 @@ weapon
     icon_file   GUI/WeaponIcons.tga
     icon_rect   "160 96 32 32"
 
-    range         575
+    range         375
     range_planet  0
 
     fc_requires_los             true
@@ -36,6 +36,7 @@ weapon
     fc_controllable             false
     fc_holdsfire                false
 
+    // beam damage is per second 0.3 * 250 = 75
     beam
     {
         impact_effect   effects/phaser_impact.effect
