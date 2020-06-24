@@ -8,7 +8,7 @@ weapon
     turretsize       large
 
     requires        WEP_PhotTrp
-    hpbonus         50
+    hpbonus         75
     cost            2000
 
     burst_volleys   4
@@ -24,7 +24,7 @@ weapon
     icon_file   GUI/WeaponIcons.tga
     icon_rect   "0 96 32 32"
 
-    range         2000
+    range         2100
     range_planet  2100
 
     fc_requires_los             true
@@ -39,7 +39,7 @@ weapon
     torpedo
     {
         disruptor 0
-        tracking 0
+        tracking  0
 
         beam_origin -3
         beam_length 5.5
@@ -51,6 +51,8 @@ weapon
         thrust_sound        Sounds/Weapons/trp_photon_travel.wav
         thrust_sound_minrange   20
 
+        // 17 eff dps
+        // 22 max dps
         rangetable
         {
             pb_range        850
@@ -61,7 +63,7 @@ weapon
             eff_range_dev   .01
             eff_range_dam   80
 
-            max_range       2000
+            max_range       2100
             max_range_dev   .02
             max_range_dam   40
         }
@@ -93,7 +95,7 @@ weapon
     rating_frate    3
     rating_dam      4
     rating_acc      8
-    rating_range    9
+    rating_range    7.5
 
-    dam_est     80
+    dam_est     210
 }

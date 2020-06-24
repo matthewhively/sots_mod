@@ -8,8 +8,8 @@ weapon
     turretsize       large
 
     requires        WEP_KelTrp
-    hpbonus         100
-    cost            6000
+    hpbonus         175
+    cost            7000
 
     burst_volleys   1
     volley_period   .2
@@ -24,7 +24,7 @@ weapon
     icon_file   GUI/WeaponIcons_2.tga
     icon_rect   "160 128 32 32"
 
-    range         2000
+    range         2500
     range_planet  2500
 
     fc_requires_los             true
@@ -39,7 +39,7 @@ weapon
     torpedo
     {
         disruptor 0
-        tracking 0
+        tracking  0
 
         beam_origin -3
         beam_length 5.5
@@ -51,17 +51,20 @@ weapon
         thrust_sound        Sounds/Weapons/trp_photon_travel.wav
         thrust_sound_minrange   20
 
+        // REM: Subsequent damage increases by 5% for every kelvinic torpedo hit. 
+        // 25 eff dps
+        // 37 max dps
         rangetable
         {
-            pb_range        700
+            pb_range        1000
             pb_range_dev    .01
             pb_range_dam    150
 
-            eff_range       1400
+            eff_range       1800
             eff_range_dev   .01
             eff_range_dam   100
 
-            max_range       2000
+            max_range       2500
             max_range_dev   .02
             max_range_dam   50
         }
@@ -85,15 +88,15 @@ weapon
 
         ttl 3.0
 
-        dam_pop     10000
+        dam_pop     50000
         dam_infra   .0015
-        dam_terra   .0000001
+        dam_terra   .000001
     }
 
-    rating_frate    5
-    rating_dam      4.3
+    rating_frate    6
+    rating_dam      7
     rating_acc      8
-    rating_range    9
+    rating_range    8
 
-    dam_est     140
+    dam_est     550
 }

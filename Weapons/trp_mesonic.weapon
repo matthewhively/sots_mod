@@ -8,7 +8,7 @@ weapon
     turretsize       large
 
     requires        WEP_MesTrp
-    hpbonus         200
+    hpbonus         250
     cost            10000
 
     burst_volleys   4
@@ -25,7 +25,7 @@ weapon
     icon_rect   "192 64 32 32"
 
     range         3500
-    range_planet  4000
+    range_planet  3500
 
     fc_requires_los             true
     fc_requires_inrange         true
@@ -39,7 +39,7 @@ weapon
     torpedo
     {
         disruptor 0
-        tracking 0
+        tracking  0
 
         beam_origin -3
         beam_length 5.5
@@ -51,13 +51,15 @@ weapon
         thrust_sound        Sounds/Weapons/trp_photon_travel.wav
         thrust_sound_minrange   20
 
+        // 31 eff dps
+        // 40 max dps
         rangetable
         {
             pb_range        1550
             pb_range_dev    .01
             pb_range_dam    180
 
-            eff_range       2500
+            eff_range       2600
             eff_range_dev   .005
             eff_range_dam   140
 
@@ -91,9 +93,9 @@ weapon
     }
 
     rating_frate    3
-    rating_dam      5
+    rating_dam      8
     rating_acc      8
     rating_range    9
 
-    dam_est     250
+    dam_est     700
 }
