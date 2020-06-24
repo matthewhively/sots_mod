@@ -1,99 +1,106 @@
 weapon
 {
-	name			@WEAPON_NANMSL
-	weaponclass		nanitemissile
-	weaponfamily	missile
-	requires 		WEP_NanMsl
-	model1			barrel_l1_missile.X
-	turretsize			large
-	cost			7000
-	turretclass			missile
-	burst_volleys		1
-	volley_period		.2
-	recharge_time		35
-	muzzle_sound		Sounds/Weapons/mis_nanite_muzzle.wav
-	muzzle_sound_minrange	60
-	muzzle_effect		effects/Missile_muzzle.effect
-	muzzle_speed		150
-	solution_tolerance	90
-	icon_file		GUI/WeaponIcons_2.tga
-	icon_rect		"64 0 32 32"
-	range			3000
-	range_planet	3300	// Same as 'range' because missile has a fixed time-to-live. (range should be a bit less than [netforcelimits] speed x ttl)
-	
-	fc_requires_los				true
-	fc_requires_inrange			true
-	fc_requires_enemycolony		false
-	fc_manual_target			true
-	fc_manual_toggle			false
-	fc_manual_launch			false
-	fc_explicit_target			true
-	fc_exclusive_launch			true
-	fc_targets_expire			true
-	fc_controllable				true
-	fc_holdsfire				true
-	pinpoint true	// ok since we are making them detonate early (see range_trigger in missile {} block below)
-	target_queue_size 10
-	
-	missile
-	{
-		tracking 1
-	
-		warhead_dam_scale 0 // not using standard warhead tech
-		dot_rate	300	// dam/sec
-		dot_radius	200
-		dot_time	18
-		
-		impact_decal	decals/WeaponHit.decal
-		impact_decal_width .5
-		impact_decal_height .5
-		impact_decal_depth .1
+    name               @WEAPON_NANMSL
+    weaponclass        nanitemissile
+    weaponfamily       missile
+    model1             barrel_l1_missile.X
+    turretsize         large
+    turretclass        missile
 
-		beam_origin		-3
-		beam_length		5.5
+    requires           WEP_NanMsl
+    cost               7000
 
-		impact_sound		Sounds/Weapons/mis_nanite_impact.wav
-		impact_sound_minrange	200
-		impact_effect		effects/NaniteMissile_Impact.effect
-		sticky_impact		false
-		area_impact_effect "effects/collide_asteroid.effect"
-		Planet_Impact_Effect	"effects/Missile_Planet.effect"
+    burst_volleys       1
+    volley_period       .2
+    recharge_time       35
 
-		thrust_sound		Sounds/Weapons/mis_missile_travel.wav
-		
-		speed 150
-		seek_attenuation 4	// Higher number = tighter turns/faster accel
-		
-//		netforcelimits
-//		{
-//			force				9000
-//			torque_yaw			9000
-//			torque_pitch		9000
-//			torque_roll			500
-//			speed				150
-//			rotspeed			820
-//		}
-		
-		ttl				25
-		model			Corrosivemissile.X
-		health			120
-		dam			40
-		dam_radius		15
-		mass			50
-		thrust_effect		"effects/NaniteMissile_Trail.effect"
-		thrust_node		EffectNode
-		dumbfire_period		2.5
-		trigger_range "10 90"	// Random in here
+    muzzle_effect       effects/Missile_muzzle.effect
+    muzzle_sound        Sounds/Weapons/mis_nanite_muzzle.wav
+    muzzle_sound_minrange   60
+    muzzle_speed            150
+    solution_tolerance      90
 
-		dam_pop		1000
-		dam_infra	.001	
-		dam_terra	.0015
-	}
+    icon_file       GUI/WeaponIcons_2.tga
+    icon_rect       "64 0 32 32"
 
-	rating_frate	2
-	rating_dam	5
-	rating_acc	9
-	rating_range	9
+    range           3000
+    range_planet    3300    // Same as 'range' because missile has a fixed time-to-live. (range should be a bit less than [netforcelimits] speed x ttl)
 
-	dam_est		275
+    fc_requires_los             true
+    fc_requires_inrange         true
+    fc_requires_enemycolony     false
+    fc_manual_target            true
+    fc_manual_toggle            false
+    fc_manual_launch            false
+    fc_explicit_target          true
+    fc_exclusive_launch         true
+    fc_targets_expire           true
+    fc_controllable             true
+    fc_holdsfire                true
+    pinpoint true   // ok since we are making them detonate early (see range_trigger in missile {} block below)
+    target_queue_size 10
+
+    missile
+    {
+        tracking 1
+
+        warhead_dam_scale 0 // not using standard warhead tech
+        dot_rate    300 // dam/sec
+        dot_radius  200
+        dot_time    18
+
+        impact_decal    decals/WeaponHit.decal
+        impact_decal_width .5
+        impact_decal_height .5
+        impact_decal_depth .1
+
+        beam_origin     -3
+        beam_length     5.5
+
+        impact_sound    Sounds/Weapons/mis_nanite_impact.wav
+        impact_sound_minrange   200
+        impact_effect       effects/NaniteMissile_Impact.effect
+        sticky_impact       false
+        area_impact_effect "effects/collide_asteroid.effect"
+        Planet_Impact_Effect    "effects/Missile_Planet.effect"
+
+        thrust_sound        Sounds/Weapons/mis_missile_travel.wav
+
+        speed 150
+        seek_attenuation 4  // Higher number = tighter turns/faster accel
+
+//      netforcelimits
+//      {
+//          force               9000
+//          torque_yaw          9000
+//          torque_pitch        9000
+//          torque_roll         500
+//          speed               150
+//          rotspeed            820
+//      }
+
+        ttl                 25
+
+        model               Corrosivemissile.X
+        health              120
+        dam                 40
+        dam_radius          15
+        mass                50
+        dumbfire_period     2.5
+        trigger_range      "10 90"   // Random in here
+
+        thrust_effect       "effects/NaniteMissile_Trail.effect"
+        thrust_node         EffectNode
+
+        dam_pop     1000
+        dam_infra   .001
+        dam_terra   .0015
+    }
+
+    rating_frate    2
+    rating_dam      5
+    rating_acc      9
+    rating_range    9
+
+    dam_est     275
 }

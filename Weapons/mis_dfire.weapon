@@ -7,20 +7,21 @@ weapon
     model2         Barrel_L2_RackMissile.X
     turretmodel1   Turret_M1RackMissile.X
     turretmodel2   Turret_L2RackMissile.X
-    requires       WEP_DFMsl
+    turretsize     medium
+    turretclass    standard
 
-    hpbonus         -20
-    cost            3000
-    turretsize      medium
-    turretclass     standard
+    requires       WEP_DFMsl
+    cost           3000
+    hpbonus        -20
+
     trackspeed_mod  1.0
     burst_volleys   5  // how many projectiles are fired total  -so fire 5 rockets over 1 sec period
     volley_period   .1 // how long it takes to fire each round
     recharge_time   15
-    muzzle_speed    250
 
     muzzle_effect   effects/D_Missile_Muzzle.effect
     muzzle_sound    Sounds/Weapons/mis_multi_muzzle.wav
+    muzzle_speed            250
     muzzle_sound_minrange   100
 
     icon_file   GUI/WeaponIcons_2.tga

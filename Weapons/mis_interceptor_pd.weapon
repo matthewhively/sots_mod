@@ -1,92 +1,99 @@
 weapon
 {
-	name			@WEAPON_MIS_INTERCEPTOR_PD
-	weaponclass		pdmissile
-	weaponfamily	missile
-	model1		""						// insert barrel model for tiny mounts here if we get them
-	model2		barrel_pdmissile.X		// NOTE: model2 for tiny pd weapons in small mounts
-	requires	DRV_Ints
-	turretsize			tiny
-	cost			3000
-	turretclass			standard
-	hpbonus			-30
-	burst_volleys		1
-	volley_period		.2
-	recharge_time		3
-	muzzle_sound		Sounds/Weapons/mis_interceptor_pd_muzzle.wav
-	muzzle_sound_minrange	60
-	muzzle_effect		effects/Missile_muzzle.effect
-	muzzle_speed		90
-	solution_tolerance	90
-	icon_file		GUI/WeaponIcons_2.tga
-	icon_rect		"64 160 32 32"
-	range			675
-	range_planet	675	// Same as 'range' because missile has a fixed time-to-live. (range should be a bit less than [netforcelimits] speed x ttl)
-	
-	fc_requires_los				true
-	fc_requires_inrange			true
-	fc_requires_enemycolony		false
-	fc_manual_target			false
-	fc_manual_toggle			false
-	fc_manual_launch			false
-	fc_controllable				false
-	fc_holdsfire				false
-	blindfire false
-	pinpoint false
+    name               @WEAPON_MIS_INTERCEPTOR_PD
+    weaponclass        pdmissile
+    weaponfamily       missile
+    model1             ""                      // insert barrel model for tiny mounts here if we get them
+    model2             barrel_pdmissile.X      // NOTE: model2    for tiny pd weapons in small mounts
+    turretsize         tiny
+    turretclass        standard
 
-	missile
-	{
-		tracking 1
-		pd 1
-	
-		impact_decal	decals/WeaponHit.decal
-		impact_decal_width .5
-		impact_decal_height .5
-		impact_decal_depth .1
+    requires       DRV_Ints
+    cost           3000
+    hpbonus        -30
 
-		beam_origin		-3
-		beam_length		5.5
+    burst_volleys       1
+    volley_period       .2
+    recharge_time       3
 
-		impact_sound		Sounds/Weapons/mis_interceptor_pd_impact.wav
-		impact_sound_minrange	200
-		impact_effect		effects/Missile_Impact.effect
-		area_impact_effect "effects/collide_asteroid.effect"
-		Planet_Impact_Effect	"effects/Missile_Planet.effect"
+    muzzle_effect       effects/Missile_muzzle.effect
+    muzzle_sound        Sounds/Weapons/mis_interceptor_pd_muzzle.wav
+    muzzle_sound_minrange   60
+    muzzle_speed            90
+    solution_tolerance      90
 
-		thrust_sound		Sounds/Weapons/mis_missile_travel.wav
-		
-		speed 300
-		seek_attenuation 11	// Higher number = tighter turns/faster accel
-		
-//		netforcelimits
-//		{
-//			force				9000
-//			torque_yaw			9000
-//			torque_pitch		9000
-//			torque_roll			500
-//			speed				135
-//			rotspeed			820
-//		}
+    icon_file       GUI/WeaponIcons_2.tga
+    icon_rect       "64 160 32 32"
 
-		ttl				5
-		model			missile.X
-		health			5
-		dam			75
-		dam_radius		15
-		mass			50
-		thrust_effect		effects/Interceptor_Trail.effect
-		thrust_node		EffectNode
-		dumbfire_period		1.5
+    range           675
+    range_planet    675 // Same as 'range' because missile has a fixed time-to-live. (range should be a bit less than [netforcelimits] speed x ttl)
 
-		dam_pop		150000
-		dam_infra	.001	
-		dam_terra	.005
-	}
+    fc_requires_los             true
+    fc_requires_inrange         true
+    fc_requires_enemycolony     false
+    fc_manual_target            false
+    fc_manual_toggle            false
+    fc_manual_launch            false
+    fc_controllable             false
+    fc_holdsfire                false
+    blindfire false
+    pinpoint false
 
-	rating_frate	4
-	rating_dam	1
-	rating_acc	8
-	rating_range	3
+    missile
+    {
+        tracking 1
+        pd 1
 
-	dam_est		125
+        impact_decal    decals/WeaponHit.decal
+        impact_decal_width .5
+        impact_decal_height .5
+        impact_decal_depth .1
+
+        beam_origin     -3
+        beam_length     5.5
+
+        impact_sound    Sounds/Weapons/mis_interceptor_pd_impact.wav
+        impact_sound_minrange   200
+        impact_effect       effects/Missile_Impact.effect
+        area_impact_effect "effects/collide_asteroid.effect"
+        Planet_Impact_Effect    "effects/Missile_Planet.effect"
+
+        thrust_sound        Sounds/Weapons/mis_missile_travel.wav
+
+        speed 300
+        seek_attenuation 11 // Higher number = tighter turns/faster accel
+
+//      netforcelimits
+//      {
+//          force               9000
+//          torque_yaw          9000
+//          torque_pitch        9000
+//          torque_roll         500
+//          speed               135
+//          rotspeed            820
+//      }
+
+        ttl                 5
+
+        model               missile.X
+        health              5
+        dam                 75
+        dam_radius          15
+        mass                50
+        dumbfire_period     1.5
+
+        thrust_effect   effects/Interceptor_Trail.effect
+        thrust_node     EffectNode
+
+        dam_pop     150000
+        dam_infra   .001
+        dam_terra   .005
+    }
+
+    rating_frate    4
+    rating_dam      1
+    rating_acc      8
+    rating_range    3
+
+    dam_est     125
 }
