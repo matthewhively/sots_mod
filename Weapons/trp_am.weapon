@@ -24,8 +24,10 @@ weapon
     icon_file   GUI/WeaponIcons.tga
     icon_rect   "96 0 32 32"
 
-    range           3500
-    range_planet    3500
+    // Firing range, projectile will continue traveling beyond this (if target moves away, since its tracking)
+    range           3000
+    range_planet    3600
+    // TTL x SPEED = 3800
 
     fc_requires_los             true
     fc_requires_inrange         true
@@ -54,23 +56,25 @@ weapon
         thrust_sound        Sounds/Weapons/trp_am_travel.wav
         thrust_sound_minrange   20
 
+        // 26 eff dps
+        // 40 max dps
         rangetable
         {
-            pb_range        250
+            pb_range        300
             pb_range_dev    2
-            pb_range_dam    175
+            pb_range_dam    150
 
-            eff_range       1000
+            eff_range       1350
             eff_range_dev   2
-            eff_range_dam   900
+            eff_range_dam   800  // target 2/3rd max
 
-            max_range       3500
+            max_range       3000
             max_range_dev   3
-            max_range_dam   1300
+            max_range_dam   1200
         }
 
         effect      effects/AntimatterTorpedo_bullet.effect
-        health              1300    // same as max damage
+        health              1200    // same as max damage
         dam_radius          75
         mass                500
         dumbfire_period     0.5
@@ -88,7 +92,7 @@ weapon
 
         ttl         32
 
-        dam_pop     5000000
+        dam_pop     5000000  // 5 mil
         dam_infra   .01
         dam_terra   .001
     }

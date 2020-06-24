@@ -24,8 +24,10 @@ weapon
     icon_file   GUI/WeaponIcons.tga
     icon_rect   "96 32 32 32"
 
-    range           2000
-    range_planet    2500
+    // Firing range, projectile will continue traveling beyond this (if target moves away, since its tracking)
+    range           2400
+    range_planet    3000
+    // TTL x SPEED = 2800
 
     fc_requires_los             true
     fc_requires_inrange         true
@@ -53,23 +55,25 @@ weapon
         thrust_sound        Sounds/Weapons/trp_fusion_travel.wav
         thrust_sound_minrange   20
 
+        // 20 eff dps
+        // 30 max dps
         rangetable
         {
-            pb_range        200
+            pb_range        250
             pb_range_dev    2
-            pb_range_dam    100
+            pb_range_dam    110
 
-            eff_range       1000
+            eff_range       1100
             eff_range_dev   2
-            eff_range_dam   600
+            eff_range_dam   600  // target 2/3rd max
 
-            max_range       2000
+            max_range       2400
             max_range_dev   3
-            max_range_dam   850
+            max_range_dam   900
         }
 
         effect      effects/FusionTorpedo_bullet.effect
-        health              850 // same as max damage
+        health              900 // same as max damage
         dam_radius          50
         mass                300
         dumbfire_period     0.5
@@ -85,17 +89,17 @@ weapon
 //          rotspeed  300
 //      }
 
-        ttl         24.5
+        ttl         27
 
-        dam_pop     1000000
+        dam_pop     1000000  // 1 mil
         dam_infra   .002
         dam_terra   .0005
     }
 
     rating_frate    2
-    rating_dam      5
+    rating_dam      6
     rating_acc      9
     rating_range    8
 
-    dam_est     300
+    dam_est     400
 }

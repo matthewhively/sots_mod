@@ -24,8 +24,10 @@ weapon
     icon_file   GUI/WeaponIcons.tga
     icon_rect   "64 160 32 32"
 
-    range           2000
-    range_planet    2500
+    // Firing range, projectile will continue traveling beyond this (if target moves away, since its tracking)
+    range           2400
+    range_planet    3000
+    // TTL x SPEED = 2100
 
     fc_requires_los             true
     fc_requires_inrange         true
@@ -52,22 +54,24 @@ weapon
         impact_effect   effects/DetonationFusionTorpedo_Impact.effect
         impact_sound    Sounds/Weapons/trp_det_fusion_impact.wav
         impact_sound_minrange   100
-            area_impact_effect "effects/collide_asteroid.effect"
+        area_impact_effect "effects/collide_asteroid.effect"
 
         thrust_sound        Sounds/Weapons/trp_det_fusion_travel.wav
         thrust_sound_minrange   20
 
+        // 16 eff dps
+        // 25 max dps
         rangetable
         {
             pb_range        300
             pb_range_dev    2
-            pb_range_dam    75
+            pb_range_dam    90
 
             eff_range       700
             eff_range_dev   2
             eff_range_dam   500
 
-            max_range       2000
+            max_range       2400
             max_range_dev   3
             max_range_dam   750
         }
@@ -90,17 +94,17 @@ weapon
 //          rotspeed  300
 //      }
 
-        ttl 20
+        ttl 27
 
-        dam_pop     2000000
+        dam_pop     2000000  // 2 mil
         dam_infra   .001
         dam_terra   .001
     }
 
     rating_frate    2
-    rating_dam      4.8
+    rating_dam      5.8
     rating_acc      9
     rating_range    8
 
-    dam_est     350
+    dam_est     450
 }

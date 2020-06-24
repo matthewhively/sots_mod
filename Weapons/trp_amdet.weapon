@@ -24,8 +24,10 @@ weapon
     icon_file   GUI/WeaponIcons.tga
     icon_rect   "32 160 32 32"
 
-    range           3500
-    range_planet    3500
+    // Firing range, projectile will continue traveling beyond this (if target moves away, since its tracking)
+    range           3000
+    range_planet    3600
+    // TTL x SPEED = 3500
 
     fc_requires_los             true
     fc_requires_inrange         true
@@ -57,17 +59,19 @@ weapon
         thrust_sound        Sounds/Weapons/trp_det_am_travel.wav
         thrust_sound_minrange   20
 
+        // 26 eff dps
+        // 36 max dps
         rangetable
         {
-            pb_range        300
+            pb_range        350
             pb_range_dev    2
-            pb_range_dam    125
+            pb_range_dam    135
 
             eff_range       900
             eff_range_dev   2
-            eff_range_dam   800
+            eff_range_dam   730
 
-            max_range       3500
+            max_range       3000
             max_range_dev   3
             max_range_dam   1100
         }
@@ -92,7 +96,7 @@ weapon
 
         ttl         32
 
-        dam_pop     10000000
+        dam_pop     10000000  // 10 mil
         dam_infra   .02
         dam_terra   .005
     }
