@@ -9,13 +9,13 @@ weapon
     turretclass    standard
 
     requires       WEP_PDtech
-    hpbonus        5
+    hpbonus        0
     cost           300
 
     trackspeed_mod  6.0
-    burst_volleys   3
-    volley_period   .1
-    recharge_time   1.8
+    burst_volleys   3     // how many volleys per cooldown
+    volley_period   .1    // time inbetween volleys
+    recharge_time   1.8   // weapon cooldown
 
     muzzle_effect   effects/PDLaser_muzzle.effect
     muzzle_sound    Sounds/Weapons/las_pd_muzzle.wav
@@ -26,7 +26,7 @@ weapon
     icon_rect   "64 64 32 32"
 
     range           875
-    range_planet    850
+    range_planet    0
 
     fc_requires_los             true
     fc_requires_inrange         true
@@ -74,8 +74,8 @@ weapon
 
     rating_frate    9
     rating_dam      .3
-    rating_acc      8
+    rating_acc      7
     rating_range    5
 
-    dam_est     0
+    dam_est     1
 }
