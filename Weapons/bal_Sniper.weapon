@@ -72,7 +72,7 @@ weapon
         dam_terra   0
     }
 
-    dam_est     10
+    dam_est     20
 
     rating_frate    6
     rating_dam      2
