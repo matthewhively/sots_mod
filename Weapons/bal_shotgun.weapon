@@ -70,15 +70,15 @@ weapon
         ricochet_sound_minrange  50
         mass 100
 
-        dam_pop     500
-        dam_infra   .000003
+        dam_pop     2500
+        dam_infra   .00003
         dam_terra   0
     }
 
     rating_frate    7
-    rating_dam      2
-    rating_acc      6
-    rating_range    3
+    rating_dam      5
+    rating_acc      3
+    rating_range    4
 
-    dam_est     10
+    dam_est     400
 }
