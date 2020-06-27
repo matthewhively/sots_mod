@@ -1,83 +1,84 @@
 weapon
 {
-	name			@WEAPON_MIN_NUKE
-	weaponclass		nukemine
-	weaponfamily	conventionalmine
-	turretsize			large
-	cost			500
-	turretclass			mine
-	requires		WEP_NukMine
+    name               @WEAPON_MIN_NUKE
+    weaponclass        nukemine
+    weaponfamily       conventionalmine
+    turretsize         large
+    turretclass        mine
 
-	burst_volleys		2	// 2 mines dropped per cycle
-	buildup_delay		1	// 1-s before first mine dropped
-	volley_period		2	// 2-s between mine drops
-	volley_duration		0	// mines are deployed instantaneously
-	recharge_time		4	// cycle is done at t=4
-	
-	muzzle_sound		Sounds/Weapons/min_nuke_drop.wav
-	muzzle_sound_minrange	100
-	muzzle_effect		effects/PlasmaCannon_muzzle.effect
-	muzzle_speed		50
-	solution_tolerance	360
-	icon_file		GUI/WeaponIcons.tga
-	icon_rect		"192 96 32 32"
-	
-	fc_requires_los				false
-	fc_requires_inrange			false
-	fc_requires_enemycolony		false
-	fc_manual_target			false
-	fc_manual_toggle			true
-	fc_manual_launch			false
-	fc_controllable				true
-	fc_holdsfire				true
-	blindfire false
-	pinpoint false
+    requires           WEP_NukMine
+    cost               500
 
-	mine
-	{
-		impact_sound		Sounds/Weapons/min_nuke_det.wav
-		impact_sound_minrange	100
-		impact_effect		effects/NuclearMine_Impact.effect
-		area_impact_effect "effects/collide_asteroid.effect"
+    burst_volleys       2   // 2 mines dropped per cycle
+    buildup_delay       1   // 1-s before first mine dropped
+    volley_period       2   // 2-s between mine drops
+    volley_duration     0   // mines are deployed instantaneously
+    recharge_time       4   // cycle is done at t=4
 
-		speed 50
-		seek_attenuation 1	// Higher number = tighter turns/faster accel
-		
-//		netforcelimits
-//		{
-//			force_forward		2000
-//			force_right			2000
-//			force_up			2000
-//			
-//			torque_yaw			900
-//			torque_pitch		900
-//			torque_roll			900
-//		
-//			speed				50
-//			rotspeed			70
-//		}
-		
-		model			mine.X
-		ttl			120	// time to live
-		health			30
-		dam			150
-		dam_radius		35
-		coll_lookahead		20
-		affect_radius		200
-		mass			50
-		dumbfire_period		0
-		leap			0	// 0 if this is not a leap mine
+    muzzle_effect       effects/PlasmaCannon_muzzle.effect
+    muzzle_sound        Sounds/Weapons/min_nuke_drop.wav
+    muzzle_sound_minrange   100
+    muzzle_speed            50
+    solution_tolerance      360
 
-		dam_pop		0
-		dam_infra	0	
-		dam_terra	0
-	}
+    icon_file       GUI/WeaponIcons.tga
+    icon_rect       "192 96 32 32"
 
-	dam_est		50
+    fc_requires_los             false
+    fc_requires_inrange         false
+    fc_requires_enemycolony     false
+    fc_manual_target            false
+    fc_manual_toggle            true
+    fc_manual_launch            false
+    fc_controllable             true
+    fc_holdsfire                true
+    blindfire false
+    pinpoint false
 
+    mine
+    {
+        impact_sound    Sounds/Weapons/min_nuke_det.wav
+        impact_sound_minrange   100
+        impact_effect       effects/NuclearMine_Impact.effect
+        area_impact_effect "effects/collide_asteroid.effect"
 
-	rating_frate	8
-	rating_dam	3
-	rating_acc	4
-	rating_range	1
+        speed 50
+        seek_attenuation 1  // Higher number = tighter turns/faster accel
+
+//      netforcelimits
+//      {
+//          force_forward       2000
+//          force_right         2000
+//          force_up            2000
+//
+//          torque_yaw          900
+//          torque_pitch        900
+//          torque_roll         900
+//
+//          speed               50
+//          rotspeed            70
+//      }
+
+        model               mine.X
+        ttl                 120 // time to live
+        health              30
+        dam                 150
+        dam_radius          35
+        coll_lookahead      20
+        affect_radius       200
+        mass                50
+        dumbfire_period     0
+        leap                0   // 0 if this is not a leap mine
+
+        dam_pop     0
+        dam_infra   0
+        dam_terra   0
+    }
+
+    rating_frate    8
+    rating_dam      3
+    rating_acc      4
+    rating_range    1
+
+    dam_est     50
 }

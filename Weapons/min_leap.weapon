@@ -1,86 +1,88 @@
 weapon
 {
-	name			@WEAPON_MIN_LEAP
-	weaponclass		mine
-	weaponfamily	conventionalmine
-	turretsize		large
-	cost			3000
-	turretclass		mine
-	requires		WEP_LpMine
-	hpbonus			125
+    name            @WEAPON_MIN_LEAP
+    weaponclass     mine
+    weaponfamily    conventionalmine
+    turretsize      large
+    turretclass     mine
 
-	burst_volleys		2	// 2 mines dropped per cycle
-	buildup_delay		1	// 1-s before first mine dropped
-	volley_period		2	// 2-s between mine drops
-	volley_duration		0	// mines are deployed instantaneously
-	recharge_time		4	// cycle is done at t=4
-	
-	muzzle_sound		Sounds/Weapons/min_nuke_drop.wav
-	muzzle_sound_minrange	100
-	muzzle_effect		effects/PlasmaCannon_muzzle.effect
-	muzzle_speed		50
-	solution_tolerance	360
-	icon_file		GUI/WeaponIcons.tga
-	icon_rect		"64 128 32 32"
-	
-	fc_requires_los				false
-	fc_requires_inrange			false
-	fc_requires_enemycolony		false
-	fc_manual_target			false
-	fc_manual_toggle			true
-	fc_manual_launch			false
-	fc_controllable				true
-	fc_holdsfire				true
-	blindfire false
-	pinpoint false
+    requires           WEP_LpMine
+    cost               3000
+    hpbonus            125
 
-	mine
-	{
-		impact_sound		Sounds/Weapons/min_leap_det.wav
-		impact_sound_minrange	100
-		impact_effect		effects/NuclearMine_Impact.effect
-		area_impact_effect "effects/collide_asteroid.effect"
+    burst_volleys       2   // 2 mines dropped per cycle
+    buildup_delay       1   // 1-s before first mine dropped
+    volley_period       2   // 2-s between mine drops
+    volley_duration     0   // mines are deployed instantaneously
+    recharge_time       4   // cycle is done at t=4
 
-		thrust_sound		Sounds/Weapons/min_leap_travel_det.wav
-		thrust_sound_minrange	150
+    muzzle_effect       effects/PlasmaCannon_muzzle.effect
+    muzzle_sound        Sounds/Weapons/min_nuke_drop.wav
+    muzzle_sound_minrange   100
+    muzzle_speed            50
+    solution_tolerance      360
 
-		speed 300
-		seek_attenuation 9	// Higher number = tighter turns/faster accel
-		
-//		netforcelimits
-//		{
-//			force_forward		1e+7
-//			force_right			1e+7
-//			force_up			1e+7
-//			
-//			torque_yaw			1000
-//			torque_pitch		1000
-//			torque_roll			1000
-//		
-//			speed				300
-//			rotspeed			90
-//		}
-		
-		model			mine.X
-		ttl			120	// time to live
-		health			20
-		dam			300
-		dam_radius		20
-		coll_lookahead	15
-		affect_radius		562
-		mass			50
-		dumbfire_period		0.1
-		leap			1	// 0 if this is not a leap mine
+    icon_file       GUI/WeaponIcons.tga
+    icon_rect       "64 128 32 32"
 
-		dam_pop		80
-		dam_infra	.5	
-		dam_terra	.05
-	}
+    fc_requires_los             false
+    fc_requires_inrange         false
+    fc_requires_enemycolony     false
+    fc_manual_target            false
+    fc_manual_toggle            true
+    fc_manual_launch            false
+    fc_controllable             true
+    fc_holdsfire                true
+    blindfire false
+    pinpoint false
 
-	rating_frate	8
-	rating_dam	4
-	rating_acc	7
-	rating_range	2
+    mine
+    {
+        impact_sound    Sounds/Weapons/min_leap_det.wav
+        impact_sound_minrange   100
+        impact_effect       effects/NuclearMine_Impact.effect
+        area_impact_effect "effects/collide_asteroid.effect"
 
-	dam_est		50
+        thrust_sound        Sounds/Weapons/min_leap_travel_det.wav
+        thrust_sound_minrange   150
+
+        speed 300
+        seek_attenuation 9  // Higher number = tighter turns/faster accel
+
+//      netforcelimits
+//      {
+//          force_forward       1e+7
+//          force_right         1e+7
+//          force_up            1e+7
+//
+//          torque_yaw          1000
+//          torque_pitch        1000
+//          torque_roll         1000
+//
+//          speed               300
+//          rotspeed            90
+//      }
+
+        model               mine.X
+        ttl                 120 // time to live
+        health              20
+        dam                 300
+        dam_radius          20
+        coll_lookahead      15
+        affect_radius       562
+        mass                50
+        dumbfire_period     0.1
+        leap                1   // 0 if this is not a leap mine
+
+        dam_pop     80
+        dam_infra   .5
+        dam_terra   .05
+    }
+
+    rating_frate    8
+    rating_dam      4
+    rating_acc      7
+    rating_range    2
+
+    dam_est     50
 }

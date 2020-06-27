@@ -1,103 +1,108 @@
 weapon
 {
-	name		@WEAPON_TRP_EMPULSAR
-	weaponclass		torpedo
-	weaponfamily	torpedo
-	weapondamagetype directfiretorpedo
-	turretclass		torpedo
-	turretsize		large
-	requires 	WEP_EmPulse
-	hpbonus		100
-	Cost		2000
-	burst_volleys	1
-	volley_period	.2
-	recharge_time	18
-	muzzle_speed	600
-	muzzle_effect	effects/PlasmaTorpedo_muzzle.effect
-	muzzle_sound	Sounds/Weapons/trp_em_pulsar_muzzle.wav
-	muzzle_sound_minrange	100
-	solution_tolerance	10
-	icon_file	GUI/WeaponIcons.tga
-	icon_rect	"96 160 32 32"
-	range			1500
-	range_planet	2000
-	
-	fc_requires_los				true
-	fc_requires_inrange			true
-	fc_requires_enemycolony		false
-	fc_manual_target			false
-	fc_manual_toggle			false
-	fc_manual_launch			false
-	fc_controllable				true
-	fc_holdsfire				true
+    name             @WEAPON_TRP_EMPULSAR
+    weaponclass      torpedo
+    weaponfamily     torpedo
+    weapondamagetype directfiretorpedo
+    turretclass      torpedo
+    turretsize       large
 
-	torpedo
-	{
-		disruptor 1		// drain guns
-		tracking 0
-		plasma 0
-		emptime 3
-		empradius 200	// affect all ships in radius
-	
-		beam_origin	-3
-		beam_length	5.5
+    requires        WEP_EmPulse
+    hpbonus         100
+    cost            2000
 
-		impact_effect	effects/EMP_Det.effect
-		impact_sound	Sounds/Weapons/trp_em_pulsar_impact.wav
-		impact_sound_minrange	100
+    burst_volleys   1
+    volley_period   .2
+    recharge_time   18
 
+    muzzle_effect   effects/PlasmaTorpedo_muzzle.effect
+    muzzle_sound    Sounds/Weapons/trp_em_pulsar_muzzle.wav
+    muzzle_speed            600
+    muzzle_sound_minrange   100
+    solution_tolerance      10
 
-		thrust_sound		Sounds/Weapons/trp_em_pulsar_travel.wav
-		thrust_sound_minrange	20
-	
-		rangetable
-		{
-			pb_range	400
-			pb_range_dev	.2
-			pb_range_dam	50
-			eff_range	800
-			eff_range_dev	.2
-			eff_range_dam	50
-			max_range	1200
-			max_range_dev	.2
-			max_range_dam	50
-		}
-		
-		effect		effects/EMP_bullet.effect
-		health			1000	// same as max damage
-		dam_radius		0
-		mass			500
-		dumbfire_period		0.5
+    icon_file   GUI/WeaponIcons.tga
+    icon_rect   "96 160 32 32"
 
-		speed 700
-		seek_attenuation 0	// Higher number = tighter turns/faster accel
+    range           1500
+    range_planet    2000
 
-//		netforcelimits
-//		{
-//			force_forward		100000
-//			force_right			100
-//			force_up			100
-//			
-//			torque_yaw			2e+4
-//			torque_pitch		2e+4
-//			torque_roll			1e+2
-//		
-//			speed				700
-//			rotspeed			2000
-//		}
+    fc_requires_los             true
+    fc_requires_inrange         true
+    fc_requires_enemycolony     false
+    fc_manual_target            false
+    fc_manual_toggle            false
+    fc_manual_launch            false
+    fc_controllable             true
+    fc_holdsfire                true
 
-		ttl			3
+    torpedo
+    {
+        disruptor 1     // drain guns
+        tracking  0
+        plasma    0
+        emptime   3
+        empradius 200   // affect all ships in radius
 
-		dam_pop		0
-		dam_infra	.002	
-		dam_terra	0
-	}
+        beam_origin -3
+        beam_length 5.5
 
-	rating_frate	3
-	rating_dam	2
-	rating_acc	8
-	rating_range	7
+        impact_effect   effects/EMP_Det.effect
+        impact_sound    Sounds/Weapons/trp_em_pulsar_impact.wav
+        impact_sound_minrange   100
 
+        thrust_sound        Sounds/Weapons/trp_em_pulsar_travel.wav
+        thrust_sound_minrange   20
 
-	dam_est		100
+        rangetable
+        {
+            pb_range        400
+            pb_range_dev    .2
+            pb_range_dam    50
+
+            eff_range       800
+            eff_range_dev   .2
+            eff_range_dam   50
+
+            max_range       1200
+            max_range_dev   .2
+            max_range_dam   50
+        }
+
+        effect      effects/EMP_bullet.effect
+        health              1000    // same as max damage
+        dam_radius          0
+        mass                500
+        dumbfire_period     0.5
+
+        speed 700
+        seek_attenuation 0  // Higher number = tighter turns/faster accel
+
+//      netforcelimits
+//      {
+//          force_forward       100000
+//          force_right         100
+//          force_up            100
+//
+//          torque_yaw          2e+4
+//          torque_pitch        2e+4
+//          torque_roll         1e+2
+//
+//          speed               700
+//          rotspeed            2000
+//      }
+
+        ttl         3
+
+        dam_pop     0
+        dam_infra   .002
+        dam_terra   0
+    }
+
+    rating_frate    3
+    rating_dam      2
+    rating_acc      8
+    rating_range    7
+
+    dam_est     100
 }

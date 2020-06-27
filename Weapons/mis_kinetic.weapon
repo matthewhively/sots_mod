@@ -1,92 +1,99 @@
 weapon
 {
-	name			@WEAPON_MIS_KINETIC
-	weaponclass		missile
-	weaponfamily		missile
-	model1			barrel_l1_missile.X
-	turretsize			large
-	cost			5000
-	turretclass			missile
-	requires		WEP_KKMsl
-	hpbonus			-30
-	burst_volleys		1
-	volley_period		.2
-	recharge_time		32
-	muzzle_sound		Sounds/Weapons/mis_missile_muzzle.wav
-	muzzle_sound_minrange	60
-	muzzle_effect		effects/Missile_muzzle.effect
-	muzzle_speed		90
-	solution_tolerance	90
-	icon_file		GUI/WeaponIcons_2.tga
-	icon_rect		"128 64 32 32"
-	range			3000
-	range_planet	3000	// Same as 'range' because missile has a fixed time-to-live. (range should be a bit less than [netforcelimits] speed x ttl)
-	
-	fc_requires_los				true
-	fc_requires_inrange			true
-	fc_requires_enemycolony		false
-	fc_manual_target			false
-	fc_manual_toggle			false
-	fc_manual_launch			false
-	fc_controllable				true
-	fc_holdsfire				true
-	blindfire false
-	pinpoint false
+    name               @WEAPON_MIS_KINETIC
+    weaponclass        missile
+    weaponfamily       missile
+    model1             barrel_l1_missile.X
+    turretsize         large
+    turretclass        missile
 
-	missile
-	{
-		tracking 1
-	
-		impact_decal	decals/WeaponHit.decal
-		impact_decal_width .5
-		impact_decal_height .5
-		impact_decal_depth .1
+    requires           WEP_KKMsl
+    cost               5000
+    hpbonus            -30
 
-		beam_origin		-3
-		beam_length		5.5
+    burst_volleys       1
+    volley_period       .2
+    recharge_time       32
 
-		impact_sound		Sounds/Weapons/mis_kinetic_impact.wav
-		impact_sound_minrange	200
-		impact_effect		effects/Kinetic_Missile_Impact.effect
-		area_impact_effect "effects/collide_asteroid.effect"
-		Planet_Impact_Effect	"effects/Missile_Planet.effect"
+    muzzle_effect       effects/Missile_muzzle.effect
+    muzzle_sound        Sounds/Weapons/mis_missile_muzzle.wav
+    muzzle_sound_minrange   60
+    muzzle_speed            90
+    solution_tolerance      90
 
-		thrust_sound		Sounds/Weapons/mis_missile_travel.wav
-		
-		speed 800
-		seek_attenuation 1.5	// Higher number = tighter turns/faster accel
-		
-//		netforcelimits
-//		{
-//			force				9000
-//			torque_yaw			9000
-//			torque_pitch		9000
-//			torque_roll			500
-//			speed				135
-//			rotspeed			820
-//		}
+    icon_file       GUI/WeaponIcons_2.tga
+    icon_rect       "128 64 32 32"
 
-		ttl				35
-		model			missile_kinetic.X
-		health			55
-		warhead_dam_scale	false
-		dam			40
-		dam_radius		0.1
-		dam_collision		1000	// Add damage to target based on relative speed (up to specified amount when rel speed >= (max) speed)
-		mass			5000
-		thrust_effect		effects/Kinetic_Missile_Trail.effect
-		thrust_node		EffectNode
-		dumbfire_period		10
+    range           3000
+    range_planet    3000    // Same as 'range' because missile has a fixed time-to-live. (range should be a bit less than [netforcelimits] speed x ttl)
 
-		dam_pop		150000
-		dam_infra	.001	
-		dam_terra	.005
-	}
+    fc_requires_los             true
+    fc_requires_inrange         true
+    fc_requires_enemycolony     false
+    fc_manual_target            false
+    fc_manual_toggle            false
+    fc_manual_launch            false
+    fc_controllable             true
+    fc_holdsfire                true
+    blindfire false
+    pinpoint false
 
-	rating_frate	2
-	rating_dam	2
-	rating_acc	9
-	rating_range	9
+    missile
+    {
+        tracking 1
 
-	dam_est		0
+        impact_decal    decals/WeaponHit.decal
+        impact_decal_width .5
+        impact_decal_height .5
+        impact_decal_depth .1
+
+        beam_origin     -3
+        beam_length     5.5
+
+        impact_sound    Sounds/Weapons/mis_kinetic_impact.wav
+        impact_sound_minrange   200
+        impact_effect       effects/Kinetic_Missile_Impact.effect
+        area_impact_effect "effects/collide_asteroid.effect"
+        Planet_Impact_Effect    "effects/Missile_Planet.effect"
+
+        thrust_sound        Sounds/Weapons/mis_missile_travel.wav
+
+        speed 800
+        seek_attenuation 1.5    // Higher number = tighter turns/faster accel
+
+//      netforcelimits
+//      {
+//          force               9000
+//          torque_yaw          9000
+//          torque_pitch        9000
+//          torque_roll         500
+//          speed               135
+//          rotspeed            820
+//      }
+
+        ttl                 35
+
+        model               missile_kinetic.X
+        health              55
+        warhead_dam_scale   false
+        dam                 40
+        dam_radius          0.1
+        dam_collision       1000    // Add damage to target based on relative speed (up to specified amount when rel speed >= (max) speed)
+        mass                5000
+        dumbfire_period     10
+
+        thrust_effect       effects/Kinetic_Missile_Trail.effect
+        thrust_node     EffectNode
+
+        dam_pop     150000
+        dam_infra   .001
+        dam_terra   .005
+    }
+
+    rating_frate    2
+    rating_dam      2
+    rating_acc      9
+    rating_range    9
+
+    dam_est     0
 }

@@ -1,101 +1,106 @@
 weapon
 {
-	name		@WEAPON_TRP_AMDET
-	weaponclass		dettorpedo
-	weaponfamily	torpedo
-	weapondamagetype trackingtorpedo
-	turretclass		torpedo
-	turretsize		large
-	requires 	WEP_DtAmTrp
-	hpbonus		275
-	Cost		20000
-	burst_volleys	1
-	volley_period	.2
-	recharge_time	35
-	muzzle_speed	90
-	muzzle_effect	effects/PlasmaTorpedo_muzzle.effect
-	muzzle_sound	Sounds/Weapons/trp_det_am_muzzle.wav
-	muzzle_sound_minrange	100
-	solution_tolerance	90
-	icon_file	GUI/WeaponIcons.tga
-	icon_rect	"32 160 32 32"
-	range			3500
-	range_planet	3500
-	
-	fc_requires_los				true
-	fc_requires_inrange			true
-	fc_requires_enemycolony		false
-	fc_manual_target			true
-	fc_manual_toggle			false
-	fc_manual_launch			false
-	fc_explicit_target			true
-	fc_exclusive_launch			true
-	fc_targets_expire			true
-	fc_controllable				true
-	fc_holdsfire				true
-	pinpoint true	// ok since we are making them detonate early (see range_trigger in missile {} block below)
-	target_queue_size 10
+    name             @WEAPON_TRP_AMDET
+    weaponclass      dettorpedo
+    weaponfamily     torpedo
+    weapondamagetype trackingtorpedo
+    turretclass      torpedo
+    turretsize       large
 
-	torpedo
-	{
-		tracking 1
-		plasma 1
-	
-		beam_origin	-3
-		beam_length	5.5
+    requires        WEP_DtAmTrp
+    hpbonus         275
+    cost            20000
 
-		impact_effect	effects/DetonatingAntimatterTorpedo_Impact.effect
-		impact_sound	Sounds/Weapons/trp_det_am_impact.wav
-		impact_sound_minrange	100
-			area_impact_effect "effects/collide_asteroid.effect"
+    burst_volleys   1
+    volley_period   .2
+    recharge_time   35
 
+    muzzle_effect   effects/PlasmaTorpedo_muzzle.effect
+    muzzle_sound    Sounds/Weapons/trp_det_am_muzzle.wav
+    muzzle_speed            90
+    muzzle_sound_minrange   100
+    solution_tolerance      90
 
-		thrust_sound		Sounds/Weapons/trp_det_am_travel.wav
-		thrust_sound_minrange	20
-	
+    icon_file   GUI/WeaponIcons.tga
+    icon_rect   "32 160 32 32"
 
-		rangetable
-		{
-			pb_range	300
-			pb_range_dev	2
-			pb_range_dam	125
-			eff_range	900
-			eff_range_dev	2
-			eff_range_dam	800
-			max_range	3500
-			max_range_dev	3
-			max_range_dam	1100
-		}
-		
-		effect		effects/AntimatterTorpedo_bullet.effect
-		health			1000	// same as max damage
-		dam_radius		300
-		mass			500
-		dumbfire_period		0.5
-		trigger_range "10 90"	// Random in here
+    range           3500
+    range_planet    3500
 
-		speed 110
-		seek_attenuation 2	// Higher number = tighter turns/faster accel
+    fc_requires_los             true
+    fc_requires_inrange         true
+    fc_requires_enemycolony     false
+    fc_manual_target            true
+    fc_manual_toggle            false
+    fc_manual_launch            false
+    fc_explicit_target          true
+    fc_exclusive_launch         true
+    fc_targets_expire           true
+    fc_controllable             true
+    fc_holdsfire                true
+    pinpoint true   // ok since we are making them detonate early (see range_trigger in missile {} block below)
+    target_queue_size 10
 
-//		netforcelimits
-//		{
-//			force     30000
-//			torque    35000
-//			speed     120
-//			rotspeed  300
-//		}
+    torpedo
+    {
+        tracking 1
+        plasma 1
 
-		ttl			32
-		
-		dam_pop		10000000
-		dam_infra	.02	
-		dam_terra	.005
-	}
+        beam_origin -3
+        beam_length 5.5
 
-	rating_frate	2
-	rating_dam	8
-	rating_acc	9
-	rating_range	9
+        impact_effect   effects/DetonatingAntimatterTorpedo_Impact.effect
+        impact_sound    Sounds/Weapons/trp_det_am_impact.wav
+        impact_sound_minrange   100
+        area_impact_effect "effects/collide_asteroid.effect"
 
-	dam_est		800
+        thrust_sound        Sounds/Weapons/trp_det_am_travel.wav
+        thrust_sound_minrange   20
+
+        rangetable
+        {
+            pb_range        300
+            pb_range_dev    2
+            pb_range_dam    125
+
+            eff_range       900
+            eff_range_dev   2
+            eff_range_dam   800
+
+            max_range       3500
+            max_range_dev   3
+            max_range_dam   1100
+        }
+
+        effect      effects/AntimatterTorpedo_bullet.effect
+        health              1000    // same as max damage
+        dam_radius          300
+        mass                500
+        dumbfire_period     0.5
+        trigger_range     "10 90"   // Random in here
+
+        speed 110
+        seek_attenuation 2  // Higher number = tighter turns/faster accel
+
+//      netforcelimits
+//      {
+//          force     30000
+//          torque    35000
+//          speed     120
+//          rotspeed  300
+//      }
+
+        ttl         32
+
+        dam_pop     10000000
+        dam_infra   .02
+        dam_terra   .005
+    }
+
+    rating_frate    2
+    rating_dam      8
+    rating_acc      9
+    rating_range    9
+
+    dam_est     800
 }
