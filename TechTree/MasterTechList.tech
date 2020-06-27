@@ -1882,6 +1882,9 @@ name        "WEP_ShldDrvr"
 family      "BAL"
 threat      2
 requires    "IND_CruisCon"
+weapon  {
+            filename  "Weapons/bal_drv_shield.weapon"
+        }
 }
 
 
