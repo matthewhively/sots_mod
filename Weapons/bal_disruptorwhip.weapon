@@ -78,10 +78,10 @@ weapon
         lifetime                20
     }
 
-    rating_frate    7
+    rating_frate    2
     rating_dam      2
     rating_acc      9
     rating_range    3
 
-    dam_est     0
+    dam_est     150
 }
