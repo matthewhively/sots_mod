@@ -1,80 +1,87 @@
 weapon
 {
-	name		@WEAPON_BAL_DISRUPTORWHIP
-	exclusive_species	zuul
-	weaponclass	grapple
-	requires	WEP_DsrptrWhp
-	model1		barrel_m1_grapple.X
-	model2		barrel_l2_grapple.X
-	hpbonus		100
-	cost		500
-	turretsize		medium
-	turretclass		grapple
-	burst_volleys	1
-	volley_period	5
-	volley_duration	5
-	recharge_time	25
-	muzzle_effect	effects/AntimatterCannon_muzzle.effect
-	muzzle_sound	Sounds/Weapons/bal_grapple_muzzle.wav
-	muzzle_sound_minrange	100
-	muzzle_speed	400
-	icon_file	GUI/WeaponIcons_2.tga
-	icon_rect	"224 64 32 32"
-	pinpoint true
-	
-	fc_requires_los				true
-	fc_requires_inrange			true
-	fc_requires_enemycolony		false
-	fc_manual_target			false
-	fc_manual_toggle			false
-	fc_manual_launch			true
-	fc_controllable				true
-	fc_holdsfire				true
+    exclusive_species   zuul
 
-	range 500
-	range_planet 0
-		
-	grapple
-	{
-		reel_speed				30
-		target_length			130
+    name            @WEAPON_BAL_DISRUPTORWHIP
+    weaponclass     grapple
 
-		impact_effect			effects/Grapple_Impact.effect
-		impact_sound			Sounds/Weapons/bal_grapple_impact.wav
-		impact_sound_minrange	75
-		dam						50
-		break_force				7500000
-		break_sound			Sounds/Weapons/bal_grapple_break.wav
-		break_sound_minrange		200
-		hook_effect				"Effects/Grapple_bullet.effect"
-		chain_fx				"Effects/PSS_wrap_generic.fx"
-		chain_tex				"Effects/chain.tga"
-		chain_visdist			1000
-	
-		electric_fx				"Effects/PSS_OneOneBlend.fx"
-		electric_tex			"Effects/LightningBeam.tga"
+    model1      barrel_m1_grapple.X
+    model2      barrel_l2_grapple.X
+    turretsize      medium
+    turretclass     grapple
 
-		electic1_alpha			"-1 1"
-		electric1_thickness		"0.01 3"
-		electric1_offset		"-2 2"
+    requires    WEP_DsrptrWhp
+    hpbonus     100
+    cost        500
 
-		electic2_alpha			"-1 1"
-		electric2_thickness		"0.01 10"
-		electric2_offset		"-2 2"
+    burst_volleys   1
+    volley_period   5
+    volley_duration 5
+    recharge_time   25
 
-		disruptor                true
-		disruptor_delay          0.5
-		disruptor_sound          ""
-		disruptor_sound_minrange "50"
-		
-		lifetime				20
-	}
+    muzzle_effect   effects/AntimatterCannon_muzzle.effect
+    muzzle_sound    Sounds/Weapons/bal_grapple_muzzle.wav
+    muzzle_sound_minrange   100
+    muzzle_speed            400
 
-	rating_frate	7
-	rating_dam	2
-	rating_acc	9
-	rating_range	3
+    icon_file   GUI/WeaponIcons_2.tga
+    icon_rect   "224 64 32 32"
 
-	dam_est		0
+    range         500
+    range_planet  0
 
+    fc_requires_los             true
+    fc_requires_inrange         true
+    fc_requires_enemycolony     false
+    fc_manual_target            false
+    fc_manual_toggle            false
+    fc_manual_launch            true
+    fc_controllable             true
+    fc_holdsfire                true
+    pinpoint true
+
+    grapple
+    {
+        reel_speed              30
+        target_length           130
+
+        impact_effect           effects/Grapple_Impact.effect
+        impact_sound            Sounds/Weapons/bal_grapple_impact.wav
+        impact_sound_minrange   75
+
+        dam                     50
+
+        break_force             7500000
+        break_sound         Sounds/Weapons/bal_grapple_break.wav
+        break_sound_minrange        200
+        hook_effect             "Effects/Grapple_bullet.effect"
+        chain_fx                "Effects/PSS_wrap_generic.fx"
+        chain_tex               "Effects/chain.tga"
+        chain_visdist           1000
+
+        electric_fx             "Effects/PSS_OneOneBlend.fx"
+        electric_tex            "Effects/LightningBeam.tga"
+
+        electic1_alpha          "-1 1"
+        electric1_thickness     "0.01 3"
+        electric1_offset        "-2 2"
+
+        electic2_alpha          "-1 1"
+        electric2_thickness     "0.01 10"
+        electric2_offset        "-2 2"
+
+        disruptor                true
+        disruptor_delay          0.5
+        disruptor_sound          ""
+        disruptor_sound_minrange "50"
+
+        lifetime                20
+    }
+
+    rating_frate    7
+    rating_dam      2
+    rating_acc      9
+    rating_range    3
+
+    dam_est     0
 }
