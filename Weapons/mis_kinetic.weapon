@@ -7,6 +7,7 @@ weapon
     turretsize         large
     turretclass        missile
 
+    // REM: prereq of Ionic Thrusters
     requires           WEP_KKMsl
     cost               5000
     hpbonus            -30
@@ -74,9 +75,9 @@ weapon
         ttl                 35
 
         model               missile_kinetic.X
-        health              55
-        warhead_dam_scale   false
-        dam                 40      // does this value scale with warhead tech?
+        health              250
+        warhead_dam_scale   false   // turn off damage scaling
+        dam                 10
         dam_radius          0.1
         dam_collision       1000    // Add damage to target based on relative speed (up to specified amount when rel speed >= (max) speed)
         mass                5000
@@ -91,9 +92,9 @@ weapon
     }
 
     rating_frate    2
-    rating_dam      2
+    rating_dam      8
     rating_acc      9
     rating_range    9
 
-    dam_est     0
+    dam_est     500
 }

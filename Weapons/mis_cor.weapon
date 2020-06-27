@@ -44,8 +44,8 @@ weapon
     {
         tracking 1
 
-        warhead_dam_scale 0 // not using standard warhead tech
-        dot_rate    150 // dam/sec
+        warhead_dam_scale 0   // not using standard warhead tech
+        dot_rate    150       // dam/sec
         dot_radius  150
         dot_time    15
 
