@@ -27,8 +27,8 @@ weapon
     icon_file   GUI/WeaponIcons.tga
     icon_rect   "32 32 32 32"
 
-    range           975
-    range_planet    1375
+    range           925
+    range_planet    1150
 
     fc_requires_los             true
     fc_requires_inrange         true
@@ -39,6 +39,7 @@ weapon
     fc_controllable             true
     fc_holdsfire                true
 
+    // 13 dps
     bolt
     {
         beam_origin -3
@@ -79,5 +80,6 @@ weapon
     rating_acc      8
     rating_range    4.5
 
+    // NOTE: higher than light emitter
     dam_est     70
 }
