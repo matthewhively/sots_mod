@@ -1,82 +1,84 @@
 weapon
 {
-	name		@WEAPON_LAS_GREEN
-	weaponclass	laser
-	weaponfamily	laser
-	model1		barrel_s1_GreenLaser.X
-	model2		barrel_m2_GreenLaser.X
-	model3		barrel_l3_GreenLaser.X
-	requires 	WEP_grnlas
-	cost		200
-	hpbonus		10
-	turretsize		small
-	turretclass		standard
-	trackspeed_mod	1.0
-	burst_volleys	1
-	volley_period	.2
-	recharge_time	3
-	muzzle_speed	650
-	muzzle_sound		Sounds/Weapons/las_all_muzzle.wav
-	muzzle_sound_minrange	100
+    name            @WEAPON_LAS_GREEN
+    weaponclass     laser
+    weaponfamily    laser
 
-	fc_requires_los				true
-	fc_requires_inrange			true
-	fc_requires_enemycolony		false
-	fc_manual_target			false
-	fc_manual_toggle			false
-	fc_manual_launch			false
-	fc_controllable				true
-	fc_holdsfire				true
+    model1      barrel_s1_GreenLaser.X
+    model2      barrel_m2_GreenLaser.X
+    model3      barrel_l3_GreenLaser.X
+    turretsize      small
+    turretclass     standard
 
-	muzzle_effect	effects/GL_muzzle.effect
-	icon_file	GUI/WeaponIcons.tga
-	icon_rect	"32 0 32 32"
-	
-	range 825
-	range_planet 1045
-		
-	bolt
-	{
-		beam_origin	-3
-		beam_length	5.5
+    requires    WEP_grnlas
+    cost        200
+    hpbonus     10
 
-		impact_sound		Sounds/Weapons/las_all_impact.wav
-		impact_sound_minrange	25
+    trackspeed_mod  1.0
+    burst_volleys   1
+    volley_period   .2
+    recharge_time   3
 
-		impact_effect	effects/greenlaserimpact.effect
-		Planet_Impact_Effect	"effects/Laser_PlanetImpact.effect"
+    muzzle_effect   effects/GL_muzzle.effect
+    muzzle_sound        Sounds/Weapons/las_all_muzzle.wav
+    muzzle_speed            650
+    muzzle_sound_minrange   100
 
+    icon_file   GUI/WeaponIcons.tga
+    icon_rect   "32 0 32 32"
 
-		rangetable
-		{
-			pb_range	255
-			pb_range_dev	.5
-			pb_range_dam	20
+    range         825
+    range_planet 1045
 
-			eff_range	455
-			eff_range_dev	1.5
-			eff_range_dam	20
+    fc_requires_los             true
+    fc_requires_inrange         true
+    fc_requires_enemycolony     false
+    fc_manual_target            false
+    fc_manual_toggle            false
+    fc_manual_launch            false
+    fc_controllable             true
+    fc_holdsfire                true
 
-			max_range	825
-			max_range_dev	2.5
-			max_range_dam	15
-		}
-			
-		effect		effects/greenlaser.effect
-		ricochet_mod	-1.2
-		ricochet_sound			Sounds/Weapons/las_all_rico.wav
-		ricochet_sound_minrange		10
+    bolt
+    {
+        beam_origin -3
+        beam_length 5.5
 
-		dam_pop		6000
-		dam_infra	0	
-		dam_terra	0
-	}
+        impact_sound        Sounds/Weapons/las_all_impact.wav
+        impact_sound_minrange   25
 
+        impact_effect   effects/greenlaserimpact.effect
+        Planet_Impact_Effect    "effects/Laser_PlanetImpact.effect"
 
-	dam_est		13
+        rangetable
+        {
+            pb_range        255
+            pb_range_dev    .5
+            pb_range_dam    20
 
-	rating_frate	8
-	rating_dam	1.4
-	rating_acc	7
-	rating_range	3.5
+            eff_range       455
+            eff_range_dev   1.5
+            eff_range_dam   20
+
+            max_range       825
+            max_range_dev   2.5
+            max_range_dam   15
+        }
+
+        effect      effects/greenlaser.effect
+        ricochet_mod    -1.2
+        ricochet_sound          Sounds/Weapons/las_all_rico.wav
+        ricochet_sound_minrange     10
+
+        dam_pop     6000
+        dam_infra   0
+        dam_terra   0
+    }
+
+    rating_frate    8
+    rating_dam      1.4
+    rating_acc      7
+    rating_range    3.5
+
+    dam_est     13
 }
