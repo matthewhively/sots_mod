@@ -6,8 +6,6 @@ weapon
     turretsize      large
     turretclass     mine
 
-
-
     requires           WEP_LpMine
     cost               3000
     hpbonus            125
@@ -67,18 +65,19 @@ weapon
 
         model               mine.X
         ttl                 120 // time to live
-        health              20
+        health              30
         dam                 300
         dam_radius          20
-        coll_lookahead      15
-        affect_radius       562
         mass                50
         dumbfire_period     0.1
+
+        coll_lookahead      15
+        affect_radius       575
         leap                1   // 0 if this is not a leap mine
 
-        dam_pop     80
-        dam_infra   .5
-        dam_terra   .05
+        dam_pop     0
+        dam_infra   0
+        dam_terra   0
     }
 
     rating_frate    8
@@ -86,5 +85,5 @@ weapon
     rating_acc      7
     rating_range    2
 
-    dam_est     50
+    dam_est     300
 }

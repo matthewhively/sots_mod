@@ -2,9 +2,9 @@ weapon
 {
     name               @WEAPON_MIN_NUKE
     weaponclass        nukemine
-    weaponfamily    conventionalmine
-    turretsize          large
-    turretclass         mine
+    weaponfamily       conventionalmine
+    turretsize         large
+    turretclass        mine
 
     requires           WEP_NukMine
     cost               500
@@ -64,11 +64,12 @@ weapon
         health              30
         dam                 150
         dam_radius          35
-        coll_lookahead      20
-        affect_radius       200
         mass                50
         dumbfire_period     0
-        leap                0   // 0 if this is not a leap mine
+
+        coll_lookahead      20    // these are mine specific fields
+        affect_radius       200
+        leap                0     // 0 if this is not a leap mine
 
         dam_pop     0
         dam_infra   0
@@ -77,7 +78,7 @@ weapon
 
     rating_frate    8
     rating_dam      3
-    rating_acc      4
+    rating_acc      3
     rating_range    1
 
     dam_est     50

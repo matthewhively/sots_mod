@@ -65,20 +65,22 @@ weapon
         model               mine.X
         ttl                 120 // time to live
         triggered_ttl       3   // time to live after the mine has been activated by proximity
-        health              30
+        health              40
         dam                 1000
-        dam_radius          475
-        gravradius          900
-        gravforce           500000
-        coll_lookahead      15
-        affect_radius       375
+        dam_radius          275
         mass                50
         dumbfire_period     0.5
+
+        gravradius          900
+        gravforce           500000
+
+        coll_lookahead      15
+        affect_radius       375
         leap                false   // false if this is not a leap mine
 
-        dam_pop     80
-        dam_infra   .5
-        dam_terra   .05
+        dam_pop     0
+        dam_infra   0
+        dam_terra   0
     }
 
     rating_frate    8
@@ -86,5 +88,5 @@ weapon
     rating_acc      8
     rating_range    2
 
-    dam_est     50
+    dam_est     500
 }

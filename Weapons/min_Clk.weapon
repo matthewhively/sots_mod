@@ -6,8 +6,6 @@ weapon
     turretsize         large
     turretclass        mine
 
-
-
     requires           WEP_ClkMine
     cost               2000
     hpbonus            100
@@ -62,27 +60,29 @@ weapon
 //          rotspeed            10
 //      }
 
+        cloaking            1
+
         model               mine.X
         ttl                 90  // time to live
         health              30
         dam                 300
         dam_radius          50
-        coll_lookahead      20
-        affect_radius       125
         mass                50
         dumbfire_period     0
+
+        coll_lookahead      20
+        affect_radius       200
         leap                0   // 0 if this is not a leap mine
-        cloaking            1
 
         dam_pop     0
         dam_infra   0
         dam_terra   0
     }
 
-    rating_frate    4
+    rating_frate    8
     rating_dam      4
     rating_acc      4
     rating_range    1
 
-    dam_est     70
+    dam_est     300
 }

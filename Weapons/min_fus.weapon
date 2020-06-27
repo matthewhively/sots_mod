@@ -62,13 +62,14 @@ weapon
 
         model               mine.X
         ttl                 120 // time to live
-        health              30
+        health              50
         dam                 500
         dam_radius          50
-        coll_lookahead      20
-        affect_radius       125
         mass                50
         dumbfire_period     0
+
+        coll_lookahead      20
+        affect_radius       200
         leap                0   // 0 if this is not a leap mine
 
         dam_pop     0
@@ -81,5 +82,5 @@ weapon
     rating_acc      4
     rating_range    1
 
-    dam_est     70
+    dam_est     200
 }
