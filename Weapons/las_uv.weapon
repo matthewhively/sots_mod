@@ -1,79 +1,82 @@
 weapon
 {
-	name		@WEAPON_LAS_UV
-	weaponclass	laser
-	weaponfamily	laser
-	model1		barrel_s1_UVlaser.X
-	model2		barrel_m2_UVlaser.X
-	model3		barrel_l3_UVlaser.X
-	requires 	WEP_UVlas
-	hpbonus		20
-	cost		300	
-	turretsize		small
-	turretclass		standard
-	trackspeed_mod	1.0
-	burst_volleys	1
-	volley_period	.2
-	recharge_time	3
-	muzzle_speed	650
-	muzzle_sound	Sounds/Weapons/las_all_muzzle.wav
-	muzzle_sound_minrange	100
-	muzzle_effect	effects/UVL_muzzle.effect
-	icon_file	GUI/WeaponIcons.tga
-	icon_rect	"32 64 32 32"
-	range	850
-	range_planet	1225
-	
-	fc_requires_los				true
-	fc_requires_inrange			true
-	fc_requires_enemycolony		false
-	fc_manual_target			false
-	fc_manual_toggle			false
-	fc_manual_launch			false
-	fc_controllable				true
-	fc_holdsfire				true
+    name            @WEAPON_LAS_UV
+    weaponclass     laser
+    weaponfamily    laser
 
-	bolt
-	{
-		beam_origin	-3
-		beam_length	5.5
-		impact_sound	Sounds/Weapons/las_all_impact.wav
-		impact_sound_minrange	25
-		impact_effect	effects/UVlaserimpact.effect
-		Planet_Impact_Effect	"effects/Laser_PlanetImpact.effect"
+    model1      barrel_s1_UVlaser.X
+    model2      barrel_m2_UVlaser.X
+    model3      barrel_l3_UVlaser.X
+    turretsize      small
+    turretclass     standard
 
+    requires    WEP_UVlas
+    cost        300
+    hpbonus     20
 
-		rangetable
-		{
-			pb_range	350
-			pb_range_dev	.5
-			pb_range_dam	30
+    trackspeed_mod  1.0
+    burst_volleys   1
+    volley_period   .2
+    recharge_time   3
 
-			eff_range	500
-			eff_range_dev	1
-			eff_range_dam	30
+    muzzle_effect   effects/UVL_muzzle.effect
+    muzzle_sound    Sounds/Weapons/las_all_muzzle.wav
+    muzzle_speed            650
+    muzzle_sound_minrange   100
 
-			max_range	850
-			max_range_dev	1.5
-			max_range_dam	25
-		}
+    icon_file   GUI/WeaponIcons.tga
+    icon_rect   "32 64 32 32"
 
-		effect		effects/UVLaser_bullet.effect
-		ricochet_mod	-1.3
-		ricochet_sound	Sounds/Weapons/las_all_rico.wav
-		ricochet_sound_minrange		10
+    range           850
+    range_planet    1225
 
-		dam_pop		8000
-		dam_infra	.00001	
-		dam_terra	0
-	}
+    fc_requires_los             true
+    fc_requires_inrange         true
+    fc_requires_enemycolony     false
+    fc_manual_target            false
+    fc_manual_toggle            false
+    fc_manual_launch            false
+    fc_controllable             true
+    fc_holdsfire                true
 
+    bolt
+    {
+        beam_origin -3
+        beam_length 5.5
+        impact_sound    Sounds/Weapons/las_all_impact.wav
+        impact_sound_minrange   25
+        impact_effect   effects/UVlaserimpact.effect
+        Planet_Impact_Effect    "effects/Laser_PlanetImpact.effect"
 
-	dam_est		30
+        rangetable
+        {
+            pb_range        350
+            pb_range_dev    .5
+            pb_range_dam    30
 
-	rating_frate	8
-	rating_dam	1.75
-	rating_acc	8
-	rating_range	4
+            eff_range       500
+            eff_range_dev   1
+            eff_range_dam   30
 
+            max_range       850
+            max_range_dev   1.5
+            max_range_dam   25
+        }
+
+        effect      effects/UVLaser_bullet.effect
+        ricochet_mod    -1.3
+        ricochet_sound  Sounds/Weapons/las_all_rico.wav
+        ricochet_sound_minrange     10
+
+        dam_pop     8000
+        dam_infra   .00001
+        dam_terra   0
+    }
+
+    rating_frate    8
+    rating_dam      1.75
+    rating_acc      8
+    rating_range    4
+
+    dam_est     30
 }
