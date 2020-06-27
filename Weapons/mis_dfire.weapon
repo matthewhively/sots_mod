@@ -15,7 +15,7 @@ weapon
     hpbonus        -20
 
     trackspeed_mod  1.0
-    burst_volleys   5  // how many projectiles are fired total  -so fire 5 rockets over 1 sec period
+    burst_volleys   5  // how many projectiles are fired total  -so fire 5 rockets over 0.5 sec period
     volley_period   .1 // how long it takes to fire each round
     recharge_time   15
 

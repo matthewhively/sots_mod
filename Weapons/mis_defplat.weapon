@@ -10,7 +10,7 @@ weapon
     turretsize         medium
     turretclass        planetmissile
 
-    cost                3000
+    cost                6000
     burst_volleys       1
     volley_period       .2
     recharge_time       30
@@ -72,7 +72,7 @@ weapon
         ttl                 180
 
         model               PlanetMissile.X
-        health              10
+        health              50
         dam                 100
         dam_radius          15
         mass                50
@@ -86,8 +86,8 @@ weapon
         dam_terra   0
     }
 
-    rating_frate    1
-    rating_dam      3
+    rating_frate    2
+    rating_dam      4
     rating_acc      9
     rating_range    9
 

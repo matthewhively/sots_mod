@@ -76,7 +76,7 @@ weapon
         model               missile_kinetic.X
         health              55
         warhead_dam_scale   false
-        dam                 40
+        dam                 40      // does this value scale with warhead tech?
         dam_radius          0.1
         dam_collision       1000    // Add damage to target based on relative speed (up to specified amount when rel speed >= (max) speed)
         mass                5000
