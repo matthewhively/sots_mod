@@ -2492,10 +2492,11 @@ TECHDESC_IND_HrdStrct,"The use of armored construction materials to create indus
 TECHDESC_IND_ArcCon,The ability to create huge structures than can house up a million people with many times the efficiency of normal cities. This results in a 100 million population increase to the planetary limit and an overall 15% increase in the population growth rate.
 
 
-TECHDESC_WEP_RedLas,Initial combat laser technology. Very fast and accurate but low damage.
-TECHDESC_WEP_GrnLas,A more efficient laser weapon. Very fast and accurate with slightly faster recharge than the Red Laser.
-TECHDESC_WEP_UvLas,Higher energy laser weapon. Very fast and accurate with longer range and slightly higher damage than previous lasers.
-TECHDESC_WEP_XryLas,"Very High-energy laser weapon. Very fast, accurate and delivers medium damage. It delivers higher damage at a longer range but has a slower recharge rate than previous lasers."
+TECHDESC_WEP_RedLas,"Initial combat laser technology. Very fast and accurate but low damage."
+TECHDESC_WEP_GrnLas,"A slightly higher energy laser weapon. Very fast and accurate with a slightly longer range than a Red Pulsed Laser."
+TECHDESC_WEP_UvLas,"A much higher energy laser weapon. Very fast and accurate with longer range and slightly higher damage than previous lasers."
+TECHDESC_WEP_XryLas,"A Very High-energy laser weapon. Very fast, accurate and delivers medium damage. It delivers higher damage at a longer range than previous lasers."
+
 TECHDESC_WEP_LtEmitr,"A high energy discharge weapon commonly known as a lightning gun.  It damages target ships by inducing an arc of plasma. Damage is low but the plasma arc can sometimes jump to another close by ship, damaging it as well."
 TECHDESC_WEP_Emitr,"A high energy medium discharge weapon commonly known as a lightning gun.  It damages target ships by inducing an arc of plasma. Damage is low but the plasma arc can often jump to multiple nearby ships, damaging them as well."
 TECHDESC_WEP_HvyEmitr,The strongest version of the emitter.  This technology is pushed to its furthest point to become the ultimate weapon in mass discharging. Damage is moderate and the plasma arc can often jump to a large number nearby ships
@@ -2512,7 +2513,8 @@ TECHDESC_WEP_AmProj,This weapon uses a massive array of anti-matter generating n
 
 TECHDESC_WEP_Phas,A highly efficient beam weapon using phased laser light and particle discharge to maximize damage and accuracy. Its optimized design allows it to be fitted in medium turrets.
 TECHDESC_WEP_PDPhas,"A low power, high rate of fire, version of the standard phaser designed to fit point-defence turret mounts and engage incoming tracking weapons with a high level of accuracy and good stopping power."
-TECHDESC_WEP_PlsPhas,A rapid-fire version of the phaser that breaks the beam up into a handful of high-powered phaser pulses at a single targeting point. This allows the weapon to be placed in small turret mounts while retaining much of the deadly power of the phaser beam.
+TECHDESC_WEP_PlsPhas,"A rapid-fire version of the Phaser that breaks the beam up into a handful of high-powered pulses at a single targeting point. This allows the weapon to be placed in small turret mounts while retaining much of the deadly power of a Phaser beam."
+
 TECHDESC_WEP_HCLas,"A very large, fixed-mount Laser cannon designed for long range beam combat against slow moving capital ships."
 TECHDESC_WEP_Lancer,"A very large, fixed-mount phased beam weapon designed to punch right through the hulls of enemy ships."
 TECHDESC_WEP_CtngBm,"A very large, fixed-mount beam weapon that fires a high-energy stream of anti-protons that cut through any solid material at very long ranges."
@@ -4382,10 +4384,10 @@ TECHNAME_IND_AdvDreadEng,Advanced Dreadnought Engineering
 TECHDESC_IND_AdvDreadEng,"By incorporating multiple complex systems into a single Dreadnought module, fleet compositions can be dramatically simplified.\n\n*When in combination with the following technologies new sections unlock: Complex Ordinance Launchers, Salvage Technology, Sensor Jammers, Advanced Sensors, Quantum Chaff"
 
 
-TECHNAME_WEP_GrnBmr,Green Beamers
-TECHDESC_WEP_GrnBmr,A sustained low energy laser beam for small turret mounts. 
-TECHNAME_WEP_UvBmr,UV Beamers
-TECHDESC_WEP_UvBmr,A sustained low energy laser beam for small turret mounts. 
+TECHNAME_WEP_GrnBmr,Green Laser Beam
+TECHDESC_WEP_GrnBmr,A sustained low energy green laser beam for small turret mounts. 
+TECHNAME_WEP_UvBmr,UV Laser Beam
+TECHDESC_WEP_UvBmr,A sustained low energy UV laser beam for small turret mounts. 
 TECHNAME_WEP_MesProj,Meson Projector
 TECHDESC_WEP_MesProj,"This advanced projector technology focuses a wide beam that disrupts all pi mesons in the target area and if the disruption is allowed to complete its cycle it results in a massive disintegration of matter at the target point with the expected devastating energy release associated with such an event. If a Meson Projector stays focused on a target for the full period of time it will cause massive damage to the target, but should the beam lose its target point or be stopped before the projection time is complete, no damage will be done to the target."
 TECHNAME_WEP_DsrptrWhp,Disruptor Whip
