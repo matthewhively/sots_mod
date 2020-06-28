@@ -9,7 +9,7 @@ shipsection
     section_type  mission
     section_class destroyer
 
-    health  300
+    health  600
     mass    500
     cost    75000
     cpoints 1720
@@ -18,9 +18,10 @@ shipsection
     node_missile 1
     autonomous   1    // actually means this is a ship with only a mission section
 
-    nodespeed 10
-    ftlspeed  .7
-    range     32
+    // Fusion, Node Focusing
+    nodespeed 7
+    ftlspeed  .5
+    range     23
     crew      0
 
     preview_ofs "-10 0 0"
@@ -39,7 +40,7 @@ shipsection
         torque_pitch  100000
         torque_roll   100000
 
-        speed         30
+        speed         90
         rotspeed      90
     }
 
