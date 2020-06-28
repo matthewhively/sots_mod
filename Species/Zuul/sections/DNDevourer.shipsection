@@ -4,7 +4,7 @@ shipsection
 
     requires DRV_AntiMat
     requires IND_SlvgTech
-    // Maybe require deep space constructors instead?
+    requires IND_DSCon
 
     section_type    mission
     section_class   dreadnought
@@ -14,6 +14,8 @@ shipsection
     mass    450000
     cost    1250000
     cpoints 55000
+
+    repair_capacity     25000
 
     construction_devourer       true
     construction_capacity       12000
