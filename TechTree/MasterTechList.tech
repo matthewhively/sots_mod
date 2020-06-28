@@ -1613,7 +1613,7 @@ tech
 name        "WEP_NdMsl"
 family      "WAR"
 threat      3
-
+requires    "DRV_Fusn"
 ship
     {
         section DENodeMissile
