@@ -22,7 +22,7 @@ shipsection
 
     nodespeed  6
     ftlspeed  .5
-    range     20
+    range     24
     crew     150
 
     preview_ofs "-0 -830 10"
