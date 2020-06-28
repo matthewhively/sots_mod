@@ -1,4 +1,4 @@
-ENCOUNTER_STARTPOINT_SEPARATION        1000
+ENCOUNTER_STARTPOINT_SEPARATION        1000  // TODO: what does this mean?
 
 RANDENC_MIN_TURN                       35    // Players won't receive random encounters until after this turn.
 RANDENC_TURNS_TO_RESET_ODDS            2     // Odds are reset after this many turns with no one fighting.
@@ -9,49 +9,52 @@ RANDENC_DEC_ODDS_COMBAT                40    // Decrease in player odds for each
 RANDENC_INC_ODDS_IDLE                  20    // Increase in player odds for each combat round they do not fight.
 RANDENC_INC_ODDS_ROUNDS                10    // Increase in player odds for each additional round of combat that turn.
 RANDENC_TURNS_TO_EXCLUDE               10    // Turns after getting a random encounter before a player can potentially get another one.
-RANDENC_SINGLEPLAYER_ODDS              2    // Of 100.  For singleplayer games.  Overrides odds for multiplayer.
+RANDENC_SINGLEPLAYER_ODDS              2     // Of 100.  For singleplayer games.  Overrides odds for multiplayer.
 
-SYSTEMKILLER_ODDS        1.0        // (0-100) Percentage chance per turn to init system killer.
-SYSTEMKILLER_MINTURN     130        // First turn to start rolling for system killer to show up.
+// at 1.0%, we have a 36% chance by turn 155, and a 60% chance by turn 200
+// at 1.5%, we have a 50% chance by turn 155, and a 75% chance by turn 200
+// at 2.0%, we have a 60% chance by turn 155, and a 83% chance by turn 200
+SYSTEMKILLER_ODDS        1.5        // (0-100) Percentage chance per turn to init system killer.
+SYSTEMKILLER_MINTURN     110        // First turn to start rolling for system killer to show up.
 SYSTEMKILLER_MINSYS      120        // Minimum number of systems in a map for system killer to show up.
-    
-PUPPETMASTER_ODDS        1.0
-PUPPETMASTER_MINTURN     130
-PUPPETMASTER_MINSYS      120
 
-LOCUST_ODDS              1.0
-LOCUST_MINTURN           130
-LOCUST_MINSYS            120
+PUPPETMASTER_ODDS        1.5
+PUPPETMASTER_MINTURN     110
+PUPPETMASTER_MINSYS      80
+
+LOCUST_ODDS              1.5
+LOCUST_MINTURN           110
+LOCUST_MINSYS            80
 
 LOCUSTNEST_DEATH_RESOURCE_BONUS         5000
 
-    
+
 // PLANETRU = planet ru
 // RU = von neumann construction point ru (don't confuse the two!)
 
-VNEUMANN_THINK_PERIOD                    0.2
+VNEUMANN_THINK_PERIOD                    0.2     // ???
 VNEUMANN_CHILD_PLANETRU_CAPACITY         100
 VNEUMANN_NUM_RUS_PER_PLANETRU            10      // Conversion factor to balance damage to planet
 VNEUMANN_RU_TRANSFER_RATE_VS_PLANET      80      // RUs per second
 VNEUMANN_RU_TRANSFER_RATE                480     // RUs per second
-VNEUMANN_MOM_RADIUS                      135.0
+VNEUMANN_MOM_RADIUS                      135.0   // ???
 VNEUMANN_MOM_ROTATE_SPEED                10.0    // degs/sec
-VNEUMANN_CHILD_RADIUS                    30.0
-VNEUMANN_CHILD_RESEEK_DELAY              3.0
+VNEUMANN_CHILD_RADIUS                    30.0    // ???
+VNEUMANN_CHILD_RESEEK_DELAY              3.0     // ???
 VNEUMANN_CHILD_COLLECT_PROXIMITY         100.0
 VNEUMANN_CHILD_COLLECT_PLANET_PROXIMITY  700.0
-VNEUMANN_CHILD_EMIT_PROXIMITY            150.0
+VNEUMANN_CHILD_EMIT_PROXIMITY            150.0   // ???
 VNEUMANN_MIN_CHILDREN                    2       // Mom always magically has enough RUs to maintain this baseline num children.
-VNEUMANN_NUM_SHIPS_PER_CHILD             3
-VNEUMANN_NUM_SATS_PER_CHILD              10
-VNEUMANN_CHILD_INTEGRATE_TIME            8
+VNEUMANN_NUM_SHIPS_PER_CHILD             3       // ???
+VNEUMANN_NUM_SATS_PER_CHILD              10      // ???
+VNEUMANN_CHILD_INTEGRATE_TIME            8       // ???
 VNEUMANN_SALVAGE_RESEARCH_BONUS          0.25    // research performance mod when a mom is killed
-VNEUMANN_MOM_INTEGRATE_TIME              10
-VNEUMANN_MOM_ARRIVE_AT_RANGE             7000    // Dist from center of planet
-VNEUMANN_MOM_ORBIT_AT_RANGE              1000
+VNEUMANN_MOM_INTEGRATE_TIME              10      // ???
+VNEUMANN_MOM_ARRIVE_AT_RANGE             6000    // Dist from center of planet
+VNEUMANN_MOM_ORBIT_AT_RANGE              1000    // ???
 VNEUMANN_FLEE_TO_RANGE                   8000
-VNEUMANN_REACHED_FLEE_DEST               800
-VNEUMANN_HPBONUS_PER_TURN_SCALE          10
+VNEUMANN_REACHED_FLEE_DEST               800     // ???
+VNEUMANN_HPBONUS_PER_TURN_SCALE          10      // I guess they get stronger as the game goes on so they stay relevant?
 VNEUMANN_INTEGRATE_CHILD_SOUND           "Sounds/SFX/vonneuman_create.wav"
 VNEUMANN_INTEGRATE_MOM_SOUND             "Sounds/SFX/vonneuman_create.wav"
 VNEUMANN_DISINTEGRATE_TARGET_SOUND       "Sounds/SFX/vonneuman_eat.wav"
@@ -59,7 +62,7 @@ VNEUMANN_TRANSFER_TO_MOM_SOUND           "Sounds/SFX/vonneuman_share.wav"
 VNEUMANN_CHILD_RU_COST                   400
 VNEUMANN_MOM_RU_COST                     5000
 VNEUMANN_BERSERKER_RU_COST               31250
-VNEUMANN_BERSERKER_MINTURN               130
+VNEUMANN_BERSERKER_MINTURN               100
 VNEUMANN_DISINTEGRATE_PLANETEFFECT_NAME  "Effects/VonHarvest.effect"
 VNEUMANN_DISINTEGRATE_EFFECT_NAME        "Effects/VonBeam.effect"
 VNEUMANN_INTEGRATE_EFFECT_NAME           "Effects/VonBeam.effect"
@@ -68,22 +71,22 @@ VNEUMANN_GLOW_EFFECT_NAME                "Effects/VonGlow.effect"
 // FINSOL = Final Solution, end game threat
 VNEUMANN_FINSOL_TRIGGER_BERSERKERS_LOST  3
 VNEUMANN_FINSOL_RU_COST                  62500
-VNEUMANN_FINSOL_MINTURN                  200
+VNEUMANN_FINSOL_MINTURN                  150
 VNEUMANN_FINSOL_MIN_BUILD_TIME           10
 VNEUMANN_HOME_MINSYS                     80
-VNEUMANN_HOME_DISTANCE                   30
+VNEUMANN_HOME_DISTANCE                   15      // Shouldn't be increased too much, or hiver could never get there.
 VNEUMANN_HOME_RESOURCES                  20000
 VNEUMANN_HOME_SIZE                       10
-VNEUMANN_HOME_POPULATION                 2000000000
-VNEUMANN_HOME_POPULATION_REGEN           50000000
-VNEUMANN_COLLECTWAVE_MINTURN             35
-VNEUMANN_COLLECTWAVE_MINFREQ             8
-VNEUMANN_COLLECTWAVE_MAXFREQ             12
-VNEUMANN_MOM_FLEET_SIZE                  10
-VNEUMANN_BERSERKER_MINFREQ               4
-VNEUMANN_BERSERKER_MAXFREQ               10
-VNEUMANN_NOFIGHT_MIN_RUS                 5000
-VNEUMANN_NOFIGHT_MAX_RUS                 5000
+VNEUMANN_HOME_POPULATION                 2000000000  // 2 bil
+VNEUMANN_HOME_POPULATION_REGEN           50000000    // 50 mil
+VNEUMANN_COLLECTWAVE_MINTURN             35      // ???
+VNEUMANN_COLLECTWAVE_MINFREQ             8       // ???
+VNEUMANN_COLLECTWAVE_MAXFREQ             12      // ???
+VNEUMANN_MOM_FLEET_SIZE                  10      // ???
+VNEUMANN_BERSERKER_MINFREQ               4       // ???
+VNEUMANN_BERSERKER_MAXFREQ               10      // ???
+VNEUMANN_NOFIGHT_MIN_RUS                 5000    // ???
+VNEUMANN_NOFIGHT_MAX_RUS                 5000    // ???
 VNEUMANN_FINSOL_NEEDS_REPAIRS            0.75
 VNEUMANN_FINSOL_REPAIR_RATE              0.20
 VNEUMANN_FINSOL_MAX_TARGETS              5
@@ -94,7 +97,7 @@ VNEUMANN_BERSERKER_KILLED_RU_BONUS_MAX   250
 VNFINSOL_RESEARCHBONUS_AMOUNT            0.5
 VNFINSOL_RESEARCHBONUS_TURNS             10
 
-    
+
 BERSERKER_STERILIZER_BEAM_DAMAGE_POP_RATE    500000
 
 BLASTEROIDS_ENCOUNTER_THINK_PERIOD       0.2
@@ -179,7 +182,7 @@ SWARMQUEEN_QUEEN_FAILED_DELAY           10
 SWARMQUEEN_MINTURN                      10        // Queens won't begin spawning until after this turn.
 SWARMQUEEN_MAXQUEENS                    0         // Max queens that can be spawned at any given time.  0 for no limit.
 SWARMQUEEN_MAXQUEENS_SYSTEMSPERQUEEN    10        // Max of 1 queen for every x systems.  0 for no limit.
-SWARMQUEEN_SYSTEM_MEMORY                3        
+SWARMQUEEN_SYSTEM_MEMORY                3
 SWARMQUEEN_MIN_HIVE_AGE                 5         // How old a hive must be before spawning a queen.
 SWARMQUEEN_MIN_SAVINGSBONUS             150000
 SWARMQUEEN_MAX_SAVINGSBONUS             375000
