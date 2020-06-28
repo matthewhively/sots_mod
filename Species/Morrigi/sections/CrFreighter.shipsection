@@ -1,26 +1,26 @@
 shipsection
 {
-    
-    model         Species/Morrigi/art/sections/Crfreighter.X
-    section_type  mission
-    section_class cruiser
-    preview_ofs   "0 0 1"
 
-    requires DRV_Fissn
-    requires DRV_VdCtr
+    model         Species/Morrigi/art/sections/Crfreighter.X
+
     requires IND_MegFrght
     requires CCC_FTLEcon
+
+    section_type  mission
+    section_class cruiser
 
     health  4500
     mass    15000
     cost    158000
     cpoints 14300
-    
+
     freighter   1
     autonomous  1    // actually means this is a ship with only a mission section
+
     ftlspeed    3
     range       15
     crew        0
+
     preview_ofs "-70 -250 0"
 
     netforcelimits
@@ -58,7 +58,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  small    
+        turretsize  small
 
         mount
         {
@@ -69,7 +69,6 @@ shipsection
             max_inclination  90
             home_inclination 0
         }
-
     }
 
     bank
@@ -86,7 +85,6 @@ shipsection
             max_inclination  90
             home_inclination 0
         }
-
     }
 
     bank

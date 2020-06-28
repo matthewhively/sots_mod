@@ -1,10 +1,9 @@
 shipsection
 {
-    
+
     model Species/Human/art/sections/CruiserAntiMatter.X
 
     requires DRV_AntiMat
-    requires DRV_Node
 
     socket_fore     EngineNode
     section_type    engine
@@ -21,7 +20,6 @@ shipsection
     range     32
     crew      25
 
-
     option
     {
         option  IND_PlyAlloy
@@ -31,26 +29,26 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
     }
-        
+
     engine_sound        Sounds/Ships/Shared/DEAM_thrust.wav
     engine_idle_sound   Sounds/Ships/Shared/DEAM_idle.wav
     engine_sound_minrange 85
-    
+
     netforcelimits
     {
         force_forward       90000
         force_right         90000
         force_up            90000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               80
         rotspeed            10
     }

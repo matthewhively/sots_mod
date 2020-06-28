@@ -1,10 +1,9 @@
 shipsection
 {
-    
+
     model Species/Liir/art/sections/DestroyerAntiMatterStutterWarp.X
 
     requires DRV_AntiMat
-    requires DRV_StrWrp
 
     socket_fore     EngineNode
     section_type    engine
@@ -28,7 +27,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -43,11 +42,11 @@ shipsection
         force_forward       950000
         force_right         950000
         force_up            950000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               70
         rotspeed            0
     }
@@ -69,7 +68,7 @@ shipsection
         mount
         {
             node            LightGunNode02
-            min_azimuth     -90 
+            min_azimuth     -90
             max_azimuth     70
             min_inclination -5
             max_inclination 90

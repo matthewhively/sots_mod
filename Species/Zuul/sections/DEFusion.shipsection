@@ -16,7 +16,7 @@ shipsection
 
     nodespeed 6
     ftlspeed .5
-    range   24
+    range    24
 
     option  DRV_PlsmFoc
 

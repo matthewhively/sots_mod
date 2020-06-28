@@ -4,7 +4,6 @@ shipsection
     model Species/Tarkas/art/sections/DreadnoughtAntimatter.X
 
     requires DRV_AntiMat
-    requires DRV_Hyper
 
     socket_fore     EngineNode
     section_type    engine

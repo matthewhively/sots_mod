@@ -1,10 +1,9 @@
 shipsection
 {
-    
+
     model Species/Human/art/sections/CruiserPulseFission.X
 
     requires DRV_PlsFiss
-    requires DRV_Node
 
     socket_fore     EngineNode
     section_type    engine
@@ -32,7 +31,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt

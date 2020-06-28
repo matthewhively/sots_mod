@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Hiver/art/sections/DestroyerFusion.X
 
     requires DRV_Fusn
@@ -18,7 +18,7 @@ shipsection
     ftlspeed .75
     range     12
 
-    option  DRV_PlsmFoc 
+    option  DRV_PlsmFoc
 
     option
     {
@@ -29,7 +29,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt

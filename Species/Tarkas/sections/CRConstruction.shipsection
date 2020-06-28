@@ -4,7 +4,6 @@ shipsection
     model Species/Tarkas/art/sections/DnConstruction.X
 
     requires DRV_Fusn
-    requires DRV_Hyper
     requires IND_DSCon
 
     section_type    mission

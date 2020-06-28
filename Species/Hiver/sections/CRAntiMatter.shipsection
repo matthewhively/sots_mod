@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Hiver/art/sections/CruiserAntiMatter.X
 
     requires DRV_AntiMat
@@ -28,7 +28,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -90,7 +90,7 @@ shipsection
             max_inclination 90
         }
     }
-    
+
     bank
     {
         turretclass standard
@@ -105,7 +105,7 @@ shipsection
             max_inclination 90
         }
     }
-    
+
     bank
     {
         turretclass standard

@@ -1,10 +1,7 @@
 shipsection
 {
-    
-    model Species/Human/art/sections/DestroyerFission.X
 
-    requires DRV_Fissn
-    requires DRV_Node
+    model Species/Human/art/sections/DestroyerFission.X
 
     socket_fore     EngineNode
     section_type    engine
@@ -31,7 +28,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -59,7 +56,7 @@ shipsection
     {
         turretclass standard
         turretsize  small
-    
+
         mount
         {
             node            LightGunNode15

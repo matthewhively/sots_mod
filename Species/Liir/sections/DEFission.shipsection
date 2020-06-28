@@ -1,10 +1,7 @@
 shipsection
 {
-    
-    model Species/Liir/art/sections/DestroyerFission.X
 
-    requires DRV_Fissn
-    requires DRV_StrWrp
+    model Species/Liir/art/sections/DestroyerFission.X
 
     socket_fore     EngineNode
     section_type    engine
@@ -30,7 +27,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -45,7 +42,7 @@ shipsection
         force_forward       550000
         force_right         550000
         force_up            550000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0

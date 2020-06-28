@@ -1,9 +1,7 @@
 shipsection
 {
-    
-    model Species/Hiver/art/sections/DestroyerFission.X
 
-    requires DRV_Fissn
+    model Species/Hiver/art/sections/DestroyerFission.X
 
     socket_fore     EngineNode
     section_type    engine
@@ -29,7 +27,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt

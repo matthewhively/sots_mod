@@ -1,10 +1,9 @@
 shipsection
 {
-    
+
     model Species/Liir/art/sections/DreadnoughtFusionStutterWarp.x
 
     requires DRV_Fusn
-    requires DRV_StrWrp
 
     socket_fore     EngineNode
     section_type    engine
@@ -29,12 +28,12 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
     }
-    
+
     engine_sound        Sounds/Ships/Shared/DNStutterwarp_thrust.wav
     engine_idle_sound   Sounds/Ships/Shared/DEStutterwarp_idle.wav
     engine_sound_minrange 85
@@ -44,11 +43,11 @@ shipsection
         force_forward       4400000
         force_right         4400000
         force_up            4400000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               50
         rotspeed            0
     }

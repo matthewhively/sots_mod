@@ -1,25 +1,26 @@
 shipsection
 {
-    
-    model         Species/Hiver/art/sections/Crfreighter.X
-    section_type  mission
-    section_class cruiser
-    preview_ofs   "0 0 1"
 
-    requires DRV_Fissn
+    model         Species/Hiver/art/sections/Crfreighter.X
+
     requires IND_MegFrght
     requires CCC_FTLEcon
+
+    section_type  mission
+    section_class cruiser
 
     health  5500
     mass    20000
     cost    190000
     cpoints 12750
-    
+
     freighter   1
     autonomous  1    // actually means this is a ship with only a mission section
+
     ftlspeed    .5
     range       8
     crew        0
+
     preview_ofs "-40 -270 0"
 
     netforcelimits
@@ -27,11 +28,11 @@ shipsection
         force_forward       25000
         force_right         25000
         force_up            25000
-        
+
         torque_yaw          2e+7
         torque_pitch        2e+7
         torque_roll         2e+7
-        
+
         speed               45
         rotspeed            40
     }
@@ -39,7 +40,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  small    
+        turretsize  small
 
         mount
         {
@@ -49,7 +50,6 @@ shipsection
             min_inclination -10
             max_inclination 90
         }
-
     }
 
     bank
@@ -65,7 +65,6 @@ shipsection
             min_inclination -10
             max_inclination 90
         }
-
     }
 
     bank
@@ -97,7 +96,6 @@ shipsection
             max_inclination 90
         }
     }
-
 
     thruster
     {

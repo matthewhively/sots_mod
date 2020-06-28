@@ -1,10 +1,9 @@
 shipsection
 {
-    
+
     model Species/Human/art/sections/DestroyerPulseFission.X
 
     requires DRV_PlsFiss
-    requires DRV_Node
 
     socket_fore     EngineNode
     section_type    engine
@@ -20,7 +19,7 @@ shipsection
     ftlspeed  .4
     range     12
 
-    option  DRV_RecFiss 
+    option  DRV_RecFiss
 
     option
     {
@@ -31,7 +30,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -59,7 +58,7 @@ shipsection
     {
         turretclass standard
         turretsize  small
-    
+
         mount
         {
             node            LightGunNode15

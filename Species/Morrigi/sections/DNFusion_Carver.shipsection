@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Morrigi/art/sections/DreadnoughtFusion_Carver.x
 
     requires DRV_Fusn
@@ -17,8 +17,8 @@ shipsection
     cpoints 12000
 
     ftlspeed 3
-    range   16
-    crew    55
+    range    16
+    crew     55
 
     option  DRV_PlsmFoc
 
@@ -31,7 +31,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -46,11 +46,11 @@ shipsection
         force_forward       300000
         force_right         300000
         force_up            300000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               80
         rotspeed            0
     }

@@ -1,9 +1,8 @@
 shipsection
 {
-    
+
     model Species/Human/art/sections/DestroyerFocusNodeFission.X
 
-    requires DRV_Fissn
     requires DRV_NodFoc
 
     socket_fore     EngineNode
@@ -31,7 +30,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -59,7 +58,7 @@ shipsection
     {
         turretclass standard
         turretsize  small
-    
+
         mount
         {
             node            LightGunNode01

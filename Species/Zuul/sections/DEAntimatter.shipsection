@@ -15,8 +15,8 @@ shipsection
     cpoints 920
 
     nodespeed 12
-    ftlspeed .7
-    range   38
+    ftlspeed  .7
+    range     38
 
     option
     {

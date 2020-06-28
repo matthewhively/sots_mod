@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Morrigi/art/sections/CruiserAntimatterX.X
 
     requires DRV_AntiMat
@@ -29,7 +29,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -44,11 +44,11 @@ shipsection
         force_forward       159000
         force_right         150000
         force_up            150000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               105
         rotspeed            10
     }

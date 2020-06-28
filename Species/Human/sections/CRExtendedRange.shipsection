@@ -1,6 +1,6 @@
-shipsection 
+shipsection
 {
-    
+
     model Species/Human/art/sections/CruiserExtendedRange.X
 
     socket_aft    MissionNode
@@ -22,7 +22,7 @@ shipsection
     death_area_impact_effect ""
     death_dam                750
     death_damradius          320
-    
+
     option
     {
         option  IND_PlyAlloy
@@ -32,22 +32,22 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
     }
-    
+
     netforcelimits
     {
         force_forward       0
         force_right         0
         force_up            0
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               -5
         rotspeed            0
     }

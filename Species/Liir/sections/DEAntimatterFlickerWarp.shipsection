@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Liir/art/sections/DestroyerAntiMatterFlickerWarp.X
 
     requires DRV_AntiMat
@@ -28,7 +28,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -43,11 +43,11 @@ shipsection
         force_forward       1250000
         force_right         1250000
         force_up            1250000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               80
         rotspeed            0
     }
@@ -69,7 +69,7 @@ shipsection
         mount
         {
             node            LightGunNode02
-            min_azimuth     -90 
+            min_azimuth     -90
             max_azimuth     70
             min_inclination -5
             max_inclination 90

@@ -1,9 +1,7 @@
 shipsection
 {
-    
-    model Species/Hiver/art/sections/CruiserFission.X
 
-    requires DRV_Fissn
+    model Species/Hiver/art/sections/CruiserFission.X
 
     socket_fore     EngineNode
     section_type    engine
@@ -30,12 +28,12 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
     }
-    
+
     engine_sound        Sounds/Ships/Shared/DEFission_thrust.wav
     engine_idle_sound   Sounds/Ships/Shared/DEFission_idle.wav
     engine_sound_minrange 85
@@ -101,7 +99,7 @@ shipsection
             max_inclination 90
         }
     }
-    
+
     bank
     {
         turretclass standard

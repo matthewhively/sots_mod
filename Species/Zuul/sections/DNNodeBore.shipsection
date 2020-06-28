@@ -14,13 +14,13 @@ shipsection
     cost    1250000
     cpoints 45000
 
-    node_bore 1
+    node_bore  1
     autonomous 1    // actually means this is a ship with only a mission section
 
     nodespeed 8
-    ftlspeed .7
-    range   32
-    crew 150
+    ftlspeed  .7
+    range     32
+    crew      150
 
     preview_ofs "-10 0 0"
 

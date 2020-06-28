@@ -2,8 +2,6 @@ shipsection
 {
     model Species/Zuul/art/sections/DestroyerFission.X
 
-    requires DRV_Fissn
-
     socket_fore     EngineNode
     section_type    engine
     section_class   destroyer
@@ -16,7 +14,7 @@ shipsection
 
     nodespeed 3
     ftlspeed .2
-    range   14
+    range    14
 
     shield_model_offset "0 0 5"
 

@@ -1,10 +1,9 @@
 shipsection
 {
-    
+
     model Species/Human/art/sections/DreadnoughtFusion.x
 
     requires DRV_Fusn
-    requires DRV_Node
 
     socket_fore     EngineNode
     section_type    engine
@@ -32,7 +31,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt

@@ -1,25 +1,25 @@
 shipsection
 {
-    
+
     model         Species/Morrigi/art/sections/DeFreighter.X
+
+    requires CCC_FTLEcon
+
     section_type  mission
     section_class destroyer
-    preview_ofs   "0 0 1"
-
-    requires DRV_Fissn
-    requires DRV_VdCtr
-    requires CCC_FTLEcon
 
     health     5500
     mass       9000
     cost       60500
     cpoints    8820
-    
+
     freighter   1
     autonomous  1    // actually means this is a ship with only a mission section
+
     ftlspeed    2
     range       12
     crew        0
+
     preview_ofs "-30 -250 0"
 
     netforcelimits
@@ -27,11 +27,11 @@ shipsection
         force_forward       43000
         force_right         43000
         force_up            43000
-        
+
         torque_yaw          5e+7
         torque_pitch        5e+7
         torque_roll         5e+7
-        
+
         speed               40
         rotspeed            45
     }
@@ -54,11 +54,10 @@ shipsection
         loop        "1"
     }
 
-
     bank
     {
         turretclass standard
-        turretsize  small    
+        turretsize  small
 
         mount
         {
@@ -86,7 +85,5 @@ shipsection
             home_inclination 0
         }
     }
-
-
 
 }

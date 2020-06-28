@@ -1,39 +1,39 @@
 shipsection
 {
-    
-    model         Species/Tarkas/art/sections/Crfreighter.X
-    section_type  mission
-    section_class cruiser
-    preview_ofs   "0 0 1"
 
-    requires DRV_Fissn
-    requires DRV_Hyper
+    model         Species/Tarkas/art/sections/Crfreighter.X
+
     requires IND_MegFrght
     requires CCC_FTLEcon
+
+    section_type  mission
+    section_class cruiser
 
     health  4000
     mass    15500
     cost    170000
     cpoints 12200
-    
+
     freighter   1
     autonomous  1    // actually means this is a ship with only a mission section
+
     ftlspeed    2.0
     range       8
     crew        10
+
     preview_ofs "-40 -270 0"
 
     netforcelimits
     {
-    
+
         force_forward       40000
         force_right         40000
         force_up            40000
-        
+
         torque_yaw          2.5e+7
         torque_pitch        2.5e+7
         torque_roll         2.5e+7
-        
+
         speed               40
         rotspeed            30
     }
@@ -41,7 +41,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  small    
+        turretsize  small
 
         mount
         {
@@ -51,7 +51,6 @@ shipsection
             min_inclination -10
             max_inclination 90
         }
-
     }
 
     bank
@@ -98,7 +97,7 @@ shipsection
             max_inclination 90
         }
     }
- 
+
     thruster
     {
         node        EngineThruster01
@@ -111,5 +110,5 @@ shipsection
         effect      effects/Engine_FissionB.effect
         idle_effect effects/Engine_FissionidleB.effect
     }
-    
+
 }

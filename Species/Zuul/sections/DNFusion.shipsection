@@ -15,9 +15,9 @@ shipsection
     cpoints 8000
 
     nodespeed 6
-    ftlspeed .5
-    range   24
-    crew    60
+    ftlspeed  .5
+    range     24
+    crew      60
 
     option  DRV_PlsmFoc
 

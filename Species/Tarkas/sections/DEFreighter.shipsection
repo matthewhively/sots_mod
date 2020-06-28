@@ -1,38 +1,38 @@
 shipsection
 {
-    
+
     model         Species/Tarkas/art/sections/freighter.X
+
+    requires CCC_FTLEcon
+
     section_type  mission
     section_class destroyer
-    preview_ofs   "0 0 1"
-
-    requires DRV_Fissn
-    requires DRV_Hyper
-    requires CCC_FTLEcon
 
     health    6000
     mass      9500
     cost      50000
     cpoints   9200
-    
+
     freighter   1
     autonomous  1    // actually means this is a ship with only a mission section
+
     ftlspeed    2.0
     range       6
     crew        0
+
     preview_ofs "-10 -130 0"
 
     netforcelimits
     {
-    
+
         force_forward       20000
         force_right         20000
         force_up            20000
-        
+
         torque_yaw          1.5e+7
         torque_pitch        1.5e+7
         torque_roll         1.5e+7
-        
+
         speed               40
         rotspeed            35
     }
@@ -40,7 +40,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  small    
+        turretsize  small
 
         mount
         {
@@ -50,7 +50,6 @@ shipsection
             min_inclination -8
             max_inclination 90
         }
-
     }
 
     bank
