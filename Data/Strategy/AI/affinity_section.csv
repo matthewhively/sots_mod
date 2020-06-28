@@ -1,6 +1,14 @@
 # section,species,purpose
 # engines not listed since they are for a single purpose,,
 # each purpose can ONLY have 50 sections specified maximum (global all races)
+# NOTE: section capitalization is not relevant
+# NOTE: purposes not listed by default:
+#    las_cm
+#    shield_cm
+#    deflector_cm
+#    reflect_cm
+#    planet_attack_bio -- probably defunct
+#    damage_cm         -- probably defunct
 
 # WARNING: def ault is at 50 out of 50
 # Command sections
@@ -22,6 +30,7 @@ CRAssault,any,default
 DNAssault,any,default
 
 DECloaking,any,default
+# Should cloaking be removed from here, and left only in the cloaking_aid group?
 
 # Mission sections
 DEArmor,any,default
@@ -48,6 +57,8 @@ CRCloaking,any,default
 
 CRBoarding,any,default
 
+
+# TODO: make zuul use "war" instead of "armor" for their basic ship... give them a dummy armor that they never unlock (or maybe make a zuul only tech for armor)?
 DEWar,human,default
 CRWar,human,default
 DNWar,human,default
@@ -93,6 +104,7 @@ CRBiomeColonizer,any,colonize
 
 DEColonizer,any,colonize_cheap
 CRBiomeColonizer,any,colonize_cheap
+# TODO: add a different type of colonizer as the "cheap" varient
 
 DEGate,hiver,gate
 CRGate,hiver,gate
@@ -129,6 +141,8 @@ CRPointDefence,any,mine_cm
 
 DEFireControl,any,bal_aid
 CRFireControl,any,bal_aid
+# QUESTION: this affects more than just balistics right?
+# if we can move this into the defa ult, do it.... what would we do with bal_aid then, nothing?
 
 DEDeflector,any,bal_cm
 CRDeflector,any,bal_cm
@@ -158,6 +172,7 @@ CRExtendedRange,liir,scout
 CRExtendedRange,zuul,scout
 CRExtendedRange,morrigi,scout
 # REM: hiver skipped
+# CRRamscoop ???
 
 DEAssaultShuttle,any,planet_attack
 CRAssaultShuttle,any,planet_attack
@@ -215,6 +230,7 @@ DNDevourer,zuul,repair_aid
 DEDeepScan,any,sensor_aid
 CRDeepScan,any,sensor_aid
 DNEW,any,sensor_aid
+# Should CRDeepScanPlatform be here too?
 
 DECloaking,any,cloaking_aid
 CRCloaking,any,cloaking_aid
