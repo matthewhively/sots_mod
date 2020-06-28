@@ -14,7 +14,7 @@ shipsection
     cost    55000
     cpoints 1980
 
-    repair_capacity 25000
+    repair_capacity 13000
 
     crew    42
 
