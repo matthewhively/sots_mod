@@ -81,6 +81,7 @@ DEMinelayer,any,minelayer
 CRMinelayer,any,minelayer
 CRCOL,any,minelayer
 DNCOL,any,minelayer
+# Without separate sections, the AI probably can't figure out which COL weapon to use.
 
 DEColonizer,any,colonize
 CRBiomeColonizer,any,colonize
@@ -104,9 +105,9 @@ CRMining,any,miner
 
 DEJammer,any,missile_cm
 DEWildWeasel,any,missile_cm
-DEDeflector,any,missile_cm
 DEPointDefence,any,missile_cm
 CRPointDefence,any,missile_cm
+DEDeflector,any,missile_cm
 CRDeflector,any,missile_cm
 DNDeflector,any,missile_cm
 CRProtectorate,liir,missile_cm
@@ -114,6 +115,7 @@ DNProtectorate,liir,missile_cm
 
 DEPointDefence,any,mine_cm
 CRPointDefence,any,mine_cm
+# should there be more here?
 
 DEFireControl,any,bal_aid
 CRFireControl,any,bal_aid
@@ -125,8 +127,8 @@ CRProtectorate,liir,bal_cm
 DNProtectorate,liir,bal_cm
 
 DEShield,any,energy_cm
-DEAbsorber,any,energy_cm
 CRShield,any,energy_cm
+DEAbsorber,any,energy_cm
 CRAbsorber,any,energy_cm
 DNAbsorber,any,energy_cm
 DEDisruptor,any,energy_cm
@@ -145,10 +147,10 @@ CRExtendedRange,tarkas,scout
 CRExtendedRange,liir,scout
 CRExtendedRange,zuul,scout
 CRExtendedRange,morrigi,scout
+# REM: hiver skipped
 
 DEAssaultShuttle,any,planet_attack
 CRAssaultShuttle,any,planet_attack
-DENodeMissile,human,planet_attack
 DNSiegeDriver,any,planet_attack
 DEBiowar,human,planet_attack
 DEBiowar,tarkas,planet_attack
@@ -163,12 +165,16 @@ DNBiowar,tarkas,planet_attack
 DNBiowar,liir,planet_attack
 DNBiowar,hiver,planet_attack
 CRScavenger,zuul,planet_attack
+DENodeMissile,human,planet_attack
 
+# This purpose is meant for attacking defense platforms
 DETorpedo,any,orbit_def_attack
 CRAssault,any,orbit_def_attack
 CRBarrage,any,orbit_def_attack
+# WTF?
 DEPursuit,any,orbit_def_attack
 
+# This purpose is for system defense platforms (and could be used for defensive fleets as well)
 DEDefencePlatform,any,orbit_def
 CRDefencePlatform,any,orbit_def
 DNDefencePlatform,any,orbit_def
