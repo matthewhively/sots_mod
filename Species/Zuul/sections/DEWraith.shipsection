@@ -2,25 +2,29 @@ shipsection
 {
     model Species/Zuul/art/sections/SlaveRaider.X
 
+    requires DRV_PlsFiss
+
     section_type  mission
     section_class destroyer
     entity_class  "Wraith"
 
-    health  1200
+    health  1550
     mass    5000
     cost    20000
-    cpoints 1380
+    cpoints 1420
 
-    prisoner_capacity 500000
+    prisoner_capacity 15000000 // 15 mil
 
     autonomous 1    // actually means this is a ship with only a mission section
 
-    nodespeed 4.75
-    ftlspeed  .1
-    range     18
+    nodespeed 5  // set to pulsed fission level
+    ftlspeed  .4
+    range     16
     crew      10
 
     preview_ofs "-6 0 0"
+
+    option  DRV_RecFiss
 
     option
     {
@@ -47,8 +51,8 @@ shipsection
         torque_pitch        6e+7
         torque_roll         6e+7
 
-        speed               75
-        rotspeed            55
+        speed               85
+        rotspeed            70
     }
 
     bank
