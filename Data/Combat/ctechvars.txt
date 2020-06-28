@@ -34,7 +34,7 @@ combattechvars
     SLD_MKTWO_Health    1200
     SLD_MKTHREE_Health  1500
     SLD_MKFOUR_Health   2500
-    SLD_MesShld_Health  0       // Invincible versus all except beams.
+    SLD_MesShld_Health  0       // Invincible versus all except meson weapons.
     SLD_GrvShld_Health  0       // Only stops grav effects, all else goes through.
 
     // recharge times (in secs)

@@ -7,4 +7,4 @@ phs_pulsed,bal_gauss
 bal_disruptorwhip,bal_grapple
 phs_pd,las_pd
 phs_pd,bal_gauss_pd
-phs_pd,mis_interceptor_pd
+#phs_pd,mis_interceptor_pd
