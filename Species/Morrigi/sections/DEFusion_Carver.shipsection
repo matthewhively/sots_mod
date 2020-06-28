@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Morrigi/art/sections/DestroyerFusionX.X
 
     requires DRV_Fusn
@@ -30,7 +30,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -45,11 +45,11 @@ shipsection
         force_forward       92000
         force_right         98000
         force_up            98000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               85
         rotspeed            5
     }

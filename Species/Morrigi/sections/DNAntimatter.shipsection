@@ -1,10 +1,9 @@
 shipsection
 {
-    
+
     model Species/Morrigi/art/sections/DreadnoughtAntimatter.X
 
     requires DRV_AntiMat
-    requires DRV_VdCtr
 
     socket_fore     EngineNode
     section_type    engine
@@ -17,8 +16,8 @@ shipsection
     cpoints 8000
 
     ftlspeed 2
-    range   21
-    crew    90
+    range    21
+    crew     90
 
     option
     {
@@ -29,7 +28,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -44,7 +43,7 @@ shipsection
         force_forward       460000
         force_right         460000
         force_up            460000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0

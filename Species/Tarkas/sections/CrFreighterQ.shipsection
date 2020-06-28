@@ -3,8 +3,6 @@ shipsection
 
     model         Species/Tarkas/art/sections/CrfreighterQ.X
 
-    requires DRV_Fissn
-    requires DRV_Hyper
     requires IND_ModCon
 
     section_type  mission

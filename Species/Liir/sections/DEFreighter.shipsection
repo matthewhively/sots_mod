@@ -3,8 +3,6 @@ shipsection
 
     model         Species/Liir/art/sections/freighter.X
 
-    requires DRV_Fissn
-    requires DRV_StrWrp
     requires CCC_FTLEcon
 
     section_type  mission

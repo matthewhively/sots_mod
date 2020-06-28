@@ -4,7 +4,6 @@ shipsection
     model Species/Tarkas/art/sections/CruiserPulsedFission.X
 
     requires DRV_PlsFiss
-    requires DRV_Hyper
 
     socket_fore     EngineNode
     section_type    engine

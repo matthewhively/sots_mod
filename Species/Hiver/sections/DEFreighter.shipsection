@@ -3,7 +3,6 @@ shipsection
 
     model         Species/Hiver/art/sections/freighter.X
 
-    requires DRV_Fissn
     requires CCC_FTLEcon
 
     section_type  mission

@@ -1,16 +1,15 @@
 shipsection
 {
-    
+
     model Species/Liir/art/sections/CruiserFussionStutterWarp.X
 
     requires DRV_Fusn
-    requires DRV_StrWrp
 
     socket_fore     EngineNode
     section_type    engine
     section_class   Cruiser
     engine_techera  fusion
-    
+
     health  2100
     mass    5800
     cost    28000
@@ -31,7 +30,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -46,11 +45,11 @@ shipsection
         force_forward       2480000
         force_right         2480000
         force_up            2480000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               50
         rotspeed            0
     }

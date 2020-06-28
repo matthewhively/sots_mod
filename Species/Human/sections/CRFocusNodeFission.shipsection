@@ -3,7 +3,6 @@ shipsection
 
     model Species/Human/art/sections/CruiserFocusNodeFission.X
 
-    requires DRV_Fissn
     requires DRV_NodFoc
 
     socket_fore     EngineNode

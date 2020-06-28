@@ -3,8 +3,6 @@ shipsection
 
     model         Species/Morrigi/art/sections/DeFreighter.X
 
-    requires DRV_Fissn
-    requires DRV_VdCtr
     requires CCC_FTLEcon
 
     section_type  mission

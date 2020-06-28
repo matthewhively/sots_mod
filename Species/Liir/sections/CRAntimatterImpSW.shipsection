@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Liir/art/sections/CruiserAntimatterImpSW.X
 
     requires DRV_AntiMat
@@ -10,7 +10,7 @@ shipsection
     section_type    engine
     section_class   Cruiser
     engine_techera  antimatter
-    
+
     health  3100
     mass    5500
     cost    40000
@@ -29,12 +29,12 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
     }
-        
+
     engine_sound        Sounds/Ships/Shared/CRStutterwarp_thrust.wav
     engine_idle_sound   Sounds/Ships/Shared/DEStutterwarp_idle.wav
     engine_sound_minrange 85
@@ -44,11 +44,11 @@ shipsection
         force_forward       2800000
         force_right         2800000
         force_up            2800000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               75
         rotspeed            5
     }

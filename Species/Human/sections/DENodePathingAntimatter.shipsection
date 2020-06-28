@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Human/art/sections/DestroyerNodePathingAntiMatter.X
 
     requires DRV_AntiMat
@@ -29,7 +29,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -45,7 +45,7 @@ shipsection
         force_forward       45000
         force_right         45000
         force_up            45000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0

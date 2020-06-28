@@ -1,10 +1,7 @@
 shipsection
 {
-    
-    model Species/Morrigi/art/sections/DestroyerFission.X
 
-    requires DRV_Fissn
-    requires DRV_VdCtr
+    model Species/Morrigi/art/sections/DestroyerFission.X
 
     socket_fore     EngineNode
     section_type    engine
@@ -17,7 +14,7 @@ shipsection
     cpoints 1350
 
     ftlspeed 2
-    range   7
+    range    7
 
     option  DRV_RecFiss
 
@@ -30,7 +27,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -42,14 +39,14 @@ shipsection
 
     netforcelimits
     {
-        force_forward       75000   
+        force_forward       75000
         force_right         72000
-        force_up            72000   
-        
+        force_up            72000
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               60
         rotspeed            0
     }

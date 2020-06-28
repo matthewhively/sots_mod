@@ -1,4 +1,4 @@
-shipsection 
+shipsection
 {
     model Species/Liir/art/sections/CruiserExtendedRange.X
 
@@ -35,22 +35,22 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
     }
-    
+
     netforcelimits
     {
         force_forward       0
         force_right         0
         force_up            0
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               -5
         rotspeed            0
     }
@@ -62,7 +62,7 @@ shipsection
 
         mount
         {
-            node            HeavyGunNode01     
+            node            HeavyGunNode01
             min_azimuth     -180
             max_azimuth     180
             min_inclination -3

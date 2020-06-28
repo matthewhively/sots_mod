@@ -3,9 +3,8 @@ shipsection
 
     model         Species/Hiver/art/sections/CrfreighterQ.X
 
-    requires IND_ModCon
-    requires DRV_Fissn
-    requires CCC_FTLEcon
+    requires      IND_ModCon
+    requires      CCC_FTLEcon
 
     section_type  mission
     section_class cruiser

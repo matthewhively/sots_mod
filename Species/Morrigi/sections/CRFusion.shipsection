@@ -1,10 +1,9 @@
 shipsection
 {
-    
+
     model Species/Morrigi/art/sections/CruiserFusion.X
 
     requires DRV_Fusn
-    requires DRV_VdCtr
 
     socket_fore     EngineNode
     section_type    engine
@@ -17,8 +16,8 @@ shipsection
     cpoints 3600
 
     ftlspeed 2
-    range   14
-    crew    30
+    range    14
+    crew     30
 
     option  DRV_PlsmFoc
 
@@ -31,7 +30,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -46,11 +45,11 @@ shipsection
         force_forward       100000
         force_right         105000
         force_up            105000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               80
         rotspeed            5
     }

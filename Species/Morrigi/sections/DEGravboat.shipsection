@@ -2,12 +2,9 @@ shipsection
 {
     model Species/Morrigi/art/sections/DestroyerGravboat.X
 
-    requires DRV_VdCtr
-
     section_type   mission
     section_class  destroyer
     entity_class   "Gravboat"
-    gravboat_bonus 1.0
 
     health  3900      // Target 3x basic DE
     mass    11000
@@ -17,6 +14,8 @@ shipsection
     autonomous 1    // actually means this is a ship with only a mission section
 
     refueling_capacity  5
+    gravboat_bonus 1.0
+
     ftlspeed 2
     range    12
     crew     6

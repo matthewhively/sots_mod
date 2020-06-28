@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Hiver/art/sections/CruiserLongRangeFission.X
 
     requires DRV_LRFiss
@@ -30,7 +30,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -68,7 +68,7 @@ shipsection
             max_inclination 90
         }
 
-    
+
         mount
         {
             node            MediumGunNode03
@@ -92,7 +92,7 @@ shipsection
             min_inclination -5
             max_inclination 90
         }
-    
+
         mount
         {
             node            MediumGunNode04
@@ -102,7 +102,7 @@ shipsection
             max_inclination 90
         }
     }
-    
+
     bank
     {
         turretclass standard
@@ -139,49 +139,49 @@ shipsection
         effect effects/Engine_FissionC.effect
         idle_effect effects/Engine_FissionidleC.effect
     }
-    
+
     thruster
     {
         node            EngineFXNode02
         effect effects/Engine_FissionA.effect
         idle_effect effects/Engine_Fissionidle.effect
     }
-    
+
     thruster
     {
         node            EngineFXNode03
         effect effects/Engine_FissionA.effect
         idle_effect effects/Engine_Fissionidle.effect
     }
-    
+
     thruster
     {
         node            EngineFXNode04
         effect effects/Engine_FissionA.effect
         idle_effect effects/Engine_Fissionidle.effect
     }
-    
+
     thruster
     {
         node            EngineFXNode05
         effect effects/Engine_FissionA.effect
         idle_effect effects/Engine_Fissionidle.effect
     }
-    
+
     thruster
     {
         node            EngineFXNode06
         effect effects/Engine_FissionA.effect
         idle_effect effects/Engine_Fissionidle.effect
     }
-    
+
     thruster
     {
         node            EngineFXNode07
         effect effects/Engine_FissionA.effect
         idle_effect effects/Engine_Fissionidle.effect
     }
-    
+
     thruster
     {
         node            EngineFXNode08
@@ -202,7 +202,7 @@ shipsection
         effect effects/Engine_FissionA.effect
         idle_effect effects/Engine_Fissionidle.effect
     }
-    
+
     thruster
     {
         node            EngineFXNode11

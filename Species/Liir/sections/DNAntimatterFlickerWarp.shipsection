@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Liir/art/sections/DreadnoughtAntimatterFlickerWarp.X
 
     requires DRV_AntiMat
@@ -29,7 +29,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt

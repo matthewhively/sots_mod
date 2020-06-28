@@ -2,8 +2,6 @@ shipsection
 {
     model Species/Zuul/art/sections/CruiserFission.X
 
-    requires DRV_Fissn
-
     socket_fore     EngineNode
     section_type    engine
     section_class   Cruiser

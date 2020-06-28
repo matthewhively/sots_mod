@@ -3,8 +3,6 @@ shipsection
 
     model         Species/Human/art/sections/freighter.X
 
-    requires DRV_Fissn
-    requires DRV_Node
     requires CCC_FTLEcon
 
     section_type  mission

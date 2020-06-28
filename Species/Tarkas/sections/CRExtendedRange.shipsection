@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Tarkas/art/sections/CruiserExtendedRange.X
 
     socket_aft    MissionNode
@@ -36,23 +36,23 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
     }
-    
-    
+
+
     netforcelimits
     {
         force_forward       0
         force_right         0
         force_up            0
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               0
         rotspeed            0
     }
@@ -77,7 +77,7 @@ shipsection
     {
         turretclass standard
         turretsize  small
-        
+
         mount
         {
             node            lightGunNode01

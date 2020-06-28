@@ -1,10 +1,9 @@
 shipsection
 {
-    
+
     model Species/Liir/art/sections/DreadnoughtAntimatter.X
 
     requires DRV_AntiMat
-    requires DRV_StrWrp
 
     socket_fore     EngineNode
     section_type    engine
@@ -29,7 +28,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -44,11 +43,11 @@ shipsection
         force_forward       5100000
         force_right         5100000
         force_up            5100000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               70
         rotspeed            0
     }

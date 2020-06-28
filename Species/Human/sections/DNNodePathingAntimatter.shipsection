@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Human/art/sections/DreadnoughtNodePathingAntimatter.X
 
     requires DRV_AntiMat
@@ -30,7 +30,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -45,11 +45,11 @@ shipsection
         force_forward       270000
         force_right         270000
         force_up            270000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               80
         rotspeed            5
     }
@@ -105,7 +105,7 @@ shipsection
     bank
     {
         turretclass standard
-        turretsize  medium   
+        turretsize  medium
 
         mount
         {

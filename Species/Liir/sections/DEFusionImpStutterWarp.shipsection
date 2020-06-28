@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Liir/art/sections/DestroyerFusionImpStutterWarp.X
 
     requires DRV_Fusn
@@ -30,7 +30,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
@@ -45,11 +45,11 @@ shipsection
         force_forward       85000
         force_right         85000
         force_up            85000
-        
+
         torque_yaw          0
         torque_pitch        0
         torque_roll         0
-        
+
         speed               55
         rotspeed            5
     }

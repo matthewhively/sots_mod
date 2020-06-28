@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model Species/Human/art/sections/DreadnoughtNodePathingFusion.x
 
     requires DRV_Fusn
@@ -32,7 +32,7 @@ shipsection
         option  IND_StlthArm
     }
 
-    option 
+    option
     {
         option  IND_RefCoat
         option  IND_ImpRfCt
