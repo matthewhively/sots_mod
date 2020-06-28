@@ -1,37 +1,51 @@
 # section,species,purpose
 # engines not listed since they are for a single purpose,,
+# each purpose can ONLY have 50 sections specified maximum (global all races)
 
+# WARNING: D E F A U L T is at 46 out of 50
+# Command sections
 DECommand,any,default
-DEHammerhead,any,default
+CRCommand,any,default
+DNCommand,any,default
 DEAIC,any,default
-DEArmor,any,default
-DESpinalMount,any,default
+CRAIC,any,default
+DNAIC,any,default
+
 DEStrafe,any,default
 CRStrafe,any,default
-CRBlazer,any,default
-DNBlazer,any,default
-DETorpedo,any,default
-CRCommand,any,default
+DEHammerhead,any,default
 CRHammerhead,any,default
-CRAIC,any,default
-CRArmor,any,default
-CRAssault,any,default
-CRBarrage,any,default
+
 CRBattleBridge,any,default
-DNCommand,any,default
-DNAIC,any,default
-DNArmour,any,default
-DNAssault,any,default
-DNBarrage,any,default
 DNBattleBridge,any,default
-DNGuard,hiver,default
+CRAssault,any,default
+DNAssault,any,default
+
 DECloaking,any,default
-CRCloaking,any,default
-CRProjector,any,default
-DNProjector,any,default
+
+# Mission sections
+DEArmor,any,default
+CRArmor,any,default
+DNArmour,any,default
 DEDrone,any,default
 CRDrone,any,default
 DNDrone,any,default
+DETorpedo,any,default
+CRBarrage,any,default
+DNBarrage,any,default
+
+CRBlazer,any,default
+DNBlazer,any,default
+
+CRProjector,any,default
+DNProjector,any,default
+
+CRImpactor,any,default
+DNImpactor,any,default
+
+DESpinalMount,any,default
+CRCloaking,any,default
+
 DEWar,human,default
 CRWar,human,default
 DNWar,human,default
@@ -44,9 +58,12 @@ DNWar,tarkas,default
 DEWar,liir,default
 CRWar,liir,default
 DNWar,liir,default
-CRImpactor,any,default
-DNImpactor,any,default
+
+# Mission Battle Rider
 DNCarrier,tarkas,default
+
+# Special section for scripted missions
+DNGuard,hiver,default
 
 
 DEFreighter,human,freighter
