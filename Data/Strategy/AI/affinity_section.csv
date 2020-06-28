@@ -2,7 +2,7 @@
 # engines not listed since they are for a single purpose,,
 # each purpose can ONLY have 50 sections specified maximum (global all races)
 
-# WARNING: D E F A U L T is at 46 out of 50
+# WARNING: def ault is at 50 out of 50
 # Command sections
 DECommand,any,default
 CRCommand,any,default
@@ -46,6 +46,8 @@ DNImpactor,any,default
 DESpinalMount,any,default
 CRCloaking,any,default
 
+CRBoarding,any,default
+
 DEWar,human,default
 CRWar,human,default
 DNWar,human,default
@@ -58,6 +60,9 @@ DNWar,tarkas,default
 DEWar,liir,default
 CRWar,liir,default
 DNWar,liir,default
+DEWar,morrigi,default
+CRWar,morrigi,default
+DNWar,morrigi,default
 
 # Mission Battle Rider
 DNCarrier,tarkas,default
@@ -100,11 +105,16 @@ DETanker,any,tanker
 DNSupport,any,tanker
 
 CRRefinery,any,refinery
+DNSupport,any,refinery
+
+# TODO: gravboats
+# see http://www.kerberos-productions.com/forums/viewtopic.php?f=16&t=48875
 
 CRMining,any,miner
 
 DEJammer,any,missile_cm
 DEWildWeasel,any,missile_cm
+DNEW,any,missile_cm
 DEPointDefence,any,missile_cm
 CRPointDefence,any,missile_cm
 DEDeflector,any,missile_cm
@@ -164,7 +174,9 @@ DNBiowar,human,planet_attack
 DNBiowar,tarkas,planet_attack
 DNBiowar,liir,planet_attack
 DNBiowar,hiver,planet_attack
+DEWraith,zuul,planet_attack
 CRScavenger,zuul,planet_attack
+DNSubjugator,zuul,planet_attack
 DENodeMissile,human,planet_attack
 
 # This purpose is meant for attacking defense platforms
@@ -184,17 +196,25 @@ CRDeepScanPlatform,any,orbit_def
 CRDronePlatform,any,orbit_def
 DNDronePlatform,any,orbit_def
 
+# Experimental, hopefully the AI will build these
+_AsteroidMonitor,any,orbit_def
+
 DESquadronCNC,any,cnc_aid
 CRStrikeForceCNC,any,cnc_aid
 DNArmadaCNC,any,cnc_aid
+DNFlagship,any,cnc_aid
 
 DEJammer,any,jammer_aid
+DNEW,any,jammer_aid
 
 CRRepairandSalvage,any,repair_aid
 DNSupport,any,repair_aid
+DNDevourer,zuul,repair_aid
+# It is unknown whether the AI will use this to build new ships
 
 DEDeepScan,any,sensor_aid
 CRDeepScan,any,sensor_aid
+DNEW,any,sensor_aid
 
 DECloaking,any,cloaking_aid
 CRCloaking,any,cloaking_aid
