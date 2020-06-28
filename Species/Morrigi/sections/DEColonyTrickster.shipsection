@@ -2,10 +2,11 @@ shipsection
 {
 
     model Species/Morrigi/art/sections/ColonyTrickster.X
-    section_type  mission
-    section_class destroyer
 
     requires DRN_Auto
+
+    section_type  mission
+    section_class destroyer
 
     health  1500
     mass    10000
@@ -16,9 +17,10 @@ shipsection
 
     autonomous 1    // actually means this is a ship with only a mission section
 
+    // 3x normal fission range since its fully automated
     ftlspeed 2
-    range    15
-    crew     6
+    range    21
+    crew     0
 
     preview_ofs "-30 -250 0"
 

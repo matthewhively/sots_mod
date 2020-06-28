@@ -2,10 +2,11 @@ shipsection
 {
 
     model Species/Morrigi/art/sections/BeltTrickster.X
-    section_type  mission
-    section_class destroyer
 
     requires DRN_Auto
+
+    section_type  mission
+    section_class destroyer
 
     health  2000
     mass    14000
@@ -16,8 +17,9 @@ shipsection
 
     autonomous 1    // actually means this is a ship with only a mission section
 
+    // 3x normal fission range since its fully automated
     ftlspeed 2
-    range    12
+    range    21
     crew     0
 
     preview_ofs "-30 -250 0"
