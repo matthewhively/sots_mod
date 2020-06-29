@@ -11,7 +11,7 @@ shipsection
     section_type    mission
     section_class   dreadnought
 
-    command_quota 76
+    command_quota 70
 
     health  18000
     mass    65000
