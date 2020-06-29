@@ -2691,6 +2691,7 @@ allows      "CCC_ComRaid    RP:5000     Human:0 Zuul:100 Hiver:0 Tarkas:0 Liir:0
 ship
     {
         section CRPropaganda
+        // Zuul Terrorizor is also unlocked here, but unlisted (since its race specific)
     }
 }
 

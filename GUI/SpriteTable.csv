@@ -3,6 +3,7 @@
 // VEDGE  - Vertical edge.  Stretched to fit between the top and botton corners.
 // HEDGE  - Horizontal edge.  Stretched to fit between the left and right corners.
 // CENTER - Stretched to fit between the edges.
+// NOTE: ship sections found at 1575ish
 MARS_BUTTON_IDLE_CENTER,GUI/StarMapElements.tga,195,375,1,1
 MARS_BUTTON_IDLE_CORNER,GUI/StarMapElements.tga,184,364,12,12
 MARS_BUTTON_IDLE_VEDGE,GUI/StarMapElements.tga,184,375,12,1
@@ -1618,6 +1619,7 @@ TECHSHIP_DEColonyTrickster,TechTree\ShipArt\%s_DE_Single.tga,0,0,256,128
 TECHSHIP_DEFreighter,TechTree\ShipArt\%s_DE_Single.tga,0,0,256,128
 TECHSHIP_CRFreighter,TechTree\ShipArt\%s_CR_Single.tga,0,0,256,128
 TECHSHIP_CRFreighterQ,TechTree\ShipArt\%s_CR_Single.tga,0,0,256,128
+TECHSHIP_CRPropaganda,TechTree\ShipArt\%s_CR_Single.tga,0,0,256,128
 TECHSHIP_CRConstruction,TechTree\ShipArt\%s_CR_Single.tga,0,0,256,128
 // ... species specific
 TECHSHIP_DENodeMissile,TechTree\ShipArt\human_DE_Single.tga,0,0,256,128
