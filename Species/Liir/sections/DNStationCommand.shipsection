@@ -24,7 +24,7 @@ shipsection
     crew    80
 
     station command
-    command_quota 46
+    command_quota 68
 
     explicit_command_section "DNStationCommand_Fore"
     explicit_engine_section  "DNStationCommand_Aft"
