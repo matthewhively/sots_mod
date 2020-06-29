@@ -13,7 +13,7 @@
 # The way this is supposed to work according to forums is:
 #   From all rolled techs > filter based on the tech mode > specific purpose tech groups > finally aitechprio.csv
 #
-# TODO: it doesn't look like this is completely free of card-coded nonsense. AI still targets:
+# TODO: it doesn't look like this is completely free of hard-coded nonsense. AI still targets:
 #       Battle Computers, VRF, PolySilicate, Reflective Coating, Green Lasers, Shaped Nuke, Sensor Jammers, Mass Driver... (and more) too early
 #
 # NOTE: we hope that when a tech is specified in this file it overwrites whatever hard coded values exist (since there is no way to UN-group a tech)
@@ -29,16 +29,17 @@ DRV_AntiMat,e
 DRV_AntiMat,n
 DRV_AntiMat,w
 
-# Lead to Lrger Ships (e & w)
+# Lead to Larger Ships (e & w)
 IND_Waldo,e
 IND_OrbFound,e
 IND_OrbDry,e
 IND_HvyPlat,e
-IND_SlvgTech,e
 IND_Waldo,w
 IND_OrbFound,w
 IND_OrbDry,w
 IND_HvyPlat,w
+# Listed here because it gateways Asteroid Mining
+IND_SlvgTech,e
 IND_SlvgTech,w
 
 # Easy Cheap range/speed increases (e & n)
@@ -98,7 +99,7 @@ IND_ModCon,e
 IND_DSCon,e
 IND_OrbCom,e
 IND_ArcCon,e
-# Probably not really useful for weapon systems, hopefully the AI doesn't waste turrets on it
+# Not really useful for weapon systems, but 
 IND_TrctBm,e
 # atmospheric processing
 IND_AtProc,e
@@ -142,44 +143,69 @@ BIO_SmrtNan,w
 WEP_GrnLas,w
 WEP_UvLas,w
 WEP_XryLas,w
+WEP_GrnBmr,w
+WEP_UvBmr,w
+
 WEP_LtEmitr,w
 WEP_Emitr,w
 WEP_HvyEmitr,w
+
 WEP_PlsmCan,w
-WEP_FusCan,w
 WEP_HvyPCan,w
+WEP_FusCan,w
 WEP_HvyFCan,w
-WEP_HvyACan,w
 WEP_AmCan,w
+WEP_HvyACan,w
+WEP_IntCan,w
+WEP_HvyIntCan,w
+
 WEP_PlsmProj,w
 WEP_FusProj,w
 WEP_AmProj,w
+WEP_MesProj,w
+
 WEP_Phas,w
 WEP_PDPhas,w
 WEP_PlsPhas,w
+
 WEP_HCLas,w
 WEP_Lancer,w
 WEP_CtngBm,w
+
 WEP_PrtBm,w
 WEP_NeutBm,w
 WEP_PosiBm,w
 WEP_MesBm,w
 WEP_GravBm,w
+WEP_PulGrvBm,w
+
 WEP_Dsrptr,w
 WEP_EmPulse,w
 WEP_PlsTrp,w
-WEP_PhotTrp,w
+
 WEP_PlsmTrp,w
 WEP_FusTrp,w
 WEP_DtFsTrp,w
 WEP_AmTrp,w
 WEP_DtAmTrp,w
 
+WEP_PhotTrp,w
+WEP_GluTrp,w
+WEP_KelTrp,w
+WEP_MesTrp,w
+
+
 #WEP_Nukes   # starter missile
 WEP_NukeWhd,w
 WEP_GmaWhd,w
 WEP_FusWhd,w
 WEP_AmWhd,w
+WEP_DFMsl,w
+WEP_CorMsl,w
+WEP_NanMsl,w
+WEP_HvyPMsl,w
+WEP_MWMsl,w
+
 WEP_NukMine,w
 WEP_FusMine,w
 WEP_AmMine,w
@@ -187,9 +213,7 @@ WEP_GrvMine,w
 WEP_ImpMine,w
 WEP_LpMine,w
 WEP_ClkMine,w
-WEP_DFMsl,w
-WEP_CorMsl,w
-WEP_NanMsl,w
+
 WEP_NdMsl,w
 
 #WEP_GsDrvr # starter balistics
@@ -204,27 +228,18 @@ WEP_SgeDrvr,w
 WEP_ThmpDrvr,w
 WEP_NeutRnd,w
 WEP_ErgDrain,w
-WEP_GrnBmr,w
-WEP_UvBmr,w
-WEP_MesProj,w
-WEP_DsrptrWhp,w
-WEP_GluTrp,w
-WEP_MesTrp,w
-WEP_MWMsl,w
 WEP_KKMsl,w
 WEP_SnpCanDrvr,w
 WEP_StrmDrvr,w
 WEP_HStrmDrvr,w
 WEP_MasShtDrvr,w
-WEP_PulGrvBm,w
 WEP_AccAmp,w
+
+WEP_DsrptrWhp,w
+
 WEP_PolPlsm,w
 WEP_PolFus,w
 WEP_PolAm,w
-WEP_IntCan,w
-WEP_HvyIntCan,w
-WEP_KelTrp,w
-WEP_HvyPMsl,w
 
 IND_RefCoat,w
 IND_ImpRfCt,w
@@ -286,7 +301,7 @@ CCC_TunSens,w
 CCC_ScanSats,w
 CCC_ComRaid,w
 
-# does the AI techs?
+# does the Computer get AI techs?
 #CCC_AI
 #CCC_AIAdmin
 #CCC_AIFac
