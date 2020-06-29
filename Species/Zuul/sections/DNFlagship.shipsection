@@ -15,7 +15,7 @@ shipsection
     cost    2580000
     cpoints 28000
 
-    command_quota 76
+    command_quota 86
 
     crew    190
 
