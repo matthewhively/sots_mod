@@ -7,7 +7,7 @@ tech
 {
     name        "IND_ROOT"
     family      "IND"
-    allows      "IND_Waldo      RP:5000"
+    allows      "IND_Waldo      RP:8500"
     allows      "IND_StlthArm   RP:0        Human:0  Zuul:0  Hiver:0  Tarkas:0  Liir:0  Morrigi:100"
 }
 
@@ -95,7 +95,7 @@ tech
 {
     name        "DRN_ROOT"
     family      "DRN"
-    allows      "IND_CyberInt       RP:12000"
+    allows      "IND_CyberInt       RP:8500"
 }
 
 
@@ -107,8 +107,8 @@ tech
     allows      "CCC_TrnsLir    RP:2000"
     allows      "CCC_TrnsTrk    RP:2000"
     allows      "CCC_TrnsHvr    RP:2000"
-    allows      "CCC_TrnsMorr   RP:5000" // Assuming it gives the 15% bonus in the description, this needs to be more expensive
-    allows      "CCC_TrnsZul    RP:5000" // Zuul gets the War section, so this should be more expensive
+    allows      "CCC_TrnsMorr   RP:5000" // Assuming it gives the 15% bonus in the description, this needs to be more expensive, also unlocks trade
+    allows      "CCC_TrnsZul    RP:5000" // Grants the War section, so this should be more expensive
 }
 // TODO: standardize all racial costs here if I can find a way to grant bonuses to the other 4 races starter technologies
 
@@ -122,6 +122,7 @@ tech
 tech
 {
 name        "IND_Waldo"
+requires    "IND_CyberInt"
 threat      1
 type        P
 allows      "IND_OrbFound   RP:10000"
@@ -157,6 +158,7 @@ strategy
 tech
 {
 name        "IND_RefCoat"
+requires    "IND_OrbFound"
 threat      1
 allows      "IND_ImpRfCt    RP:27000    Human:70 Zuul:20 Hiver:50 Tarkas:50 Liir:90 Morrigi:90"
 allows      "IND_PlyAlloy   RP:16000    Human:70 Zuul:50 Hiver:90 Tarkas:90 Liir:80 Morrigi:75"
@@ -305,6 +307,7 @@ requires    IND_DSCon
 tech
 {
 name        "IND_PlyAlloy"
+requires    "IND_OrbFound"
 threat      1
 type        P
 allows      "IND_MagLat     RP:60000    Human:70 Zuul:30 Hiver:80 Tarkas:90 Liir:60 Morrigi:65"
@@ -1417,6 +1420,7 @@ allows      "WEP_DFMsl      RP:11000        Human:80 Zuul:90 Hiver:80 Tarkas:90 
 tech
 {
 name        "WEP_NukeWhd"
+requires    "IND_OrbFound"
 family      "WAR"
 threat      2
 allows      "WEP_GmaWhd     RP:10000    Human:90 Zuul:50 Hiver:90 Tarkas:90 Liir:20 Morrigi:70"
@@ -1809,6 +1813,7 @@ threat      2
 tech
 {
 name        "WEP_VRFtech"
+requires    "IND_OrbFound"
 family      "BAL"
 threat      1
 allows      "WEP_PDtech     RP:15000    Human:90 Zuul:75 Hiver:90 Tarkas:90 Liir:95 Morrigi:100"
@@ -2667,6 +2672,7 @@ name        "CCC_HypCom"
 tech
 {
 name        "CCC_BtlCmp"
+requires    "IND_CyberInt"
 allows      "CCC_IntSens    RP:12000"
 allows      "CCC_DatSyn     RP:20000"
 allows      "CCC_SnsJam     RP:10000    Human:80 Zuul:100 Hiver:70 Tarkas:90 Liir:80 Morrigi:100"

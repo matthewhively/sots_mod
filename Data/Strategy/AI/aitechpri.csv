@@ -7,3 +7,11 @@
 # CCC_ComRaid,30,0,5,20,2,30
 # ^ CCC_ComRaid is ignored by hiver but prioritized by others
 #
+DRV_PlsFiss,5,1,5,0,5,0
+IND_CyberInt,10,10,10,10,10,0
+# try to lower priority, AI cannot possibly trade yet, so no point yet
+CCC_FTLBrdB,50,50,50,50,150,50
+CCC_FTLEcon,50,50,50,50,0,50
+# Hiver lower priority, they usually have plenty of time before they get to a colony
+BIO_GnMod,15,35,15,15,15,15
+BIO_SpndAni,15,35,15,15,15,15

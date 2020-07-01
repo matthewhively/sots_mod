@@ -15,6 +15,8 @@
 #
 # TODO: it doesn't look like this is completely free of hard-coded nonsense. AI still targets:
 #       Battle Computers, VRF, PolySilicate, Reflective Coating, Green Lasers, Shaped Nuke, Sensor Jammers, Mass Driver... (and more) too early
+# it seems like the AI is randomly switching into weapon mode without a reason to
+# OR  the AI has some sort of hidden mode for "starter" techs, and persues those most of the time.
 #
 # NOTE: we hope that when a tech is specified in this file it overwrites whatever hard coded values exist (since there is no way to UN-group a tech)
 
@@ -28,6 +30,11 @@ DRV_Fusn,w
 DRV_AntiMat,e
 DRV_AntiMat,n
 DRV_AntiMat,w
+
+# also pulsed fission because it effects tactical & strategic as well as empire expansion rate
+DRV_PlsFiss,e
+DRV_PlsFiss,n
+DRV_PlsFiss,w
 
 # Lead to Larger Ships (e & w)
 IND_Waldo,e
@@ -43,12 +50,10 @@ IND_SlvgTech,e
 IND_SlvgTech,w
 
 # Easy Cheap range/speed increases (e & n)
-DRV_PlsFiss,e
 DRV_LRFiss,e
 DRV_RecFiss,e
 DRV_PlsmFoc,e
 DRV_LRFusn,e
-DRV_PlsFiss,n
 DRV_LRFiss,n
 DRV_RecFiss,n
 DRV_PlsmFoc,n

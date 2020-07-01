@@ -2266,7 +2266,7 @@ TECHNAME_CCC_ROOT,CCC_ROOT
 TECHNAME_IND_Waldo,Waldo Units
 TECHNAME_IND_RefCoat,Reflective Coating
 TECHNAME_IND_ImpRfCt,Improved Reflective Coating
-TECHNAME_IND_OrbFound,Orbital Foundries
+TECHNAME_IND_OrbFound,Zero-G Manufacturing
 TECHNAME_IND_SpnlMnt,Spinal Mounts
 TECHNAME_IND_SlvgTech,Salvage Technology
 TECHNAME_IND_AstMine,Asteroid Mining
@@ -2464,7 +2464,7 @@ TECHDESC_CCC_ROOT,C3
 TECHDESC_IND_Waldo,Remote control construction devices that allow workers to build in hostile or dangerous environments without risk. This results in a 10% decrease to ship construction costs and a 15% increase in the industrial output of all planets.
 TECHDESC_IND_RefCoat,A subsurface layer of highly reflective ceramic to defeat incoming laser fire by causing the beams to reflect off into space
 TECHDESC_IND_ImpRfCt,A subsurface layer of highly reflective ceramic combined with a curved EM field to increase the chance of reflecting incoming laser fire.
-TECHDESC_IND_OrbFound,Orbital bases for the processing of metals in zero-G. Lowers the fiscal cost of ship construction by 5% and makes larger ship hulls possible.
+TECHDESC_IND_OrbFound,"Zero-G foundries, refineries and chemical processing plants allow a great many new material applications to become feasible and cost effective. Lowers the fiscal cost of ship construction by 5% and makes larger ship hulls possible."
 TECHDESC_IND_SpnlMnt,A fixed beam mount that takes up an entire Destroyer mission module and allows a destroyer to carry a heavy beam weapon.
 TECHDESC_IND_SlvgTech,Small and efficient robotic disassembler and construction systems that allow a ship to salvage wrecks for metal and technology as well as repair friendly vessels.
 TECHDESC_IND_AstMine,Systems for prospecting and retrieval of asteroids for their elements. This ability not only allows you to mine uninhibated system but is also reflected in a sizable increase in the resource base of your inhabited worlds.
