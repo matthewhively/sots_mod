@@ -12,16 +12,17 @@ STARMAP_MAX_CLUSTER_NODEPATH_LENGTH     30.0
 // sphere, clusters, spiral, arm, hourglass, rift, 2d, hollow sphere, globular clusters, mini clusters, galactic collision, tube, ring, stellar nursery, barred, disk, barbell, clouds, real space, cubes, sinusoid, mountain, helix
 // NOTE: at this time, it does not appear that any maps other than those listed here are configurable in any way.
 
-STARMAP_RIFT_MINSEP         3
-STARMAP_RIFT_MAXSEP         6
-STARMAP_RIFT_WIDTH          18
+STARMAP_RIFT_MINSEP         5
+STARMAP_RIFT_MAXSEP         10
+STARMAP_RIFT_WIDTH          18  // This scales with LY distance (base 7?)
 
+// See above, Regular Clusters are max 30 stars each, so maybe set this to half that?
 STARMAP_MINICLUSTERS_MINSEP             4.0
-STARMAP_MINICLUSTERS_MAXSEP             6.0
+STARMAP_MINICLUSTERS_MAXSEP             8.0
 STARMAP_MINICLUSTERS_CLUSTERSEP         10.0
 STARMAP_MINICLUSTERS_MAXCLUSTERPATHDIST 16.0    // TODO: is this node paths?
 STARMAP_MINICLUSTERS_MINCLUSTERS        8       // how many clusters total at a minimum
-STARMAP_MINICLUSTERS_MAXPERCLUSTER      8
+STARMAP_MINICLUSTERS_MAXPERCLUSTER      15
 
 // Reducing the armlength tends to make more arms and lessen the definition of the spiral galaxy in general
 // minsep adjusts not only the core, but also the arms... bad for human in arms
@@ -52,7 +53,7 @@ STARMAPIMAGE_AXES_STEP              5
 STARMAPIMAGE_AXES_COLOR             "0 0 255"
 STARMAPIMAGE_AXES_ALPHA             0.4
 
-NODELINE_HEALTH_COLOR_OK            "0   169 157"	
+NODELINE_HEALTH_COLOR_OK            "0   169 157"   
 NODELINE_HEALTH_COLOR_MODERATE      "255 255 0"
 NODELINE_HEALTH_COLOR_LOW           "255 0   0"
 NODELINE_HEALTH_COLOR_BORE          "0   255 0"
@@ -70,8 +71,8 @@ POLMAP_SYSCOLOR_IDLE_ALPHA          0.74            // Alpha when all players ar
 POLMAP_MILITARY_RADIUS_SYSTEM       1.0 
 POLMAP_MILITARY_THREAT_DE           1   
 POLMAP_MILITARY_THREAT_CR           4   
-POLMAP_MILITARY_THREAT_DN           16	
-POLMAP_MILITARY_THREAT_SYSTEM       1	
+POLMAP_MILITARY_THREAT_DN           16  
+POLMAP_MILITARY_THREAT_SYSTEM       1   
 
 
 
