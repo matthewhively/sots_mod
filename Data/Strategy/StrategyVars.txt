@@ -1,16 +1,16 @@
 // Number of turns a player has to avoid bankruptcy before being eliminated.
 BANKRUPTCY_ELIMINATION_TURNS        10
 
-// Multiplied by players maximum possible income to determine how far 
+// Multiplied by players maximum possible income to determine how far
 // into debt a player can go before cost cutting actions are taken.
 BANKRUPTCY_PROTECTION_LIMIT_FACTOR  3.3
 
 PERGATETRAFFIC_DRV_TpGate   3
 PERGATETRAFFIC_DRV_GatAmp   6
 
-STARMAP_NUMSYSTEMS_MIN      16
-STARMAP_NUMSYSTEMS_MAX      350
-STARMAP_NUMSYSTEMS_DEFAULT  80
+STARMAP_NUMSYSTEMS_MIN      50
+STARMAP_NUMSYSTEMS_MAX      700  // Absolute max the engine supports is 799
+STARMAP_NUMSYSTEMS_DEFAULT  160
 
 SHIPSCUTTLE_DE_OUTPUT_BOOST_FACTOR  0.1
 SHIPSCUTTLE_CR_OUTPUT_BOOST_FACTOR  0.1

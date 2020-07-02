@@ -1,10 +1,12 @@
 // NOTE: Moon distance defined in data/combat/terrain default 7200
-STARMAP_MOON_ODDS                       10	// %
-STARMAP_ASTEROIDBELT_ODDS               25	// %
-STARMAP_EASTEREGG_ODDS                  11	// %
+STARMAP_MOON_ODDS                       10  // %
+STARMAP_ASTEROIDBELT_ODDS               25  // %
+STARMAP_EASTEREGG_ODDS                  11  // %  -- TODO: what is this?
 STARMAP_MAX_SYSTEMS_PER_CLUSTER         30
-STARMAP_MAX_CLUSTER_SEPARATION          15.0
+STARMAP_MAX_CLUSTER_SEPARATION          15.0 // This scales with LY distance (base 7 ?)
 STARMAP_MAX_CLUSTER_NODEPATH_LENGTH     30.0
+// TODO: does this effect both clusters & globular clusters
+// TODO: will these maps be less bad if the cluster size is further increased?
 
 // Map names:
 // sphere, clusters, spiral, arm, hourglass, rift, 2d, hollow sphere, globular clusters, mini clusters, galactic collision, tube, ring, stellar nursery, barred, disk, barbell, clouds, real space, cubes, sinusoid, mountain, helix
@@ -17,19 +19,19 @@ STARMAP_RIFT_WIDTH          18
 STARMAP_MINICLUSTERS_MINSEP             4.0
 STARMAP_MINICLUSTERS_MAXSEP             6.0
 STARMAP_MINICLUSTERS_CLUSTERSEP         10.0
-STARMAP_MINICLUSTERS_MAXCLUSTERPATHDIST 16.0
-STARMAP_MINICLUSTERS_MINCLUSTERS        8
+STARMAP_MINICLUSTERS_MAXCLUSTERPATHDIST 16.0    // TODO: is this node paths?
+STARMAP_MINICLUSTERS_MINCLUSTERS        8       // how many clusters total at a minimum
 STARMAP_MINICLUSTERS_MAXPERCLUSTER      8
 
-//Reducing the armlength tends to make more arms and lessen the definition of the spiral galaxy in general
-//minsep adjusts not only the core, but also the arms... bad for human in arms
-//NOTE: in game, set the distance to 5 LY, but here its hardcoded to be 6 LY, so core gets spread out, and the arms get condensed.
+// Reducing the armlength tends to make more arms and lessen the definition of the spiral galaxy in general
+// minsep adjusts not only the core, but also the arms... bad for human in arms
+// NOTE: in game, set the distance to 5 LY, but here its hardcoded to be 6 LY, so core gets spread out, and the arms get condensed.
 STARMAP_COLLISION_ANGLE             -60.0
-STARMAP_COLLISION_OFFSET_X          0.00	// Percentage of radius of spiral.
-STARMAP_COLLISION_OFFSET_Y          0.00	// Percentage of radius of spiral.
-STARMAP_COLLISION_OFFSET_Z          0.00	// Percentage of radius of spiral.
+STARMAP_COLLISION_OFFSET_X          0.00    // Percentage of radius of spiral.
+STARMAP_COLLISION_OFFSET_Y          0.00    // Percentage of radius of spiral.
+STARMAP_COLLISION_OFFSET_Z          0.00    // Percentage of radius of spiral.
 STARMAP_COLLISION_MINSEP            6       //2.50
-STARMAP_COLLISION_ARMRATIO          0.90    //0.80	// % of systems appearing in arms instead of the center.
+STARMAP_COLLISION_ARMRATIO          0.90    //0.80  // % of systems appearing in arms instead of the center.
 STARMAP_COLLISION_ARMLENGTH         55      //45
 
 STARMAP_PLANET_NOISE_TEXTURENAME    "Models/Planets/Noise.dds"
@@ -63,11 +65,11 @@ POLMAP_TARGET_PERCENTAGE            60.0
 POLMAP_CORE_SIZE                    1.0
 POLMAP_SYSCOLOR_UNEXPLORED          "196 196 196"
 POLMAP_SYSCOLOR_SUBDUED             "64 64 64"
-POLMAP_SYSCOLOR_SUBDUED_FACTOR      0.44			// If subdued color is disabled  then the playre color will be subdued by this amount.
-POLMAP_SYSCOLOR_IDLE_ALPHA          0.74			// Alpha when all players are being shown (none are subdued).
-POLMAP_MILITARY_RADIUS_SYSTEM       1.0	
-POLMAP_MILITARY_THREAT_DE           1	
-POLMAP_MILITARY_THREAT_CR           4	
+POLMAP_SYSCOLOR_SUBDUED_FACTOR      0.44            // If subdued color is disabled  then the playre color will be subdued by this amount.
+POLMAP_SYSCOLOR_IDLE_ALPHA          0.74            // Alpha when all players are being shown (none are subdued).
+POLMAP_MILITARY_RADIUS_SYSTEM       1.0 
+POLMAP_MILITARY_THREAT_DE           1   
+POLMAP_MILITARY_THREAT_CR           4   
 POLMAP_MILITARY_THREAT_DN           16	
 POLMAP_MILITARY_THREAT_SYSTEM       1	
 
