@@ -46,11 +46,11 @@ TRADE_ROUTE_REQ_IMPPOPULATION       500000000
 TRADE_ROUTE_REQ_TRADERATE           0.1     // what is this?
 TRADE_ROUTE_OWNERS_SHARE            0.8     // Owner gets 80% trade-partner gets 20%
 TRADE_ROUTE_MIN_INCOME              0       // this is added ontop of the freighter bonus (meant to encourage maximizing routes with available freighters)
-TRADE_ROUTE_INCOME_PERFREIGHTER_DE  25090   // 5x default -- NOTE: small amount added so that after morrigi 130% (floating point) is applied, it still looks decent
-TRADE_ROUTE_INCOME_PERFREIGHTER_CR  45040   // 3x default (since the AI cannot build them, don't wanna buff real players too much)
-TRADE_ROUTE_INCOME_PERFREIGHTER_CRQ 40040   // 4x default (hardly ever build these anyways, mostly irrelevant)
+TRADE_ROUTE_INCOME_PERFREIGHTER_DE  25070   // 5x default -- NOTE: small amount added so that after morrigi 130% (floating point) is applied, it still looks decent
+TRADE_ROUTE_INCOME_PERFREIGHTER_CR  45070   // 3x default (since the AI cannot build them, don't wanna buff real players too much)
+TRADE_ROUTE_INCOME_PERFREIGHTER_CRQ 40070   // 4x default (hardly ever build these anyways, mostly irrelevant)
 TRADE_ROUTE_MAX_FREIGHTERS          1
-TRADE_ROUTE_STARTUP_INCOME          3000    // this is the income generated while the traderoute is establishing (cancels out CR maintenence cost)
+TRADE_ROUTE_STARTUP_INCOME          3070    // this is the income generated while the traderoute is establishing (cancels out CR maintenence cost)
 TRADE_ROUTE_STARTUP_TURNS           6       // Increased to compensate for how much faster it is to build freighters
 TRADE_ROUTE_FREIGHTER_WARNING_TURNS 0       // this is annoying message spam, so disabled
 
