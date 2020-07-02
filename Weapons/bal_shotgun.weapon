@@ -75,7 +75,7 @@ weapon
         dam_terra   0
     }
 
-    rating_frate    7
+    rating_frate    6
     rating_dam      5
     rating_acc      3
     rating_range    4

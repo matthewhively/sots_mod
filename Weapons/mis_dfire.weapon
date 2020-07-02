@@ -80,9 +80,9 @@ weapon
         dam_terra   0
     }
 
-    rating_frate    3
+    rating_frate    4
     rating_dam      2
-    rating_acc      7
+    rating_acc      3
     rating_range    3
 
     // NOTE: estimated dmg used by the AI
