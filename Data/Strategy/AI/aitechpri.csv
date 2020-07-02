@@ -7,11 +7,26 @@
 # CCC_ComRaid,30,0,5,20,2,30
 # ^ CCC_ComRaid is ignored by hiver but prioritized by others
 #
-DRV_PlsFiss,5,1,5,0,5,0
-IND_CyberInt,10,10,10,10,10,0
-# try to lower priority, AI cannot possibly trade yet, so no point yet
-CCC_FTLBrdB,50,50,50,50,150,50
-CCC_FTLEcon,50,50,50,50,0,50
-# Hiver lower priority, they usually have plenty of time before they get to a colony
-BIO_GnMod,15,35,15,15,15,15
-BIO_SpndAni,15,35,15,15,15,15
+# No effect, AI will ignore and get them anyways
+# However the AI will still obey any required pre-requisite techs
+#IND_Waldo,255,255,255,255,255,255
+#WEP_VRFtech,255,255,255,255,255,255
+#IND_PlyAlloy,255,255,255,255,255,255
+#WEP_NukeWhd,255,255,255,255,255,255
+#IND_RefCoat,255,255,255,255,255,255
+#WEP_MasDrvr,255,255,255,255,255,255
+#CCC_BtlCmp,255,255,255,255,255,255
+#WEP_PDtech,255,255,255,255,255,255
+
+# The AI might be ignoring this, but at least it doesn't hurt
+BIO_GnMod,255,255,255,255,255,255
+CCC_FTLBrdB,255,255,255,255,255,255
+CCC_SnsJam,255,255,255,255,255,255
+
+DRV_PlsFiss,1,1,1,0,1,0
+IND_CyberInt,10,20,10,10,10,0
+
+# AI seems to listen to these
+WEP_GrnLas,50,50,50,50,50,50
+#WEP_PlsmCan,50,50,50,50,50,50
+#WEP_UvLas,50,50,50,50,50,50
