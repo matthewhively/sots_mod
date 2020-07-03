@@ -1163,20 +1163,21 @@ ELIMINATEDDLG_BOLDTEXT_USER,ELIMINATED!,255,"params: player name, not necessaril
 
 MOVEWARNING_NO_ENGINE,%s cannot move because one or more ship engines are destroyed.,255,params: fleet name
 MOVEWARNING_NO_NODE_INTERCEPTS,%s cannot intercept a fleet that is traveling using nodes.,255,params: fleet name
-MOVEWARNING_NODE_OUT_OF_RANGE_SYSTEM,%s does not have the range to reach %s using nodes.\n\nDo you want to plot a sublight course?,255,"params: fleet name, system name"
-MOVEWARNING_NODE_OUT_OF_RANGE_GENERIC,%s does not have the range to reach the destination using nodes.\n\nDo you want to plot a sublight course?,255,params: fleet name
-MOVEWARNING_NO_NODE_SYSTEM,%s cannot reach %s using nodes.\n\nDo you want to plot a sublight course?,255,"params: fleet name, system name"
-MOVEWARNING_NO_NODE_GENERIC,%s cannot reach the destination using nodes.\n\nDo you want to plot a sublight course?,255,params: fleet name
-MOVEWARNING_EXCEEDS_GATE_CAPACITY,Teleport gate network cannot support moving %s at this time.\n\nDo you want to plot a sublight course?,255,params: fleet name
+MOVEWARNING_NODE_OUT_OF_RANGE_SYSTEM,"%s does not have the range to reach %s using nodes.\n\nDo you want to plot a course through normal space?",255,"params: fleet name, system name"
+MOVEWARNING_NODE_OUT_OF_RANGE_GENERIC,"%s does not have the range to reach the destination using nodes.\n\nDo you want to plot a course through normal space?",255,params: fleet name
+MOVEWARNING_NO_NODE_SYSTEM,"%s cannot reach %s using nodes.\n\nDo you want to plot a course through normal space?",255,"params: fleet name, system name"
+MOVEWARNING_NO_NODE_GENERIC,"%s cannot reach the destination using nodes.\n\nDo you want to plot a course through normal space?",255,params: fleet name
+MOVEWARNING_EXCEEDS_GATE_CAPACITY,"Teleport gate network cannot support moving %s at this time.\n\nDo you want to plot a sublight course?",255,params: fleet name
 MOVEWARNING_FLEET_BUSY,%s is currently busy.\n\nDo you want to cancel operations and continue?,255,params: fleet name
 MOVEWARNING_GENERIC,Continue?,,Fallback in case a specific warning was not recoginized. This should never be needed.
-MOVEWARNING_NODEBORE_OUT_OF_RANGE_SYSTEM,%s does not have the range to create a node path to %s.\n\nDo you want to plot a course through normal space?,255,"params: fleet name, system name"
-MOVEWARNING_NODEBORE_OUT_OF_RANGE_GENERIC,%s does not have the range to create a node path to the destination.\n\nDo you want to plot a course through normal space?,255,params: fleet name
-MOVEWARNING_NODEBORE_TOO_MANY_PATHS_TOSYSTEM,%s cannot create a stable node path to %s.\nToo many paths already exist or are being created.\n\nDo you want to plot a course through normal space?,255,"params: fleet name, system name"
-MOVEWARNING_NODEBORE_TOO_MANY_PATHS_TOGENERIC,%s cannot create a stable node path to destination.\nToo many paths already exist or are being created.\n\nDo you want to plot a course through normal space?,255,params: fleet name
+MOVEWARNING_NODEBORE_OUT_OF_RANGE_SYSTEM,"%s does not have the range to create a node path to %s.\n\nDo you want to plot a course through normal space?",255,"params: fleet name, system name"
+MOVEWARNING_NODEBORE_OUT_OF_RANGE_GENERIC,"%s does not have the range to create a node path to the destination.\n\nDo you want to plot a course through normal space?",255,params: fleet name
+MOVEWARNING_NODEBORE_TOO_MANY_PATHS_TOSYSTEM,"%s cannot create a stable node path to %s.\nToo many paths already exist or are being created.\n\nDo you want to plot a course through normal space?",255,"params: fleet name, system name"
+MOVEWARNING_NODEBORE_TOO_MANY_PATHS_TOGENERIC,"%s cannot create a stable node path to destination.\nToo many paths already exist or are being created.\n\nDo you want to plot a course through normal space?",255,params: fleet name
 MOVEWARNING_NO_RAID,%s cannot raid trade sector.,params: fleet name,
-MOVEWARNING_NOTRADEVIANODE_DEST_NOT_FRIENDLY,%s cannot travel from a trade sector to a non-allied system via nodes.\n\nDo you want to plot a sublight course?,255,params: fleet name
-MOVEWARNING_NOTRADEVIANODE_FROM_NOT_FRIENDLY,%s cannot travel to a trade sector from a non-allied system via nodes.\n\nDo you want to plot a sublight course?,255,params: fleet name
+MOVEWARNING_NOTRADEVIANODE_DEST_NOT_FRIENDLY,"%s cannot travel from a trade sector to a non-allied system via nodes.\n\nDo you want to plot a course through normal space?",255,params: fleet name
+MOVEWARNING_NOTRADEVIANODE_FROM_NOT_FRIENDLY,"%s cannot travel to a trade sector from a non-allied system via nodes.\n\nDo you want to plot a course through normal space?",255,params: fleet name
+
 
 
 MAINMENU_BTN_PROFILES,Profiles,,
