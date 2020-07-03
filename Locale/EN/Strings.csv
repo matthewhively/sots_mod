@@ -336,11 +336,11 @@ AIDESIGN_LIIR_18,Shuulsi Ma
 AIDESIGN_LIIR_19,Day Oluum
 AIDESIGN_LIIR_20,Niishini Nu
 AIDESIGN_LIIR_21,Uulani
-AIDESIGN_LIIR_22,Shuu'nan 
+AIDESIGN_LIIR_22,Shuu'nan
 AIDESIGN_LIIR_23,Biima Bo
 AIDESIGN_LIIR_24,Miirio Ma
 AIDESIGN_LIIR_25,Wuuna Wan
-AIDESIGN_LIIR_26,Liruuma 
+AIDESIGN_LIIR_26,Liruuma
 AIDESIGN_LIIR_27,Silence
 AIDESIGN_LIIR_28,Aluurra
 AIDESIGN_LIIR_29,Intensity
@@ -389,9 +389,9 @@ AIDESIGN_TARKAS_34,Vornaku Kaan
 AIDESIGN_TARKAS_35,Glory Bound
 
 
-AIDESIGN_HIVER_1,Thunderous 
+AIDESIGN_HIVER_1,Thunderous
 AIDESIGN_HIVER_2,Queen's Ire
-AIDESIGN_HIVER_3,Defender 
+AIDESIGN_HIVER_3,Defender
 AIDESIGN_HIVER_4,Vengeance
 AIDESIGN_HIVER_5,Blossom
 AIDESIGN_HIVER_6,Guardian
@@ -400,17 +400,17 @@ AIDESIGN_HIVER_8,Warrior
 AIDESIGN_HIVER_9,Ashes
 AIDESIGN_HIVER_10,Goddess
 AIDESIGN_HIVER_11,Black Queen
-AIDESIGN_HIVER_12,Exquisite 
+AIDESIGN_HIVER_12,Exquisite
 AIDESIGN_HIVER_13,Martyr
 AIDESIGN_HIVER_14,Rek Tuzok
 AIDESIGN_HIVER_15,Mezek
 AIDESIGN_HIVER_16,Zokis Gaz
 AIDESIGN_HIVER_17,Chazak Ti
 AIDESIGN_HIVER_18,Rizokis Hex
-AIDESIGN_HIVER_19,Za'traxin 
+AIDESIGN_HIVER_19,Za'traxin
 AIDESIGN_HIVER_20,Chep Tiza
 AIDESIGN_HIVER_21,Ipriskin Ti
-AIDESIGN_HIVER_22,Kek'kep 
+AIDESIGN_HIVER_22,Kek'kep
 AIDESIGN_HIVER_23,Rapa Cha
 AIDESIGN_HIVER_24,Feeder
 AIDESIGN_HIVER_25,The Way
@@ -489,7 +489,7 @@ AIDESIGN_MORRIGI_18,Deshret Quaab
 AIDESIGN_MORRIGI_19,Tzemeteos
 AIDESIGN_MORRIGI_20,Fuxhal
 AIDESIGN_MORRIGI_21,Ulukh Mahmedh
-AIDESIGN_MORRIGI_22,Tengri Kleos 
+AIDESIGN_MORRIGI_22,Tengri Kleos
 AIDESIGN_MORRIGI_23,WingStrike
 AIDESIGN_MORRIGI_24,Anger's Edge
 AIDESIGN_MORRIGI_25,Force Restrained
@@ -725,7 +725,7 @@ AIDIP_HUMAN_NOT_HARASSING_SYSTEM2,"You are mistaken, there are no Terran combat 
 AIDIP_TARKAS_ALLIANCE_REQUEST1,We seem to have common interests.
 AIDIP_TARKAS_ALLIANCE_REQUEST2,Shall we join forces?
 AIDIP_TARKAS_ALLIANCE_REQUEST3,We offer an alliance.
-AIDIP_TARKAS_ALLIANCE_REQUEST4,You have impressed us. 
+AIDIP_TARKAS_ALLIANCE_REQUEST4,You have impressed us.
 AIDIP_TARKAS_ALLIANCE_ACCEPT1,"Yes... this alliance will be mutually beneficial."
 AIDIP_TARKAS_ALLIANCE_ACCEPT2,We agree to your terms. Let us work together.
 AIDIP_TARKAS_ALLIANCE_ACCEPT3,We welcome you as an ally.
@@ -900,7 +900,7 @@ AIDIP_HIVER_REJECT_STOP_HARASSING_ME2,The war against your people will continue 
 AIDIP_HIVER_CONFIRM_STOP_COLONIZING_AT1,The Queen agrees to stop colonizing at the %s system.
 AIDIP_HIVER_CONFIRM_STOP_COLONIZING_AT2,The Children will not colonize at %s if you do not wish it.
 AIDIP_HIVER_REJECT_STOP_COLONIZING_AT1,Her Majesty will take what She pleases from the %s system.
-AIDIP_HIVER_REJECT_STOP_COLONIZING_AT2,We will mine at %s as we see fit. 
+AIDIP_HIVER_REJECT_STOP_COLONIZING_AT2,We will mine at %s as we see fit.
 AIDIP_HIVER_CONFIRM_STOP_MINING_AT1,The mines at %s will be closed down immediately.
 AIDIP_HIVER_CONFIRM_STOP_MINING_AT2,Mining operations in the %s will be halted. The Queen regrets your inconvenience.
 AIDIP_HIVER_REJECT_STOP_MINING_AT1,Her Majesty will take what She pleases from the %s system.
@@ -1007,7 +1007,7 @@ AIDIP_LIIR_REJECT_STOP_HARASSING_ME2,"The war will not end until you are defeate
 AIDIP_LIIR_CONFIRM_STOP_COLONIZING_AT1,"If you wish it, our people will not colonize the %s system."
 AIDIP_LIIR_CONFIRM_STOP_COLONIZING_AT2,There are other seas than those of %s for our people.
 AIDIP_LIIR_REJECT_STOP_COLONIZING_AT1,The %s system must be taken for the Liir.
-AIDIP_LIIR_REJECT_STOP_COLONIZING_AT2,We cannot change our plans for the seas of %s. 
+AIDIP_LIIR_REJECT_STOP_COLONIZING_AT2,We cannot change our plans for the seas of %s.
 AIDIP_LIIR_CONFIRM_STOP_MINING_AT1,Our mine at %s will cease production as you ask.
 AIDIP_LIIR_CONFIRM_STOP_MINING_AT2,We understand your feelings. We will find more suitable worlds than %s.
 AIDIP_LIIR_REJECT_STOP_MINING_AT1,The mining at %s must continue at present. Our people have need of resources.
@@ -2079,9 +2079,9 @@ RANKINGS_SHIPSLOST,Ships Lost,,how many of the player's ships have been destroye
 RANKINGS_SHIPSINSERVICE,Ships In Service,,how many ships the player
 RANKINGS_SHIPSKILLED,Enemy Ships Killed,,how many enemy ships the player has killed
 
-TECHBEN_INDOUTPUT,Industrial Output,, 
-TECHBEN_SHIPCONCOST,Ship Construction Cost,, 
-TECHBEN_SHIPSAVCOST,Ship Savings Cost,, 
+TECHBEN_INDOUTPUT,Industrial Output,,
+TECHBEN_SHIPCONCOST,Ship Construction Cost,,
+TECHBEN_SHIPSAVCOST,Ship Savings Cost,,
 TECHBEN_TACSENSORS,Tactical Sensor Range,,
 TECHBEN_STRATSENSORS,Strategic Sensor Range,,
 TECHBEN_DEFENCELASER,Defense VS Lasers,,
@@ -2475,7 +2475,7 @@ TECHDESC_IND_MagLat,A magnetically enhanced ceramic composite material that make
 TECHDESC_IND_QrkRes,These advanced field generators send out a resonant energy wave that induces quark alignment in solids and results in a steep increase in the toughness of ship hulls.
 TECHDESC_IND_EleNans,A generation of nano-bot assemblers designed to break down unwanted chemicals and elements in a planetary atmosphere and results in a 50% increase in terraforming efficiency.
 TECHDESC_IND_AdmAly,An incredibly strong neutronium laced alloy resistant to all forms of damage.
-TECHDESC_IND_StlthArm,An armor layer designed not as much for toughness as to reduce the energy signature of a vessel. Ships equipped with stealth armor are somewhat more fragile than other ships but can escape long range detection much more easily. Ideal for raiding vessels. 
+TECHDESC_IND_StlthArm,An armor layer designed not as much for toughness as to reduce the energy signature of a vessel. Ships equipped with stealth armor are somewhat more fragile than other ships but can escape long range detection much more easily. Ideal for raiding vessels.
 TECHDESC_IND_CruisCon,The creation of facilities and machines that allow you to construct Cruiser class ships which are approximately 3 times larger than Destroyer hulls.
 TECHDESC_IND_BrdPod,Small shuttles designed to deliver squads of soldiers to enemy ships and cut through the hulls so they can enter. Once aboard the troops will try and subdue the crew and slave the guns to their own fire control system turning the enemy ship into a immobile weapons platform.
 TECHDESC_IND_AtProc,This technology uses focused plasma torches to break down toxic atmospheres on a gigantic scale and speeds terraforming by 40%.
@@ -2582,7 +2582,7 @@ TECHDESC_DRV_Node,"Using Super-string theory, the Node drive allows a ship to ac
 TECHDESC_DRV_NodFoc,A refinement of the node ring technology that allows more efficient nodeline access resulting in higher speed jumps.
 TECHDESC_DRV_NodPath,The ultimate refinement in Node drive technology allowing for longer range and faster travel times.
 
-TECHDESC_DRV_Rip,This FTL technology allows specialized Ripper ""tunneling ships"" to literally tear open a hole between ""normal"" and node space. This lets the Rippers create their own node line network at will. The only drawback to artificial node lines is that they are unstable and will collapse over time and through extended disruption by ships' mass. A node line that collapses will destroy any ship in transit down it. 
+TECHDESC_DRV_Rip,This FTL technology allows specialized Ripper ""tunneling ships"" to literally tear open a hole between ""normal"" and node space. This lets the Rippers create their own node line network at will. The only drawback to artificial node lines is that they are unstable and will collapse over time and through extended disruption by ships' mass. A node line that collapses will destroy any ship in transit down it.
 TECHDESC_DRV_Rend,"A more powerful version of the Zuul Rip Drive, Rending drives tear open space more efficiently and create a more stable node line but require more power and the use of a larger tunneler ship."
 TECHDESC_DRV_Rad,Radiant drives use multiple foci to slice open space very efficiently and create a relatively stable node line. The power required is massive and requires a very large class of tunneler ship.
 
@@ -2623,7 +2623,7 @@ TECHDESC_BIO_ConNan,"Nanobots designed to ""counter attack"" enemy nanobot incur
 
 
 TECHDESC_CCC_FTLCom,"This breakthrough to permit Faster Than Light communications across your empire allows basic transmission of orders to planets and ships."
-TECHDESC_CCC_NdTrkZul,A system for tracking Zuul ships while traveling in node space and deriving their origins and destinations via drive radiation and decoded transmissions. 
+TECHDESC_CCC_NdTrkZul,A system for tracking Zuul ships while traveling in node space and deriving their origins and destinations via drive radiation and decoded transmissions.
 TECHDESC_CCC_NdTrkHum,A system for tracking Human ships while traveling in node space and deriving their origins and destinations via drive radiation and decoded transmissions.
 TECHDESC_CCC_HypCom,"Enables communication with ships traveling within any sort of hyper-field and allows you to issue new movement orders mid-transit."
 TECHDESC_CCC_BtlCmp,Computer systems designed specifically to enhance command and control of squadron-sized groups of ships. Increases number of ships that can be controlled in combat.
@@ -2683,7 +2683,7 @@ SECTIONNAME_CRBattle,Battle
 SECTIONNAME_CRBattleBridge,Battle Bridge
 SECTIONNAME_CRBiomeColonizer,Biome Colonizer
 SECTIONNAME_CRBiowar,Bio War
-SECTIONNAME_CRBoarding,Boarding 
+SECTIONNAME_CRBoarding,Boarding
 SECTIONNAME_CRCloaking,Cloaking
 SECTIONNAME_CRCommand,Standard Command
 SECTIONNAME_CRDeepScan,Deep Scan
@@ -2854,7 +2854,7 @@ SECTIONDESC_CRRepairandSalvage,"Each Repair and Salvage ship can undo a certain 
 SECTIONDESC_CRShapedHyperFieldAntimatter,The use of an Antimatter power planet further improves strategic range and speed of Warp Drive designs.
 SECTIONDESC_CRShapedHyperFieldFusion,A refinement in hyper field projections create an increase in strategic range and speed.
 SECTIONDESC_CRShield,"A projector array produces a quantum field around the ship that blocks incomming weapons. This field can be overwhelmed by too much incoming energy, causing the shields to temporarily power-down. This happens to prevent a back surge to the engines, which would at a minimum result in the destruction of the engine section. It may be possible to improve the field through research."
-SECTIONDESC_CRProjector,The Projector section is a heavily reinforced mission section dedicated to the support and firing of the powerful line of energy projector weapons. 
+SECTIONDESC_CRProjector,The Projector section is a heavily reinforced mission section dedicated to the support and firing of the powerful line of energy projector weapons.
 SECTIONDESC_CRTorpedoPlatform,"The Torpedo Defense platform is a medium platform modified to carry multiple torpedo tubes in a defensive fire configuration and adds long-range, heavy-hitting tracking ordinance to the defense satellite arsenal."
 SECTIONDESC_CRScavenger,This section is designed to carry the Zuul slave disk and transport captured prisoners. It is made light to add to the speed of the cruiser but durable as well. It has a capacity of 50 million slaves in cold storage.
 SECTIONDESC_CRStrikeForceCNC,"Like the Squadron CnC destroyer design, Strikeforce CnC ships increase the number of ships that can be deployed into combat at once, only more so. They can also organize a fleet into formations and alter the order in which reinforcement ships arrive. They are not combat vessels, but their increased size and weapons capacity can allow them to engage targets if required."
@@ -3721,7 +3721,7 @@ COMMREQ_MONEY_NAME,Request Money
 COMMREQ_MONEY_FORMAT,I need some money.
 COMMREQ_RESEARCH_NAME,Request Research
 COMMREQ_RESEARCH_FORMAT,I need some research scientists.
-COMMREQ_DISPOSITION_NAME,Disposition Request 
+COMMREQ_DISPOSITION_NAME,Disposition Request
 COMMREQ_DISPOSITION_FORMAT,What are your thoughts on the status of our diplomatic relations?
 COMMREQ_HARASS_PLAYER_NAME,Harass Player
 COMMREQ_HARASS_PLAYER_FORMAT,Harass %s.
@@ -4153,7 +4153,7 @@ MAPSHAPE_BARBELL,Barbell
 MAPSHAPE_CLOUDS,Clouds
 MAPSHAPE_REALSPACE,Real Space
 
-TUTORIAL_PAGE_TITLE_VIDEOS,Tutorial Videos 
+TUTORIAL_PAGE_TITLE_VIDEOS,Tutorial Videos
 TUTORIAL_PAGE0_Text0,Click to play\n (ESC to stop)
 
 SERVERWARNING_PREFIX,Server Setup Warning
@@ -4386,17 +4386,17 @@ TECHDESC_IND_AdvDreadEng,"By incorporating multiple complex systems into a singl
 
 
 TECHNAME_WEP_GrnBmr,Green Laser Beam
-TECHDESC_WEP_GrnBmr,A sustained low energy green laser beam for small turret mounts. 
+TECHDESC_WEP_GrnBmr,A sustained low energy green laser beam for small turret mounts.
 TECHNAME_WEP_UvBmr,UV Laser Beam
-TECHDESC_WEP_UvBmr,A sustained low energy UV laser beam for small turret mounts. 
+TECHDESC_WEP_UvBmr,A sustained low energy UV laser beam for small turret mounts.
 TECHNAME_WEP_MesProj,Meson Projector
 TECHDESC_WEP_MesProj,"This advanced projector technology focuses a wide beam that disrupts all pi mesons in the target area and if the disruption is allowed to complete its cycle it results in a massive disintegration of matter at the target point with the expected devastating energy release associated with such an event. If a Meson Projector stays focused on a target for the full period of time it will cause massive damage to the target, but should the beam lose its target point or be stopped before the projection time is complete, no damage will be done to the target."
 TECHNAME_WEP_DsrptrWhp,Disruptor Whip
 TECHDESC_WEP_DsrptrWhp,"By pushing a disruptor charge through a harpoon, the Zuul can shut down some weapon systems on the ship section it hits.\nFor destroyers all weapon systems, for Cruisers medium and small weapons and for Dreadnoughts only small weapons are affected."
 TECHNAME_WEP_GluTrp,Gluonic Torpedo
-TECHDESC_WEP_GluTrp,A self-sustaining field of charged gluons contained in an EM field. Capable of penetrating Deflector shields as well as circumventing energy absorbers. 
+TECHDESC_WEP_GluTrp,A self-sustaining field of charged gluons contained in an EM field. Capable of penetrating Deflector shields as well as circumventing energy absorbers.
 TECHNAME_WEP_MesTrp,Mesonic Torpedo
-TECHDESC_WEP_MesTrp,A self-perpetuating Meson field that can be launched as a long range Capable of penetrating any defense except meson shields. 
+TECHDESC_WEP_MesTrp,A self-perpetuating Meson field that can be launched as a long range Capable of penetrating any defense except meson shields.
 TECHNAME_WEP_MWMsl,"Multi-Warhead Missile"
 TECHDESC_WEP_MWMsl,"A large heavily armored missile that carries 6 independent mini missiles that burst out and make their own way to the target once the missile is inside Point defense Range. Requires a large turret mount. \n\n* Also benefits from improved warhead technology."
 TECHNAME_WEP_KKMsl,Kinetic Kill Missile
@@ -4404,7 +4404,7 @@ TECHDESC_WEP_KKMsl,"Using neutronium alloys as a non-explosive warhead coupled w
 TECHNAME_WEP_SnpCanDrvr,Sniper Cannon
 TECHDESC_WEP_SnpCanDrvr,"A very high velocity variant of the gauss cannon that uses a nano-rifled barrel to create a gauss weapon that is accurate over very long ranges. The speed of the shot and slow barrel tracking makes the weapon less useful at close ranges though."
 TECHNAME_WEP_StrmDrvr,Stormers
-TECHDESC_WEP_StrmDrvr,A very rapid-fire driver delivery system that fires an intense stream of gauss cannon rounds onto a target. Slow tracking rate but very effective at hammering away against slower targets. 
+TECHDESC_WEP_StrmDrvr,A very rapid-fire driver delivery system that fires an intense stream of gauss cannon rounds onto a target. Slow tracking rate but very effective at hammering away against slower targets.
 TECHNAME_WEP_HStrmDrvr,Heavy Stormers
 TECHDESC_WEP_HStrmDrvr,Heavy barrel version of the Stormer that hurls streams of mass driver rounds that do heavy damages.
 TECHNAME_WEP_MasShtDrvr,Mass Shotgun
@@ -4414,7 +4414,7 @@ TECHDESC_WEP_MasShtDrvr,"A heavy driver that fires a burst of mass driver rounds
 TECHNAME_DRV_QntCap,Quantum Capacitors
 TECHDESC_DRV_QntCap,The technology utilizes advanced quantum systems to store energy at previously unheard of levels while remaining small enough to be used in ship's systems. The result in increased beam weapon rates of fire and stronger shields.
 TECHNAME_DRV_VdCtr,Void Cutter Drive
-TECHDESC_DRV_VdCtr,This FTL technology of the Morrigi race pulls their ships into FTL channels using focused gravity to infinitely curve space-time. This allows them to accelerate and maneuver sub-light as well without need of primitive reactor plasma venting systems. 
+TECHDESC_DRV_VdCtr,This FTL technology of the Morrigi race pulls their ships into FTL channels using focused gravity to infinitely curve space-time. This allows them to accelerate and maneuver sub-light as well without need of primitive reactor plasma venting systems.
 TECHNAME_DRV_VdCrv,Void Carver Drive
 TECHDESC_DRV_VdCrv,This refinement of the Cutter Drive into Carver Drive allows for greater range and speed.
 TECHNAME_DRV_VdMstr,Void Mastery Drive
@@ -4746,7 +4746,7 @@ EVENTMSG_NSTATION_ENABLED,%s stations at %s are now online.
 EVENTSUM_1STATION_DISABLED,Station Disabled
 EVENTMSG_1STATION_DISABLED,%s station at %s has been taken offline.
 EVENTSUM_NSTATION_DISABLED,Station Disabled
-EVENTMSG_NSTATION_DISABLED,%s stations at %s have been taken offline. 
+EVENTMSG_NSTATION_DISABLED,%s stations at %s have been taken offline.
 
 BUILDERROR_MAXSTATIONSBYIMP,%s imperials required for each station.
 BUILDERROR_MAXSTATIONSBYCIV,%s civilians required for each station.
@@ -4999,7 +4999,7 @@ EVENTMSG_ORTGAY_ENTITYVICTORY,The Peacekeeper Enforcer has suppressed the hostil
 EVENTMSG_ORTGAY_ENTITYDEFEAT,The Peacekeeper Enforcer has been destroyed.
 EVENTSUM_ORTGAY_LEAVING,Peacekeeper Enforcer Leaving
 EVENTMSG_ORTGAY_LEAVING,The Peacekeeper Enforcer is leaving the area.
-MISC_ORTGAY_FLEETNAME,Peacekeeper Enforcer 
+MISC_ORTGAY_FLEETNAME,Peacekeeper Enforcer
 MISC_ORTGAY_SHIPDESIGNNAME,Enforcer
 SECTIONNAME__ORTGAY,Enforcer
 
@@ -5100,7 +5100,7 @@ GIVETECH_OFFER_REJECTED_MSG,%s has declined your offer to develop %s.
 GIVETECH_OFFER_CANCELLED_TITLE,Joint Project Cancelled
 GIVETECH_OFFER_CANCELLED_MSG,The joint science project with %s to develop %s has been cancelled by the other party.
 GIVETECH_QUERY_ACCEPTED_TITLE,Joint Project Accepted
-GIVETECH_QUERY_ACCEPTED_MSG,%s has accepted your proposal. 
+GIVETECH_QUERY_ACCEPTED_MSG,%s has accepted your proposal.
 GIVETECH_SELECT_TECH,Select technology:
 GIVETECH_NO_OFFERS_TITLE,Joint Project Unavailable
 GIVETECH_NO_OFFERS_MESSAGE,You do not have any technologies to offer\n%s.
@@ -5129,7 +5129,7 @@ SECTIONDESC_DNDrone,"Extremely effective in combat, Attack Drones require a moth
 SECTIONDESC_DEDisruptor,"A reconfiguration of the Deflector ships; only instead of blocking matter, the shield arrays are attuned to block energy."
 SECTIONDESC_CRDisruptor,"A reconfiguration of the Deflector ships; only instead of blocking matter, the shield arrays are attuned to block energy."
 SECTIONDESC_DNDisruptor,"A reconfiguration of the Deflector ships; only instead of blocking matter, the shield arrays are attuned to block energy."
-SECTIONDESC_CRCOL,This specialized section operates as the launch platform for various Complex Ordinance packages. 
+SECTIONDESC_CRCOL,This specialized section operates as the launch platform for various Complex Ordinance packages.
 SECTIONDESC_DNEW,"A heavy investment, this dreadnought workhorse comes packed with a host of Electronic Warfare capabilities found in other ships, such as Deep Scans, Wild Weasels, and Jammers. What it lacks in firepower compared to its sister ships, it compensates with some very nasty surprises."
 SECTIONDESC_DNFlagship,"The Flagship of your fleets. Take care of it as you only can only build and maintain one at any given time. If you lose it, you can build another, but you don't want to lose it. Flagships are the most heavily armed and armored CnC ships you can take into battle."
 SECTIONDESC_CRConstruction,"While stations can operate around planets, they can't drive there, so these massive cousins to repair and salvage ships are required to build them."
@@ -5592,7 +5592,7 @@ SECTIONNAME_CRPropaganda,Propaganda
 SECTIONNAME_DNSubjugator,Subjugator
 
 
-SECTIONDESC_DEPursuit,A booster section designed to increase a ship's thrust and top speed significantly at the cost of heavier firepower. 
+SECTIONDESC_DEPursuit,A booster section designed to increase a ship's thrust and top speed significantly at the cost of heavier firepower.
 SECTIONDESC_DEColonyTrickster,This ship is designed to lay a Morrigi colony trap at any uninhabited world. It is consumed in the construction of the trap facility.
 SECTIONDESC_DEBeltTrickster,This ship is designed to lay a Morrigi asteroid belt gravity trap in any uninhabited system that contains an asteroid belt. It is consumed in the construction of the trap facility.
 SECTIONDESC__AssaultShuttle_Advanced,"This more advanced version of the standard assault shuttle is more durable, does more damage on its planetary attack runs and carries a space capable turret mount."
