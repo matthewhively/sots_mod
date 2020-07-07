@@ -301,7 +301,7 @@ AIDESIGN_HUMAN_33,St. Roche
 AIDESIGN_HUMAN_34,SFS Kaga
 AIDESIGN_HUMAN_35,SFS Hiryu
 AIDESIGN_HUMAN_36,SFS Nimitz
-AIDESIGN_HUMAN_37,U-172
+AIDESIGN_HUMAN_37,Heracles
 AIDESIGN_HUMAN_38,Richelieu
 AIDESIGN_HUMAN_39,SFS Javelin
 AIDESIGN_HUMAN_40,SFS Fletcher
@@ -311,13 +311,16 @@ AIDESIGN_HUMAN_43,SFS Bolzano
 AIDESIGN_HUMAN_44,SFS Akagi
 AIDESIGN_HUMAN_45,SFS Myoko
 AIDESIGN_HUMAN_46,Ark Royal
-AIDESIGN_HUMAN_47,I-19
+AIDESIGN_HUMAN_47,Damocles
 AIDESIGN_HUMAN_48,Le Terrible
 AIDESIGN_HUMAN_49,SFS Astra
+AIDESIGN_HUMAN_50,Vesta
+# reference https://babylon5.fandom.com/wiki/Omega_class_destroyer
+
 
 AIDESIGN_LIIR_1,Hatred
 AIDESIGN_LIIR_2,Isolation
-AIDESIGN_LIIR_3,Teacher
+AIDESIGN_LIIR_3,Sweeper
 AIDESIGN_LIIR_4,Tender
 AIDESIGN_LIIR_5,Feeder
 AIDESIGN_LIIR_6,Enlightenment
@@ -351,6 +354,21 @@ AIDESIGN_LIIR_33,Hiirru
 AIDESIGN_LIIR_34,Olara Ma
 AIDESIGN_LIIR_35,Lost Innocence
 AIDESIGN_LIIR_36,Dark Singer
+AIDESIGN_LIIR_37,Tsunami
+AIDESIGN_LIIR_38,Introspection
+AIDESIGN_LIIR_39,WhiteStar
+AIDESIGN_LIIR_40,Trigati
+AIDESIGN_LIIR_41,Drala Fi
+AIDESIGN_LIIR_42,Enfili
+AIDESIGN_LIIR_43,Ulabon
+AIDESIGN_LIIR_44,Ingata
+AIDESIGN_LIIR_45,Stalasha
+AIDESIGN_LIIR_46,Ambience
+AIDESIGN_LIIR_47,Flow
+AIDESIGN_LIIR_48,Premurr
+AIDESIGN_LIIR_49,Renewal
+AIDESIGN_LIIR_50,Guardian
+
 
 AIDESIGN_TARKAS_1,Little Heart
 AIDESIGN_TARKAS_2,Bravestar
@@ -387,6 +405,21 @@ AIDESIGN_TARKAS_32,Silent Death
 AIDESIGN_TARKAS_33,Ghost Reaper
 AIDESIGN_TARKAS_34,Vornaku Kaan
 AIDESIGN_TARKAS_35,Glory Bound
+AIDESIGN_TARKAS_36,Valen'Tha
+AIDESIGN_TARKAS_37,Klenn-Sha
+AIDESIGN_TARKAS_38,Raalon
+AIDESIGN_TARKAS_39,Dogato
+AIDESIGN_TARKAS_40,Stalemate
+AIDESIGN_TARKAS_41,Ritual Blade
+AIDESIGN_TARKAS_42,Frost Axe
+AIDESIGN_TARKAS_43,Wind Sword
+AIDESIGN_TARKAS_44,Sun Born
+AIDESIGN_TARKAS_45,Vorchan
+AIDESIGN_TARKAS_46,Sha'Yat
+AIDESIGN_TARKAS_47,Sen'Kai
+AIDESIGN_TARKAS_48,Vol'Jat
+AIDESIGN_TARKAS_49,Spirit Journey
+AIDESIGN_TARKAS_50,Zealot
 
 
 AIDESIGN_HIVER_1,Thunderous
@@ -425,6 +458,21 @@ AIDESIGN_HIVER_33,Echelon
 AIDESIGN_HIVER_34,Concordance
 AIDESIGN_HIVER_35,ClanShield
 AIDESIGN_HIVER_36,Shifting Ground
+AIDESIGN_HIVER_37,NestGuard
+AIDESIGN_HIVER_38,Vanguard
+AIDESIGN_HIVER_39,Ezeroc Ti
+AIDESIGN_HIVER_40,Qiraj
+AIDESIGN_HIVER_41,Fankriss
+AIDESIGN_HIVER_42,Skeram
+AIDESIGN_HIVER_43,Sartura
+AIDESIGN_HIVER_44,Rebirth
+AIDESIGN_HIVER_45,Adaptable
+AIDESIGN_HIVER_46,Yauj'Vem'Kri
+AIDESIGN_HIVER_47,Ouro Gaz
+AIDESIGN_HIVER_48,Hash'al'Gik
+AIDESIGN_HIVER_49,Consort
+AIDESIGN_HIVER_50,Royal Sentinel
+
 
 AIDESIGN_ZUUL_1,Law-giver
 AIDESIGN_ZUUL_2,Ravenous
@@ -466,6 +514,16 @@ AIDESIGN_ZUUL_37,Amnach
 AIDESIGN_ZUUL_38,Kamlang
 AIDESIGN_ZUUL_39,Pchanh Pchal
 AIDESIGN_ZUUL_40,Etthi Pol
+AIDESIGN_ZUUL_41,Primus
+AIDESIGN_ZUUL_42,Vae'Victus
+AIDESIGN_ZUUL_43,Amputation
+AIDESIGN_ZUUL_44,Destruction
+AIDESIGN_ZUUL_45,Blade of Balos
+AIDESIGN_ZUUL_46,Heartbleed
+AIDESIGN_ZUUL_47,Fatality
+AIDESIGN_ZUUL_48,Melchaik
+AIDESIGN_ZUUL_49,Razelim
+AIDESIGN_ZUUL_50,Turelum
 
 
 AIDESIGN_MORRIGI_1,Thiva's Dream
@@ -477,14 +535,14 @@ AIDESIGN_MORRIGI_6,Ruins of Muur
 AIDESIGN_MORRIGI_7,Terra's End
 AIDESIGN_MORRIGI_8,Ke'Kona's Sorrow
 AIDESIGN_MORRIGI_9,Tcho'to Pre's Tears
-AIDESIGN_MORRIGI_10,Zuul-Scourge
+AIDESIGN_MORRIGI_10,Dust-Scourge
 AIDESIGN_MORRIGI_11,War's End
 AIDESIGN_MORRIGI_12,Profit's Price
 AIDESIGN_MORRIGI_13,Whip Strike
 AIDESIGN_MORRIGI_14,Holy Defender
 AIDESIGN_MORRIGI_15,Shield Arm
 AIDESIGN_MORRIGI_16,Darkness Shatters
-AIDESIGN_MORRIGI_17,Screams in Anger
+AIDESIGN_MORRIGI_17,Anguished Screams
 AIDESIGN_MORRIGI_18,Deshret Quaab
 AIDESIGN_MORRIGI_19,Tzemeteos
 AIDESIGN_MORRIGI_20,Fuxhal
@@ -502,19 +560,34 @@ AIDESIGN_MORRIGI_31,Urn of Resolution
 AIDESIGN_MORRIGI_32,CoinTosser
 AIDESIGN_MORRIGI_33,Hunter's Moon
 AIDESIGN_MORRIGI_34,Slayer of Beasts
-AIDESIGN_MORRIGI_35,Teacher of Children
+AIDESIGN_MORRIGI_35,Eternal Knowledge
 AIDESIGN_MORRIGI_36,Bitter Solace
+AIDESIGN_MORRIGI_37,Rehab's Son
+AIDESIGN_MORRIGI_38,Sleeping Colossus
+AIDESIGN_MORRIGI_39,Dragon Hunter
+AIDESIGN_MORRIGI_40,Draco Reticulous
+AIDESIGN_MORRIGI_41,New Fate
+AIDESIGN_MORRIGI_42,Void Flame
+AIDESIGN_MORRIGI_43,Distant Star
+AIDESIGN_MORRIGI_44,Fate's Promise
+AIDESIGN_MORRIGI_45,Silent Watcher
+AIDESIGN_MORRIGI_46,Host's Repose
+AIDESIGN_MORRIGI_47,Violent Delights
+AIDESIGN_MORRIGI_48,Black Mirror
+AIDESIGN_MORRIGI_49,Recurved Void
+AIDESIGN_MORRIGI_50,Sojourner
+
 
 AIPLAYER_HUMAN_1,Montgomery E. Crabapple
 AIPLAYER_HUMAN_2,United Consortia of Earth
-AIPLAYER_HUMAN_3,SolForce Renegades
+AIPLAYER_HUMAN_3,EarthForce
 AIPLAYER_HUMAN_4,Khan Noonien Singh
 AIPLAYER_HUMAN_5,Gully Foyle
-AIPLAYER_HUMAN_6,The Mule
+AIPLAYER_HUMAN_6,Man's Folly
 AIPLAYER_HUMAN_7,Aiken Drum
 AIPLAYER_HUMAN_8,Legions of Tiberius Magnus
 AIPLAYER_HUMAN_9,SolForce
-AIPLAYER_HUMAN_10,Revenge Fleet
+AIPLAYER_HUMAN_10,Zapp Brannigan
 AIPLAYER_HUMAN_11,Captain Flandry
 AIPLAYER_HUMAN_12,Rimward Mercs
 AIPLAYER_HUMAN_13,Hope Hubris
@@ -522,13 +595,27 @@ AIPLAYER_HUMAN_14,Marc Remillard
 AIPLAYER_HUMAN_15,Wu Zetian
 AIPLAYER_HUMAN_16,Queen Talleah
 AIPLAYER_HUMAN_17,First Imperium
+AIPLAYER_HUMAN_18,Terran Syndicate
+AIPLAYER_HUMAN_19,Quellcrist Falconer
+AIPLAYER_HUMAN_20,Takeshi Kovacs
+AIPLAYER_HUMAN_21,Confederacy of Man
+AIPLAYER_HUMAN_22,The Directorate
+AIPLAYER_HUMAN_23,Outer Planets League
+AIPLAYER_HUMAN_24,Manifest Destiny
+AIPLAYER_HUMAN_25,Technocratic Consortium
+AIPLAYER_HUMAN_26,United Humanity
+AIPLAYER_HUMAN_27,Lost Colony
+AIPLAYER_HUMAN_28,New Terra Inc
+AIPLAYER_HUMAN_29,Conquistadors
+AIPLAYER_HUMAN_30,Colonial Council
+
 
 AIPLAYER_TARKAS_1,Var'Ish Tho'Orr
 AIPLAYER_TARKAS_2,Imperial Armada
 AIPLAYER_TARKAS_3,Angels of Sardo Kal
 AIPLAYER_TARKAS_4,Fane Lao
 AIPLAYER_TARKAS_5,Vaanu Hanakuum
-AIPLAYER_TARKAS_6,"Kaan, Kokari, Kogoru"
+AIPLAYER_TARKAS_6,Kaan-Kokari of Kogoru
 AIPLAYER_TARKAS_7,Sara Jardok
 AIPLAYER_TARKAS_8,Tars Tarkas
 AIPLAYER_TARKAS_9,Tarka Concordiate
@@ -539,6 +626,21 @@ AIPLAYER_TARKAS_13,Var'Sardo Ko'Taal
 AIPLAYER_TARKAS_14,The Eternal Empire
 AIPLAYER_TARKAS_15,The Imperial Domain
 AIPLAYER_TARKAS_16,Fane Kona
+AIPLAYER_TARKAS_17,Wind Sword Clan
+AIPLAYER_TARKAS_18,Fifth Triumvirate
+AIPLAYER_TARKAS_19,AVek'lor
+AIPLAYER_TARKAS_20,Vek ni Lash
+AIPLAYER_TARKAS_21,Jha'dur
+AIPLAYER_TARKAS_22,Tarkasian Protectorate
+AIPLAYER_TARKAS_23,Mar-Chau Sara
+AIPLAYER_TARKAS_24,Third Dynasty
+AIPLAYER_TARKAS_25,Restored Empire
+AIPLAYER_TARKAS_26,Castless Sons
+AIPLAYER_TARKAS_27,Glory's Call
+AIPLAYER_TARKAS_28,Decadent Core
+AIPLAYER_TARKAS_29,Ascendant Lam Fao
+AIPLAYER_TARKAS_30,Released Vassal
+
 
 AIPLAYER_HIVER_1,The Children
 AIPLAYER_HIVER_2,Clans of Fire Lotus
@@ -550,12 +652,27 @@ AIPLAYER_HIVER_7,Queen's Dominion
 AIPLAYER_HIVER_8,Imperial Hive
 AIPLAYER_HIVER_9,Hiver Expanse
 AIPLAYER_HIVER_10,Ravenous Cycle
-AIPLAYER_HIVER_11,The Lost
+AIPLAYER_HIVER_11,The Lost Nest
 AIPLAYER_HIVER_12,Queen Chaka'zek
 AIPLAYER_HIVER_13,The Mad Brood
 AIPLAYER_HIVER_14,The Twelve Regents
 AIPLAYER_HIVER_15,The Kyzan Domain
 AIPLAYER_HIVER_16,Matriarchate of Che'Kor
+AIPLAYER_HIVER_17,Seventh Daughter
+AIPLAYER_HIVER_18,Zerus Expeditionary Force
+AIPLAYER_HIVER_19,Council of Queens
+AIPLAYER_HIVER_20,Streib's Progeny
+AIPLAYER_HIVER_21,Eternal Dynasty
+AIPLAYER_HIVER_22,Dynasty of August Moon
+AIPLAYER_HIVER_23,Daughters of the Void
+AIPLAYER_HIVER_24,Rebirth Eternal
+AIPLAYER_HIVER_25,Endless Spring
+AIPLAYER_HIVER_26,Jewel Thieves
+AIPLAYER_HIVER_27,Forever Reborn
+AIPLAYER_HIVER_28,Mother's Chosen
+AIPLAYER_HIVER_29,Unbreakable Chitin
+AIPLAYER_HIVER_30,Cycle of Life
+
 
 AIPLAYER_LIIR_1,Black Swimmers
 AIPLAYER_LIIR_2,The Drowned
@@ -566,13 +683,28 @@ AIPLAYER_LIIR_6,Defenders of Muur
 AIPLAYER_LIIR_7,Silent Scream
 AIPLAYER_LIIR_8,Painful Burden
 AIPLAYER_LIIR_9,Liirian Commonwealth
-AIPLAYER_LIIR_10,Defenders of Life
+AIPLAYER_LIIR_10,Guardians of Life
 AIPLAYER_LIIR_11,The Unchained
 AIPLAYER_LIIR_12,Warriors of Mind
 AIPLAYER_LIIR_13,Steelweavers
 AIPLAYER_LIIR_14,The Sleepless
 AIPLAYER_LIIR_15,The Unsinging
 AIPLAYER_LIIR_16,Wardens of Darkness
+AIPLAYER_LIIR_17,Echo's Pride
+AIPLAYER_LIIR_18,Thought Drifters
+AIPLAYER_LIIR_19,Song of Silence
+AIPLAYER_LIIR_20,Sea of Time
+AIPLAYER_LIIR_21,Mind's Melody
+AIPLAYER_LIIR_22,Perfection Sought
+AIPLAYER_LIIR_23,Nevermore
+AIPLAYER_LIIR_24,Nature's Defenders
+AIPLAYER_LIIR_25,Conservators
+AIPLAYER_LIIR_26,Eternal Pod
+AIPLAYER_LIIR_27,Archivists
+AIPLAYER_LIIR_28,Universal Song
+AIPLAYER_LIIR_29,Singers of Sadness
+AIPLAYER_LIIR_30,Reclaimers
+
 
 AIPLAYER_ZUUL_1,The Pure
 AIPLAYER_ZUUL_2,The Righteous
@@ -586,11 +718,30 @@ AIPLAYER_ZUUL_9,The Faithful
 AIPLAYER_ZUUL_10,The Servants
 AIPLAYER_ZUUL_11,The Devoted
 AIPLAYER_ZUUL_12,The First-Born
+AIPLAYER_ZUUL_13,General Rajaxx
+AIPLAYER_ZUUL_14,Dominus Kurinnaxx
+AIPLAYER_ZUUL_15,Bonechewers
+AIPLAYER_ZUUL_16,Storm Reavers
+AIPLAYER_ZUUL_17,Laughing Skull
+AIPLAYER_ZUUL_18,Twilights Hammer
+AIPLAYER_ZUUL_19,Knowledge Takers
+AIPLAYER_ZUUL_20,The Hungry
+AIPLAYER_ZUUL_21,Ayamiss de Hunter
+AIPLAYER_ZUUL_22,Buru di Gorger
+AIPLAYER_ZUUL_23,Zuulish Dominion
+AIPLAYER_ZUUL_24,The Prideful
+AIPLAYER_ZUUL_25,Horde of Korhal
+AIPLAYER_ZUUL_26,Mind Rippers
+AIPLAYER_ZUUL_27,Cult of Suul'ka
+AIPLAYER_ZUUL_28,Order of Midnight
+AIPLAYER_ZUUL_29,Infernal Cult
+AIPLAYER_ZUUL_30,Legate of Chaos
+
 
 AIPLAYER_MORRIGI_1,Temujin the First
 AIPLAYER_MORRIGI_2,Ogodei the Golden
 AIPLAYER_MORRIGI_3,Chagadai the Black
-AIPLAYER_MORRIGI_4,Khabul of the Burning Cities
+AIPLAYER_MORRIGI_4,Khabul of the Black Sun
 AIPLAYER_MORRIGI_5,Yaziid the Wicked
 AIPLAYER_MORRIGI_6,Rhaghab of the Red Moon
 AIPLAYER_MORRIGI_7,Djutmeos the Savage
@@ -599,7 +750,7 @@ AIPLAYER_MORRIGI_9,Atreus the Bloody
 AIPLAYER_MORRIGI_10,Xhodysseos the Cunning
 AIPLAYER_MORRIGI_11,Khu'khul the Great
 AIPLAYER_MORRIGI_12,Khubilai the Peacemaker
-AIPLAYER_MORRIGI_13,Temuur of the Burning Claws
+AIPLAYER_MORRIGI_13,Temuur of the Ice Claws
 AIPLAYER_MORRIGI_14,Mongkha Who Strikes Last
 AIPLAYER_MORRIGI_15,Berkhe the Victorious
 AIPLAYER_MORRIGI_16,Cecrops the Terrible
@@ -611,11 +762,13 @@ AIPLAYER_MORRIGI_21,Hrihor the Cruel
 AIPLAYER_MORRIGI_22,Nunekteb the Eternal
 AIPLAYER_MORRIGI_23,Abaqua the Noble
 AIPLAYER_MORRIGI_24,Seaghdha the Fine
-AIPLAYER_MORRIGI_25,Tadc Chaac the Honey-tongued
+AIPLAYER_MORRIGI_25,Tadac the Honey-tongued
 AIPLAYER_MORRIGI_26,Muinxhan the Slender
 AIPLAYER_MORRIGI_27,Tuathal of the Jade Wing
 AIPLAYER_MORRIGI_28,Serapion the Bold
 AIPLAYER_MORRIGI_29,Amenopheos the Holy
+AIPLAYER_MORRIGI_30,Ossirian the Unscarred
+
 
 AIDIP_HUMAN_ALLIANCE_REQUEST1,Let's work together. We'll both win.
 AIDIP_HUMAN_ALLIANCE_REQUEST2,There's no reason that we can't join forces.
@@ -3327,7 +3480,7 @@ SCENARIO_EARTHVSTARKAS_OBJ1,Human:\n\t\t\t Build an empire of at least 10 worlds
 SCENARIO_EARTHVSTARKAS_OBJ2,Tarkas:\n\t\t\t Conquer Earth and hold for 10 turns.\n\n
 SCENARIO_EARTHVSTARKAS_RULES1,1) Tarkas player researches at 1/50 normal speed.\n\n
 SCENARIO_EARTHVSTARKAS_RULES2,"2) The Tarkas player can go as deep into debt as they wish, but for every 100K of debt, there is a 2% chance of the Tarka commander being ""recalled to capital"" to answer for mismanagement - if this happens, they have lost the game.\n\n"
-SCENARIO_EARTHVSTARKAS_RULES3,"3) Based on the changing whims of the Tarkas Emperor, limitations on what can be built and demands on how ships can be used will be made. The Tarkas commander will have to be resourceful."
+SCENARIO_EARTHVSTARKAS_RULES3,"3) Based on the changing whims of the Tarkasian Emperor, limitations on what can be built and demands on how ships can be used will be made. The Tarkas commander will have to be resourceful."
 SCENARIO_EARTHVSTARKAS_SOLFORCE,Sol Force
 SCENARIO_EARTHVSTARKAS_TARKAEMPIRE,Tarka Empire
 EVENTMSG_UPSTART_STANDING_INC,Your standing has increased by %s.
