@@ -1,0 +1,87 @@
+General Traits
+--------------
+Research: 85% (1:120c)
+Industry: 115%
+Growth: 120%
+Civilian IO: 106%
+Max Hazard: 650
+Technology Affinities: Gauss, Missiles, Mines, Bioweapons, Blazers
+Space Travel: Very Slow between Stars, Instant between deployed gateways
+
+"We are the Children, faithful sons of the Hive. Our way is patience; our way is strength. We do not rush, as others do, to devour the universe; the Hive grows slowly, but its grip is strong. What is ours is ours, and will not be taken from us easily. Raise your hand against the least of us and you will face the fury of all--we are all brothers, and the love we share is stronger than death."
+
+Notable quote:
+"Hiver space travel is a joke... until they arrive; then the joke's on you..." -- Solforce Lt. Col
+
+General Description
+-------------------
+Human spacers call this species "Hivers" (or even more informally, "Bugs") because of their resemblance to the countless insect species found on Earth. Size notwithstanding, Hivers do have many features in common with terrestrial insects, especially when it comes to social organization and physical appearance. Nonetheless, they are a fully sentient space-faring race. Hivers may be encountered in any part of the galaxy. The location of the Hiver home world is presently unknown. They are highly adaptable and able to thrive in a wide variety of environments, however; Hivers can colonize worlds which many other races would find inhospitable due to low gravity or atmospheric density.
+
+Technology
+----------
+Hivers move through space using a combination of slower-than-light and instantaneous-transport technology. A fleet of Hiver ships, driven by standard STL engines, begin by traveling a great distance the hard way: it may take them months or years, moving at sub-relativistic speed, to reach their destination. Once they arrive, however, the Hivers quickly set up a massive ring-shaped teleportation device. Should other Hiver ships choose to follow, they can travel instantly to the newly erected gate from any other gate in the Hiver empire.
+
+Physical and Social Characteristics
+-----------------------------------
+Despite appearances, Hivers are not insects in the physical sense. They are much larger than any Terran insect, ranging from 40 to 250 kg in mass and 90 to 450 centimeters in height. They do have six limbs, but the upper four are equipped with opposable digits. Most Hivers have a pair of wings on the dorsal surface of their bodies, but these seem to be vestigial and useless for flight.
+
+A Hiver's body is partially covered with chitin, but the shell is not an exo-skeleton. Hivers have an interior skeleton, a full array of internal organs and a circulatory system similar to that of a terrestrial bird or mammal. The chitin is not used for tissue support; it is adapted to serve them as armor. Some scientists speculate that the bright colours and patterns of a Hiver's body also convey a great deal of social information to other Hivers.
+
+In space, Hivers tend to live and move in large family groups. All of the members of any given Hiver fleet are usually related to one another by birth.
+
+The Hiver species is divided into three physical and social classes: the Worker, the Warrior, and the Breeder. All three classes are very different from one another, and might almost appear to be different species to the casual observer. A Worker bug looks, thinks and behaves so much differently than a Warrior or a Breeder bug that it is sometimes difficult to believe that all three bugs could have hatched from the same cluster of eggs!
+
+..Workers
+Workers are the most common type of Hiver, making up around 70% of the species. The average height of a Hiver worker is 150 centimeters, and they generally mass around 70 kg. Worker bugs do not have sexual organs or any psychological quirks related to breeding, but they are intelligent, sensitive and curious, and as prone to be interested in art, science and culture as the average member of any other sentient species. Workers create the vast majority of Hiver art and literature, and they also make up the vast majority of Hivers engaged in scientific, technical and academic fields.
+
+Workers can pursue almost any occupation in their society. They fill the ranks in all walks of life, from merchants and street-sweepers to architects, farmers and miners. Regardless of what profession they pursue, however, the efforts of any given Worker are always directed to one purpose: to strengthen, protect, unify or glorify its family, and serve the interests of its Mother.
+
+..Warriors
+Warriors are the second most common type of Hiver, making up around 25% of the species. Of all Hivers, the Warriors have the largest variety, when it comes to superficial physical appearances. They can range from 50 centimeters to 250 centimeters in height, and may have super-light bodies or massive armored frames. They also sport a wide variety of chitin adaptations, including markings, which may be super-bright or subtle camouflage in any kind of terrain.
+
+Warrior bugs are generally created to serve a specific function; they are tailored during gestation to perform a specific task as adults. Various features of the warrior are subject to change: size, strength, toughness and thickness of its shell, resistance to radiation and extremes of heat and cold. Some warriors are even adapted to be able to withstand vacuum, for limited periods of time.
+
+Warriors are generally engaged in high-casualty professions. Deep-sea diving, mining, arctic exploration and toxic waste disposal are all generally handled by warrior bugs, as are other tasks involving similar levels of personal risk. Accordingly it is no accident that Warriors, although rare in Hiver society at large, make up a disproportionate percentage of personnel aboard space-faring vessels.
+
+Warriors do not have sexual organs, but their bodies produce a powerful array of hormones, making them far more prone to aggression, ambition, and powerful mood swings. Their interactions are more insular than those of any other Hiver class; Warriors often form secret societies, join dueling academies or participate in athletic contests to channel their aggression. They tend to receive less formal education than Workers do, but far more vocational and martial training.
+
+Like Workers, Warrior bugs are loyal to their families, but they are fanatically obedient to their Mothers. Aware from earliest childhood that they have been born to die for the Queen, and consider it their honor and privilege to do so.
+
+..Breeders
+Within any given Hiver family, a small community of breeders - a female Hiver, or "princess", and her coterie of male "princes" - will rule over a large number of Warrior and Worker bugs.
+
+..Hiver Princess
+The Princess of any given Hive is its absolute ruler and reason-for-being; her Workers and Warriors will be loyal to the death, and devote themselves to her welfare for the entirety of their lives. The Workers and Warriors of the Hive are simultaneously her children, her employees, her servants, her subjects and her zealous cult of personality. A Hiver princess is many times larger than a standard Hiver. Depending on her care and feeding, she can grow to a height of 400 centimeters and mass nearly 400 kg. Her wings and chitin are largely ornamental, and often will be cut or painted to enhance her natural beauty.
+
+A Hiver princess can produce any number of Hiver eggs, especially if she has regular access to a male. The eggs she produces are largely generic when they leave her body; it is the care she gives them during infancy that determines their futures. Variations of light, heat and nutrition will produce a variety of changes in the developing Hiver, allowing its mother to not only determine whether the resulting offspring will be a worker, a warrior, or a breeder, but to assign it a number of other physical and mental characteristics.
+
+The one thing a Hiver princess CANNOT do is reproduce herself. Although she can create any number of workers, warriors and male breeders, no princess can lay an egg which will develop into another princess. The power and privilege of birthing female Hivers is reserved for their High Queen - a nigh-mystical and legendary female Breeder who rules the entire species from the Hiver homeworld.
+
+..Hiver Prince
+Hiver males are somewhat similar to their female counterparts, although they are somewhat smaller. They average around 350 centimeters in height and mass in the neighborhood of 250 kg. Physically speaking, they can recognized by their size, the extremely bright colors of their chitin, the length and strength of their wings, and the sharp, Warrior-like projections on the second pair of limbs-the so-called "dueling blades".
+
+Socially speaking, a male Breeder is essentially a free agent; unlike the warrior and worker bugs of his family, his devotion to any one hive is not strong. The reasons for this are obvious; a female Hiver will generally seek out males which are NOT her own sons, for breeding purposes. Although a Hiver Princess can reproduce with males hatched from her own eggs, if given no other option, this practice would quickly leads to stagnation, both socially and genetically, if it were common-place.
+
+Breeder males, accordingly, are the only Hivers who are socially and psychologically capable of moving from one Hive to another at will. They are more self-interested than any other class of Hiver, with far weaker attachments to their mothers and families of origin than would be normal in a Worker or a Warrior. A prince's chief loyalty is to himself, his breeding partner, and the hive to whom he is a Father.
+
+Highly competitive, career-oriented and motivated to succeed, Hiver princes seek out positions of authority and opportunities to lead, perform in public, or otherwise draw attention to themselves. A prince's ability to draw attention to himself and his achievements makes him a desirable mate, and puts a premium on his services.
+
+Since heredity in a Hiver is based 60% on the contribution of the male, a Prince who is cunning, strong, gifted or beautiful can become a prize that many Hives will vie to win. Savage wars have been fought over the kidnapping or defection of a valuable Prince.
+
+Hivers at War
+-------------
+Wars are common among Hivers. The Hiver military impulse is generally driven by population pressure or the urge for supremacy. Because each Hiver princess can produce countless offspring per year, the population of Hivers in any one place can spike very quickly, leading to intense competition for space and resources. A hive under pressure has one of two options: either they can cull their own population, or eliminate the competition. Although there are more than 30 words for "suicide" in the Hiver language, many Hiver families choose to go on the warpath rather than institute any other population control measure. Wars of this kind are grim and brutal battles-to-death, in which the full time and resources of all Hive members are devoted to destroying the enemy Hive and its princess.
+
+Occasionally an ambitious Hiver princess will take it into her head to become the High Queen of her species. The global wars of dominion in Hiver history are many, and some have assumed legendary status over time. The destruction and loss of life associated with a battle for the throne has often left the planet almost completely depopulated, with only a few exhausted clans left alive in the rubble.
+
+Death Among the Hivers
+----------------------
+Due to the quirks of Hiver physiology, death is not necessarily the end for any given Hiver's life. A great deal of short and long-term memory is stored in crystalline form in a Hiver's brain case, and these chemicals can be extracted intact for up to 72 hours after death. With the help of the princess, who passes these chemicals through her own digestive tract, the memory of the fallen Hiver can be injected into the thorax of a freshly laid egg. The result is a new-born Hiver which has many of the memories, skills and experiences of the Hiver who died.
+
+This form of limited reincarnation is central to the spiritual beliefs of the Hiver population, who conceive of the Divine as a female Hiver, constantly devouring and renewing the universe. It is also very useful in preserving valuable skills, and giving Hivers access to information, which would otherwise be lost. However, the practice has led to a few unfortunate incidents in which some Hivers which had been exposed to a lethal plague were carried back to the queen for renewal, resulting in a predictable disaster for the whole family.
+
+Hiver Art
+---------
+Due to the extremely strong emotional attachment that most Hivers have to their mothers, a great deal of their art, sculpture and literature is devoted to glorifying their mothers, extended families and ancestors. A great deal of their engineering and architecture is also based upon the female form, or on scenes vaguely remembered from the hatching period.
+
+Hivers seem to find curvilinear shapes comforting and pleasing to the eye, and often design storage compartments and living quarters which remind them of the geometric egg chambers they slept in as infants. Buildings and ships are sometimes highly suggestive of a female Hiver's body, and may even be direct portraits of a given Princess. 

@@ -1,0 +1,67 @@
+General Traits
+--------------
+Research: 150% (1:68c)
+Industry: 90%
+Growth: 80%
+Civilian IO: 87%
+Max Hazard: 600
+Technology Affinities: Smart Torpedos, Energy Cannon, Heavy Beams, Phasers, Shields, Bioweapons, EMP, Chakkar, Blazers, Emitters, Projectors, Inertial Cannon
+Space Travel: Slow near Stars, Fast in Deep Space
+
+"We are Singers, and a part of the Great Song. So, too, are you. Why, then, do you bring war to the Liir? Can you not hear the mind scream when the black void crushes breath and warmth from a living shell? Why do you bring us the music of blood, of pain, of fire and death? Why do you come to these waters, carrying death in your mouth? And how many of you must we kill, in order to be at peace?"
+
+General Description
+-------------------
+The Liir are an air-breathing aquatic species, and bear a strong resemblance to the extinct cetaceans of Old Earth. They are the result of a long-term process of environmental change: an ice age lasting millions of years initially allowed for the development of mammalian species on the isolated tropical islands and huge ice shields of their home world, but eventually an extended warming period resulted in a planet with less than 10% of its surface above water. The vast majority of land-dwelling species returned to the sea - including the early ancestors of the Liir.
+
+The Liir have not been a star-faring species for long. Up until 150 years ago, the Liir were a peaceful race with limited technology. Various agrarian and nomadic cultures operated within the rich waters of their home world, and war was virtually unknown to them. Although they had not developed far in the sciences of architecture or ballistics, some Liir societies were extremely advanced in bio-engineering, aquatic horticulture, volcanic engineering and metallurgy.
+
+The Liir were conquered and enslaved by another star-faring race, whom they learned to call the Suul'ka. The Suul'ka established several lucrative industries on Muur, the Liirian homeworld, and force-marched the Liirians through Industrialization by employing them as slaves in mines, factories and manufacturing facilities.
+
+After several decades of abuse, realizing that the greed and rapacity of the Suul'ka would destroy the aquatic environment of their home world completely, the Liir rebelled against their alien masters. The war was remarkably bloody in its early stages, but finally ended when the Liir unleashed a bio-weapon tailored to Suul'ka physiology on Muur. It is impossible at this point to say what agent the Liir may have used, or what vectors it followed. We only know that the resulting disease was so virulent and lethal that it appears to have quickly spread beyond the colony and completely eradicated the Suul'ka, at least from that sector of space.
+
+The current state of Liirian technology is a result of their successful rebellion. The former slaves of the Suul'ka quickly absorbed the abandoned technology of their masters, and have adapted the old drives, guns and orbital elevators to their own use. Driven by natural curiosity and the desire to preempt any further assaults from the stars, the Liir have now begun exploring space.
+
+Technology
+----------
+Liirian ships of the line have a very high mass-to-size ratio, as their ships must be filled with a super-oxygenated liquid medium to allow the Liir to breathe and move freely. Fortunately, the unusual system of propulsion employed by the Liirian fleet allows them to compensate for the colossal mass of their vessels.
+
+The Liir use an inertia-less "stutter" drive, which moves through space by teleporting the entire ship in tiny spatial increments of a millimeter or so. The implications of this drive system are many: for example, a Liirian ship does not use thrust to accelerate, decelerate or maneuver. It also allows for the mass of a Liirian ship to be a non-issue, as the ship never develops the inertia of a body in motion; it simply changes its space-time coordinates.
+
+The "speed" of a Liirian vessel is determined by the number of teleports per second that its engine can perform. It is not difficult for the Liir to achieve relativistic speeds in open space, but the stutter drive has a distinct disadvantage when operating in a gravity well. Any object massive enough to cause a large space-time distortion - be it a planet, star or black hole - can severely slow the movement of a Liirian ship.
+
+Physical and Social Characteristics
+-----------------------------------
+The Liir are an unusual species in more ways than one. Their bodies are sleek and dynamic, allowing for fast movement in water. Although they appear completely smooth, their skins are in fact coated with a layer of dense, fine fur, patterns and colors of which will vary with the individual. They bear live young, and all members of the species are hermaphroditic, possessing both male and female sex organs. The majority of Liir are capable of both fertilizing as a male or bearing young as a female, but only the very oldest Liir can do both at once - it is normally impossible for a Liir to impregnate as a male while carrying an offspring itself.
+
+A newborn Liir is very small, less than half a meter in length and weighing only 8-10 kilograms. By the time they reach the age of majority, after a period of roughly fifty years, a standard Liir will be around 3 meters long and weigh approximate 120 kilograms. There seems to be no natural end to the potential life span of any given Liir, and throughout their lives the Liir never stop growing: some observers have reported sightings of elder Liir over 60 meters long, massing many tons.
+
+The most unusual feature of the Liirian race is not the shape of their bodies, however, but the power of their minds. Liir do not have opposable digits, tentacles, or any other physical means of manipulating objects; they employ a limited form of telekinesis instead. A deft Liir can use several tools at once, and can often operate many simple machines simultaneously. With some concentration, they can also hurl objects with astonishing force, and the spear was a traditional hunting weapon among the Liir for many centuries.
+
+Although they have large, light-sensitive eyes, the frequency range of Liirian vision is limited. They have a very refined sense of taste and a sophisticated array of sound-producing and sound-receiving equipment, however, which more than compensate for the lack of sight. Liirian echo-location is good enough to allow Liir to draw very sophisticated schematics of any machine or device simply by "singing" to it and reading the sound waves that bounce back.
+
+The Liir communicate largely by telepathic means, although they do have some very rudimentary sound-signals that convey strong but simple emotions - being startled, amused, frightened, angry, etc.
+
+The Liirian Art of War
+----------------------
+Culturally speaking, the Liir have a strong pacifistic streak and are inclined to avoid violence. Up until recently, the very notion of "war" was unknown to them; they do not war among themselves, historically, and had some difficulty grasping concepts like "conquest", or understanding why such a thing would be desirable. Because of their empathic and telepathic abilities, the Liir are always keenly aware of the sufferings of others, and they take no joy in causing pain, fear or anger. They revere life and harmony, and abhor needless death or destruction. Nonetheless, they also value their own lives, and over the past two centuries they have come to embrace survival as a necessary virtue.
+
+The Liir are extremely curious and quick to learn, and have made astounding strides with technology of various kinds in a very short period of time. They are masters of back engineering; the combination of telekinetic tool-use and their ability to form three-dimensional schematics of any machine without having to disassemble it have proven to be powerful advantages. And although most of the weapons in their arsenal are easily recognizable, the unique character of their species does tend to show in their battle tactics.
+
+Liir have a tendency to encircle their enemies, forming an attack ring which allows them to assault the target from several sides at once; this is analogous to the standard treatment of predator species on their home world, which are dispatched in a similar fashion. Liir will always target an enemy's engines if possible, not only to spare the lives of the crew but to preserve any useful technology or data that might be gleaned from the undamaged remains of the ship. Their reverence for life has given them a strong aversion for high-explosive weapons, and they dislike the indiscriminate bombardment of planets. When Liir attack, they strike with surgical precision.
+
+Old Age Among the Liir
+----------------------
+Liir achieve "Elder" status after having lived for more than three hundred years. At this point, they are over 5 meters in length and usually weigh well over 200 kilograms. Liir who have reached this venerable age generally retire from any profession which might put them personally at risk, and adopt a monastic lifestyle. In general, their days are spent contemplating the mysteries of the universe, composing songs and poems, maintaining the oral tradition of the species, and instructing the young in matters of ethics, morality and proper conduct as a sentient being. No Liirian philosopher is taken seriously before the age of 400.
+
+Any given Elder will usually be surrounded by a cloud of younger Liir, who listen to the songs, ask questions, and telepathically explore the complexities and subtleties of the Elder's mind. This period of "swimming alongside" is considered a vitally necessary part of any young person's education. The aged are highly revered in all Liirian subcultures, and younger Liir will gladly sacrifice their own lives or embrace great personal risk to protect an Elder from any possible harm. Their ancestors are living treasures in their eyes. A sizable number of Liir spacers regard their service as a duty to the species, and volunteer to "scout the empty sea" in order to protect the Elders who must remain behind on Muur.
+
+Songs of the Liir
+-----------------
+In recent years, a revolution of thought and communication has occurred among the Liir. Up until very recently, the Liir had only limited notions of spoken language. For eons, vocalizations existed only to aid in perception, convey emotion, or for aesthetic appreciation: a traditional Liirian "song" is an artform which has the character of both music and painting. The "words" or "lyrics" of the ancient songs are received telepathically by the audience.
+
+The challenge of commanding and controlling a fleet of starships, however, has forced the Liir to develop new modes of communication. A new class of Liirian "singers" has recently emerged, and they now sing an entirely new type of song. These Liir can now shape sequences of gross physical sounds which are meant to be broadcast by mechanical means" and can be heard at far greater distances than even the strongest telepathic shout can travel.
+
+Once they had developed the concept of "fleet song", and created a code of physical sounds which were analogous to concepts and strings of ideas which would normally be spoken telepathically, the Liir were easily able to grasp the concept of spoken language among other, non-telepathic species. Since most of the species they come in contact with do not possess even the most rudimentary telepathy, they began to assemble a cadre of Liirian specialists who would dedicate their lives to learning the "fleetsongs" of other species. These specially-trained linguists communicate verbally with other species, and develop software to translate any spoken language into Liirian fleetsong.
+
+There was no traditional word for such a profession among the Liir, but they have invented a new title for the job. Members of the diplomatic corps are now called "Singers to the Deaf". 
