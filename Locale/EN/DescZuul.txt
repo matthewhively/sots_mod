@@ -7,7 +7,7 @@ Civilian IO: NA
 Max Hazard: 675
 Technology Affinities: Gauss, Mines, EMP
 Space Travel: Fast when Nodeline exists, Slow otherwise
-Other: Earn 10% more in IO to Credits conversion than other races.
+Other: Slave runs have a chance to "infect" the remaining population with Zuul-spawn.
 
 "The time has come; we can wait no longer for the Great Masters to return. Our numbers grow daily; our children must have meat. This galaxy is unworthy of its Gods, overrun by ignorant, arrogant slaves. It is time to teach them their place in the Great Scheme: they will learn to serve their betters or die. As we were commanded, so it shall be done. We will sweep all enemies from our path. In the darkness of this galaxy, we will forge an empire of light.
 
