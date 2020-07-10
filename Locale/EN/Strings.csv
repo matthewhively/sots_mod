@@ -2781,7 +2781,7 @@ TECHDESC_CCC_NdTrkHum,A system for tracking Human ships while traveling in node 
 TECHDESC_CCC_HypCom,"Enables communication with ships traveling within any sort of hyper-field and allows you to issue new movement orders mid-transit."
 TECHDESC_CCC_BtlCmp,Computer systems designed specifically to enhance command and control of squadron-sized groups of ships. Increases number of ships that can be controlled in combat.
 TECHDESC_CCC_FTLBrdB,"By adding broadband capabilities to our first generation Faster-Than-Light communications systems we gain the ability to remotely observe our allies in combat.\n\n* When combined with fusion, enables construction of Propaganda vessels (aka Terrorizors for Zuul)"
-TECHDESC_CCC_SpyBm,"Sub-space Spy Beams allow us to remotely observe our enemies in combat when in nearby star systems."
+TECHDESC_CCC_SpyBm,"Sub-space Spy Beams allow us to remotely observe our enemies in combat when in nearby star systems. Also allows Repair and Salvage ships to construct tiny dedicated spy craft to hide within nearby asteroid fields."
 TECHDESC_CCC_SpJam,"Sub-space jamming will prevent hostile empires from remotely observing our ships in combat."
 TECHDESC_CCC_SnsJam,"Broadcast systems designed to fill enemy sensor channels with static and blocking their ability to gather information both tactically and at long strategic range."
 TECHDESC_CCC_QntChaf,A system of using quantum waveforms to imitate the sensor signal of an entire ship to use as decoys. A ship fitted with this technology may create false images on enemy sensor modules as well as attracting and detonating enemy tracking ordinance.
