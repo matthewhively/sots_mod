@@ -2,7 +2,7 @@
 # engines not listed since they are for a single purpose,,
 # each purpose can ONLY have 50 sections specified maximum (global all races)
 # NOTE: section capitalization is not relevant
-# NOTE: purposes not listed by default:
+# NOTE: purposes not listed but still exist:
 #    las_cm
 #    shield_cm
 #    deflector_cm
@@ -10,7 +10,7 @@
 #    planet_attack_bio -- probably defunct
 #    damage_cm         -- probably defunct
 
-# WARNING: def ault is at 50 out of 50
+# WARNING: def ault is at 49 out of 50
 # Command sections
 DECommand,any,default
 CRCommand,any,default
@@ -28,9 +28,6 @@ CRBattleBridge,any,default
 DNBattleBridge,any,default
 CRAssault,any,default
 DNAssault,any,default
-
-DECloaking,any,default
-# Should cloaking be removed from here, and left only in the cloaking_aid group?
 
 # Mission sections
 DEArmor,any,default
