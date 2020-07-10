@@ -40,7 +40,6 @@ shipsection
         option  IND_ImpRfCt
     }
 
-
     netforcelimits
     {
         force_forward 0
@@ -54,7 +53,6 @@ shipsection
         speed         5
         rotspeed      0
     }
-
 
     bank
     {
@@ -88,5 +86,4 @@ shipsection
             max_inclination 90
         }
     }
-
 }

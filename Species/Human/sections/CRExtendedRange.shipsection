@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Human/art/sections/CruiserExtendedRange.X
 
     socket_aft    MissionNode
@@ -94,5 +93,4 @@ shipsection
             max_inclination 90
         }
     }
-
 }
