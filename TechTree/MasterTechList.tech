@@ -88,6 +88,8 @@ tech
     name        "CCC_ROOT"
     family      "CCC"
     allows      "CCC_FTLCom         RP:0"
+    allows      "CCC_NdTrkZul       RP:0    Human:0 Zuul:100 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
+    allows      "CCC_NdTrkHum       RP:0    Human:100 Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
 }
 
 
@@ -107,7 +109,7 @@ tech
     allows      "CCC_TrnsLir    RP:2000"
     allows      "CCC_TrnsTrk    RP:2000"
     allows      "CCC_TrnsHvr    RP:2000"
-    allows      "CCC_TrnsMorr   RP:5000" // Assuming it gives the 15% bonus in the description, this needs to be more expensive, also unlocks trade
+    allows      "CCC_TrnsMorr   RP:5000" // According to forums the 15% bonus in description does not exist, but it unlocks trade, so it can be more pricy
     allows      "CCC_TrnsZul    RP:5000" // Grants the War section, so this should be more expensive
 }
 // TODO: standardize all racial costs here if I can find a way to grant bonuses to the other 4 races starter technologies
@@ -424,6 +426,7 @@ ship
 }
 
 
+// Apparently Zuul get this for free when they unlock Cruiser Construction
 tech
 {
 name        "IND_BrdPod"
@@ -2690,7 +2693,7 @@ strategy
 tech
 {
 name        "CCC_FTLBrdB"
-allows      "CCC_SpyBm      RP:12000    Human:80 Zuul:100 Hiver:80 Tarkas:90 Liir:90 Morrigi:100"
+allows      "CCC_SpyBm      RP:12000    Human:80 Zuul:80 Hiver:80 Tarkas:90 Liir:90 Morrigi:100"
 allows      "CCC_SpJam      RP:12000    Human:70 Zuul:90 Hiver:70 Tarkas:80 Liir:80 Morrigi:100"
 allows      "CCC_FTLEcon    RP:20000    Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
 allows      "CCC_ComRaid    RP:5000     Human:0 Zuul:100 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
@@ -2723,15 +2726,20 @@ tech
 name        "CCC_SpyBm"
 type        P
 Group       JAMMING
-allows      "CCC_SpJam          RP:10000    Human:90  Zuul:90  Hiver:90 Tarkas:90 Liir:90 Morrigi:0"
-allows      "CCC_NdTrkZul       RP:20000    Human:90  Zuul:100 Hiver:90 Tarkas:90 Liir:90 Morrigi:100"
-allows      "CCC_NdTrkHum       RP:20000    Human:100 Zuul:90  Hiver:90 Tarkas:90 Liir:90 Morrigi:100"
+allows      "CCC_SpJam          RP:10000    Human:90 Zuul:90 Hiver:90 Tarkas:90 Liir:90 Morrigi:0"
+allows      "CCC_NdTrkZul       RP:20000    Human:0  Zuul:0  Hiver:90 Tarkas:90 Liir:90 Morrigi:100"
+allows      "CCC_NdTrkHum       RP:20000    Human:0  Zuul:0  Hiver:90 Tarkas:90 Liir:90 Morrigi:100"
+
+// Since zuul start with their own node tracking, they get a cheap human tracking option
+allows      "CCC_NdTrkHum       RP:5000    Human:0   Zuul:100 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
+// Since human start with their own node tracking, they get a cheap zuul tracking option
+allows      "CCC_NdTrkZul       RP:5000    Human:100 Zuul:0   Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
 }
 
 tech
 {
 name        "CCC_NdTrkHum"
-allows      "CCC_NdTrkZul       RP:5000     Human:100 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+allows      "CCC_NdTrkZul       RP:5000     Human:0 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
 Requires    "CCC_TrnsHum"
 type        P
 }
@@ -2740,7 +2748,7 @@ type        P
 tech
 {
 name        "CCC_NdTrkZul"
-allows      "CCC_NdTrkHum       RP:5000     Human:0 Zuul:100 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+allows      "CCC_NdTrkHum       RP:5000     Human:0 Zuul:0 Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
 Requires    "CCC_TrnsZul"
 type        P
 }
@@ -3433,6 +3441,7 @@ tech
     allows      "XNC_IncHum     RP:25000   Human:100 Zuul:0   Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
     allows      "XNC_IncHum     RP:0       Human:0   Zuul:100 Hiver:0   Tarkas:0   Liir:0   Morrigi:0"
     requires    "CCC_TrnsHum"
+    requires    "CCC_BtlCmp"
 }
 
 tech
@@ -3510,6 +3519,7 @@ tech
     allows      "XNC_IncHvr     RP:25000    Human:100 Zuul:0   Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
     allows      "XNC_IncHvr     RP:0        Human:0   Zuul:100 Hiver:0   Tarkas:0   Liir:0   Morrigi:0"
     requires    "CCC_TrnsHvr"
+    requires    "CCC_BtlCmp"
 }
 
 tech
@@ -3587,6 +3597,7 @@ tech
     allows      "XNC_IncTrk     RP:25000    Human:100 Zuul:0   Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
     allows      "XNC_IncTrk     RP:0        Human:0   Zuul:100 Hiver:0   Tarkas:0   Liir:0   Morrigi:0"
     requires    "CCC_TrnsTrk"
+    requires    "CCC_BtlCmp"
 }
 
 tech
@@ -3664,6 +3675,7 @@ tech
     allows      "XNC_IncLir     RP:25000    Human:100 Zuul:0   Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
     allows      "XNC_IncLir     RP:0        Human:0   Zuul:100 Hiver:0   Tarkas:0   Liir:0   Morrigi:0"
     requires    "CCC_TrnsLir"
+    requires    "CCC_BtlCmp"
 }
 
 tech
@@ -3747,6 +3759,7 @@ tech
     family      "XNC"
     allows      "XNC_DomZuul    RP:70000" // +10k (see above note)
     requires    "CCC_TrnsZul"
+    requires    "CCC_BtlCmp"
 }
 
 // Zuul has no incorporate level, so add the cost of that onto this
@@ -3784,6 +3797,7 @@ tech
     allows      "XNC_IncMorr    RP:25000    Human:100 Zuul:0   Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
     allows      "XNC_IncMorr    RP:0        Human:0   Zuul:100 Hiver:0   Tarkas:0   Liir:0   Morrigi:0"
     requires    "CCC_TrnsMorr"
+    requires    "CCC_BtlCmp"
 }
 
 tech

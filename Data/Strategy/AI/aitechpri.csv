@@ -17,6 +17,13 @@
 #WEP_MasDrvr,255,255,255,255,255,255
 #CCC_BtlCmp,255,255,255,255,255,255
 #WEP_PDtech,255,255,255,255,255,255
+#XNC_TrnsHum2,255,255,255,255,255,255
+#XNC_TrnsHvr2,255,255,255,255,255,255
+#XNC_TrnsTrk2,255,255,255,255,255,255
+#XNC_TrnsLir2,255,255,255,255,255,255
+#XNC_TrnsZuul2,255,255,255,255,255,255
+#XNC_TrnsMorr2,255,255,255,255,255,255
+# TODO: if I add a prereq, what happens to your self tech grants?
 
 # The AI might be ignoring this, but at least it doesn't hurt
 BIO_GnMod,255,255,255,255,255,255
@@ -24,9 +31,22 @@ CCC_FTLBrdB,255,255,255,255,255,255
 CCC_SnsJam,255,255,255,255,255,255
 
 DRV_PlsFiss,1,1,1,0,1,0
-IND_CyberInt,10,20,10,10,10,0
+IND_CyberInt,10,20,10,10,5,0
+
+# High priority for range increasers for node limited factions
+DRV_RecFiss,1,15,15,15,1,15
+DRV_PlsmFoc,5,15,15,15,5,15
 
 # AI seems to listen to these
 WEP_GrnLas,50,50,50,50,50,50
 #WEP_PlsmCan,50,50,50,50,50,50
 #WEP_UvLas,50,50,50,50,50,50
+
+# These are essentially crap, and the AI beelines for them if they are allied with other species
+# AI seems to mostly ignore these weights...
+CCC_ComRaid,255,255,255,255,255,255
+CCC_SpyBm,255,255,255,255,255,255
+CCC_SpJam,75,75,75,75,75,75
+CCC_NdTrkZul,50,50,50,50,50,50
+CCC_NdTrkHum,50,50,50,50,50,50
+

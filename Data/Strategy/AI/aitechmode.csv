@@ -279,8 +279,8 @@ DRV_Ints,w
 DRV_IncThrst,w
 
 #CCC_FTLCom     # starter CCC
-#CCC_NdTrkZul   # does zuul start with this?
-#CCC_NdTrkHum   # does human start with this?
+#CCC_NdTrkZul   # does zuul start with this?  (not without modding)
+#CCC_NdTrkHum   # does human start with this? (not without modding)
 
 CCC_BtlCmp,w
 CCC_DatSyn,w
