@@ -3,7 +3,7 @@ STARMAP_MOON_ODDS                       10  // %
 STARMAP_ASTEROIDBELT_ODDS               25  // %
 STARMAP_EASTEREGG_ODDS                  11  // %  -- TODO: what is this?
 STARMAP_MAX_SYSTEMS_PER_CLUSTER         30
-STARMAP_MAX_CLUSTER_SEPARATION          15.0 // This scales with LY distance (base 7 ?)
+STARMAP_MAX_CLUSTER_SEPARATION          15.0 // +/- 2  NOTE: ai may be dumb at distances 12+
 STARMAP_MAX_CLUSTER_NODEPATH_LENGTH     30.0
 // TODO: does this effect both clusters & globular clusters
 // TODO: will these maps be less bad if the cluster size is further increased?
@@ -14,12 +14,12 @@ STARMAP_MAX_CLUSTER_NODEPATH_LENGTH     30.0
 
 STARMAP_RIFT_MINSEP         5
 STARMAP_RIFT_MAXSEP         10
-STARMAP_RIFT_WIDTH          18  // This scales with LY distance (base 7?)
+STARMAP_RIFT_WIDTH          18  // +/- 2
 
 // See above, Regular Clusters are max 30 stars each, so maybe set this to half that?
 STARMAP_MINICLUSTERS_MINSEP             4.0
 STARMAP_MINICLUSTERS_MAXSEP             8.0
-STARMAP_MINICLUSTERS_CLUSTERSEP         10.0
+STARMAP_MINICLUSTERS_CLUSTERSEP         9.5    // +/- 2  NOTE: at 12+ AI becomes somewhat retarded
 STARMAP_MINICLUSTERS_MAXCLUSTERPATHDIST 16.0    // TODO: is this node paths?
 STARMAP_MINICLUSTERS_MINCLUSTERS        8       // how many clusters total at a minimum
 STARMAP_MINICLUSTERS_MAXPERCLUSTER      15
