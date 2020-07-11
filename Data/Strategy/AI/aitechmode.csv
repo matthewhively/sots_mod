@@ -70,6 +70,10 @@ DRV_LRFusn,n
 #DRV_Node,n
 DRV_NodFoc,n
 DRV_NodPath,n
+DRV_NodFoc,e
+DRV_NodPath,e
+DRV_NodFoc,w
+DRV_NodPath,w
 
 #DRV_Rip,n
 DRV_Rend,n
@@ -78,10 +82,18 @@ DRV_Rad,n
 #DRV_Hyper,n
 DRV_HyprFld,n
 DRV_Warp,n
+DRV_HyprFld,e
+DRV_Warp,e
+DRV_HyprFld,w
+DRV_Warp,w
 
 #DRV_StrWrp,n
 DRV_ImpStWrp,n
 DRV_Flicker,n
+DRV_ImpStWrp,e
+DRV_Flicker,e
+DRV_ImpStWrp,w
+DRV_Flicker,w
 
 #DRV_TpGate,n
 DRV_GatAmp,n
@@ -90,6 +102,10 @@ DRV_FarCast,n
 #DRV_VdCtr,n
 DRV_VdCrv,n
 DRV_VdMstr,n
+DRV_VdCrv,e
+DRV_VdMstr,e
+DRV_VdCrv,w
+DRV_VdMstr,w
 DRV_GrvSyn,n
 
 ##########################
