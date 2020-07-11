@@ -3430,7 +3430,8 @@ tech
 {
     name        "XNC_TrnsHum2"
     family      "XNC"
-    allows      "XNC_IncHum     RP:25000"
+    allows      "XNC_IncHum     RP:25000   Human:100 Zuul:0   Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+    allows      "XNC_IncHum     RP:0       Human:0   Zuul:100 Hiver:0   Tarkas:0   Liir:0   Morrigi:0"
     requires    "CCC_TrnsHum"
 }
 
@@ -3506,7 +3507,8 @@ tech
 {
     name        "XNC_TrnsHvr2"
     family      "XNC"
-    allows      "XNC_IncHvr     RP:25000"
+    allows      "XNC_IncHvr     RP:25000    Human:100 Zuul:0   Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+    allows      "XNC_IncHvr     RP:0        Human:0   Zuul:100 Hiver:0   Tarkas:0   Liir:0   Morrigi:0"
     requires    "CCC_TrnsHvr"
 }
 
@@ -3582,7 +3584,8 @@ tech
 {
     name        "XNC_TrnsTrk2"
     family      "XNC"
-    allows      "XNC_IncTrk     RP:25000"
+    allows      "XNC_IncTrk     RP:25000    Human:100 Zuul:0   Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+    allows      "XNC_IncTrk     RP:0        Human:0   Zuul:100 Hiver:0   Tarkas:0   Liir:0   Morrigi:0"
     requires    "CCC_TrnsTrk"
 }
 
@@ -3658,7 +3661,8 @@ tech
 {
     name        "XNC_TrnsLir2"
     family      "XNC"
-    allows      "XNC_IncLir     RP:25000"
+    allows      "XNC_IncLir     RP:25000    Human:100 Zuul:0   Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+    allows      "XNC_IncLir     RP:0        Human:0   Zuul:100 Hiver:0   Tarkas:0   Liir:0   Morrigi:0"
     requires    "CCC_TrnsLir"
 }
 
@@ -3777,7 +3781,8 @@ tech
 {
     name        "XNC_TrnsMorr2"
     family      "XNC"
-    allows      "XNC_IncMorr    RP:25000"
+    allows      "XNC_IncMorr    RP:25000    Human:100 Zuul:0   Hiver:100 Tarkas:100 Liir:100 Morrigi:100"
+    allows      "XNC_IncMorr    RP:0        Human:0   Zuul:100 Hiver:0   Tarkas:0   Liir:0   Morrigi:0"
     requires    "CCC_TrnsMorr"
 }
 
