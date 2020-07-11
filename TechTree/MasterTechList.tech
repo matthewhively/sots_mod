@@ -2708,6 +2708,7 @@ ship
 tech
 {
 name        "CCC_FTLEcon"
+Requires    "CCC_BtlCmp"
 allows      "CCC_ComRaid    RP:12000    Human:100 Zuul:0 Hiver:0 Tarkas:100 Liir:100 Morrigi:100"
 ship
     {
@@ -2719,11 +2720,14 @@ ship
 tech
 {
 name        "CCC_ComRaid"
+Requires    "CCC_BtlCmp"
+Requires    "CCC_IntSens"
 }
 
 tech
 {
 name        "CCC_SpyBm"
+Requires    "CCC_IntSens"
 type        P
 Group       JAMMING
 allows      "CCC_SpJam          RP:10000    Human:90 Zuul:90 Hiver:90 Tarkas:90 Liir:90 Morrigi:0"
