@@ -2,25 +2,29 @@
 STARMAP_MOON_ODDS                       10  // %
 STARMAP_ASTEROIDBELT_ODDS               25  // %
 STARMAP_EASTEREGG_ODDS                  11  // %  -- TODO: what is this?
-STARMAP_MAX_SYSTEMS_PER_CLUSTER         30
-STARMAP_MAX_CLUSTER_SEPARATION          15.0 // +/- 2  NOTE: ai may be dumb at distances 12+
-STARMAP_MAX_CLUSTER_NODEPATH_LENGTH     30.0
-// TODO: does this effect both clusters & globular clusters
-// TODO: will these maps be less bad if the cluster size is further increased?
 
 // Map names:
 // sphere, clusters, spiral, arm, hourglass, rift, 2d, hollow sphere, globular clusters, mini clusters, galactic collision, tube, ring, stellar nursery, barred, disk, barbell, clouds, real space, cubes, sinusoid, mountain, helix
 // NOTE: at this time, it does not appear that any maps other than those listed here are configurable in any way.
 
+// NOTE: Helix is somewhat adjustable by StrategyVars STARMAP_NUMSYSTEMS_MAX
+
 STARMAP_RIFT_MINSEP         5
 STARMAP_RIFT_MAXSEP         10
 STARMAP_RIFT_WIDTH          18  // +/- 2
 
+STARMAP_MAX_SYSTEMS_PER_CLUSTER         30
+STARMAP_MAX_CLUSTER_SEPARATION          15.0 // +/- 2  NOTE: ai may be dumb at distances 12+
+STARMAP_MAX_CLUSTER_NODEPATH_LENGTH     30.0
+// NOTE: systems & cluster separation effect both Clusters and Globular Clusters
+// NOTE: the maps seem less bad with a reduction in cluster size to 10 (and with 7LY scaling)
+// or maybe decreased?
+
 // See above, Regular Clusters are max 30 stars each, so maybe set this to half that?
 STARMAP_MINICLUSTERS_MINSEP             4.0
 STARMAP_MINICLUSTERS_MAXSEP             8.0
-STARMAP_MINICLUSTERS_CLUSTERSEP         9.5    // +/- 2  NOTE: at 12+ AI becomes somewhat retarded
-STARMAP_MINICLUSTERS_MAXCLUSTERPATHDIST 16.0    // TODO: is this node paths?
+STARMAP_MINICLUSTERS_CLUSTERSEP         9.5     // +/- 2  NOTE: at 12+ AI becomes somewhat retarded
+STARMAP_MINICLUSTERS_MAXCLUSTERPATHDIST 16.0    // NOTE: Not exactly Node path maximum length, (can still be longer, but more rare)
 STARMAP_MINICLUSTERS_MINCLUSTERS        8       // how many clusters total at a minimum
 STARMAP_MINICLUSTERS_MAXPERCLUSTER      15
 
@@ -34,6 +38,8 @@ STARMAP_COLLISION_OFFSET_Z          0.00    // Percentage of radius of spiral.
 STARMAP_COLLISION_MINSEP            6       //2.50
 STARMAP_COLLISION_ARMRATIO          0.90    //0.80  // % of systems appearing in arms instead of the center.
 STARMAP_COLLISION_ARMLENGTH         55      //45
+
+// ======================
 
 STARMAP_PLANET_NOISE_TEXTURENAME    "Models/Planets/Noise.dds"
 STARMAP_PLANET_RING_TEXTURENAME     "Models/Planets/Glow.dds"

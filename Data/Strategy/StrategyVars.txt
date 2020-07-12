@@ -8,6 +8,9 @@ BANKRUPTCY_PROTECTION_LIMIT_FACTOR  3.3
 PERGATETRAFFIC_DRV_TpGate   3
 PERGATETRAFFIC_DRV_GatAmp   6
 
+// NOTE: these directives CANNOT be moved into starmap.txt
+// NOTE: STARMAP_NUMSYSTEMS_MAX appears to influence the map generation of Helix - makes it thicker
+// NOTE: Real-space is CAPPED at 350... it will NOT go higher
 STARMAP_NUMSYSTEMS_MIN      50
 STARMAP_NUMSYSTEMS_MAX      700  // Absolute max the engine supports is 799
 STARMAP_NUMSYSTEMS_DEFAULT  160
