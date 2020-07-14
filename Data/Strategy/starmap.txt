@@ -1,7 +1,7 @@
 // NOTE: Moon distance defined in data/combat/terrain default 7200
 STARMAP_MOON_ODDS                       10  // %
 STARMAP_ASTEROIDBELT_ODDS               25  // %
-STARMAP_EASTEREGG_ODDS                  11  // %  -- TODO: what is this?  (it isn't "normal view" song)
+STARMAP_EASTEREGG_ODDS                  11  // %  Sets the percentage chance of "system events" being created at a planet. -- what ever this means
 
 // Map names:
 // sphere, clusters, spiral, arm, hourglass, rift, 2d, hollow sphere, globular clusters, mini clusters, galactic collision, tube, ring, stellar nursery, barred, disk, barbell, clouds, real space, cubes, sinusoid, mountain, helix
@@ -12,6 +12,7 @@ STARMAP_EASTEREGG_ODDS                  11  // %  -- TODO: what is this?  (it is
 STARMAP_RIFT_MINSEP         5
 STARMAP_RIFT_MAXSEP         10
 STARMAP_RIFT_WIDTH          18  // +/- 2
+// NOTE: if a negative separation is used, nodelines get pretty fucked up. Don't do that
 
 STARMAP_MAX_SYSTEMS_PER_CLUSTER         10
 STARMAP_MAX_CLUSTER_SEPARATION          4   // +/- 2  NOTE: ai may be dumb at distances 12+
@@ -29,11 +30,11 @@ STARMAP_MINICLUSTERS_MAXPERCLUSTER      30
 
 // Reducing the armlength tends to make more arms and lessen the definition of the spiral galaxy in general
 // minsep adjusts not only the core, but also the arms... bad for human in arms
-// NOTE: in game, set the distance to 5 LY, but here its hardcoded to be 6 LY, so core gets spread out, and the arms get condensed.
-STARMAP_COLLISION_ANGLE             -60.0
-STARMAP_COLLISION_OFFSET_X          0.00    // Percentage of radius of spiral.
-STARMAP_COLLISION_OFFSET_Y          0.00    // Percentage of radius of spiral.
-STARMAP_COLLISION_OFFSET_Z          0.00    // Percentage of radius of spiral.
+// NOTE: in game, set the distance to 5/6 LY, combined with the hardcoded MINSEP of 6 LY; causes core to spread out, and the arms to condense.
+STARMAP_COLLISION_ANGLE             180.0
+STARMAP_COLLISION_OFFSET_X          0.0    // 0.XX % radius of spiral
+STARMAP_COLLISION_OFFSET_Y          0.0
+STARMAP_COLLISION_OFFSET_Z          0.30
 STARMAP_COLLISION_MINSEP            6       //2.50
 STARMAP_COLLISION_ARMRATIO          0.90    //0.80  // % of systems appearing in arms instead of the center.
 STARMAP_COLLISION_ARMLENGTH         55      //45
@@ -51,7 +52,7 @@ STARMAP_PLANET_RINGMESHNAME         "Models/Planets/Ring.X"
 
 // NOTE: This is a viewing distance NOT a length when generating node lines.
 STARMAPIMAGE_MAX_NODELINEDISTANCE   230
-STARMAPIMAGE_NEW_ENEMY_FLASH_SPEED  10
+STARMAPIMAGE_NEW_ENEMY_FLASH_SPEED  10   // how fast it flickers
 STARMAPIMAGE_AXES_OVERHANG          10
 STARMAPIMAGE_AXES_TICKSIZE          0.5
 STARMAPIMAGE_AXES_STEP              5
