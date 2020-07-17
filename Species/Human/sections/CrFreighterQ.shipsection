@@ -3,6 +3,7 @@ shipsection
 
     model         Species/Human/art/sections/CrfreighterQ.X
 
+    requires DRV_Node
     requires IND_ModCon
 
     section_type  mission

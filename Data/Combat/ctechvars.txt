@@ -96,7 +96,7 @@ combattechvars
     CCC_CmbtAlg_CmdMod  4
     CCC_HoloTac_CmdMod  4
 
-    // FTLPrepTime
+    // NOTE: these are tied to the tech requirements on the engine section
     DRV_Node_FTLPrepTime        120.0 // 2x
     DRV_NodFoc_FTLPrepTime      90.0  // 1.5x
     DRV_NodPath_FTLPrepTime     60.0
@@ -109,6 +109,7 @@ combattechvars
     DRV_HyprFld_FTLPrepTime     80.0  // 2x
     DRV_Warp_FTLPrepTime        40.0
 
+    // NOTE: apparently zuul just works as is without engine section requirements
     DRV_Rip_FTLPrepTime         100.0  // 2x
     DRV_Rend_FTLPrepTime        75.0   // 1.5x
     DRV_Rad_FTLPrepTime         50.0

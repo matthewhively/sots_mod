@@ -2,6 +2,8 @@ shipsection
 {
     model Species/Morrigi/art/sections/DestroyerGravboat.X
 
+    requires DRV_VdCtr
+
     section_type   mission
     section_class  destroyer
     entity_class   "Gravboat"

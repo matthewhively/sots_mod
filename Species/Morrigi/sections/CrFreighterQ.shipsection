@@ -3,6 +3,7 @@ shipsection
 
     model         Species/Morrigi/art/sections/CrfreighterQ.X
 
+    requires DRV_VdCtr
     requires IND_ModCon
     requires CCC_FTLEcon
 

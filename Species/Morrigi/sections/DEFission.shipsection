@@ -3,6 +3,8 @@ shipsection
 
     model Species/Morrigi/art/sections/DestroyerFission.X
 
+    requires DRV_VdCtr
+
     socket_fore     EngineNode
     section_type    engine
     section_class   destroyer

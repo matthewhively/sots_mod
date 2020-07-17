@@ -3,6 +3,7 @@ shipsection
 
     model         Species/Tarkas/art/sections/freighter.X
 
+    requires DRV_Hyper
     requires CCC_FTLEcon
 
     section_type  mission

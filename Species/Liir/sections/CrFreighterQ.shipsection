@@ -3,6 +3,7 @@ shipsection
 
     model         Species/Liir/art/sections/CrfreighterQ.X
 
+    requires DRV_StrWrp
     requires CCC_FTLEcon
     requires IND_ModCon
 

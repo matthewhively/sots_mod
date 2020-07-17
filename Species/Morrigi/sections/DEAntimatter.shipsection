@@ -4,6 +4,7 @@ shipsection
     model Species/Morrigi/art/sections/DestroyerAntiMatter.X
 
     requires DRV_AntiMat
+    requires DRV_VdCtr
 
     socket_fore     EngineNode
     section_type    engine
