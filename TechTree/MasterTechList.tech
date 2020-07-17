@@ -109,7 +109,7 @@ tech
     allows      "CCC_TrnsLir    RP:2000"
     allows      "CCC_TrnsTrk    RP:2000"
     allows      "CCC_TrnsHvr    RP:2000"
-    allows      "CCC_TrnsMorr   RP:5000" // According to forums the 15% bonus in description does not exist, but it unlocks trade, so it can be more pricy
+    allows      "CCC_TrnsMorr   RP:5000" // It unlocks foreign trade, so it can be more pricy
     allows      "CCC_TrnsZul    RP:5000" // Grants the War section, so this should be more expensive
 }
 // TODO: standardize all racial costs here if I can find a way to grant bonuses to the other 4 races starter technologies

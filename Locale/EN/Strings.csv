@@ -4694,7 +4694,7 @@ TECHNAME_XNC_SubZuul,Subjugate Zuul
 TECHDESC_XNC_SubZuul,"Allows you to take full control of a Zuul culture, which not only allows new possibilities in assimilation but also allows you a chance to absorb much weaker Zuul empires into your own without firing a shot."
 
 TECHNAME_CCC_TrnsMorr,Translate Trade Creole
-TECHDESC_CCC_TrnsMorr,"Allows you to translate basic communications from Morrigi players, form Ceasefire agreements and establish trade routes with them.\n\n* Also provides a 15% bonus to all Xeno-culture research."
+TECHDESC_CCC_TrnsMorr,"Allows you to translate basic communications from Morrigi players, form Ceasefire agreements and establish trade routes with them."
 TECHNAME_XNC_TrnsMorr2,Translate Female Dialect
 TECHDESC_XNC_TrnsMorr2,"This deeper understanding of Morrigi common language allows you to communicate directly with all aspects of their society, and allows you to form NAP/Alliance agreements."
 TECHNAME_XNC_IncMorr,Incorporate Morrigi
