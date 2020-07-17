@@ -3,6 +3,8 @@ shipsection
 
     model Species/Liir/art/sections/CruiserFissionStutterWarp.X
 
+    requires DRV_StrWrp
+
     socket_fore     EngineNode
     section_type    engine
     section_class   Cruiser

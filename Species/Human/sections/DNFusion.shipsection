@@ -4,6 +4,7 @@ shipsection
     model Species/Human/art/sections/DreadnoughtFusion.x
 
     requires DRV_Fusn
+    requires DRV_Node
 
     socket_fore     EngineNode
     section_type    engine

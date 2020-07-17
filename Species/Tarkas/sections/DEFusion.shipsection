@@ -4,6 +4,7 @@ shipsection
     model Species/Tarkas/art/sections/DestroyerFusion.X
 
     requires DRV_Fusn
+    requires DRV_Hyper
 
     socket_fore     EngineNode
     section_type    engine

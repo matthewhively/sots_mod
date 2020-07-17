@@ -4,6 +4,7 @@ shipsection
     model Species/Liir/art/sections/DreadnoughtAntimatter.X
 
     requires DRV_AntiMat
+    requires DRV_StrWrp
 
     socket_fore     EngineNode
     section_type    engine

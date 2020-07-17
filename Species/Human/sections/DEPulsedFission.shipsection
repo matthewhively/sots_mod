@@ -4,6 +4,7 @@ shipsection
     model Species/Human/art/sections/DestroyerPulseFission.X
 
     requires DRV_PlsFiss
+    requires DRV_Node
 
     socket_fore     EngineNode
     section_type    engine

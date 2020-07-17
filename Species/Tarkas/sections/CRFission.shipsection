@@ -3,6 +3,8 @@ shipsection
 
     model Species/Tarkas/art/sections/CruiserFission.X
 
+    requires DRV_Hyper
+
     socket_fore     EngineNode
     section_type    engine
     section_class   Cruiser
