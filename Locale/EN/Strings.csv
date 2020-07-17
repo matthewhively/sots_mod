@@ -2327,7 +2327,7 @@ ENCOUNTERNAME_TRADERAIDERS,Raiders
 WEAPON_PHS,Phasers
 WEAPON_MIS_PLANET,Planet Missile
 WEAPON_MIS_NODE,Node Missile
-WEAPON_MIS_DEFPLAT,Planet Missile
+WEAPON_MIS_DEFPLAT,Heavy Missile-P
 WEAPON_MIS,Missile
 WEAPON_CORMSL,Corrosive Payload Missile
 WEAPON_NANMSL,Nano Payload Missile
@@ -3103,7 +3103,7 @@ SECTIONDESC_DNProjector,The Dreadnought version of the Projector section is a he
 
 SECTIONNAME__AssaultShuttle,Assault Shuttle
 SECTIONNAME__AsteroidMonitor,Asteroid Monitor
-SECTIONNAME__Biomissile,Biomissile
+SECTIONNAME__Biomissile,Bio-Missile
 SECTIONNAME__BoardingPod,Boarding Pod
 SECTIONNAME__CRRipperCommand,Slaver Command
 SECTIONNAME__CRRipperEngine,Slaver Engine
@@ -4037,9 +4037,9 @@ GIVEAID_CLEAR,Clear,,
 EVENTSUM_PLAYER_SURRENDERED_TO,%s Surrenders,255,"params: player surrendering, player being surrendered to"
 EVENTMSG_PLAYER_SURRENDERED_TO,%s has surrendered to %s.,255,"params: player surrendering, player being surrendered to"
 
-WEAPON_MONITOR_DUALMASS,Dual Mass Driver
-WEAPON_MONITOR_MASS,Mass Driver
-WEAPON_MONITOR_MIS,Planet Missile
+WEAPON_MONITOR_DUALMASS,Dual Mass Driver-M
+WEAPON_MONITOR_MASS,Mass Driver-M
+WEAPON_MONITOR_MIS,Heavy Missile-M
 
 EVENTSUM_LOSTINNODESPACE_ENGINES_1SHIP,Ship Lost!
 EVENTSUM_LOSTINNODESPACE_ENGINES_NSHIPS,Ships Lost!
@@ -4319,7 +4319,7 @@ SERVERERROR_MAPFILE_NOTSPECIFIED,"%s not specified with %s=%s, using default sha
 SERVERERROR_MAPFILE_FILENOTFOUND,"File %s specified for %s not found, using default shape %s."
 SERVERERROR_NOALLOWEDSPECIES,No valid species found for %s using %s. Using defaults.
 
-SECTIONNAME__AsteroidMonitor2,Asteroid Monitor Mk.2
+SECTIONNAME__AsteroidMonitor2,Asteroid Sentinel
 
 SECTIONNAME__Ruins_A,Ruins
 SECTIONNAME__Ruins_B,Ruins
@@ -5794,7 +5794,7 @@ WEAPON_CAN_HVYAM,Heavy Anti-Matter Cannon
 
 
 WEAPON_NPC_SWARMERCANNON,Swarmer Cannon
-WEAPON_SYSK_MISSILE,Missile
+WEAPON_SYSK_MISSILE,SysKiller Missile
 WEAPON_NPC_PMASTER_EYEMESONBEAM,Meson Beam
 WEAPON_NPC_PMASTER_PHASPD,Phaser Point Defence
 WEAPON_SILICOID_TRACTORBEAM,Silicoid Beam
