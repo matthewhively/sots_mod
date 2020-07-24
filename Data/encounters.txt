@@ -103,7 +103,7 @@ BERSERKER_STERILIZER_BEAM_DAMAGE_POP_RATE    500000
 BLASTEROIDS_ENCOUNTER_THINK_PERIOD       0.2
 BLASTEROIDS_NUM_APPROACHGROUPS           3
 BLASTEROIDS_APPROACHGROUP_HEADING_SEP    45.0    // degrees
-BLASTEROIDS_MIN                          12       // if less then per-ship x num-ships
+BLASTEROIDS_MIN                          6       // if less then per-ship x num-ships
 BLASTEROIDS_PER_SHIP                     3
 BLASTEROIDS_START_RANGE                  8000.0
 BLASTEROIDS_START_POS_WIDTH_VARIATION    1000.0
