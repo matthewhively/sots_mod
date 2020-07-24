@@ -2,31 +2,32 @@ shipsection
 {
     model         Species/_NPC/art/sections/_HeraldDefender.X
     dam_model     Species/Tarkas/art/sections/Hunter_Fusion.X
+
     section_type  mission
     section_class destroyer
-    preview_ofs   "0 0 1"
     entity_class  "HeraldDefender"
     design_class  rider
 
-    health  2500
+    health  3500
     mass    10000
     cost    92000
     cpoints 11800
-
 
     autonomous 1    // actually means this is a ship with only a mission section
 
     ftlspeed    .5
     range       10
     crew        20
+
     preview_ofs "2 -170 0"
 
+    // I presume these "options" are garanteed to be active?
     option
     {
         option    IND_QrkRes
     }
 
-    option 
+    option
     {
         option    IND_ImpRfCt
     }
@@ -36,18 +37,18 @@ shipsection
         force_forward       85000
         force_right         85000
         force_up            85000
-        
+
         torque_yaw          6.4e+7
         torque_pitch        6.4e+7
         torque_roll         6.4e+7
-        
+
         speed               85
         rotspeed            85
     }
 
     bank
     {
-        weapon      "Species/_NPC/weapons/Herald_bal_APgauss.weapon"
+        weapon      "Species/_NPC/weapons/Ripper_guass_pd.weapon"
         turretclass standard
         turretsize  small
 
@@ -64,7 +65,7 @@ shipsection
 
     bank
     {
-        weapon      "Species/_NPC/weapons/Herald_bal_APgauss.weapon"
+        weapon      "Species/_NPC/weapons/Ripper_guass_pd.weapon"
         turretclass standard
         turretsize  small
 
@@ -156,7 +157,6 @@ shipsection
             max_inclination 12
         }
 
-        
     }
 
     bank
@@ -219,5 +219,5 @@ shipsection
         effect      effects/Engine_FusionCC.effect
         idle_effect effects/Engine_FusionIdleCC.effect
     }
-    
+
 }

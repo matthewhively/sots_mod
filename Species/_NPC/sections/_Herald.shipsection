@@ -1,6 +1,6 @@
 shipsection
 {
-    
+
     model         Species/_NPC/art/sections/_Herald.X
     section_type  mission
     autonomous    true
@@ -13,12 +13,13 @@ shipsection
     cpoints 20000
     crew    70
 
+    // I presume these "options" are garanteed to be active?
     option
     {
         option    IND_QrkRes
     }
 
-    option 
+    option
     {
         option    IND_ImpRfCt
     }
@@ -28,12 +29,13 @@ shipsection
         force_forward 92000
         force_right   92000
         force_up      92000
-        
+
         torque_yaw    5.9e+8
         torque_pitch  5.9e+8
         torque_roll   5.9e+8
-        
-        speed         65
+
+        // NOTE: speed target set so that the average race can maybe keep up with him at Pulsed Fission level.
+        speed         60
         rotspeed      40
     }
 
@@ -50,7 +52,7 @@ shipsection
             max_azimuth     70
             min_inclination -10
             max_inclination 90
-        }    
+        }
     }
 
     bank
@@ -61,7 +63,7 @@ shipsection
 
         mount
         {
-            node            HeavyGunNode01        
+            node            HeavyGunNode01
             min_azimuth     -135
             max_azimuth     135
             min_inclination -3
@@ -88,7 +90,7 @@ shipsection
 
     bank
     {
-        weapon      "Species/_NPC/weapons/Herald_bal_APgauss.weapon"
+        weapon      "Species/_NPC/weapons/Ripper_guass_pd.weapon"
         turretclass standard
         turretsize  small
 
@@ -104,7 +106,7 @@ shipsection
 
     bank
     {
-        weapon      "Species/_NPC/weapons/Herald_bal_APgauss.weapon"
+        weapon      "Species/_NPC/weapons/Ripper_guass_pd.weapon"
         turretclass standard
         turretsize  small
 
@@ -236,7 +238,7 @@ shipsection
         weapon      "Species/_NPC/weapons/brd_heralddefender.weapon"
         turretclass tarkahunter
         turretsize  large
-        
+
         mount
         {
             node            shipnode01
@@ -244,7 +246,7 @@ shipsection
             max_azimuth     0
             min_inclination 0
             max_inclination 0
-        }    
+        }
 
         mount
         {
@@ -262,28 +264,24 @@ shipsection
         effect      effects/Engine_FusionB.effect
         idle_effect effects/Engine_FusionIdleB.effect
     }
-
     thruster
     {
         node        EngineThruster02
         effect      effects/Engine_FusionB.effect
         idle_effect effects/Engine_FusionIdleB.effect
     }
-
     thruster
     {
         node        EngineThruster03
         effect      effects/Engine_FusionB.effect
         idle_effect effects/Engine_FusionIdleB.effect
     }
-
     thruster
     {
         node        EngineThruster04
         effect      effects/Engine_FusionB.effect
         idle_effect effects/Engine_FusionIdleB.effect
     }
-
     thruster
     {
         node        EngineThruster05
@@ -291,4 +289,3 @@ shipsection
         idle_effect effects/Engine_FusionIdleB.effect
     }
 }
-    
