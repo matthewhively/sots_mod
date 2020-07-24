@@ -1,15 +1,21 @@
 ENCOUNTER_STARTPOINT_SEPARATION        1000  // TODO: what does this mean?
 
-RANDENC_MIN_TURN                       35    // Players won't receive random encounters until after this turn.
+// Slavers, Herald, Blasteroids    (TODO: any others???)
+// Specters may be on their own timer (since they are pretty deadly)
+// Random encounter controls that are known to apply in single player are marked with (S)
+// NOTE: VN do not seem to be controlled by these.
+RANDENC_MIN_TURN                       35    // (S) Players won't receive random encounters until after this turn.
 RANDENC_TURNS_TO_RESET_ODDS            2     // Odds are reset after this many turns with no one fighting.
 RANDENC_MIN_ODDS                       0     // 0%
 RANDENC_MAX_ODDS                       100   // 100%
 RANDENC_BASE_ODDS                      10    // Base chance of player receiving a random encounter when they aren't fighting.
 RANDENC_DEC_ODDS_COMBAT                40    // Decrease in player odds for each combat round they fight (including random encounters).
-RANDENC_INC_ODDS_IDLE                  20    // Increase in player odds for each combat round they do not fight.
-RANDENC_INC_ODDS_ROUNDS                10    // Increase in player odds for each additional round of combat that turn.
-RANDENC_TURNS_TO_EXCLUDE               10    // Turns after getting a random encounter before a player can potentially get another one.
-RANDENC_SINGLEPLAYER_ODDS              2     // Of 100.  For singleplayer games.  Overrides odds for multiplayer.
+RANDENC_INC_ODDS_IDLE                  20    // Increase in player odds for each combat round they do not fight. [Autoresolve included?]
+RANDENC_INC_ODDS_ROUNDS                10    // Increase in player odds for each additional round of combat that turn. [TODO WTF?]
+RANDENC_TURNS_TO_EXCLUDE               10    // (S) Turns after getting a random encounter before a player can potentially get another one.
+RANDENC_SINGLEPLAYER_ODDS              8     // (S) Of 100.  For singleplayer games.  Overrides odds for multiplayer.
+
+// TODO: Further research on how all of these RANDENC odds add together
 
 // at 1.0%, we have a 36% chance by turn 155, and a 60% chance by turn 200
 // at 1.5%, we have a 50% chance by turn 155, and a 75% chance by turn 200
@@ -32,6 +38,7 @@ LOCUSTNEST_DEATH_RESOURCE_BONUS         5000
 // PLANETRU = planet ru
 // RU = von neumann construction point ru (don't confuse the two!)
 
+// NOTE: VN frequency of attacks seems to not be configurable.
 VNEUMANN_THINK_PERIOD                    0.2     // ???
 VNEUMANN_CHILD_PLANETRU_CAPACITY         100
 VNEUMANN_NUM_RUS_PER_PLANETRU            10      // Conversion factor to balance damage to planet
@@ -165,10 +172,11 @@ PIRATE_NUM_SHIPS_PER_PIRATE         3
 PIRATE_NUM_SATS_PER_PIRATE          4
 PIRATE_SAVINGS_BONUS_PER_CRUISER    100000
 
-
+// Defunct ???
 SLAVERSREFUEL_TANKER_COMMAND        "_DECommand"
 SLAVERSREFUEL_TANKER_MISSION        "_DEMission"
 SLAVERSREFUEL_TANKER_ENGINE         "_DEEngine"
+// Is this still used for slavers?
 SLAVERSREFUEL_ASSAULT_COMMAND       "_CRRipperCommand"
 SLAVERSREFUEL_ASSAULT_MISSION       "_CRRipperMission"
 SLAVERSREFUEL_ASSAULT_ENGINE        "_CRRipperEngine"
@@ -188,7 +196,7 @@ SWARMQUEEN_MIN_SAVINGSBONUS             150000
 SWARMQUEEN_MAX_SAVINGSBONUS             375000
 
 
-
+// Defunct ???
 CROWDEFENDERS_MIN_SYSTEMS               80
 CROWDEFENDERS_DEFENSE_RADIUS            10
 CROWDEFENDERS_MIN_DEFENDERS             1
@@ -200,15 +208,15 @@ CROWRUINS_KILLCROWS_SAVINGSBONUS_MIN        100000
 CROWRUINS_KILLCROWS_SAVINGSBONUS_MAX        500000
 CROWRUINS_KILLCROWS_RESEARCHBONUS_AMOUNT    0.1
 CROWRUINS_KILLCROWS_RESEARCHBONUS_TURNS     5
-CROWRUINS_KILLRUINS_SAVINGSBONUS_MIN        0
-CROWRUINS_KILLRUINS_SAVINGSBONUS_MAX        0
+CROWRUINS_KILLRUINS_SAVINGSBONUS_MIN        10000  // 10% of the disarm amount
+CROWRUINS_KILLRUINS_SAVINGSBONUS_MAX        50000
 CROWRUINS_KILLRUINS_RESEARCHBONUS_AMOUNT    0.1
 CROWRUINS_KILLRUINS_RESEARCHBONUS_TURNS     2
 CROWRUINS_ODDS                              25 // of 100
 CROWRUINS_NUM_RUINS_MIN                     2
 CROWRUINS_NUM_RUINS_MAX                     6
 
-// QUESTION: what is this ?
+// Defunct ???
 REFUGEES_REQUEST_ASYLUM_DELAY               5.0     // time until dialog pops up
 REFUGEES_REQUEST_ASYLUM_TIMEOUT             20.0    // timeout on popup dialog in combat
 REFUGEES_LAUNCH_PERIOD                      1.0

@@ -1,4 +1,4 @@
-// size  weapon-size  class  health  track-speed  constrain-azimuth-%  constrain-inclination-%  "modelname"
+// size  weapon-size  class        health  track-speed  constrain-azimuth-%  constrain-inclination-%  "modelname"
 
 small   tiny    standard               20  360  1.00  1.00  "turret_pd.x"
 small   small   standard              120  320  1.00  1.00  "turret_s1standard.x"
