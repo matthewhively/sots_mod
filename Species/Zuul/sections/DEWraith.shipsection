@@ -13,6 +13,7 @@ shipsection
     cost    20000
     cpoints 1420
 
+    // REM: also alter the description in strings.csv
     prisoner_capacity 15000000 // 15 mil
 
     autonomous 1    // actually means this is a ship with only a mission section
