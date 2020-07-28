@@ -1621,16 +1621,27 @@ TECHSHIP_CRFreighter,TechTree\ShipArt\%s_CR_Single.tga,0,0,256,128
 TECHSHIP_CRFreighterQ,TechTree\ShipArt\%s_CR_Single.tga,0,0,256,128
 TECHSHIP_CRPropaganda,TechTree\ShipArt\%s_CR_Single.tga,0,0,256,128
 TECHSHIP_CRConstruction,TechTree\ShipArt\%s_CR_Single.tga,0,0,256,128
+
 // ... species specific
-TECHSHIP_DENodeMissile,TechTree\ShipArt\human_DE_Single.tga,0,0,256,128
+TECHSHIP_DENodeBore,TechTree\ShipArt\zuul_DE_Single.tga,0,0,256,128
+TECHSHIP_CRNodeBore,TechTree\ShipArt\zuul_CR_Single.tga,0,0,256,128
+TECHSHIP_DNNodeBore,TechTree\ShipArt\zuul_DN_Single.tga,0,0,256,128
+
+TECHSHIP_DEGravboat,TechTree\ShipArt\morrigi_DE_Single.tga,0,0,256,128
+TECHSHIP_CRGravboat,TechTree\ShipArt\morrigi_CR_Single.tga,0,0,256,128
+TECHSHIP_DNGravboat,TechTree\ShipArt\morrigi_DN_Single.tga,0,0,256,128
 
 TECHSHIP_DEShapedHyperFieldFusion,TechTree\ShipArt\Tarkas_DECRDN_Engine.tga,0,0,256,128
 TECHSHIP_DEAntimatterWarp,TechTree\ShipArt\Tarkas_DECRDN_Engine.tga,0,0,256,128
+
+TECHSHIP_DENodeMissile,TechTree\ShipArt\human_DE_Single.tga,0,0,256,128
 TECHSHIP_DEFocusNodeFission,TechTree\ShipArt\human_DECRDN_Engine.tga,0,0,256,128
 TECHSHIP_DENodePathingFusion,TechTree\ShipArt\human_DECRDN_Engine.tga,0,0,256,128
+
 TECHSHIP_DERamscoop,TechTree\ShipArt\hiver_DECR_Command.tga,0,0,256,128
 TECHSHIP_DELongRangeFission,TechTree\ShipArt\hiver_DECR_Engine.tga,0,0,256,128
 TECHSHIP_DELongRangeFusion,TechTree\ShipArt\hiver_DECRDN_Engine.tga,0,0,256,128
+TECHSHIP_DEGate,TechTree\ShipArt\hiver_DE_Mission.tga,0,0,256,128
 TECHSHIP_CRGate,TechTree\ShipArt\hiver_CR_Mission.tga,0,0,256,128
 
 

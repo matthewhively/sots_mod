@@ -2228,11 +2228,14 @@ ship
 }
 
 // =========== ZUUL ===========
-// TODO: list the nodebore ship sections?
 tech
 {
 name        "DRV_Rip"
 allows      "DRV_Rend   RP:35000    Human:0 Zuul:100 Hiver:0 Tarkas:0 Liir:0 Morrigi:0"
+ship
+    {
+        section DENodeBore
+    }
 }
 
 tech
@@ -2246,6 +2249,10 @@ strategy
     {
         inc TECHBEN_STRATRNGE
     }
+ship
+    {
+        section CRNodeBore
+    }
 }
 
 tech
@@ -2258,6 +2265,10 @@ strategy
     {
         inc TECHBEN_STRATRNGE
     }
+ship
+    {
+        section DNNodeBore
+    }
 }
 
 
@@ -2266,6 +2277,10 @@ tech
 {
 name        "DRV_VdCtr"
 allows      "DRV_VdCrv  RP:35000    Human:0 Zuul:0 Hiver:0 Tarkas:0 Liir:0 Morrigi:100"
+ship
+    {
+        section DEGravboat
+    }
 }
 
 tech
@@ -2279,6 +2294,10 @@ strategy
         inc TECHBEN_STRATSPD
         inc TECHBEN_STRATSPD
     }
+ship
+    {
+        section CRGravboat
+    }
 }
 
 tech
@@ -2291,6 +2310,10 @@ strategy
     {
         inc TECHBEN_STRATSPD
         inc TECHBEN_STRATSPD
+    }
+ship
+    {
+        section DNGravboat
     }
 }
 
@@ -2397,6 +2420,10 @@ tech
 {
 name        "DRV_TpGate"
 allows      "DRV_GatAmp     RP:50000    Human:0 Zuul:0 Hiver:100 Tarkas:0 Liir:0 Morrigi:0"
+ship
+    {
+        section DEGate
+    }
 }
 
 tech
