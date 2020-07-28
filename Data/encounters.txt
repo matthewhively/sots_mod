@@ -86,12 +86,12 @@ VNEUMANN_HOME_RESOURCES                  20000
 VNEUMANN_HOME_SIZE                       10
 VNEUMANN_HOME_POPULATION                 2000000000  // 2 bil
 VNEUMANN_HOME_POPULATION_REGEN           50000000    // 50 mil
-VNEUMANN_COLLECTWAVE_MINTURN             35      // ???
-VNEUMANN_COLLECTWAVE_MINFREQ             8       // ???
-VNEUMANN_COLLECTWAVE_MAXFREQ             12      // ???
+VNEUMANN_COLLECTWAVE_MINTURN             35      // Earliest turn they can show up
+VNEUMANN_COLLECTWAVE_MINFREQ             8       // turn range "cooldown" between attacks.
+VNEUMANN_COLLECTWAVE_MAXFREQ             12      // ^^^
 VNEUMANN_MOM_FLEET_SIZE                  10      // ???
-VNEUMANN_BERSERKER_MINFREQ               4       // ???
-VNEUMANN_BERSERKER_MAXFREQ               10      // ???
+VNEUMANN_BERSERKER_MINFREQ               4       // turn range "cooldown" between berzerker attacks (after they are triggered)
+VNEUMANN_BERSERKER_MAXFREQ               10      // ^^^
 VNEUMANN_NOFIGHT_MIN_RUS                 5000    // ???
 VNEUMANN_NOFIGHT_MAX_RUS                 5000    // ???
 VNEUMANN_FINSOL_NEEDS_REPAIRS            0.75
