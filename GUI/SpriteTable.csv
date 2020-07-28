@@ -1631,8 +1631,11 @@ TECHSHIP_DEGravboat,TechTree\ShipArt\morrigi_DE_Single.tga,0,0,256,128
 TECHSHIP_CRGravboat,TechTree\ShipArt\morrigi_CR_Single.tga,0,0,256,128
 TECHSHIP_DNGravboat,TechTree\ShipArt\morrigi_DN_Single.tga,0,0,256,128
 
-TECHSHIP_DEShapedHyperFieldFusion,TechTree\ShipArt\Tarkas_DECRDN_Engine.tga,0,0,256,128
-TECHSHIP_DEAntimatterWarp,TechTree\ShipArt\Tarkas_DECRDN_Engine.tga,0,0,256,128
+TECHSHIP_DEFusionImpStutterWarp,TechTree\ShipArt\liir_DECRDN_Engine.tga,0,0,256,128
+TECHSHIP_DEAntimatterFlickerWarp,TechTree\ShipArt\liir_DECRDN_Engine.tga,0,0,256,128
+
+TECHSHIP_DEShapedHyperFieldFusion,TechTree\ShipArt\tarkas_DECRDN_Engine.tga,0,0,256,128
+TECHSHIP_DEAntimatterWarp,TechTree\ShipArt\tarkas_DECRDN_Engine.tga,0,0,256,128
 
 TECHSHIP_DENodeMissile,TechTree\ShipArt\human_DE_Single.tga,0,0,256,128
 TECHSHIP_DEFocusNodeFission,TechTree\ShipArt\human_DECRDN_Engine.tga,0,0,256,128

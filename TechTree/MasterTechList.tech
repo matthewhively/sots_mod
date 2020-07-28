@@ -2353,6 +2353,9 @@ ship
         section DEShapedHyperFieldFusion
         section CRShapedHyperFieldFusion
         section DNShapedHyperfieldFusion
+        section DEShapedHyperfieldAntimatter
+        section CRShapedHyperFieldAntimatter
+        section DNShapedHyperFieldAntimatterWarp
     }
 }
 
@@ -2395,6 +2398,15 @@ strategy
         inc TECHBEN_STRATRNGE
         //inc TECHBEN_SHPTACSPD // REM: only 2 can be listed at a time.
     }
+ship
+    {
+        section DEFusionImpStutterWarp
+        section CRFusionImpStutterWarp
+        section DNFusionImpSW
+        section DEAntimatterImpSW
+        section CRAntimatterImpSW
+        section DNAntimatterImpSW
+    }
 }
 
 tech
@@ -2409,6 +2421,12 @@ strategy
         inc TECHBEN_STRATSPD
         inc TECHBEN_STRATRNGE
         //inc TECHBEN_SHPTACSPD // REM: only 2 can be listed at a time.
+    }
+ship
+    {
+        section DEAntimatterFlickerWarp
+        section CRAntimatterFlickerWarp
+        section DNAntimatterFlickerWarp
     }
 }
 
