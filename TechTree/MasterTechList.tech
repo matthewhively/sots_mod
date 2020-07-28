@@ -1966,7 +1966,7 @@ strategy
     {
         inc TECHBEN_SHPTACSPD
         inc TECHBEN_STRATRNGE
-        inc TECHBEN_STRATSPD
+        //inc TECHBEN_STRATSPD   // REM: only 2 can be listed at a time.
     }
 ship
     {
@@ -2292,7 +2292,8 @@ requires    "DRV_Fusn"
 strategy
     {
         inc TECHBEN_STRATSPD
-        inc TECHBEN_STRATSPD
+        inc TECHBEN_STRATRNGE
+        //inc TECHBEN_SHPTACSPD // REM: only 2 can be listed at a time.
     }
 ship
     {
@@ -2309,7 +2310,8 @@ requires    "DRV_AntiMat"
 strategy
     {
         inc TECHBEN_STRATSPD
-        inc TECHBEN_STRATSPD
+        inc TECHBEN_STRATRNGE
+        //inc TECHBEN_SHPTACSPD // REM: only 2 can be listed at a time.
     }
 ship
     {
@@ -2391,6 +2393,7 @@ strategy
     {
         inc TECHBEN_STRATSPD
         inc TECHBEN_STRATRNGE
+        //inc TECHBEN_SHPTACSPD // REM: only 2 can be listed at a time.
     }
 }
 
@@ -2405,6 +2408,7 @@ strategy
     {
         inc TECHBEN_STRATSPD
         inc TECHBEN_STRATRNGE
+        //inc TECHBEN_SHPTACSPD // REM: only 2 can be listed at a time.
     }
 }
 
