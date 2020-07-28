@@ -20,8 +20,9 @@ weapon
     icon_file   GUI/WeaponIcons_2.tga
     icon_rect   "224 0 32 32"
 
-    range         3000
-    range_planet  3000
+    // Does not seem to have any effect.
+    range         50000
+    range_planet  50000
 
     fc_requires_los             false
     fc_requires_inrange         false
@@ -34,5 +35,9 @@ weapon
 
     wraith
     {
+        // NOTE: these do not appear to function for this weapon type
+        //strafe_duration		30
+		//capture_pop_rate	100000
+        //dam_infra_rate		0.08
     }
 }
