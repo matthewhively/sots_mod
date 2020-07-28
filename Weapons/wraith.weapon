@@ -2,22 +2,26 @@ weapon
 {
     name            @WEAPON_BRD_WRAITH
     weaponclass     rider
-    cost        0
     turretsize      large
     turretclass     wraith
+
+    cost        0
 
     burst_volleys       1
     buildup_delay       0   // time delay before rider disconnects
     volley_period       1
     volley_duration     0
     recharge_time       10
+    // Since these weapons can only be used "once" per combat round, it would be nice to change the cooldown to reflect that
+    // however that isn't safe, since you might cancel the weapon's activation by issuing new movement orders.
 
     solution_tolerance 180
-    range         50000
-    range_planet  50000
 
     icon_file   GUI/WeaponIcons_2.tga
     icon_rect   "224 0 32 32"
+
+    range         3000
+    range_planet  3000
 
     fc_requires_los             false
     fc_requires_inrange         false
