@@ -4571,7 +4571,7 @@ TECHDESC_DRV_VdCtr,This FTL technology of the Morrigi race pulls their ships int
 TECHNAME_DRV_VdCrv,Void Carver Drive
 TECHDESC_DRV_VdCrv,This refinement of the Cutter Drive into Carver Drive allows for greater range and speed.
 TECHNAME_DRV_VdMstr,Void Mastery Drive
-TECHDESC_DRV_VdMstr,The ultimate refinement of the Carver Drive allows for great range and speed.
+TECHDESC_DRV_VdMstr,The ultimate refinement of the Carver Drive allows for the greatest possible range and speed.
 TECHNAME_DRV_GrvSyn,Grav Synergy
 TECHDESC_DRV_GrvSyn,This technology effectively doubles the number of Morrigi ships that count towards the flock efficiency bonus.
 
@@ -5264,15 +5264,16 @@ SHIPBUILD_DESIGN_TITLE,Available Designs:
 SHIPBUILD_BUILD_BTN,Build
 
 
-SECTIONDESC_DEFusion_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma. "
-SECTIONDESC_DEAntimatter_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma. "
-SECTIONDESC_DEAntimatter_Mastery,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma. "
-SECTIONDESC_DNFusion_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma. "
-SECTIONDESC_DNAntimatter_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma. "
-SECTIONDESC_DNAntimatter_Mastery,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma. "
-SECTIONDESC_CRAntimatter_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma. "
-SECTIONDESC_CRAntimatter_Mastery,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma. "
-SECTIONDESC_CRFusion_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma. "
+SECTIONDESC_DEFusion_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma."
+SECTIONDESC_DEAntimatter_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma."
+SECTIONDESC_DEAntimatter_Mastery,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma."
+SECTIONDESC_DNFusion_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma."
+SECTIONDESC_DNAntimatter_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma."
+SECTIONDESC_DNAntimatter_Mastery,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma."
+SECTIONDESC_CRFusion_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma."
+SECTIONDESC_CRAntimatter_Carver,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma."
+SECTIONDESC_CRAntimatter_Mastery,"This faster than light technology pulls their ships into FTL channels using focused gravity to infinitely curve space-time, allowing them to accelerate and maneuver sub-light as well without using vented reactor plasma."
+
 SECTIONDESC_DEGravboat,"Special, single purpose ships that use gravitational effects to modify nearby ships movement. In strategic view a fleet's FTL speed between worlds is substantially increased. In combat they have the opposite effect, instead slowing down the movement of hostile ships."
 SECTIONDESC_CRGravboat,"Special, single purpose ships that use gravitational effects to modify nearby ships movement. In strategic view a fleet's FTL speed between worlds is substantially increased. In combat they have the opposite effect, instead slowing down the movement of hostile ships."
 SECTIONDESC_DNGravboat,"Special, single purpose ships that use gravitational effects to modify nearby ships movement. In strategic view a fleet's FTL speed between worlds is substantially increased. In combat they have the opposite effect, instead slowing down the movement of hostile ships."
