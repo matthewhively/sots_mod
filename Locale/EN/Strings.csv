@@ -2755,9 +2755,9 @@ TECHDESC_DRV_FarCast,This advancement in gate technology allows a Hiver gate to 
 TECHDESC_DRV_IncThrst,These highly efficient thrusters use heavy elements driven to relativistic speeds for thrusting power. Increases turn thrust on all ships and missiles by 25%
 
 
-TECHDESC_BIO_GnMod,Allows you to genetically modify the characteristics of your colonists to improve population growth on alien worlds by 10%
-TECHDESC_BIO_SpndAni,Allows you to place colonists in suspended animation for transport to their new world and increase your base population.
-TECHDESC_BIO_Btrans,A system of placing entire environmental biomes in stasis for transport aboard cruiser class hulls. This allows colony ships to literally carry pieces of the homeworld to new colonies for a head start in terrforming.
+TECHDESC_BIO_GnMod,"Allows you to genetically modify the characteristics of your colonists to improve population growth on alien worlds by 10%"
+TECHDESC_BIO_SpndAni,"Allows you to place colonists in suspended animation for transport to their new world and increase your base population.\n\n* Option to increase colonizer capacity by +400%."
+TECHDESC_BIO_Btrans,"A system of placing entire environmental biomes in stasis for transport aboard cruiser class hulls. This allows colony ships to literally carry pieces of the homeworld to new colonies for a head start in terrforming."
 TECHDESC_BIO_AtmoAd,Allows you to genetically modify the respiration systems of your colonists to improve population growth and optimize terraforming on alien worlds. This results in a 75 point increase in Enviro Hazard tolerance and a 6% overall increase in population growth. The resulting greater understanding of atmospheric components also results in a 25% increase in terraforming efficiency.
 TECHDESC_BIO_TerBac,Genetically engineered mass-growth bacteria that can alter a planets atmosphere thus increasing terraforming efficiency by 35%.
 TECHDESC_BIO_EnvTail,Allows you to genetically modify the entire physiology of your colonists to improve population growth and optimize terraforming on alien worlds. This increases population growth by 20% and terraforming effeciency by 35%.

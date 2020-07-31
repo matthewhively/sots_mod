@@ -2504,6 +2504,7 @@ strategy
 }
 
 
+// NOTE: There is no moddable way to alter the benefits of this technology
 tech
 {
 name        "BIO_SpndAni"
