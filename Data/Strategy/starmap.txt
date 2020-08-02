@@ -26,7 +26,7 @@ STARMAP_MINICLUSTERS_MAXSEP             15.0
 STARMAP_MINICLUSTERS_CLUSTERSEP         12      // +/- 2  NOTE: at 12+ AI becomes somewhat retarded
 STARMAP_MINICLUSTERS_MAXCLUSTERPATHDIST 16.0    // NOTE: Not exactly Node path maximum length, (can still be longer, but more rare)
 STARMAP_MINICLUSTERS_MINCLUSTERS        8       // how many clusters total at a minimum (cannot be less than 8)
-STARMAP_MINICLUSTERS_MAXPERCLUSTER      30
+STARMAP_MINICLUSTERS_MAXPERCLUSTER      22
 
 // Reducing the armlength tends to make more arms and lessen the definition of the spiral galaxy in general
 // minsep adjusts not only the core, but also the arms... bad for human in arms
