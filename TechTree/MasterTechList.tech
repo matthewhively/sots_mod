@@ -2144,7 +2144,7 @@ ship
     }
 }
 
-
+// TODO: Why is this drive tech? 
 tech
 {
 name        "DRV_QntCap"
@@ -2891,7 +2891,7 @@ name        "CCC_ScanSats"
 // There is no icon for this
 }
 
-
+// REM: Combat Algorithms and Holographic Tactics are essentially the same RP cost
 tech
 {
 name        "CCC_DatSyn"

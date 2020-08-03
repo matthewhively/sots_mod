@@ -184,13 +184,14 @@ SLAVERSREFUEL_MIN_ASSAULT_SHIPS     1
 SLAVERSREFUEL_MAX_ASSAULT_SHIPS     3
 SLAVERSREFUEL_THINK_PERIOD          0.6
 
-SWARMQUEEN_MINTURN_QUEEN_CYCLE          20
-SWARMQUEEN_MAXTURN_QUEEN_CYCLE          30
-SWARMQUEEN_QUEEN_FAILED_DELAY           10
+
+SWARMQUEEN_MINTURN_QUEEN_CYCLE          20        // ???
+SWARMQUEEN_MAXTURN_QUEEN_CYCLE          30        // ???
+SWARMQUEEN_QUEEN_FAILED_DELAY           10        // ???
 SWARMQUEEN_MINTURN                      10        // Queens won't begin spawning until after this turn.
 SWARMQUEEN_MAXQUEENS                    0         // Max queens that can be spawned at any given time.  0 for no limit.
 SWARMQUEEN_MAXQUEENS_SYSTEMSPERQUEEN    10        // Max of 1 queen for every x systems.  0 for no limit.
-SWARMQUEEN_SYSTEM_MEMORY                3
+SWARMQUEEN_SYSTEM_MEMORY                3         // ???
 SWARMQUEEN_MIN_HIVE_AGE                 5         // How old a hive must be before spawning a queen.
 SWARMQUEEN_MIN_SAVINGSBONUS             150000
 SWARMQUEEN_MAX_SAVINGSBONUS             375000
