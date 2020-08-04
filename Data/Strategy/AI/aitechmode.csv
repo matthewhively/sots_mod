@@ -20,6 +20,10 @@
 #
 # NOTE: we hope that when a tech is specified in this file it overwrites whatever hard coded values exist (since there is no way to UN-group a tech)
 
+# Testing tech for AI specific features
+#TST_NONE,e
+#TST_NONE,w
+#TST_NONE,n
 
 # TODO: Find any other hidden requirements on techs and adjust categorization appropriately
 

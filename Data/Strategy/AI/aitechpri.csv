@@ -26,6 +26,9 @@
 #XNC_TrnsZuul2,255,255,255,255,255,255
 #XNC_TrnsMorr2,255,255,255,255,255,255
 
+# Testing tech for AI specific features
+#TST_NONE,1,1,1,1,1,1
+
 # The AI might be ignoring this, but at least it doesn't hurt
 BIO_GnMod,255,255,255,255,255,255
 CCC_FTLBrdB,255,255,255,255,255,255
