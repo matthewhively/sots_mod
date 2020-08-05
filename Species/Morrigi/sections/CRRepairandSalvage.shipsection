@@ -1,141 +1,139 @@
-shipsection 
+shipsection
 {
-	
-	model Species/Morrigi/art/sections/CruiserRepairAndSalvage.X
-	requires IND_SlvgTech
-	socket_aft CommandNode
-	socket_fore EngineNode
-	section_type mission
-	section_class cruiser
-	health 1600
-	mass 8000
-	cost 49500
-	cpoints 3600
-	repair_capacity	15000
-	crew	40
-	spytender true
+    model Species/Morrigi/art/sections/CruiserRepairAndSalvage.X
 
-	preview_ofs "0 -50 -2"
+    requires IND_SlvgTech
 
-	option 	IND_PlyAlloy
+    socket_aft    CommandNode
+    socket_fore   EngineNode
+    section_type  mission
+    section_class cruiser
 
+    health  1600
+    mass    8000
+    cost    49500
+    cpoints 3600
 
+    repair_capacity 15000
 
-	
-	netforcelimits
-	{
-		force_forward			0
-		force_right			0
-		force_up			0
-		
-		torque_yaw			0
-		torque_pitch			0
-		torque_roll			0
-		
-		speed				-10
-		rotspeed			-10
-	}
+    crew    40
+    spytender true
 
-	anim
-	{
-		name "combatready"
-		event "CombatReady"
-		start_frame "0"
-		speed_scale "2"
-		loop "1"
-	}
+    preview_ofs "0 -50 -2"
 
-	anim
-	{
-		name "combatready"
-		event "CombatRest"
-		start_frame "end"
-		speed_scale "-2"
-		loop "1"
-	}
+    option  IND_PlyAlloy
 
-	bank
-	{
-		turretclass standard
-		turretsize small
+    netforcelimits
+    {
+        force_forward       0
+        force_right         0
+        force_up            0
 
-		mount
-		{
-			node LightGunNode01
-			min_inclination -10
-			max_inclination 90
-			min_azimuth -60
-			max_azimuth 60
-			home_inclination 0
-		}
+        torque_yaw          0
+        torque_pitch        0
+        torque_roll         0
 
-		mount
-		{
-			node LightGunNode02
-			min_inclination -10
-			max_inclination 90
-			min_azimuth -60
-			max_azimuth 60
-			home_inclination 0
-		}
-	}
+        speed               -10
+        rotspeed            -10
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize small
+    anim
+    {
+        name        "combatready"
+        event       "CombatReady"
+        start_frame "0"
+        speed_scale "2"
+        loop        "1"
+    }
 
-		mount
-		{
-			node LightGunNode03
-			min_inclination -10
-			max_inclination 90
-			min_azimuth -100
-			max_azimuth 75
-			home_inclination 0
-		}
-	}
+    anim
+    {
+        name        "combatready"
+        event       "CombatRest"
+        start_frame "end"
+        speed_scale "-2"
+        loop        "1"
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize small
+    bank
+    {
+        turretclass standard
+        turretsize small
 
-		mount
-		{
-			node LightGunNode04
-			min_inclination -10
-			max_inclination 90
-			min_azimuth -75
-			max_azimuth 100
-			home_inclination 0
-		}
-	}
+        mount
+        {
+            node            LightGunNode01
+            min_inclination -10
+            max_inclination 90
+            min_azimuth     -60
+            max_azimuth     60
+            home_inclination 0
+        }
 
-	bank
-	{
-		turretclass dronerider
-		turretsize large
-		
-		mount
-		{
-			node Drone01
-			min_azimuth 0
-			max_azimuth 0
-			min_inclination 0
-			max_inclination 0
-		}
-		
-		mount
-		{
-			node Drone02
-			min_azimuth 0
-			max_azimuth 0
-			min_inclination 0
-			max_inclination 0
-		}
-	
-	}
+        mount
+        {
+            node            LightGunNode02
+            min_inclination -10
+            max_inclination 90
+            min_azimuth     -60
+            max_azimuth     60
+            home_inclination 0
+        }
+    }
 
+    bank
+    {
+        turretclass standard
+        turretsize small
 
+        mount
+        {
+            node            LightGunNode03
+            min_inclination -10
+            max_inclination 90
+            min_azimuth     -100
+            max_azimuth     75
+            home_inclination 0
+        }
+    }
+
+    bank
+    {
+        turretclass standard
+        turretsize small
+
+        mount
+        {
+            node            LightGunNode04
+            min_inclination -10
+            max_inclination 90
+            min_azimuth     -75
+            max_azimuth     100
+            home_inclination 0
+        }
+    }
+
+    bank
+    {
+        turretclass dronerider
+        turretsize large
+
+        mount
+        {
+            node            Drone01
+            min_azimuth     0
+            max_azimuth     0
+            min_inclination 0
+            max_inclination 0
+        }
+
+        mount
+        {
+            node            Drone02
+            min_azimuth     0
+            max_azimuth     0
+            min_inclination 0
+            max_inclination 0
+        }
+    }
 }
