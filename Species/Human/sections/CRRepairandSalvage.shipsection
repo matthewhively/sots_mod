@@ -1,0 +1,44 @@
+shipsection 
+{
+	
+	model Species/Human/art/sections/CruiserRepairAndSalvage.X
+	requires IND_SlvgTech
+	socket_aft MissionNode
+	socket_fore MissionNode01
+	section_type mission
+	section_class cruiser
+	health 1500
+	mass 8000
+	cost 60000
+	cpoints 2520
+	repair_capacity	15000
+	crew	40
+	spytender true
+
+	preview_ofs "0 -50 -2"
+
+	option 	IND_PlyAlloy
+
+
+
+	
+	netforcelimits
+	{
+		force_forward			0
+		force_right			0
+		force_up			0
+		
+		torque_yaw			0
+		torque_pitch			0
+		torque_roll			0
+		
+		speed				-10
+		rotspeed			-10
+	}
+
+
+	
+
+
+
+}
