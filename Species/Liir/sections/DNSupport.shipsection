@@ -17,7 +17,7 @@ shipsection
 
     crew    100
 
-    repair_capacity     31000
+    repair_capacity     36000
     refueling_capacity  140
     refinery            true
 

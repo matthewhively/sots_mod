@@ -24,7 +24,7 @@ shipsection
     crew    60
 
     station repair
-    repair_capacity 55000
+    repair_capacity 65000
 
     explicit_command_section "DNStationRepair_Fore"
     explicit_engine_section  "DNStationRepair_Aft"

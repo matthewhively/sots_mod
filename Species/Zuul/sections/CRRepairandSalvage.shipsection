@@ -14,10 +14,9 @@ shipsection
     cost    55000
     cpoints 1980
 
-    repair_capacity 13000
+    repair_capacity 20000
 
     crew    42
-
     spytender true
 
     preview_ofs "11 -50 -1"

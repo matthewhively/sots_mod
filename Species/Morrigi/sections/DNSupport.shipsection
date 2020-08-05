@@ -17,7 +17,7 @@
 
     crew    100
 
-    repair_capacity     31000
+    repair_capacity     30000
     refueling_capacity  180
     refinery            true
 
