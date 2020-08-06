@@ -8,15 +8,16 @@ shipsection
     section_class destroyer
     entity_class  "Wraith"
 
-    health  1550
+    health  1200
     mass    5000
     cost    20000
     cpoints 1420
 
     // REM: also alter the description in strings.csv
-    prisoner_capacity 3000000 // 3 mil
+    prisoner_capacity 1000000 // 1 mil - REM: hard cap of 500k per combat round
 
-    autonomous 1    // actually means this is a ship with only a mission section
+    command_cost 1
+    autonomous   1    // actually means this is a ship with only a mission section
 
     nodespeed 5  // set to pulsed fission level
     ftlspeed  .4
