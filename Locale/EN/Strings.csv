@@ -2260,6 +2260,7 @@ TECHBEN_MSLSPD,Missile Speed,,
 TECHBEN_RDRSPD,Shuttle/Bio Missile Speed,,
 TECHBEN_RESEARCHSPD,Research Efficency
 TECHBEN_ECONOMIC,Economic Efficency
+TECHBEN_INCOME,Civilian Generated Income,,
 
 TOOLTIP_STANCE_NORMAL,Normal,50,
 TOOLTIP_STANCE_PURSUE,Pursue,50,
@@ -4529,7 +4530,7 @@ TECHDESC_IND_HrdElec,Ship construction techniques that created more substantial 
 TECHNAME_IND_MegFrght,Mega-Freighters
 TECHDESC_IND_MegFrght,The ability to build cruiser sized freighters for inter-empire trade.
 TECHNAME_IND_ModCon,Modular Construction
-TECHDESC_IND_ModCon,"This technology takes military construction doctrines and applies it to civilian ships, resulting in a 5% increase in civilian income generation. This also results in the ability to make the civilian/military hybrid Q-Ships."
+TECHDESC_IND_ModCon,"This technology takes military construction doctrines and applies it to civilian ships. This allows the construction of the civilian/military hybrid Q-Freighters."
 TECHNAME_IND_DSCon,Deep Space Constructors
 TECHDESC_IND_DSCon,The creation of highly specialized deep space construction ships for the building of structures beyond planetary orbit.
 TECHNAME_IND_OrbCom,Orbital Complexes
@@ -5379,7 +5380,6 @@ UICSTR_RAID,Flag As Raider,,
 
 COMMON_DECLINE,Decline,,
 
-TECHBEN_INCOME,Civilian Generated Income,,
 PLAYERSETUP_LOCK_SLOT,Lock Position,,
 PLAYERSETUP_LOCK_SLOT_TOOLTIP,,,
 PLAYERSETUP_SETTINGS_LABEL,Settings,,

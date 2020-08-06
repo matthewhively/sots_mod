@@ -1,4 +1,6 @@
 
+// REM: Modding changes to the tech tree CANNOT be made in previously saved games, all connection RNG has already been determined at game start.
+
 //******************************************************************************************
 //                                         Roots                                           *
 //******************************************************************************************
@@ -415,10 +417,10 @@ tech
 {
 name        "IND_ModCon"
 threat      2
-strategy
-    {
-        inc TECHBEN_INCOME
-    }
+//strategy
+//    {
+//        inc TECHBEN_INCOME
+//    }   // This benefit DNE, has zero effect on anything
 ship
     {
         section CrFreighterQ
