@@ -1,91 +1,82 @@
 shipsection
 {
-	
-	model Species/Tarkas/art/sections/DestroyerAbsorber.X
-	requires SLD_ErgAb
-	socket_aft EngineNode
-	socket_fore CommandNode
-	section_type mission
-	section_class destroyer
-	preview_ofs "-4 0 .5"
+    model Species/Tarkas/art/sections/DestroyerAbsorber.X
 
-	health 450
-	mass 1600
-	cost 27000
-	cpoints	1040
-	crew	3
+    requires SLD_ErgAb
 
+    socket_aft    EngineNode
+    socket_fore   CommandNode
+    section_type  mission
+    section_class destroyer
 
-	option 	IND_PlyAlloy
-	option	IND_RefCoat
-	
-	
-	netforcelimits
-	{
-		force_forward			0
-		force_right			0
-		force_up			0
-		
-		torque_yaw			0
-		torque_pitch			0
-		torque_roll			0
-		
-		speed				0
-		rotspeed			0
-	}
+    health  450
+    mass    1600
+    cost    27000
+    cpoints 1040
 
-	bank
-	{
-		turretclass standard
-		turretsize small
+    crew    3
 
-		mount
-		{
-			node LightGunNode01
-			min_azimuth 0
-			max_azimuth 160
-			min_inclination -10
-			max_inclination 90
+    preview_ofs "-4 0 .5"
 
-		}
+    option  IND_PlyAlloy
+    option  IND_RefCoat
 
-	}
+    netforcelimits
+    {
+        force_forward       0
+        force_right         0
+        force_up            0
 
-	bank
-	{
-		turretclass standard
-		turretsize small
+        torque_yaw          0
+        torque_pitch        0
+        torque_roll         0
 
-		mount
-		{
-			node LightGunNode02
-			min_azimuth -160
-			max_azimuth 0
-			min_inclination -10
-			max_inclination 90
+        speed               0
+        rotspeed            0
+    }
 
-		}
+    bank
+    {
+        turretclass standard
+        turretsize small
 
-	}
+        mount
+        {
+            node            LightGunNode01
+            min_azimuth     0
+            max_azimuth     160
+            min_inclination -10
+            max_inclination 90
+        }
+    }
 
-	bank
-	{
-		turretclass standard
-		turretsize medium
-	
+    bank
+    {
+        turretclass standard
+        turretsize small
 
-		mount
-		{
-			node MediumGunNode01
-			min_azimuth -135
-			max_azimuth 135
-			min_inclination -10
-			max_inclination 90
-	
-		}
+        mount
+        {
+            node            LightGunNode02
+            min_azimuth     -160
+            max_azimuth     0
+            min_inclination -10
+            max_inclination 90
+        }
+    }
 
+    bank
+    {
+        turretclass standard
+        turretsize medium
 
-
-
-	}
+        mount
+        {
+            node            MediumGunNode01
+            min_azimuth     -135
+            max_azimuth     135
+            min_inclination -10
+            max_inclination 90
+        }
+    }
 }
