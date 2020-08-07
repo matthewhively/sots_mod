@@ -182,22 +182,31 @@ FLEETMAN_RENAMEFLEET,Rename Fleet,,Appears on main button in fleet manager.
 FLEETMAN_COMMANDCOST,Command Cost,,
 FLEETMAN_COMMANDQUOTA,Command Quota,,
 
-MAPSHAPE_SPHERE,Sphere,,
-MAPSHAPE_CLUSTERS,Clusters,,
-MAPSHAPE_SPIRAL,Spiral,,
-MAPSHAPE_ARM,Arm,,
-MAPSHAPE_HOURGLASS,Hourglass,,
-MAPSHAPE_RIFT,Rift,,
-MAPSHAPE_CUSTOM,Custom,,
-MAPSHAPE_HOLLOW,Hollow Sphere,,
-MAPSHAPE_COLLISION,Galactic Collision,,
-MAPSHAPE_2D,2D,,
-MAPSHAPE_GLOBULAR,Globular Clusters,,
-MAPSHAPE_RANDOM,Random,,
-MAPSHAPE_TUBE,Tube,,
-MAPSHAPE_RING,Ring,,
-MAPSHAPE_NURSERY,Stellar Nursery,,
-MAPSHAPE_BARRED,Barred,,
+MAPSHAPE_SPHERE,"(BAD) Sphere"
+MAPSHAPE_CLUSTERS,Filaments
+MAPSHAPE_SPIRAL,"(BAD) Spiral"
+MAPSHAPE_ARM,Spiral Arm
+MAPSHAPE_HOURGLASS,"(BAD) Hourglass"
+MAPSHAPE_RIFT,Rift
+MAPSHAPE_HOLLOW,Hollow Sphere
+MAPSHAPE_COLLISION,"Galactic Neighbors (<= 7LY)"
+MAPSHAPE_2D,"2D (<= 7LY)"
+MAPSHAPE_GLOBULAR,"Real Space (<= 7LY)"
+MAPSHAPE_TUBE,Tube
+MAPSHAPE_RING,Ring
+MAPSHAPE_NURSERY,Stellar Nursery
+MAPSHAPE_BARRED,Barred
+MAPSHAPE_DISK,Disk
+MAPSHAPE_BARBELL,Barbell
+MAPSHAPE_CLOUDS,"Clouds (7LY)"
+MAPSHAPE_REALSPACE,"(BAD) Real Space"
+MAPSHAPE_MINICLUSTERS,Globular Clusters
+MAPSHAPE_CUBES,Cubes
+MAPSHAPE_SINUSOID,Sinusoid
+MAPSHAPE_MOUNTAIN,"Mountain (<= 8LY)"
+MAPSHAPE_HELIX,Helix
+MAPSHAPE_RANDOM,Random
+MAPSHAPE_CUSTOM,Custom
 
 GAMECARD_MAPSHAPE,Galaxy Type: %s,127,"params: shape of map, NOTE: A gamecard is the area that displays additional game information when you select it from either the load game list, or the server list in multiplayer"
 GAMECARD_NUMSTARS,%s Stars,127,params: number of stars
@@ -3785,9 +3794,9 @@ LOBBYSTATUS_BATTLES,"%s battles in progress, %s of %s remaining.",,"params: num 
 
 PLAYERSETUP_TEAM_LABEL,Select Team
 GAMESETUP_OPTIONS_TEAMS,Teams
-MAPSHAPE_DISK,Disk
-FLEETACTION_GUARDING,Guarding
 GAMEINFO_TEAMS,Teams
+
+FLEETACTION_GUARDING,Guarding
 FLEETSORT_GUARDS,Guards
 
 RESERVESSORT_DESIGN,Design
@@ -4303,9 +4312,7 @@ AIPLAYER_ZUUL_13,The Nameless
 AIPLAYER_HIVER_17,Imperial Strategist Chezokin
 AIPLAYER_HIVER_18,Obsidian Crown
 AIPLAYER_HIVER_19,Radiant Frost
-MAPSHAPE_BARBELL,Barbell
-MAPSHAPE_CLOUDS,Clouds
-MAPSHAPE_REALSPACE,Real Space
+
 
 TUTORIAL_PAGE_TITLE_VIDEOS,Tutorial Videos
 TUTORIAL_PAGE0_Text0,Click to play\n (ESC to stop)
@@ -5889,11 +5896,7 @@ LANDGRABOBJ_YOUHAVE_NSYS,You have %s worlds.
 
 GAMESETUP_SCENARIO_MAPSHAPES_LABEL,Map Shape
 SCENARIO_LANDGRAB_TITLE,Land Grab
-MAPSHAPE_MINICLUSTERS,Mini Clusters
-MAPSHAPE_CUBES,Cubes
-MAPSHAPE_SINUSOID,Sinusoid
-MAPSHAPE_MOUNTAIN,Mountain
-MAPSHAPE_HELIX,Helix
+
 
 SCENARIO_ANTIQUARIANS_TITLE,Antiquarians
 SCENARIO_ANTIQUARIANS_DESC1,"\t\t\tWith the morning's intelligence report it has become clear; the race is on.\n\n\t\t\tIt has been confirmed that enemy scientists have been thinking along the same lines as your own. The ruined, yet half-operational derelicts found from time to time, suggest a larger whole, and if enough of them can be found and collected, the thinkers believe they can put them back together again.\n\n\t\t\tImagine the possibilities of possessing a fully operational, exotic alien technology!\n\n\t\t\tHunt the derelicts down and bring them to the Homeworld for study. Do NOT let them fall into the hands of the other empires!\n\n
