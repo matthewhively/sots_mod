@@ -32,14 +32,14 @@ STARMAP_MINICLUSTERS_MAXPERCLUSTER      22
 
 // Reducing the armlength tends to make more arms and lessen the definition of the spiral galaxy in general
 // minsep adjusts not only the core, but also the arms... bad for human in arms
-// NOTE: in game, set the distance to 5/6 LY, combined with the hardcoded MINSEP of 6 LY; causes core to spread out, and the arms to condense.
+// NOTE: in game, set the distance to <= 7LY, combined with the hardcoded MINSEP of 7 LY; causes core to spread out, and the arms to condense.
 STARMAP_COLLISION_ANGLE             180.0
 STARMAP_COLLISION_OFFSET_X          0.0    // 0.XX % radius of spiral
 STARMAP_COLLISION_OFFSET_Y          0.0
-STARMAP_COLLISION_OFFSET_Z          0.30
-STARMAP_COLLISION_MINSEP            6       //2.50
+STARMAP_COLLISION_OFFSET_Z          0.35
+STARMAP_COLLISION_MINSEP            7       //2.50
 STARMAP_COLLISION_ARMRATIO          0.90    //0.80  // % of systems appearing in arms instead of the center.
-STARMAP_COLLISION_ARMLENGTH         55      //45
+STARMAP_COLLISION_ARMLENGTH         52      //45
 
 // ======================
 
