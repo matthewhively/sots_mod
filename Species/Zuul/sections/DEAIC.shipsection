@@ -43,7 +43,7 @@ shipsection
         torque_roll         6.2e+7
 
         speed               20
-        rotspeed            190
+        rotspeed            140
     }
 
     bank
