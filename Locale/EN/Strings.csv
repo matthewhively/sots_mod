@@ -4539,7 +4539,7 @@ TECHDESC_IND_MegFrght,The ability to build cruiser sized freighters for inter-em
 TECHNAME_IND_ModCon,Modular Construction
 TECHDESC_IND_ModCon,"This technology takes military construction doctrines and applies it to civilian ships. This allows the construction of the civilian/military hybrid Q-Freighters."
 TECHNAME_IND_DSCon,Deep Space Constructors
-TECHDESC_IND_DSCon,The creation of highly specialized deep space construction ships for the building of structures beyond planetary orbit.
+TECHDESC_IND_DSCon,The creation of highly specialized deep space construction ships for the building of massive structures in planetary orbit.
 TECHNAME_IND_OrbCom,Orbital Complexes
 TECHDESC_IND_OrbCom,"Allows for the construction of large, special purpose space stations."
 TECHNAME_IND_AdvDreadEng,Advanced Dreadnought Engineering
@@ -5294,29 +5294,34 @@ SECTIONDESC_DNDisruptor,"A reconfiguration of the Deflector ships; only instead 
 SECTIONDESC_CRCOL,This specialized section operates as the launch platform for various Complex Ordinance packages.
 SECTIONDESC_DNEW,"A heavy investment, this dreadnought workhorse comes packed with a host of Electronic Warfare capabilities found in other ships, such as Deep Scans, Wild Weasels, and Jammers. What it lacks in firepower compared to its sister ships, it compensates with some very nasty surprises."
 SECTIONDESC_DNFlagship,"The Flagship of your fleets. Take care of it as you only can only build and maintain one at any given time. If you lose it, you can build another, but you don't want to lose it. Flagships are the most heavily armed and armored CnC ships you can take into battle."
-SECTIONDESC_CRConstruction,"While stations can operate around planets, they can't drive there, so these massive cousins to repair and salvage ships are required to build them."
-SECTIONDESC_DNStationCommand,"A Command Station simply functions as a system-locked CnC ship and is able to command somewhat more ships in battle than a Strikeforce CnC ship, but not as much as an Armada CnC ship. As well, these stations can help with the logistics of military orbital industry, increasing the industrial output of a planet's Imperial population."
-SECTIONDESC_DNStationRepair,"A C/R station is a welcome addition to the production facilities of a planet, helping to increase ship production, improve response to repair requests, and increase the amount of resources recovered post-battle."
+SECTIONDESC_CRConstruction,"These specialized ships are built to efficiently construct stations in orbit. Slow and unarmed, but efficent."
+
+SECTIONDESC_DNStationCommand,"A Command Station simply functions as a system-locked CnC ship and is able to command even more ships in battle than an Armada CnC ship. These stations also help with the logistics of military orbital industry, increasing the industrial output of a planet's Imperial population."
+SECTIONDESC_DNStationCommand_Aft,
+SECTIONDESC_DNStationCommand_Fore,
+SECTIONDESC_DNStationRepair,"A Repair station is a welcome addition to the production facilities of a planet, helping to increase ship production, improve response to repair requests, and increase the amount of resources recovered post-battle."
+SECTIONDESC_DNStationRepair_Aft,
+SECTIONDESC_DNStationRepair_Fore,
 SECTIONDESC_DNStationScience,"A great many avenues of research require or are at least improved upon by zero-G environments. As such, science stations provide a bonus to an empire's research output."
+SECTIONDESC_DNStationScience_Aft,
+SECTIONDESC_DNStationScience_Fore,
 SECTIONDESC_DNStationSensor,"A sensor station conveys its powerful scanning data to a system as if it were a deep scan vessel. The station's dedicated array, combined with Tunneling Sensor systems, increase the chances of detecting a cloaked enemy fleet on the Galaxy Map."
-SECTIONDESC_DNStationTrade,"A Trade station is far easier for tradeships to deal with than orbit-to-surface transports, and then increase all trade route income into a planet. As well, these stations help create two additional trade routes to allied or NAP agreed worlds in range. Trade stations in an uninhabited world act like a planet with two trade routes, and are added to that trade sector's total. The increased alien traffic provides a wealth of information to Xenotech scientists, helping to reduce the cost of researching Xenotech."
-SECTIONDESC_DNStationHabitat,"A Morrigi station that provides an extra 100 million civilian and 100 million Imperial citizens a home in a system. As mentioned, this is the only station that allows multiple builds of the same type, at a single planet."
+SECTIONDESC_DNStationSensor_Aft,
+SECTIONDESC_DNStationSensor_Fore,
+SECTIONDESC_DNStationTrade,"A Trade station is far easier for tradeships to deal with than orbit-to-surface transports, and thus increase all trade route income into a planet. As well, these stations facilitate two additional trade routes to allied or NAP agreed worlds in range. Trade stations in an uninhabited world act like a planet with two trade routes, and are added to that trade sector's total. Finally, increased interaction with alien species provides a wealth of information to Xenotech scientists, thereby reducing the cost of researching Xenotech."
+SECTIONDESC_DNStationTrade_Aft,
+SECTIONDESC_DNStationTrade_Fore,
+SECTIONDESC_DNStationHabitat,"A Morrigi station that provides an extra 100 million civilian and 100 million Imperial citizens a home in a system. This is the only station that allows multiple builds of the same type at a single planet."
+SECTIONDESC_DNStationHabitat_Aft,
+SECTIONDESC_DNStationHabitat_Fore,
+
+
 SECTIONDESC_CrFreighter,"A cruiser-sized trade transport. Tougher and better armed than a Destroyer Freighter, but by no means a replacement for trade patrol ships or the Cruiser Q Freighter."
 SECTIONDESC_CrFreighterQ,"A cruiser-sized trade transport. Tougher and better armed than either a Destroyer or Cruiser Freighter, but by no means a replacement for trade patrol ships. These ships carry less cargo, but more, hidden weapons. Surprise, Raiders!"
 SECTIONDESC_DEpolice,"With a growing, non-military population, positive civilian morale is aided by having patrols of peace officers. Particularly in a multi-race population, keeping the peace is sometimes just as comforting, or at least helps keep tempers calm, as keeping a system safe from attack. Police Cutters minimize the impact of morale damaging events."
+
 SECTIONDESC_DNGuard,"The Flagship of your fleets. Take care of it as you only can only build and maintain one at any given time. If you lose it, you can build another, but you don't want to lose it. Flagships are the most heavily armed and armored CnC ships you can take into battle."
-SECTIONDESC_DNStationCommand_Aft,"A Command Station simply functions as a system-locked CnC ship and is able to command somewhat more ships in battle than a Strikeforce CnC ship, but not as much as an Armada CnC ship. As well, these stations can help with the logistics of military orbital industry, increasing the industrial output of a planet's Imperial population."
-SECTIONDESC_DNStationCommand_Fore,"A Command Station simply functions as a system-locked CnC ship and is able to command somewhat more ships in battle than a Strikeforce CnC ship, but not as much as an Armada CnC ship. As well, these stations can help with the logistics of military orbital industry, increasing the industrial output of a planet's Imperial population."
-SECTIONDESC_DNStationHabitat_Aft,"A Morrigi station that provides an extra 100 million civilian and 100 million Imperial citizens a home in a system. As mentioned, this is the only station that allows multiple builds of the same type, at a single planet."
-SECTIONDESC_DNStationHabitat_Fore,"A Morrigi station that provides an extra 100 million civilian and 100 million Imperial citizens a home in a system. As mentioned, this is the only station that allows multiple builds of the same type, at a single planet."
-SECTIONDESC_DNStationRepair_Aft,"A C/R station is a welcome addition to the production facilities of a planet, helping to decrease ship construction costs, improve response to repair requests, and increase the amount of resources recovered post-battle."
-SECTIONDESC_DNStationRepair_Fore,"A C/R station is a welcome addition to the production facilities of a planet, helping to decrease ship construction costs, improve response to repair requests, and increase the amount of resources recovered post-battle."
-SECTIONDESC_DNStationScience_Aft,"A great many avenues of research require or are at least improved upon by zero-G environments. As such, science stations provide a bonus to an empire's research output."
-SECTIONDESC_DNStationScience_Fore,"A great many avenues of research require or are at least improved upon by zero-G environments. As such, science stations provide a bonus to an empire's research output."
-SECTIONDESC_DNStationSensor_Aft,"A sensor station conveys its powerful scanning data to a system as if it were a deep scan vessel. The station's dedicated array, combined with Tunneling Sensor systems, increase the chances of detecting a cloaked enemy fleet on the Galaxy Map."
-SECTIONDESC_DNStationSensor_Fore,"A sensor station conveys its powerful scanning data to a system as if it were a deep scan vessel. The station's dedicated array, combined with Tunneling Sensor systems, increase the chances of detecting a cloaked enemy fleet on the Galaxy Map."
-SECTIONDESC_DNStationTrade_Aft,"A Trade station is far easier for tradeships to deal with than orbit-to-surface transports, and then increase all trade route income into a planet. As well, these stations help create two additional trade routes to allied or NAP agreed worlds in range. Trade stations in an uninhabited world act like a planet with two trade routes, and are added to that trade sector's total. The increased alien traffic provides a wealth of information to Xenotech scientists, helping to reduce the cost of researching Xenotech."
-SECTIONDESC_DNStationTrade_Fore,"A Trade station is far easier for tradeships to deal with than orbit-to-surface transports, and then increase all trade route income into a planet. As well, these stations help create two additional trade routes to allied or NAP agreed worlds in range. Trade stations in an uninhabited world act like a planet with two trade routes, and are added to that trade sector's total. The increased alien traffic provides a wealth of information to Xenotech scientists, helping to reduce the cost of researching Xenotech."
+
 SECTIONDESC__Drone,"An unmanned, autonomous combat platform; unable to travel on its own between systems, it requires a carrier ship for transport."
 SECTIONDESC__ZuulAssaultShuttle,"Technically a planetary assault craft, the Zuul have included special considerations into their design... cargo holds for their captured slaves."
 
