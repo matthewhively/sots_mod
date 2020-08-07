@@ -15,7 +15,7 @@ shipsection
 
     aicontrol true
     rebelai_scanrange 8
-    rebelai_tacticalsensorrange 6200
+    rebelai_tacticalsensorrange 5700
 
     option
     {
