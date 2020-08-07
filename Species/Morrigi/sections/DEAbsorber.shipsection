@@ -29,8 +29,8 @@ shipsection
         torque_pitch        0
         torque_roll         0
 
-        speed               0
-        rotspeed            50
+        speed               -5
+        rotspeed            0
     }
 
     anim
