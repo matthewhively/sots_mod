@@ -1,76 +1,72 @@
 shipsection
 {
-	model Species/Zuul/art/sections/DestroyerAIC.X
-	requires CCC_AIFrCon
-	socket_aft CommandNode
-	section_type command
-	section_class destroyer
-	aicontrol true
-	health 500
-	mass 600
-	cost 30000
-	cpoints	400
-	rebelai_scanrange 8
-	rebelai_tacticalsensorrange 6200
-	
-	option
-	{
-		option 	IND_PlyAlloy
-		option	IND_MagLat
-		option	IND_QrkRes
-		option	IND_AdmAly
-		option	IND_StlthArm
-	}
+    model Species/Zuul/art/sections/DestroyerAIC.X
 
-	option 
-	{
-		option	IND_RefCoat
-		option	IND_ImpRfCt
-	}
-	
+    requires CCC_AIFrCon
 
-	netforcelimits
-	{
-		force_forward			5000	
-		force_right			5000
-		force_up			5000	
-		
-		torque_yaw			6.2e+7
-		torque_pitch			6.2e+7
-		torque_roll			6.2e+7
-		
-		speed				20
-		rotspeed			190
-	}
+    socket_aft    CommandNode
+    section_type  command
+    section_class destroyer
 
+    health  500
+    mass    600
+    cost    30000
+    cpoints 400
 
+    aicontrol true
+    rebelai_scanrange 8
+    rebelai_tacticalsensorrange 6200
 
-	bank
-	{
-		turretclass standard
-		turretsize small
+    option
+    {
+        option  IND_PlyAlloy
+        option  IND_MagLat
+        option  IND_QrkRes
+        option  IND_AdmAly
+        option  IND_StlthArm
+    }
 
+    option
+    {
+        option  IND_RefCoat
+        option  IND_ImpRfCt
+    }
 
-		mount
-		{
-			node LightGunNode01
-			min_azimuth -110
-			max_azimuth 110
-			min_inclination -8
-			max_inclination 90
-		}
+    netforcelimits
+    {
+        force_forward       5000
+        force_right         5000
+        force_up            5000
 
+        torque_yaw          6.2e+7
+        torque_pitch        6.2e+7
+        torque_roll         6.2e+7
 
+        speed               20
+        rotspeed            190
+    }
 
+    bank
+    {
+        turretclass standard
+        turretsize small
 
-		mount
-		{
-			node LightGunNode02
-			min_azimuth -110
-			max_azimuth 110
-			min_inclination -8
-			max_inclination 90
-		}
-	}
+        mount
+        {
+            node            LightGunNode01
+            min_azimuth     -110
+            max_azimuth     110
+            min_inclination -8
+            max_inclination 90
+        }
 
+        mount
+        {
+            node            LightGunNode02
+            min_azimuth     -110
+            max_azimuth     110
+            min_inclination -8
+            max_inclination 90
+        }
+    }
 }
