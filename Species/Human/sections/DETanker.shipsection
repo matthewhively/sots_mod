@@ -1,41 +1,41 @@
 shipsection
 {
-	
-	model Species/Human/art/sections/DestroyerTanker.X
-	socket_aft EngineNode
-	socket_fore CommandNode
-	section_type mission
-	section_class destroyer
-	health 150
-	mass 3000
-	cost 17000
-	cpoints	920
-	refueling_capacity  10
-	preview_ofs "0 0 -.5"
+    model Species/Human/art/sections/DestroyerTanker.X
 
-	death_effect "Effects/DE_Fuel_Explosion.effect"
-	death_area_impact_effect ""
-	death_dam 400
-	death_damradius 350
+    socket_aft    EngineNode
+    socket_fore   CommandNode
+    section_type  mission
+    section_class destroyer
 
-	option 	IND_PlyAlloy
-	option	IND_RefCoat
-	
-	netforcelimits
-	{
-		force_forward			0
-		force_right			0
-		force_up			0
-		
-		torque_yaw			0
-		torque_pitch			0
-		torque_roll			0
-		
-		speed				-15
-		rotspeed			-10
-	}
+    health  150
+    mass    3000
+    cost    17000
+    cpoints 920
 
+    refueling_capacity  10
+
+    preview_ofs "0 0 -.5"
+
+    death_effect "Effects/DE_Fuel_Explosion.effect"
+    death_area_impact_effect ""
+    death_dam 400
+    death_damradius 350
+
+    option  IND_PlyAlloy
+    option  IND_RefCoat
+
+    netforcelimits
+    {
+        force_forward       0
+        force_right         0
+        force_up            0
+
+        torque_yaw          0
+        torque_pitch        0
+        torque_roll         0
+
+        speed               -15
+        rotspeed            -10
+    }
 }
-
-
 

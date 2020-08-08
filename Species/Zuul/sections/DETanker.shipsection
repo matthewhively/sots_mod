@@ -1,40 +1,41 @@
 shipsection
 {
-	model Species/Zuul/art/sections/DestroyerTanker.X
-	socket_aft EngineNode
-	socket_fore CommandNode
-	section_type mission
-	section_class destroyer
-	health 100
-	mass 3000
-	cost 14000
-	cpoints	800
-	refueling_capacity  18
-	preview_ofs "3.3 0 1"
+    model Species/Zuul/art/sections/DestroyerTanker.X
 
-	death_effect "Effects/DE_Fuel_Explosion.effect"
-	death_area_impact_effect ""
-	death_dam 400
-	death_damradius 350
-	
-	option 	IND_PlyAlloy
-	option	IND_RefCoat
-	
-	netforcelimits
-	{
-		force_forward			0
-		force_right			0
-		force_up			0
-		
-		torque_yaw			0
-		torque_pitch			0
-		torque_roll			0
-		
-		speed				-10
-		rotspeed			-10
-	}
+    socket_aft    EngineNode
+    socket_fore   CommandNode
+    section_type  mission
+    section_class destroyer
 
+    health  100
+    mass    3000
+    cost    14000
+    cpoints 800
+
+    refueling_capacity  18
+
+    preview_ofs "3.3 0 1"
+
+    death_effect "Effects/DE_Fuel_Explosion.effect"
+    death_area_impact_effect ""
+    death_dam 400
+    death_damradius 350
+
+    option  IND_PlyAlloy
+    option  IND_RefCoat
+
+    netforcelimits
+    {
+        force_forward       0
+        force_right         0
+        force_up            0
+
+        torque_yaw          0
+        torque_pitch        0
+        torque_roll         0
+
+        speed               -10
+        rotspeed            -10
+    }
 }
-
-
 
