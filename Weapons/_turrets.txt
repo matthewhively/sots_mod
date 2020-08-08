@@ -1,28 +1,28 @@
 // size  weapon-size  class               health  track-speed  constrain-azimuth-%  constrain-inclination-%  "modelname"
 
 small       tiny      standard               20      360            1.00                1.00                  "turret_pd.x"
-small       small     standard              120      320            1.00                1.00                  "turret_s1standard.x"
-medium      small     standard              350      180            1.00                1.00                  "turret_m2standard.x"
-large       small     standard              800      120            1.00                1.00                  "turret_l3standard.x"
-medium      medium    standard              500      140            1.00                1.00                  "turret_m1standard.x"
-large       medium    standard              950      100            1.00                1.00                  "turret_l2standard.x"
-large       large     standard             1400      80             1.00                1.00                  "turret_l1standard.x"
-small       small     strafe                120      320            1.00                1.00                  "turret_s1standard.x"
-medium      small     strafe                350      180            1.00                1.00                  "turret_m2standard.x"
-large       small     strafe                800      120            1.00                1.00                  "turret_l3standard.x"
-medium      medium    strafe                500      140            1.00                1.00                  "turret_m1standard.x"
-large       medium    strafe                950      100            1.00                1.00                  "turret_l2standard.x"
-large       large     strafe               1400      80             1.00                1.00                  "turret_l1standard.x"
-small       small     grapple               120      320            1.00                1.00                  "turret_s1standard.x"
-medium      small     grapple               350      180            1.00                1.00                  "turret_m2standard.x"
-large       small     grapple               800      120            1.00                1.00                  "turret_l3standard.x"
-medium      medium    grapple               500      140            1.00                1.00                  "turret_m1standard.x"
-large       medium    grapple               950      100            1.00                1.00                  "turret_l2standard.x"
-large       large     grapple              1400      80             1.00                1.00                  "turret_l1standard.x"
-medium      medium    missile               400      100            1.00                0.25                  "turret_m1missile.x" 
-large       medium    missile               950      100            1.00                0.25                  "turret_l2missile.x" 
-large       large     missile              1000      100            1.00                0.25                  "turret_l1missile.x" 
-large       medium    planetmissile        1000      100            1.00                1.00                  "turret_l2icbm.x"    
+small       small     standard              120      320            1.00                1.00                  "turret_s1standard.x" // Single (1)
+medium      small     standard              350      180            1.00                1.00                  "turret_m2standard.x" // Double (2) if a small weapon is in a medium slot
+large       small     standard              800      120            1.00                1.00                  "turret_l3standard.x" // Triple (3) if a small weapon is in a large slot
+medium      medium    standard              500      140            1.00                1.00                  "turret_m1standard.x" // Single (1) if a medium weapon is in a medium slot
+large       medium    standard              950      100            1.00                1.00                  "turret_l2standard.x" // Double (2) if a medium weapon is in a large slot
+large       large     standard             1400      80             1.00                1.00                  "turret_l1standard.x" // Single (1)
+small       small     strafe                120      320            1.00                1.00                  "turret_s1standard.x" // Single (1)
+medium      small     strafe                350      180            1.00                1.00                  "turret_m2standard.x" // Double (2)
+large       small     strafe                800      120            1.00                1.00                  "turret_l3standard.x" // Triple (3)
+medium      medium    strafe                500      140            1.00                1.00                  "turret_m1standard.x" // Single (1)
+large       medium    strafe                950      100            1.00                1.00                  "turret_l2standard.x" // Double (2)
+large       large     strafe               1400      80             1.00                1.00                  "turret_l1standard.x" // Single (1)
+small       small     grapple               120      320            1.00                1.00                  "turret_s1standard.x" // Single (1) (does not exist)
+medium      small     grapple               350      180            1.00                1.00                  "turret_m2standard.x" // Double (2) (does not exist)
+large       small     grapple               800      120            1.00                1.00                  "turret_l3standard.x" // Triple (3) (does not exist)
+medium      medium    grapple               500      140            1.00                1.00                  "turret_m1standard.x" // Single (1)
+large       medium    grapple               950      100            1.00                1.00                  "turret_l2standard.x" // Double (2)
+large       large     grapple              1400      80             1.00                1.00                  "turret_l1standard.x" // Single (1)
+medium      medium    missile               400      100            1.00                0.25                  "turret_m1missile.x"  // Single (1)
+large       medium    missile               950      100            1.00                0.25                  "turret_l2missile.x"  // Double (2)
+large       large     missile              1000      100            1.00                0.25                  "turret_l1missile.x"  // Single (1)
+large       medium    planetmissile        1000      100            1.00                1.00                  "turret_l2icbm.x"     // ??? is this a double?
 large       large     beam                 1500      80             1.00                1.00                  ""
 large       large     freebeam             1700      20             1.00                1.00                  "turret_l1freebeam.x"
 large       large     spinal                800      100            1.00                1.00                  ""
