@@ -78,7 +78,7 @@ weapon
     rating_frate    8
     rating_dam      2
     rating_acc      8
-    rating_range    4.5
+    rating_range    6
 
     // NOTE: higher than light emitter
     dam_est     70

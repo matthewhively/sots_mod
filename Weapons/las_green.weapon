@@ -79,7 +79,7 @@ weapon
     rating_frate    8
     rating_dam      1.4
     rating_acc      7
-    rating_range    3.5
+    rating_range    5
 
     dam_est     13
 }
