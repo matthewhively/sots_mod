@@ -2270,6 +2270,7 @@ TECHBEN_RDRSPD,Shuttle/Bio Missile Speed,,
 TECHBEN_RESEARCHSPD,Research Efficency
 TECHBEN_ECONOMIC,Economic Efficency
 TECHBEN_INCOME,Civilian Generated Income,,
+TECHBEN_BOMBARD_DMG,Planet Bombard Damage Taken
 
 TOOLTIP_STANCE_NORMAL,Normal,50,
 TOOLTIP_STANCE_PURSUE,Pursue,50,
@@ -2652,7 +2653,7 @@ TECHDESC_IND_ExpSys,Advanced Software that allows for construction robots to fun
 TECHDESC_IND_PredGun,This simple AI targeting system will allow ships equipped with this technology to fire much more accurately.
 TECHDESC_IND_TrctBm,An Electromagnetic Beam capable of locking on to another ship over a distance and holding it.
 TECHDESC_IND_DeCon,Systems that allow starships of all sizes to be broken up for recycling while still in orbit and thus tripling the return on scrapped ships.
-TECHDESC_IND_HrdStrct,"The use of armored construction materials to create industrial and population centers resistant to orbital bombardment and reduces the damage taken by industry and population by 50%. Unfortunately, the over-centralization required for this reduces industrial output by 10%."
+TECHDESC_IND_HrdStrct,"The use of armored construction materials to create industrial and population centers resistant to orbital bombardment and reduces the damage taken by infrastructure and population by 50%. Unfortunately, the over-centralization required for this reduces industrial output by 10%."
 TECHDESC_IND_ArcCon,The ability to create huge structures than can house up a million people with many times the efficiency of normal cities. This results in a 100 million population increase to the planetary limit and an overall 15% increase in the population growth rate.
 
 

@@ -600,10 +600,11 @@ name        "IND_HrdStrct"
 threat      2
 type        P
 requires    "IND_QrkRes"
-//strategy
-//    {
-//        dec TECHBEN_INDOUTPUT
-//    }
+strategy
+    {
+        dec TECHBEN_BOMBARD_DMG
+        dec TECHBEN_INDOUTPUT
+    }
 }
 
 
