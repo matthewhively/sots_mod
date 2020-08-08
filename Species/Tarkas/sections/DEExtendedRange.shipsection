@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Tarkas/art/sections/DestroyerExtendedRange.X
 
     socket_aft    EngineNode
@@ -99,5 +98,4 @@ shipsection
             max_inclination 90
         }
     }
-
 }

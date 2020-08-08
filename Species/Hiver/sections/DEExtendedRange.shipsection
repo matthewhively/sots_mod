@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Hiver/art/sections/DestroyerExtendedRange.X
 
     socket_aft    EngineNode
@@ -23,8 +22,8 @@ shipsection
 
     death_effect             "Effects/DEER_Fuel_Explosion.effect"
     death_area_impact_effect ""
-    death_dam                300
-    death_damradius          80
+    death_dam                200
+    death_damradius          150
 
     option
     {
@@ -78,5 +77,4 @@ shipsection
             max_azimuth     170
         }
     }
-
 }

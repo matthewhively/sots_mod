@@ -23,7 +23,7 @@
 
     death_effect "Effects/CR_Fuel_Explosion.effect"
     death_area_impact_effect ""
-    death_dam 3350
+    death_dam       3050
     death_damradius 1040
 
     preview_ofs "-11 -40 6"

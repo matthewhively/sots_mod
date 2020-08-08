@@ -23,7 +23,7 @@ shipsection
 
     death_effect "Effects/CR_Fuel_Explosion.effect"
     death_area_impact_effect ""
-    death_dam 750
+    death_dam       750
     death_damradius 640
 
     option  IND_PlyAlloy

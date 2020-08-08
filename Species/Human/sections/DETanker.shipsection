@@ -18,7 +18,7 @@ shipsection
 
     death_effect "Effects/DE_Fuel_Explosion.effect"
     death_area_impact_effect ""
-    death_dam 400
+    death_dam       400
     death_damradius 350
 
     option  IND_PlyAlloy
@@ -38,4 +38,3 @@ shipsection
         rotspeed            -10
     }
 }
-

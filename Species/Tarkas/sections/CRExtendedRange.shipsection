@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Tarkas/art/sections/CruiserExtendedRange.X
 
     socket_aft    MissionNode
@@ -24,7 +23,7 @@ shipsection
 
     death_effect             "Effects/CRER_Fuel_Explosion.effect"
     death_area_impact_effect ""
-    death_dam                750
+    death_dam                450
     death_damradius          320
 
     option
@@ -42,7 +41,6 @@ shipsection
         option  IND_ImpRfCt
     }
 
-
     netforcelimits
     {
         force_forward       0
@@ -56,7 +54,6 @@ shipsection
         speed               0
         rotspeed            0
     }
-
 
     bank
     {
@@ -102,5 +99,4 @@ shipsection
             max_inclination 90
         }
     }
-
 }

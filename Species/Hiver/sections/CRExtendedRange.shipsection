@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Hiver/art/sections/CruiserExRange.X
 
     socket_aft    EngineNode
@@ -24,7 +23,7 @@ shipsection
 
     death_effect             "Effects/CRER_Fuel_Explosion.effect"
     death_area_impact_effect ""
-    death_dam                750
+    death_dam                450
     death_damradius          320
 
     option
@@ -41,7 +40,6 @@ shipsection
         option  IND_RefCoat
         option  IND_ImpRfCt
     }
-
 
     netforcelimits
     {
@@ -119,5 +117,4 @@ shipsection
             max_inclination 90
         }
     }
-
 }

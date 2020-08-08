@@ -110,7 +110,5 @@ shipsection
             min_inclination -12
             max_inclination 90
         }
-
     }
-
 }

@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Morrigi/art/sections/DestroyerExtendedRange.X
 
     socket_aft    EngineNode
@@ -138,5 +137,4 @@ shipsection
             home_inclination 0
         }
     }
-
 }

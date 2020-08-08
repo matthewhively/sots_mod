@@ -23,7 +23,7 @@ shipsection
 
     death_effect             "Effects/CRER_Fuel_Explosion.effect"
     death_area_impact_effect ""
-    death_dam                750
+    death_dam                450
     death_damradius          320
 
     option

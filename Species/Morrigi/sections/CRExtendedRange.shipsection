@@ -1,6 +1,5 @@
 shipsection 
 {
-
     model Species/Morrigi/art/sections/CruiserExtendedRange.X
 
     socket_aft    EngineNode
@@ -24,7 +23,7 @@ shipsection
 
     death_effect             "Effects/CRER_Fuel_Explosion.effect"
     death_area_impact_effect ""
-    death_dam                750
+    death_dam                450
     death_damradius          320
     
     option
@@ -153,5 +152,4 @@ shipsection
             home_inclination 0
         }
     }
-
 }
