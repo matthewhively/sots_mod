@@ -64,7 +64,7 @@ shipsection
     {
         turretclass standard
         turretsize  medium
-        weapon      "Species/_NPC/weapons/Von_emt_medium.weapon"
+        weapon      "Species/_NPC/weapons/Silicoid_emt_medium.weapon"
 
         mount
         {
