@@ -27,7 +27,7 @@ weapon
     icon_rect   "160 96 32 32"
 
     range         275
-    range_planet 1050
+    range_planet  0
 
     fc_requires_los             true
     fc_requires_inrange         true

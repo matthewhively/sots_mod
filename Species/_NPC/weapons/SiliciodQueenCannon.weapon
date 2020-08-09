@@ -36,8 +36,8 @@ weapon
     fc_controllable             true
     fc_holdsfire                true
 
-    range         500
-    range_planet  1240
+    range         1200
+    range_planet  0
 
     bolt
     {
@@ -69,7 +69,7 @@ weapon
 
         effect      effects/PlasmaCannon_Bullet.effect
 
-        dam_pop     25000
+        dam_pop     0
         dam_infra   0
         dam_terra   0
     }

@@ -46,7 +46,6 @@ weapon
         impact_sound    Sounds/Weapons/bal_gauss_pd_impact.wav
         impact_sound_minrange   50
 
-
         rangetable
         {
             pb_range        245

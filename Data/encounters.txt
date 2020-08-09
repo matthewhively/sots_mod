@@ -131,12 +131,12 @@ BLASTEROIDS_COLLIDE_PSYS_NAME            "Effects/collide_asteroid.effect"
 SWARM_ENCOUNTER_THINK_PERIOD      0.1
 SWARM_HIVE_ARRIVE_AT_RANGE        4500.0    // Dist from planet center
 SWARM_SWARMER_LAUNCH_RANGE        100.0
-SWARM_NUM_SWARMERS                30
-SWARM_NUM_DRONES                  4
+SWARM_NUM_SWARMERS                40
+SWARM_NUM_DRONES                  12
 SWARM_ASTEROID_FIELD_RADIUS       1000.0
 SWARM_ASTEROID_COUNT              100
 SWARM_LAUNCH_PERIOD               1.0    // (s) delay between each launch (will launch on next think)
-SWARM_LAUNCH_COUNT                1      // How many to launch every period
+SWARM_LAUNCH_COUNT                4      // How many to launch every period
 SWARM_MIN_SAVINGSBONUS            55000
 SWARM_MAX_SAVINGSBONUS            110000
 SWARMLARVA_MIN_TURNS_TO_MATURE    3

@@ -31,8 +31,8 @@ large       large     freebeam             1900      20             1.00        
 large       large     projector            2700      100            1.00                1.00                  "turret_l1projector.x"
 large       large     nodecannon           1500      100            1.00                1.00                  ""
 large       large     railcannon           2000      100            1.00                1.00                  ""
+large       large     torpedo              1800      100            1.00                1.00                  ""
 large       large     spinal                800      100            1.00                1.00                  "" // Most likely these special "turretclasses" cannot be destroyed, so hp is irrelevant
-large       large     torpedo               800      100            1.00                1.00                  ""
 large       large     mine                  800      100            1.00                1.00                  ""
 large       large     missilerider          800      100            1.00                1.00                  ""
 large       large     assaultshuttlerider   800      100            1.00                1.00                  ""

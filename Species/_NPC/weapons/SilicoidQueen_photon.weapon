@@ -38,7 +38,7 @@ weapon
     fc_holdsfire                true
 
     range         1800
-    range_planet  2100
+    range_planet  0
 
     torpedo
     {
@@ -78,8 +78,8 @@ weapon
 
         ttl 2.4
 
-        dam_pop     70000
-        dam_infra   .0005
+        dam_pop     0
+        dam_infra   0
         dam_terra   0
     }
 

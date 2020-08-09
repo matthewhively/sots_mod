@@ -37,7 +37,7 @@ weapon
     blindfire                   false
 
     range         350
-    range_planet 1050
+    range_planet  0
 
     chainlightning
     {
@@ -47,8 +47,8 @@ weapon
         dam         140
         branches    4
 
-        dam_pop     10000
-        dam_infra   .0001
+        dam_pop     0
+        dam_infra   0
         dam_terra   0
     }
 

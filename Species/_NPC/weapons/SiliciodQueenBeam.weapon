@@ -34,7 +34,7 @@ weapon
     fc_controllable             true
     fc_holdsfire                true
 
-    range         900
+    range         1200
     range_planet  0
 
     beam
