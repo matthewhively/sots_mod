@@ -2259,6 +2259,7 @@ TECHBEN_BALRATE,Ballistic Rate of Fire,,
 TECHBEN_SHPTACSPD,Ship Tactical Speed,,
 TECHBEN_STRATRNGE,Ship Strategic Range,,
 TECHBEN_POPGROW,Population Growth Rate,,
+TECHBEN_POPMAX,Population Maximum
 TECHBEN_COLCAP,Colonizer Capacity,,
 TECHBEN_GATCAP,Hiver Gate Capacity,,
 TECHBEN_STRATSPD,Ship Strategic Speed,,

@@ -617,6 +617,11 @@ allows      "BIO_Btrans     RP:20000    Human:80 Zuul:30 Hiver:90 Tarkas:70 Liir
 allows      "IND_HrdStrct   RP:100000   Human:75 Zuul:20 Hiver:85 Tarkas:70 Liir:90 Morrigi:40"
 
 requires    "BIO_EnvTail"
+strategy
+    {
+        inc TECHBEN_POPGROW
+        inc TECHBEN_POPMAX
+    }
 }
 
 
