@@ -47,7 +47,7 @@ SYSTEMBONUS_INFRABONUS_INC  0.005
 // NOTE: Morrigi get 130% from trade routes with Morrigi (themselves included)
 //       AND 260% trade from other races (80% of that due to foreign trade cut)
 // NOTE: a "new" route does NOT count as a startup turn. If a freighter is allocated automatically at turn start it skips the "new" turn
-TRADE_SECTOR_SIZE                   10.0    // TODO: this should be increased if a better way for human/hiver to get trading ships in there
+TRADE_SECTOR_SIZE                   15.0
 TRADE_ROUTE_REQ_CIVPOPULATION       200000000
 TRADE_ROUTE_REQ_IMPPOPULATION       500000000
 TRADE_ROUTE_REQ_TRADERATE           0.1     // what is this?
