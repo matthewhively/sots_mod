@@ -2,7 +2,7 @@ weapon
 {
     hidden          1                       // not selectable by user
 
-    name            @WEAPON_TRP_PHOTON
+    name            @WEAPON_SILICOID_TRP_PHOTON
     weaponclass     torpedo
     weaponfamily    torpedo
     model1          "Species/_NPC/art/weapons/DefenceBarrel.X"

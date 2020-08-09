@@ -2,7 +2,7 @@ weapon
 {
     hidden          1                       // not selectable by user
 
-    name            @WEAPON_SILQUEEN_CANNON
+    name            @WEAPON_SILICOID_CANNON
     weaponclass     energy
     model1          "Species/_NPC/art/weapons/DefenceBarrel.X"
     turretmodel1    "Species/_NPC/art/weapons/HeadTurret.X"

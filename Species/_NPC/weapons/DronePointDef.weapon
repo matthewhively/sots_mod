@@ -2,7 +2,7 @@ weapon
 {
     hidden          1                       // not selectable by user
 
-    name            @WEAPON_PHS_PD
+    name            @WEAPON_SWARMER_PHS_PD
     weaponclass     beam
     weaponfamily    conventionalbeam
     model1          "Weapons/art/DummyBarrel.X"

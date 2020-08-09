@@ -2,7 +2,7 @@ weapon
 {
     hidden          1                       // not selectable by user
 
-    name            @WEAPON_CAN_FUS
+    name            @WEAPON_NPC_SWARMERCANNON
     weaponclass     energy
     weaponfamily    energycannon
     model1          "Weapons/art/DummyBarrel.X"
@@ -38,7 +38,7 @@ weapon
     fc_controllable             true
     fc_holdsfire                true
 
-    range         650
+    range        650
     range_planet 800
 
     bolt

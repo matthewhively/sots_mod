@@ -1,5 +1,6 @@
 // Only add to this list: always use new IDs so that multiplayer and/or save games are not broken.
 // ID's need not be ordered here, but they must be unique.
+// NOTE: NPC weapons should not be included
 
 1 can_am.weapon
 2 min_am.weapon
