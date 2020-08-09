@@ -1,78 +1,86 @@
 weapon
 {
-	name		@WEAPON_CAN_FUS
-	weaponclass	energy
-	weaponfamily	energycannon
-	model1		"Weapons/art/DummyBarrel.X"
-	turretmodel1	"Weapons/art/DummyTurret.X"
-	requires 	WEP_FusCan
-	hpbonus		70
-	cost		3000
-	turretsize		medium
-	turretclass		standard
-	trackspeed_mod	100
-	burst_volleys	1
-	volley_period	.2
-	recharge_time	6
-	muzzle_speed	300
-	muzzle_sound	Sounds/Weapons/can_plasma_muzzle.wav
-	muzzle_sound_minrange	100
-	muzzle_effect	effects/FusionCannon_muzzle.effect
-	icon_file	GUI/WeaponIcons.tga
-	icon_rect	"224 0 32 32"
+    hidden          1                       // not selectable by user
 
-	fc_requires_los				true
-	fc_requires_inrange			true
-	fc_requires_enemycolony		false
-	fc_manual_target			false
-	fc_manual_toggle			false
-	fc_manual_launch			false
-	fc_controllable				true
-	fc_holdsfire				true
+    name            @WEAPON_CAN_FUS
+    weaponclass     energy
+    weaponfamily    energycannon
+    model1          "Weapons/art/DummyBarrel.X"
+    turretmodel1    "Weapons/art/DummyTurret.X"
+    turretsize      medium
+    turretclass     standard
 
-	range 650
-	range_planet 800
-		
-	bolt
-	{
-		beam_origin	-0.5
-		beam_length	1.5
+    requires    WEP_FusCan
+    hpbonus     70
+    cost        3000
 
-		impact_sound	Sounds/Weapons/can_fusion_impact.wav
-		impact_sound_minrange	100
-		impact_effect	effects/FusionCannon_Impact.effect
+    trackspeed_mod  100
+    burst_volleys   1
+    volley_period   .2
+    recharge_time   6
 
-		expire_effect   "effects/FusionCannon_Expire.effect"
+    muzzle_sound    Sounds/Weapons/can_plasma_muzzle.wav
+    muzzle_effect   effects/FusionCannon_muzzle.effect
+    muzzle_speed            300
+    muzzle_sound_minrange   100
 
-		thrust_sound	Sounds/Weapons/can_plasma_travel.wav
-		thrust_sound_minrange	15
-		
-		rangetable
-		{
-			pb_range	150
-			pb_range_dev	3
-			pb_range_dam	150
+    solution_tolerance 5
 
-			eff_range	600
-			eff_range_dev	4
-			eff_range_dam	250
+    icon_file   GUI/WeaponIcons.tga
+    icon_rect   "224 0 32 32"
 
-			max_range	750
-			max_range_dev	5
-			max_range_dam	120
-		}
+    fc_requires_los             true
+    fc_requires_inrange         true
+    fc_requires_enemycolony     false
+    fc_manual_target            false
+    fc_manual_toggle            false
+    fc_manual_launch            false
+    fc_controllable             true
+    fc_holdsfire                true
 
-		effect		effects/FusionCannon_Bullet.effect
+    range         650
+    range_planet 800
 
-		dam_pop		50000
-		dam_infra	.0001	
-		dam_terra	0.0001
-	}
-	
-	dam_est		180
+    bolt
+    {
+        beam_origin -0.5
+        beam_length 1.5
 
-	rating_frate	5
-	rating_dam	6
-	rating_acc	4
-	rating_range	6
+        impact_sound    Sounds/Weapons/can_fusion_impact.wav
+        impact_sound_minrange   100
+        impact_effect   effects/FusionCannon_Impact.effect
+
+        expire_effect   "effects/FusionCannon_Expire.effect"
+
+        thrust_sound    Sounds/Weapons/can_plasma_travel.wav
+        thrust_sound_minrange   15
+
+        rangetable
+        {
+            pb_range        150
+            pb_range_dev    3
+            pb_range_dam    150
+
+            eff_range       600
+            eff_range_dev   4
+            eff_range_dam   250
+
+            max_range       750
+            max_range_dev   5
+            max_range_dam   120
+        }
+
+        effect      effects/FusionCannon_Bullet.effect
+
+        dam_pop     50000
+        dam_infra   .0001
+        dam_terra   0.0001
+    }
+
+    dam_est     180
+
+    rating_frate    5
+    rating_dam      6
+    rating_acc      4
+    rating_range    6
 }
