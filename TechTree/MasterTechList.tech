@@ -2268,6 +2268,12 @@ tech
 {
 name        "DRV_QntCap"
 allows      "SLD_Magni  RP:150000   Human:60 Zuul:20 Hiver:40 Tarkas:50 Liir:85 Morrigi:90"
+
+strategy
+    {
+        inc TECHBEN_BEAMRATE
+        inc TECHBEN_SHIELD_STR
+    }
 }
 
 
@@ -3250,6 +3256,10 @@ allows      "SLD_MkFour     RP:95000    Human:70 Zuul:25 Hiver:30 Tarkas:60 Liir
 
 requires    "DRV_AntiMat"
 requires    GRP_SHIELDS
+strategy
+    {
+        inc TECHBEN_SHIELD_STR
+    }
 }
 
 

@@ -2271,6 +2271,9 @@ TECHBEN_RESEARCHSPD,Research Efficency
 TECHBEN_ECONOMIC,Economic Efficency
 TECHBEN_INCOME,Civilian Generated Income,,
 TECHBEN_BOMBARD_DMG,Planet Bombard Damage Taken
+TECHBEN_SHIELD_STR,Shield Strength
+TECHBEN_BEAMRATE,Beam Rate of Fire
+
 
 TOOLTIP_STANCE_NORMAL,Normal,50,
 TOOLTIP_STANCE_PURSUE,Pursue,50,
@@ -4574,7 +4577,7 @@ TECHDESC_WEP_MasShtDrvr,"A heavy driver that fires a burst of mass driver rounds
 
 
 TECHNAME_DRV_QntCap,Quantum Capacitors
-TECHDESC_DRV_QntCap,The technology utilizes advanced quantum systems to store energy at previously unheard of levels while remaining small enough to be used in ship's systems. The result in increased beam weapon rates of fire and stronger shields.
+TECHDESC_DRV_QntCap,"The technology utilizes advanced quantum systems to store energy at previously unheard of levels while remaining small enough to be used in ship's systems. The result is a 20% increased fire rate for beam weapons and a 25% increase to shield strength."
 TECHNAME_DRV_VdCtr,Void Cutter Drive
 TECHDESC_DRV_VdCtr,This FTL technology of the Morrigi race pulls their ships into FTL channels using focused gravity to infinitely curve space-time. This allows them to accelerate and maneuver sub-light as well without need of primitive reactor plasma venting systems.
 TECHNAME_DRV_VdCrv,Void Carver Drive
