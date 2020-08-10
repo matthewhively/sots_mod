@@ -2653,7 +2653,7 @@ TECHDESC_IND_TrpSat,The use of reinforced orbital structures to place large torp
 TECHDESC_IND_DreadCon,"The creation of facilities and machines that allow the construction of the largest starship class, the Dreadnought. These massive ships are approximately 3 times larger than cruisers and pack devastating firepower."
 TECHDESC_IND_GravCon,This technology allows for the creation and manipulation of artificial gravity fields. This results in a 30% increase in industrial output on all worlds.
 TECHDESC_IND_CyberInt,A mind machine interface that allows a single being to control fleets of machines. This results in a 5% decrease to ship construction cost and increases the industrial output of all worlds by 20%.
-TECHDESC_IND_ExpSys,Advanced Software that allows for construction robots to function with a minimum of intelligent supervision. Allows ships to be built 10% more efficiently and increases the industrial output of all worlds by 15%.
+TECHDESC_IND_ExpSys,"Advanced Software that allows for construction robots to function with a minimum of intelligent supervision. This results in a 10% decrease to ship construction cost and increases the industrial output of all worlds by 15%."
 TECHDESC_IND_PredGun,This simple AI targeting system will allow ships equipped with this technology to fire much more accurately.
 TECHDESC_IND_TrctBm,An Electromagnetic Beam capable of locking on to another ship over a distance and holding it.
 TECHDESC_IND_DeCon,Systems that allow starships of all sizes to be broken up for recycling while still in orbit and thus tripling the return on scrapped ships.
@@ -2736,7 +2736,7 @@ TECHDESC_WEP_ErgDrain,Highly specialized large driver shells that bind to the hu
 
 TECHDESC_DRV_Fissn,The basic propulsion drive of all ships.
 TECHDESC_DRV_PlsFiss,An improvement of the fission drive that releases drive plasma in high-powered pulses.
-TECHDESC_DRV_LRFiss,"A high-velocity, high efficiency drive system used by the Hivers to push across deep space"
+TECHDESC_DRV_LRFiss,"A high-velocity, high efficiency drive system used by the Hivers to push across deep space."
 TECHDESC_DRV_RecFiss,A reactor technology that allows fissionable materials to be recycled for power generation.
 TECHDESC_DRV_Fusn,A Ship powerplant that utilizes safer and more powerful Nuclear Fusion.
 TECHDESC_DRV_McroFus,"Fusion power plants small enough to power missiles, increasing their speed dramatically."
