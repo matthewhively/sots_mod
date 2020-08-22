@@ -181,5 +181,4 @@ shipsection
         effect effects/Engine_FissionA.effect
         idle_effect effects/Engine_Fissionidle.effect
     }
-
 }

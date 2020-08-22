@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Human/art/sections/DNconstruction.X
 
     requires DRV_Fusn

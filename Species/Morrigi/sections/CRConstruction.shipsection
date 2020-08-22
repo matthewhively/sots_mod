@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Morrigi/art/sections/DnConstruction.X
 
     requires DRV_Fusn
@@ -41,5 +40,4 @@ shipsection
         speed               35
         rotspeed            45
     }
-
 }

@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Human/art/sections/DestroyerPolice.X
 
     requires DRV_Fusn
@@ -18,8 +17,8 @@ shipsection
     police 1
     autonomous 1    // actually means this is a ship with only a mission section
 
+    nodespeed  5
     ftlspeed  .5
-    nodespeed 5
     range     18
     crew      0
 

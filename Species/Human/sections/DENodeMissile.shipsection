@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Human/art/sections/DestroyerNodeMissile.x
     dam_model Species/Human/art/sections/DestroyerNodeMissile.x
 

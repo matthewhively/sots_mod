@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Tarkas/art/sections/DestroyerPolice.X
 
     requires DRV_Fusn
@@ -19,7 +18,7 @@ shipsection
     autonomous 1    // actually means this is a ship with only a mission section
 
     ftlspeed  4
-    range    12
+    range     8
     crew      0
 
     preview_ofs "-8 -90 0"

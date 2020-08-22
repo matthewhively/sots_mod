@@ -109,5 +109,4 @@ shipsection
         effect effects/Engine_AntimatterC.effect
         idle_effect effects/EngineAntimatterIdleC.effect
     }
-
 }

@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Morrigi/art/sections/CrPropaganda.X
 
     requires DRV_Fusn
@@ -38,5 +37,4 @@ shipsection
         speed               45
         rotspeed            40
     }
-
 }

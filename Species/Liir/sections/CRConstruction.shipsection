@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Liir/art/sections/DnConstruction.X
 
     requires DRV_Fusn

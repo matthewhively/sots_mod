@@ -1,10 +1,11 @@
 shipsection
 {
 
-    model         Species/Hiver/art/sections/CrfreighterQ.X
+    model Species/Hiver/art/sections/CrfreighterQ.X
 
-    requires      IND_ModCon
-    requires      CCC_FTLEcon
+    requires DRV_Fusn
+    requires IND_ModCon
+    requires CCC_FTLEcon
 
     section_type  mission
     section_class cruiser
@@ -17,7 +18,7 @@ shipsection
     freighterQ  1
     autonomous  1    // actually means this is a ship with only a mission section
 
-    ftlspeed    .5
+    ftlspeed    .75
     range       12
     crew        0
 

@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Tarkas/art/sections/DnConstruction.X
 
     requires DRV_Fusn
@@ -68,5 +67,4 @@ shipsection
         effect effects/Engine_FissionB.effect
         idle_effect effects/Engine_FissionidleB.effect
     }
-
 }

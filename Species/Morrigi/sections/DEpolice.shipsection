@@ -1,6 +1,5 @@
 shipsection
 {
-
     model Species/Morrigi/art/sections/DestroyerPolice.X
 
     requires DRV_Fusn

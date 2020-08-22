@@ -1,6 +1,6 @@
 shipsection
 {
-    model     Species/Tarkas/art/sections/CruiserPropaganda.X
+    model Species/Tarkas/art/sections/CruiserPropaganda.X
 
     requires DRV_Fusn
     requires CCC_FTLBrdB

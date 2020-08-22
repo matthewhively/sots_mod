@@ -1,7 +1,6 @@
 shipsection
 {
-
-    model         Species/Human/art/sections/freighter.X
+    model Species/Human/art/sections/freighter.X
 
     requires CCC_FTLEcon
     requires DRV_Node

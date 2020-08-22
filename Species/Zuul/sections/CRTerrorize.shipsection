@@ -159,5 +159,4 @@ shipsection
         effect effects/Engine_FusionBB.effect
         idle_effect effects/Engine_FusionIdleBB.effect
     }
-
 }

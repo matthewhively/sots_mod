@@ -1,7 +1,6 @@
 shipsection
 {
-
-    model         Species/Liir/art/sections/freighter.X
+    model Species/Liir/art/sections/freighter.X
 
     requires DRV_StrWrp
     requires CCC_FTLEcon

@@ -1,7 +1,6 @@
 shipsection
 {
-
-    model         Species/Morrigi/art/sections/DeFreighter.X
+    model Species/Morrigi/art/sections/DeFreighter.X
 
     requires DRV_VdCtr
     requires CCC_FTLEcon
@@ -86,5 +85,4 @@ shipsection
             home_inclination 0
         }
     }
-
 }

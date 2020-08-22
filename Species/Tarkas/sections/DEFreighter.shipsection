@@ -1,7 +1,6 @@
 shipsection
 {
-
-    model         Species/Tarkas/art/sections/freighter.X
+    model Species/Tarkas/art/sections/freighter.X
 
     requires DRV_Hyper
     requires CCC_FTLEcon
@@ -17,7 +16,7 @@ shipsection
     freighter   1
     autonomous  1    // actually means this is a ship with only a mission section
 
-    ftlspeed    2.0
+    ftlspeed    2
     range       12
     crew        0
 
@@ -94,5 +93,4 @@ shipsection
         effect      effects/Engine_FissionB.effect
         idle_effect effects/Engine_FissionidleB.effect
     }
-
 }
