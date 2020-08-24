@@ -25,7 +25,7 @@ STARMAP_MAX_CLUSTER_NODEPATH_LENGTH     16.0
 STARMAP_MINICLUSTERS_MINSEP             4.0
 STARMAP_MINICLUSTERS_MAXSEP             15.0
 STARMAP_MINICLUSTERS_CLUSTERSEP         12      // +/- 2  NOTE: at 12+ AI becomes somewhat retarded
-STARMAP_MINICLUSTERS_MAXCLUSTERPATHDIST 16.0    // NOTE: Not exactly Node path maximum length, (can still be longer, but more rare)
+STARMAP_MINICLUSTERS_MAXCLUSTERPATHDIST 35.0    // NOTE: Not exactly Node path maximum length, but exactly how it works is a mystery (@16 rarely nodes could be 30)
 STARMAP_MINICLUSTERS_MINCLUSTERS        8       // how many clusters total at a minimum (cannot be less than 8)
 STARMAP_MINICLUSTERS_MAXPERCLUSTER      22
 // NOTE: map now referred to as Globular Clusters
@@ -55,10 +55,11 @@ STARMAP_PLANET_RINGMESHNAME         "Models/Planets/Ring.X"
 // NOTE: This is a viewing distance NOT a length when generating node lines.
 STARMAPIMAGE_MAX_NODELINEDISTANCE   230
 STARMAPIMAGE_NEW_ENEMY_FLASH_SPEED  10   // how fast it flickers
+
 STARMAPIMAGE_AXES_OVERHANG          10
-STARMAPIMAGE_AXES_TICKSIZE          0.5
+STARMAPIMAGE_AXES_TICKSIZE          1
 STARMAPIMAGE_AXES_STEP              5
-STARMAPIMAGE_AXES_COLOR             "0 0 255"
+STARMAPIMAGE_AXES_COLOR             "230 230 230"
 STARMAPIMAGE_AXES_ALPHA             0.4
 
 NODELINE_HEALTH_COLOR_OK            "0   169 157"   
