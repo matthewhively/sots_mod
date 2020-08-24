@@ -133,8 +133,8 @@ SWARM_HIVE_ARRIVE_AT_RANGE        4500.0    // Dist from planet center
 SWARM_SWARMER_LAUNCH_RANGE        100.0
 SWARM_NUM_SWARMERS                40
 SWARM_NUM_DRONES                  12
-SWARM_ASTEROID_FIELD_RADIUS       1000.0
-SWARM_ASTEROID_COUNT              100
+SWARM_ASTEROID_FIELD_RADIUS       1000.0 // ???
+SWARM_ASTEROID_COUNT              100    // ???
 SWARM_LAUNCH_PERIOD               1.0    // (s) delay between each launch (will launch on next think)
 SWARM_LAUNCH_COUNT                4      // How many to launch every period
 SWARM_MIN_SAVINGSBONUS            55000
