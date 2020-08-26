@@ -1,5 +1,7 @@
 weapon
 {
+    // Intention: medium range, rapid fire, medium accuracy, low stopping power
+
     name           @WEAPON_LAS_PD
     weaponclass    laser
     weaponfamily   laser

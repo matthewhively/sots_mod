@@ -1,5 +1,7 @@
 weapon
 {
+    // Intention: very short range, medium fire, perfect accuracy, high stopping power
+
     name            @WEAPON_PHS_PD
     weaponclass     beam
     weaponfamily    conventionalbeam
@@ -15,7 +17,7 @@ weapon
     burst_volleys   1    // how many volleys per cooldown
     volley_period   .1   // ??? time inbetween damage applied ticks ???
     volley_duration .3   // total duration of weapon fire
-    recharge_time   4    // weapon cooldown
+    recharge_time   6    // weapon cooldown
 
     muzzle_effect   effects/phaser_muzzle.effect
     muzzle_sound    Sounds/Weapons/phaser_pd_muzzle.wav

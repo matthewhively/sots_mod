@@ -20,9 +20,13 @@ SHIPSCUTTLE_CR_OUTPUT_BOOST_FACTOR  0.1
 SHIPSCUTTLE_DN_OUTPUT_BOOST_FACTOR  0.1
 
 // NOTE: logic if slave overwork_death_rate < 2x normal_death_rate  then ALWAYS overwork so you maximize slave benefit
-SLAVES_MAX_PERSYSTEM        200000000   // Negative value for no min.
+// NOTE: XNC language level 1,2,3 each apply a 1/5th discount to (SLAVES_DEATH_RATE + SLAVES_DEATH_RATE_BYOUTPUT)
+// Example: @ XNC level 2 with (10) maximum overwork and 5% base the combined rate would be (5+10) * (1 - (0.2*2)) = 9%
+// so there is actually no way to reduce the base death rate to 0 by higher XNC levels.
+// QUESTION: is climate hazard penalty also effected by XNC bonus? (probably not)
+SLAVES_MAX_PERSYSTEM        200000000   // Negative value for no max.
 SLAVES_DEATH_RATE           0.03        // Basic death rate. -- REM: modified by language XNC level (-3% total possible)
-SLAVES_DEATH_RATE_BYHAZARD  0.05        // Percentage per 100 hazard rating from ideal.
+SLAVES_DEATH_RATE_BYHAZARD  0.05        // Percentage per 100 hazard rating from ideal. QUESTION: where is this rounded off? 8ch == what?
 SLAVES_DEATH_RATE_BYOUTPUT  0.10        // Additional death rate at max slave output.
 SLAVES_MIN_DEATHS           -1          // Min slave deaths per turn. Negative value for no min.
 SLAVES_MAX_DEATHS           -1          // Max slave deaths per turn. Negative value for no max.

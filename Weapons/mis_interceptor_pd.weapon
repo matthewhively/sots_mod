@@ -1,5 +1,7 @@
 weapon
 {
+    // Intention: long range, slow fire, perfect accuracy, high stopping power
+
     name               @WEAPON_MIS_INTERCEPTOR_PD
     weaponclass        pdmissile
     weaponfamily       missile
@@ -25,6 +27,7 @@ weapon
     icon_file       GUI/WeaponIcons_2.tga
     icon_rect       "64 160 32 32"
 
+    // REM: range should be roughly equal to (speed x ttl)
     range           1200
     range_planet    0
 
@@ -76,10 +79,10 @@ weapon
 //          rotspeed            820
 //      }
 
-        ttl                 6
+        ttl                 4.6
 
         model               missile.X
-        health              5            // ??? can these be hit by PD?
+        health              5           // ??? can these be hit by PD?
         dam                 70
         dam_radius          15
         mass                50

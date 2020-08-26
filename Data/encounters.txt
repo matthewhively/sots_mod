@@ -217,7 +217,7 @@ CROWRUINS_ODDS                              25 // of 100
 CROWRUINS_NUM_RUINS_MIN                     2
 CROWRUINS_NUM_RUINS_MAX                     6
 
-// Defunct ???
+// Defunct ??? -- Never listed in patch notes as removed
 REFUGEES_REQUEST_ASYLUM_DELAY               5.0     // time until dialog pops up
 REFUGEES_REQUEST_ASYLUM_TIMEOUT             20.0    // timeout on popup dialog in combat
 REFUGEES_LAUNCH_PERIOD                      1.0

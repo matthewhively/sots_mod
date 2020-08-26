@@ -1,5 +1,7 @@
 weapon
 {
+    // Intention: short range, rapid fire, low accuracy, medium stopping power
+
     name            @WEAPON_BAL_GAUSS_PD
     weaponclass     bullet
     weaponfamily    gauss
